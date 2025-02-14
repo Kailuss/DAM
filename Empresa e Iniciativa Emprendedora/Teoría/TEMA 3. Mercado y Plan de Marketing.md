@@ -3,9 +3,14 @@ number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, sk
 tags:
   - Contenido/EIE
 ---
-
-![Lectura en MP3](Lecturas/Lectura_Tema_3_Mercado_y_Plan_de_Marketing.mp3)
-
+```audio-player
+[[Lecturas/Lectura_Tema_3_Mercado_y_Plan_de_Marketing.mp3]]
+00:00:03 --- 1. El Mercado
+00:03:38 --- 2. Marketing  Mix
+00:05:56 --- 3. Marketing online
+00:08:05 --- 4. Plan de Marketing
+```
+---
 Para transformar una idea en un negocio, es esencial validar su viabilidad en el mercado. Esto implica identificar a los clientes, entender sus necesidades y diseñar una oferta adecuada. Este tema aborda el análisis del mercado, el concepto de Marketing Mix (producto, precio, distribución y comunicación) y la importancia del marketing online. Finalmente, se explica cómo diseñar un Plan de Marketing basado en los datos obtenidos del Estudio de Mercado.
 
 

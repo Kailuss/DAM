@@ -3,8 +3,16 @@ number headings: first-level 2, start-at 1, max 3, _.1., auto, contents ^toc, sk
 tags:
   - Contenido/EIE
 ---
-
-![Lectura en MP3](Lecturas/Lectura_Tema_2_La_Empresa_y_su_Entorno.mp3)
+```audio-player
+[[Lecturas/Lectura_Tema_2_La_Empresa_y_su_Entorno.mp3]]
+00:00:03 --- 1. La Empresa como Sistema
+00:03:38 --- 2. La Cultura de la Empresa
+00:05:56 --- 3. La Identidad y la Imagen Corporativa
+00:08:05 --- 4. La Responsabilidad Social de la Empresa (RSE)
+00:12:00 --- 5. El Balance Social
+00:13:05 --- 6. La Ética en la Empresa
+```
+---
 ## 1. La Empresa como Sistema
 
 Desde la perspectiva de la Teoría de Sistemas, una empresa es un conjunto de elementos interdependientes que, organizados mediante una estructura y funciones específicas, buscan un objetivo común. Esta interdependencia implica relaciones tanto internas como con el entorno.
@@ -177,10 +185,10 @@ La imagen percibida por el público se estudia por los departamentos de marketin
 ---
 ### 3.2. Factores que influyen en la imagen corporativa
 
-1. **Lo que es mi empresa.**
-2. **Lo que yo creo acerca de lo que es mi empresa.**
-3. **Lo que transmito acerca de lo que es mi empresa.**
-4. **Lo que percibe el público sobre mi empresa.**
+2. **Lo que es mi empresa.**
+3. **Lo que yo creo acerca de lo que es mi empresa.**
+4. **Lo que transmito acerca de lo que es mi empresa.**
+5. **Lo que percibe el público sobre mi empresa.**
 
 ---
 ## 4. La Responsabilidad Social de la Empresa (RSE)
@@ -222,11 +230,11 @@ Si la incorporación de medidas de RSC en tu negocio es voluntaria, ¿por qué t
 
 Para integrar la RSE en la gestión de un negocio, debe ser debidamente gestionada. Esto implica:
 
-1. **Planificar.** definir el objetivo, duración, recursos necesarios y mecanismos de evaluación.
-2. **Ejecutar.** desarrollar la acción según la planificación.
-3. **Evaluar.** analizar los resultados y proponer mejoras.
-4. **Registrar.** elaborar una memoria de sostenibilidad.
-5. **Comunicar.** dar a conocer las acciones al público.
+6. **Planificar.** definir el objetivo, duración, recursos necesarios y mecanismos de evaluación.
+7. **Ejecutar.** desarrollar la acción según la planificación.
+8. **Evaluar.** analizar los resultados y proponer mejoras.
+9. **Registrar.** elaborar una memoria de sostenibilidad.
+10. **Comunicar.** dar a conocer las acciones al público.
 
 ---
 ### 4.3. Responsabilidad Social en Administración de Sistemas Informáticos y en Red

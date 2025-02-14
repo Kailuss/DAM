@@ -3,7 +3,15 @@ number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, sk
 tags:
   - Contenido/EIE
 ---
-![Lectura en MP3](Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3)
+```audio-player
+[[Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3]]
+00:00:03 --- 1. ¿Qué es la iniciativa emprendedora?
+00:03:38 --- 2. El emprendedor
+00:05:56 --- 3. La idea de negocio
+00:08:05 --- 4. La actividad emprendedora
+00:12:00 --- 5. El Plan de Empresa
+```
+---
 ## 1. ¿Qué es la iniciativa emprendedora?
 
 La iniciativa emprendedora es un proceso dinámico en el que individuos, solos o en colaboración, identifican oportunidades para innovar y transformar ideas en proyectos viables dentro de un contexto social, cultural o económico. En la creación de empresas, implica motivación y capacidad para generar valor y éxito económico. En Europa, se ha promovido la cultura emprendedora como base del crecimiento.
@@ -85,7 +93,7 @@ Las ideas de negocio pueden surgir de diversas fuentes.
 - **Insatisfacción del consumidor.** Horarios incompatibles, mala atención, deficiencias en la competencia.
 - **Conocimientos y experiencia.** Aplicación de habilidades personales para mejorar servicios o procesos.
 - **Observación del entorno.** Tendencias en otros países, franquicias, innovaciones exitosas.
-- **Cambios legales.** Nuevas normativas que crean necesidades de adaptación (ej. protección de datos, regulaciones ambientales).
+- **Cambios legales.** Nuevas normativas que crean necesidades de adaptación (Ejemplo. protección de datos, regulaciones ambientales).
 ---
 ### 3.2. Características de una idea de negocio viable
 
@@ -99,10 +107,10 @@ Una idea de negocio debe:
 ### 3.3. Generando ideas
 
 Existen varias estrategias para innovar o mejorar servicios.
-- **Rediseño del servicio.** Crear nuevos conceptos (ej. portales inmobiliarios online) o mejorar los existentes (ej. tintorerías exprés).
-- **Interacción con el cliente.** Personalización de servicios para fidelizar (ej. viajes a medida en vez de paquetes turísticos masivos).
-- **Desarrollo del servicio.** Mejoras en organización, atención o profesionalización (ej. experiencia de compra en Imaginarium).
-- **Innovación tecnológica.** Implementación de herramientas digitales para mejorar la prestación de servicios (ej. mapas interactivos de servicios sociales).
+- **Rediseño del servicio.** Crear nuevos conceptos (Ejemplo. portales inmobiliarios online) o mejorar los existentes (Ejemplo. tintorerías exprés).
+- **Interacción con el cliente.** Personalización de servicios para fidelizar (Ejemplo. viajes a medida en vez de paquetes turísticos masivos).
+- **Desarrollo del servicio.** Mejoras en organización, atención o profesionalización (Ejemplo. experiencia de compra en Imaginarium).
+- **Innovación tecnológica.** Implementación de herramientas digitales para mejorar la prestación de servicios (Ejemplo. mapas interactivos de servicios sociales).
 ---
 ### 3.4. Selección de ideas
 

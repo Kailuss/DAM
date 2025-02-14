@@ -3,8 +3,28 @@ number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, sk
 tags:
   - Contenido/EIE
 ---
-
-![Lectura en MP3](Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3)
+```audio-player
+[[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
+00:00:03 --- 1. Clasificación de empresas
+00:00:30 --- 2. Clasificación según la actividad económica
+00:00:44 --- 3. Clasificación según el sector económico
+00:01:22 --- 4. Clasificación según la dimensión
+00:02:34 --- 5. Clasificación según el ámbito geográfico
+00:03:09 --- 6. Clasificación según la titularidad del capital
+00:03:29 --- 7. Clasificación jurídica de las empresas
+00:04:23 --- 7.1. Concepto de empresa individual
+00:06:16 --- 7.2. Comunidad de bienes y sociedad civil
+00:06:58 --- 7.3. Sociedad de responsabilidad limitada (SRL)
+00:07:43 --- 7.4. Sociedad Limitada Nueva Empresa (SLNE)
+00:08:24 --- 7.5. Sociedad Anónima (SA)
+00:09:03 --- 7.6. Empresas de economía social
+00:10:48 --- 8. Las franquicias
+00:11:22 --- 9. Formas de concentración empresarial
+00:12:58 --- 10. Incubadoras o viveros de empresas
+00:13:33 --- 11. Empresas de economía sumergida
+00:14:08 --- 12. Empresas relacionadas con el sector de la informática
+```
+---
 ## 1. Clasificación de empresas
 
 Las empresas pueden clasificarse según distintos criterios, lo que permite tener una visión global del tejido empresarial y comprender conceptos como PYMES, empresas de servicios, franquicias, monopolios, holdings, sectores económicos, ONG, cooperativas, asociaciones y cárteles. Los criterios principales son: actividad económica, sector económico, dimensión, ámbito geográfico, titularidad del negocio y forma jurídica.
