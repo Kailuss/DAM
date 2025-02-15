@@ -1,6 +1,7 @@
 ---
 tags:
-  - Examen/DI
+  - DI
+  - Examen
 ---
 1. En una aplicación con interfaz gráfica de usuario para gestionar las reservas de viviendas de turismo vacacional, los establecimientos pueden tener servicios como Wifi, Piscina, Parking, Aire Acondicionado, etc. ¿Qué controles swing son los más adecuados para incluir en un formulario para crear un nuevo establecimiento y representar si un alojamiento incluye esos servicios o no?
 

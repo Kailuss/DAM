@@ -1,6 +1,7 @@
 ---
 tags:
-  - Contenido/PSP
+  - PSP
+  - Teoría
 ---
 ## **1. Conexiones TCP/IP**
 

@@ -1,7 +1,8 @@
 ---
 number headings: first-level 4, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/EIE
+  - EIE
+  - Resumen
 ---
 ### Esquema de Estudio: TEMA 1. La iniciativa emprendedora
 
@@ -10,17 +11,17 @@ tags:
 ---
 
 #### 1. ¿Qué es la iniciativa emprendedora?
-- **Definición**: Proceso dinámico donde individuos identifican oportunidades y transforman ideas en proyectos viables.
-- **Objetivo**: Generar valor y éxito económico.
-- **Contexto**: Promovida en Europa como base del crecimiento.
+- **Definición.** Proceso dinámico donde individuos identifican oportunidades y transforman ideas en proyectos viables.
+- **Objetivo.** Generar valor y éxito económico.
+- **Contexto.** Promovida en Europa como base del crecimiento.
 
 ---
 
 #### 2. Barreras para emprender
 ##### Factores que influyen
-- **Valores sociales y entorno cultural**: Poco valor al esfuerzo y creatividad.
-- **Déficit educativo**: Falta de formación en competencias emprendedoras.
-- **Motivación**: Necesidad de pasión y deseo de realizar un proyecto.
+- **Valores sociales y entorno cultural.** Poco valor al esfuerzo y creatividad.
+- **Déficit educativo.** Falta de formación en competencias emprendedoras.
+- **Motivación.** Necesidad de pasión y deseo de realizar un proyecto.
 
 ---
 
@@ -37,7 +38,7 @@ tags:
 ##### ¿Qué hace?
 - Identifica oportunidades y organiza recursos.
 - No solo crea empresas, impulsa proyectos.
-- **Intraemprendedores**: Empleados que innovan dentro de la empresa.
+- **Intraemprendedores.** Empleados que innovan dentro de la empresa.
 
 ##### Características
 - Motivación, iniciativa, creatividad.
@@ -80,20 +81,20 @@ tags:
 - Objetivo: Beneficio = Ingresos - Costes.
 
 ##### 4.2 Los objetivos
-- **Tipos**: Económicos, técnicos, humanos, sociales.
-- **Cualidades**: Medibles, realistas, compatibles, bien coordinados.
-- **Misión, visión y valores**: Guían el comportamiento empresarial.
+- **Tipos.** Económicos, técnicos, humanos, sociales.
+- **Cualidades.** Medibles, realistas, compatibles, bien coordinados.
+- **Misión, visión y valores.** Guían el comportamiento empresarial.
 
 ##### Estrategia empresarial
-- **Niveles**: Corporativo, funcional, unidad de negocio.
-- **Estrategias de ventaja competitiva**: Liderazgo en costes, diferenciación.
-- **Estrategias de crecimiento**: Concentración, diversificación, internacionalización.
-- **Estrategias de cooperación**: Franquicias, licencias, subcontratación.
+- **Niveles.** Corporativo, funcional, unidad de negocio.
+- **Estrategias de ventaja competitiva.** Liderazgo en costes, diferenciación.
+- **Estrategias de crecimiento.** Concentración, diversificación, internacionalización.
+- **Estrategias de cooperación.** Franquicias, licencias, subcontratación.
 
 ##### El riesgo empresarial
-- **Tipos**: Económico-financieros, extraeconómicos.
-- **Evaluación**: Interdependencia de riesgos, percepción subjetiva.
-- **Coste de oportunidad**: Valor de la mejor alternativa descartada.
+- **Tipos.** Económico-financieros, extraeconómicos.
+- **Evaluación.** Interdependencia de riesgos, percepción subjetiva.
+- **Coste de oportunidad.** Valor de la mejor alternativa descartada.
 
 ---
 
@@ -101,17 +102,17 @@ tags:
 ##### Concepto y características
 - Documento que analiza la viabilidad del negocio.
 - Objetivo: Guiar la empresa y atraer inversores.
-- **Errores comunes**: Optimismo excesivo, ignorar debilidades, falta de conocimientos financieros.
+- **Errores comunes.** Optimismo excesivo, ignorar debilidades, falta de conocimientos financieros.
 
 ##### Partes del Plan de Empresa
-1. **Presentación de los promotores**: Experiencia y habilidades.
-2. **Descripción del negocio**: Actividad, objetivos, producto/servicio.
-3. **Análisis del entorno y del mercado**: Factores externos, competencia.
-4. **Plan de marketing**: Precio, producto, lugar, promoción.
-5. **Aspectos jurídicos**: Forma jurídica, trámites legales.
-6. **Estructura organizativa**: Recursos humanos, jerarquía.
-7. **Plan de producción**: Gestión del proceso productivo.
-8. **Plan económico-financiero**: Inversiones, financiación, previsión de ingresos y gastos.
+1. **Presentación de los promotores.** Experiencia y habilidades.
+2. **Descripción del negocio.** Actividad, objetivos, producto/servicio.
+3. **Análisis del entorno y del mercado.** Factores externos, competencia.
+4. **Plan de marketing.** Precio, producto, lugar, promoción.
+5. **Aspectos jurídicos.** Forma jurídica, trámites legales.
+6. **Estructura organizativa.** Recursos humanos, jerarquía.
+7. **Plan de producción.** Gestión del proceso productivo.
+8. **Plan económico-financiero.** Inversiones, financiación, previsión de ingresos y gastos.
 
 ---
 

@@ -1,12 +1,13 @@
 ---
 tags:
-  - Tarea/PSP
+  - PSP
+  - Tarea
 ---
-### Introducción
+### 0.1 Introducción
 
 En esta práctica, se desarrollará un sistema de chat multiusuario que permita a múltiples clientes conectarse a un servidor centralizado para intercambiar mensajes en tiempo real. El objetivo es poner en práctica los conceptos de comunicación en red utilizando sockets TCP para gestionar conexiones cliente-servidor y datagramas UDP para enviar notificaciones rápidas.
 
-### Requisitos funcionales:
+### 0.2 Requisitos funcionales:
 
 - El servidor debe poder gestionar conexiones de múltiples clientes de forma concurrente utilizando sockets TCP.
 - Cada cliente podrá enviar mensajes al servidor, y este reenviará el mensaje a todos los demás clientes conectados (funcionalidad de “broadcast”).
@@ -18,12 +19,12 @@ En esta práctica, se desarrollará un sistema de chat multiusuario que permita 
     - Cuando un nuevo cliente se conecte al servidor, este enviará una notificación UDP a todos los clientes conectados para indicarles que un nuevo usuario ha entrado al chat.
     - De igual forma, cuando un cliente se desconecte, se enviará una notificación UDP al resto.
 
-### Requisitos no funcionales:
+### 0.3 Requisitos no funcionales:
 
 - Utilizar una interfaz de usuario sencilla (puede ser por consola) tanto para el cliente como para el servidor.
 - Garantizar que el servidor no colapse cuando múltiples clientes se conecten o desconecten al mismo tiempo.
 
-### Detalles técnicos:
+### 0.4 Detalles técnicos:
 
 **Servidor:**
 
@@ -45,7 +46,7 @@ En esta práctica, se desarrollará un sistema de chat multiusuario que permita 
 - Las notificaciones UDP tendrán el formato:  
     `NOTIFICACIÓN: [NombreUsuario] se ha unido/desconectado del chat`.
 
-### Tareas a realizar
+### 0.5 Tareas a realizar
 
 1. **Implementar el servidor:**
     
@@ -63,7 +64,7 @@ En esta práctica, se desarrollará un sistema de chat multiusuario que permita 
     - Simular múltiples clientes conectados al servidor.
     - Verificar el correcto funcionamiento del chat y las notificaciones UDP.
 
-### Extensión opcional:
+### 0.6 Extensión opcional:
 
 - Añadir la posibilidad de que los usuarios envíen mensajes privados a otros usuarios.
 - Implementar un sistema de logs en el servidor (un único log) para registrar todas las interacciones (conexiones, desconexiones y mensajes enviados).

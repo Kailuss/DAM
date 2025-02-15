@@ -1,6 +1,7 @@
 ---
 tags:
-  - Tarea/PMDM
+  - PMDM
+  - Tarea
 ---
 # Realiza los siguientes supuestos prácticos con Dart
 

@@ -1,5 +1,8 @@
 ---
 number headings: first-level 4, start-at 1, max 4, 1., auto, contents ^toc, skip ^skipped
+tags:
+  - DI
+  - Resumen
 ---
 ### Esquema de Estudio: TEMA 4. Usabilidad
 

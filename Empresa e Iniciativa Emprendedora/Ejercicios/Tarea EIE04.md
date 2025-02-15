@@ -1,6 +1,7 @@
 ---
 tags:
-  - Tarea/EIE
+  - EIE
+  - Tarea
 ---
 ## Enunciado  
 La tarea de este tema consta de tres actividades:

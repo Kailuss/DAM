@@ -1,7 +1,8 @@
 ---
 number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/DI
+  - DI
+  - Teoría
 ---
 ![Lectura MP3](Lectura_Tema_1_Confección_de_interfaces.mp3)
 ## 1. Elaboración de interfaces de usuario

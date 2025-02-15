@@ -1,5 +1,8 @@
 ---
 number headings: first-level 3, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
+tags:
+  - DI
+  - Examen
 ---
 ### 1. ¿Cuál es la salida de la siguiente aplicación?
 

@@ -1,7 +1,8 @@
 ---
 number headings: first-level 2, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/EIE
+  - EIE
+  - Teoría
 ---
 ```audio-player
 [[Lecturas/Lectura_Tema_2_La_Empresa_y_su_Entorno.mp3]]

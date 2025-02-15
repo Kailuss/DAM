@@ -1,7 +1,8 @@
 ---
 number headings: first-level 0, start-at 1, max 1, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/DI
+  - DI
+  - Resumen
 ---
 ![Lectura MP3](Lectura_Resumen_Componentes_Swing.mp3)
 ## 1. Componentes básicos

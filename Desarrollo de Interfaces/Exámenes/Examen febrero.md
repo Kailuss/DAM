@@ -1,6 +1,7 @@
 ---
 tags:
-  - Examen/DI
+  - DI
+  - Examen
 ---
 1. **Se ha desarrollado una aplicación con interfaz gráfica para editar textos y guardarlos en ficheros de texto. ¿Qué componente visual es el más adecuado para mostrar un mensaje de confirmación antes de salir de la aplicación en caso de que se detecte que hay cambios no guardados?**  
    - [ ] JOptionPane

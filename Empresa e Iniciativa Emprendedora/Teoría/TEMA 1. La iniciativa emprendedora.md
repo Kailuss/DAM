@@ -1,7 +1,8 @@
 ---
 number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/EIE
+  - EIE
+  - Teoría
 ---
 ```audio-player
 [[Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3]]

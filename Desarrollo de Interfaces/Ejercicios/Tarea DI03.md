@@ -1,6 +1,7 @@
 ---
 tags:
-  - Tarea/DI
+  - DI
+  - Tarea
 ---
 ## 1 Dominio del problema
 

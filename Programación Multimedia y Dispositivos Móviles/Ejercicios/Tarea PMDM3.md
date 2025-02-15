@@ -1,6 +1,7 @@
 ---
 tags:
-  - Tarea/PMDM
+  - PMDM
+  - Tarea
 ---
 ## 1 Instrucciones
 

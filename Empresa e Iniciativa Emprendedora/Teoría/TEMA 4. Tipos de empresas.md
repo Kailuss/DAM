@@ -1,7 +1,8 @@
 ---
 number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
 tags:
-  - Contenido/EIE
+  - EIE
+  - Teoría
 ---
 ```audio-player
 [[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
@@ -58,7 +59,7 @@ La dimensión de una empresa se mide por parámetros como el número de empleado
 ---
 ### 4.1. Las PYMES
 
-Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 trabajadores, 50 millones de euros de facturación y 43 millones de euros de balance. En España, representan el 99 % de las empresas y generan alrededor del 70 % del empleo. Aunque enfrentan desafíos como la falta de tecnología y dificultades de financiación, ofrecen ventajas como un trato más personalizado al cliente y la capacidad de cubrir nichos de mercado.
+Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 trabajadores, 50 millones de euros de facturación y 43 millones de euros de balance. En España, representan el 99% de las empresas y generan alrededor del 70% del empleo. Aunque enfrentan desafíos como la falta de tecnología y dificultades de financiación, ofrecen ventajas como un trato más personalizado al cliente y la capacidad de cubrir nichos de mercado.
 
 ---
 ## 5. Clasificación según el ámbito geográfico

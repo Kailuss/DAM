@@ -1,6 +1,7 @@
 ---
 tags:
-  - Tarea/PSP
+  - PSP
+  - Tarea
 ---
 A continuación te explico cómo puedes programar este sistema de chat multiusuario utilizando Maven para gestionar el proyecto y sus dependencias. Utilizaremos Java y las librerías estándar para sockets TCP y UDP.
 
