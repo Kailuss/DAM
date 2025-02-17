@@ -7,13 +7,13 @@ tags:
 ```audio-player
 [[Lecturas/Lectura_Tema_1_Programación_multiproceso.mp3]]
 00:00:03 --- 1. Recordando cómo programar en Java y uso básico de NetBeans
-00:03:38 --- 2. Introducción: Aplicaciones, Ejecutables y Procesos
-00:05:56 --- 3. Gestión de procesos
-00:08:05 --- 4. Programación concurrente
-00:12:00 --- 5. Comunicación entre procesos
-00:12:00 --- 6. Sincronización entre procesos
-00:12:00 --- 7. Requisitos: seguridad, vivacidad, eficiencia y reusabilidad
-00:12:00 --- 8. Programación paralela y distribuida
+00:01:09 --- 2. Introducción: Aplicaciones, Ejecutables y Procesos
+00:02:58 --- 3. Gestión de procesos
+00:10:19 --- 4. Programación concurrente
+00:12:42 --- 5. Comunicación entre procesos
+00:14:56 --- 6. Sincronización entre procesos
+00:22:24 --- 7. Requisitos: seguridad, vivacidad, eficiencia y reusabilidad
+00:25:39 --- 8. Programación paralela y distribuida
 ```
 ---
 ## 1. Recordando cómo programar en Java y el uso básico del IDE NetBeans
