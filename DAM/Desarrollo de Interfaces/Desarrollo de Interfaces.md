@@ -1,6 +1,7 @@
 ---
 node_size: 24
-cssclass: preview-only
+obsidianUIMode: preview
+---
 ---
 %% Begin Waypoint %%
 - **[Ejercicios](./Ejercicios/Ejercicios.md)**

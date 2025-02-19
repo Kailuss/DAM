@@ -1,6 +1,7 @@
 ---
 node_size: 82
 title: Desarrollo de Aplicaciones Multiplataforma
+obsidianUIMode: preview
 ---
 ---
 %% Begin Waypoint %%
