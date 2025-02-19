@@ -1,7 +1,8 @@
 ---
+number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
 tags: []
 ---
-## 1 Dominio del problema
+## 1. Dominio del problema
 
 Nuestros clientes han estado realizando pruebas con nuestras aplicaciones y están muy satisfechos con la funcionalidad, pero tienen algunas quejas sobre la usabilidad de la interfaz.
 
@@ -10,12 +11,11 @@ Por tanto, ha llegado el momento de centrarnos en la usabilidad y la experiencia
 Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemos estado desarrollando para crear un producto que cumpla con los requisitos de nuestros clientes.
 
 ---
-
-## 2 Especificaciones
+## 2. Especificaciones
 
 **Objetivo:** Mejorar la usabilidad de la aplicación aplicando los conocimientos adquiridos en los apuntes de la unidad.
 
-### 2.1 Elementos de usabilidad
+### 2.1. Elementos de usabilidad
 
 - **Color y estilo:** Apariencia general.
 - **Texto:** Fuentes y tipografía.
@@ -38,7 +38,7 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 
 ---
 
-## 3 Criterios de calificación
+## 3. Criterios de calificación
 
 1. Modificar el aspecto de las ventanas para que sean más atractivas y estén en línea con las tendencias actuales (p. ej., diseño plano, esquemas de color). **1 punto.**
 2. Añadir iconos u otros elementos visuales a los componentes para mejorar la usabilidad de la interfaz. **1 punto.**
@@ -51,7 +51,7 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 
 ---
 
-## 4 Recursos necesarios para realizar la tarea
+## 4. Recursos necesarios para realizar la tarea
 
 - Servidor **MS SQL Server.**
 - Cliente SQL (**SQL Server Management Studio**).
@@ -60,7 +60,7 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 
 ---
 
-### 4.1 Consejos y recomendaciones
+### 4.1. Consejos y recomendaciones
 
 - Puedes cambiar cualquier elemento de la interfaz y la aplicación, incluso rediseñarla desde cero, siempre que se respete la funcionalidad.
 
@@ -74,7 +74,7 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 
 ---
 
-## 5 Indicaciones de entrega
+## 5. Indicaciones de entrega
 
 - El proyecto debe estar desarrollado con **NetBeans** y el **JDK 21**. Ha de ser un proyecto **Maven**.
 - El proyecto debe alojarse en un repositorio privado de **GitHub**. Continúa los commits del proyecto desarrollado en las unidades 1 y 3.

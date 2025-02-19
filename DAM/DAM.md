@@ -6,7 +6,6 @@ obsidianUIMode: preview
 ---
 %% Begin Waypoint %%
 - **[Acceso a Datos](./Acceso%20a%20Datos/Acceso%20a%20Datos.md)**
-- [Desarrollo de Aplicaciones Multiplataforma](./DAM.md)
 - **[Desarrollo de Interfaces](./Desarrollo%20de%20Interfaces/Desarrollo%20de%20Interfaces.md)**
 - **[Empresa e Iniciativa Emprendedora](./Empresa%20e%20Iniciativa%20Emprendedora/Empresa%20e%20Iniciativa%20Emprendedora.md)**
 - **[Programación de Servicios y Procesos](./Programaci%C3%B3n%20de%20Servicios%20y%20Procesos/Programaci%C3%B3n%20de%20Servicios%20y%20Procesos.md)**

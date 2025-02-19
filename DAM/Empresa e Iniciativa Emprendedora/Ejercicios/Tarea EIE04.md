@@ -3,8 +3,8 @@ tags:
   - EIE
   - Tarea
 ---
-## Enunciado  
-La tarea de este tema consta de tres actividades:
+## 1 Enunciado  
+**La tarea de este tema consta de tres actividades:**
 
 1. **Ejemplos reales de diferentes tipos de empresas y organismos**, acercándote a la realidad empresarial de tu localidad y ciclo formativo.
 2. **Esquema comparativo de formas jurídicas de empresas**, resumiendo sus características principales.
@@ -14,7 +14,7 @@ La tarea de este tema consta de tres actividades:
 
 ---
 
-## **Actividad 1**  
+## 2 Actividad 1  
 **Elabora un informe con ejemplos reales de:**
 
 - Una empresa de cada sector económico, clasificándola según su actividad económica. (Incluye nombre, actividad y, si es posible, URL). 
@@ -25,7 +25,7 @@ La tarea de este tema consta de tres actividades:
 - Un ejemplo de **ONG** relacionada con tu sector.  
 - Una empresa de tu sector e investiga si es **pública, privada o concertada**, justificando tu respuesta.  
 
-### **Indicaciones de entrega y criterios de corrección**  
+### 2.1 **Indicaciones de entrega y criterios de corrección**  
 - Documento de **máximo dos páginas**, en letra tamaño 12.  
 - Justifica tus respuestas incluyendo explicaciones, webs o direcciones.  
 - **Valoración:** 4 puntos  
@@ -35,7 +35,7 @@ La tarea de este tema consta de tres actividades:
 
 ---
 
-## **Actividad 2**  
+## 3 Actividad 2  
 **Elabora un cuadro resumen comparativo de las formas jurídicas estudiadas:**  
 
 - Empresario individual.  
@@ -57,7 +57,7 @@ La tarea de este tema consta de tres actividades:
 - Impuestos  
 - Cuándo es conveniente crearlas  
 
-### **Indicaciones de entrega y criterios de corrección**  
+### 3.1 Indicaciones de entrega y criterios de corrección  
 - El cuadro debe ser **claro y de fácil lectura**.  
 - **Valoración:** 4 puntos  
   - Elaboración propia, bien presentado y completo.  
@@ -65,8 +65,8 @@ La tarea de este tema consta de tres actividades:
 
 ---
 
-## **Actividad 3**  
-### **Elaboración del plan de negocio**  
+## 4 Actividad 3  
+### 4.1 Elaboración del plan de negocio  
 
 Basado en lo estudiado en esta unidad, completa estos datos de tu plan de negocio:  
 

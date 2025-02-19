@@ -4,7 +4,7 @@ obsidianUIMode: preview
 ---
 ---
 %% Begin Waypoint %%
-- **Ejercicios**
+- **[Ejercicios](./Ejercicios/Ejercicios.md)**
 - **Exámenes**
 - **Teoría**
 	- **Resúmenes**
