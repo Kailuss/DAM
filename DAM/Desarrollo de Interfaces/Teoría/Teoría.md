@@ -1,3 +1,6 @@
+---
+obsidianUIMode: preview
+---
 %% Begin Waypoint %%
 - **Resúmenes**
 	- [Resumen Componentes Swing](./Res%C3%BAmenes/Resumen%20Componentes%20Swing.md)

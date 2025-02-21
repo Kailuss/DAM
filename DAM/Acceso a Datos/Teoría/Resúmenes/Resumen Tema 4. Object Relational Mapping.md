@@ -1,6 +1,6 @@
 ---
 number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
-tags: []
+obsidianUIMode: preview
 ---
 ## 1. ORM: Object Relational Mapping
 

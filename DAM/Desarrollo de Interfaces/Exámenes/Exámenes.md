@@ -1,3 +1,6 @@
+---
+obsidianUIMode: preview
+---
 %% Begin Waypoint %%
 - [Examen febrero 2](./Examen%20febrero%202.md)
 - [Examen febrero](./Examen%20febrero.md)

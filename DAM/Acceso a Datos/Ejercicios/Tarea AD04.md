@@ -1,6 +1,6 @@
 ---
 number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
-tags: []
+obsidianUIMode: preview
 ---
 **Acceso a datos - UT 4. Práctica**
 ## 1. Introducción

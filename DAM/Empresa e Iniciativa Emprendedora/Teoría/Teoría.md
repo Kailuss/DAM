@@ -1,5 +1,7 @@
 ---
-cssclass: preview-only
+cssclasses:
+  - preview-only
+obsidianUIMode: preview
 ---
 
 %% Begin Waypoint %%
