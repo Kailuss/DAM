@@ -1,7 +1,13 @@
 ---
 obsidianUIMode: preview
+number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+banner: "![[ad.jpg]]"
+banner_y: 0.19
 ---
+# Teoría
 %% Begin Waypoint %%
+- **Lecturas**
+	- [Lectura_04AD.mp3](./Lecturas/Lectura_04AD.mp3)
 - **Resúmenes**
 	- [Resumen Tema 2.1. Sistemas de archivos](./Res%C3%BAmenes/Resumen%20Tema%202.1.%20Sistemas%20de%20archivos.md)
 	- [Resumen Tema 2.2. Flujos de información](./Res%C3%BAmenes/Resumen%20Tema%202.2.%20Flujos%20de%20informaci%C3%B3n.md)

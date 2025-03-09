@@ -1,10 +1,13 @@
 ---
 number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags:
-  - DAM
-  - EIE
-  - Teoría
+tags: [DAM, EIE, Teoría]
+banner: "![[eie.jpg]]"
+banner_y: 0.24
+obsidianUIMode: preview
 ---
+
+# TEMA 3. Mercado y Plan de Marketing
+
 ```audio-player
 [[Lecturas/Lectura_Tema_3_Mercado_y_Plan_de_Marketing.mp3]]
 00:00:03 --- 1. El Mercado
@@ -12,24 +15,24 @@ tags:
 00:05:56 --- 3. Marketing online
 00:08:05 --- 4. Plan de Marketing
 ```
----
-Para transformar una idea en un negocio, es esencial validar su viabilidad en el mercado. Esto implica identificar a los clientes, entender sus necesidades y diseñar una oferta adecuada. Este tema aborda el análisis del mercado, el concepto de Marketing Mix (producto, precio, distribución y comunicación) y la importancia del marketing online. Finalmente, se explica cómo diseñar un Plan de Marketing basado en los datos obtenidos del Estudio de Mercado.
 
-
----
 ## 1. El Mercado
 
-### 1.1. Elementos del Mercado
+Para transformar una idea en un negocio, es esencial validar su viabilidad en el mercado. Esto implica identificar a los clientes, entender sus necesidades y diseñar una oferta adecuada. Este tema aborda el análisis del mercado, el concepto de Marketing Mix (producto, precio, distribución y comunicación) y la importancia del marketing online. Finalmente, se explica cómo diseñar un Plan de Marketing basado en los datos obtenidos del Estudio de Mercado.
+
+### 1.1. **Elementos del Mercado**
+
 El mercado está compuesto por:  
+
 - **Proveedores.** Suministran recursos para la producción. Es clave diversificar proveedores para evitar dependencia.  
 - **Intermediarios.** Facilitan la distribución y venta de productos. Incluyen distribuidores, agencias de marketing y servicios financieros.  
 - **Competencia.** Empresas que satisfacen las mismas necesidades u ofrecen productos sustitutivos.  
 - **Consumidores.** Personas que compran, usan o influyen en la compra de productos.
 
+### 1.2. **Segmentación de Mercados**
 
----
-### 1.2. Segmentación de Mercados
 La empresa no puede atender a todo el mercado, por lo que debe dividirlo en grupos homogéneos (segmentos) con características y necesidades similares. Este proceso se denomina **segmentación de mercado**. Los segmentos deben cumplir:  
+
 - **Mensurabilidad.** Identificables y cuantificables.  
 - **Accesibilidad.** Alcanzables por la empresa.  
 - **Sustancialidad.** Suficientemente grandes para ser rentables.  
@@ -43,16 +46,23 @@ La empresa no puede atender a todo el mercado, por lo que debe dividirlo en grup
 - Mejorar las relaciones empresa-cliente.  
 
 Una vez identificados los segmentos, la empresa debe decidir su estrategia de marketing:  
+
 1. **Estrategia indiferenciada (marketing de masas).** Ofrecer el mismo producto a todo el mercado. Reduce costes pero deja espacio para competidores.
+
 > **Coca-Cola.** Su producto principal se comercializa de la misma forma en casi todos los mercados del mundo.
+
 2. **Estrategia diferenciada.** Dirigirse a varios segmentos con ofertas específicas. Aumenta la cuota de mercado y la lealtad de marca, pero incrementa costes.
+
 > **Nike.** Ofrece zapatillas y ropa deportiva para distintos segmentos, como corredores, jugadores de baloncesto, futbolistas, etc., con campañas de marketing dirigidas a cada grupo.
+
 3. **Estrategia concentrada.** Enfocarse en un solo segmento. Ideal para empresas con recursos limitados.
+
 > **Rolls-Royce.** Se dirige exclusivamente al segmento de lujo.
 
----
-### 1.3. Demanda: Concepto y Estimación
+### 1.3. **Demanda: Concepto y Estimación**
+
 La demanda de un producto varía en función de varias variables:  
+
 - **Renta disponible.** A mayor capacidad adquisitiva, mayor demanda. Si la renta se concentra en pocas personas, la demanda se enfoca en productos de lujo.  
 - **Precio del producto.** La demanda suele aumentar cuando el precio baja. Si la demanda es muy sensible a cambios de precio, se dice que es **elástica** (ejemplo: productos no esenciales). Si es poco sensible, es **inelástica** (ejemplo: tabaco).  
 - **Precio de productos sustitutivos.** Si baja el precio de un sustituto (ejemplo: billetes de avión), la demanda del producto original (ejemplo: trenes) puede disminuir.  
@@ -64,13 +74,14 @@ La demanda de un producto varía en función de varias variables:
 - Cámaras de Comercio, asociaciones profesionales y empresariales.  
 - Estudios de campo (encuestas).  
 
----
-### 1.4. Consumidores: Comportamiento
+### 1.4. **Consumidores: Comportamiento**
+
 El consumidor es el elemento central del mercado. Su comportamiento de compra está influenciado por múltiples factores, tanto internos (necesidades, motivaciones) como externos (publicidad, recomendaciones).  
 
----
-### 1.5. Consumidores: Proceso de Decisión
+### 1.5. **Consumidores: Proceso de Decisión**
+
 El proceso de compra sigue varias etapas:  
+
 1. **Necesidad.** Surge por estímulos internos (hambre, sed) o externos (publicidad). 
 2. **Búsqueda de información.**  
    - **Memoria.** Experiencias previas y lealtad a la marca.  
@@ -82,10 +93,10 @@ El proceso de compra sigue varias etapas:
 4. **Decisión de compra.** Puede verse afectada por factores externos (ejemplo: subida de precios).  
 5. **Comportamiento postcompra.** La satisfacción depende de las expectativas. Una mala experiencia puede generar insatisfacción o **disonancia cognitiva** (dudas sobre la decisión tomada).
 
+### 1.6. **Consumidores: Proceso de Compra**
 
----
-### 1.6. Consumidores: Proceso de Compra
 No siempre decide el consumidor final. Los roles en el proceso de compra incluyen:  
+
 - **Prescriptores.** Influencian la decisión (ejemplo: profesores en la compra de libros de texto).  
 - **Compradores.** Adquieren el producto (ejemplo: padres compran para hijos).  
 - **Decisores.** Toman decisiones específicas (ejemplo: lugar de compra).  
@@ -100,8 +111,8 @@ No siempre decide el consumidor final. Los roles en el proceso de compra incluye
 - **Concreta.** Con fidelidad a una marca.  
 - **Refleja.** Automática, entre 2-3 marcas.  
 
----
-### 1.7. La Competencia
+### 1.7. **La Competencia**
+
 La competencia incluye empresas que satisfacen la misma necesidad, ya sea con productos similares o sustitutivos.  
 
 > **Ejemplo.** Kodak no consideró la competencia de la fotografía digital, lo que llevó a su declive.  
@@ -115,7 +126,9 @@ La competencia incluye empresas que satisfacen la misma necesidad, ya sea con pr
    - Identificación de competidores directos.  
    - Evaluación de sus fortalezas y debilidades.  
 #### Formas de Competir
+
 Las empresas pueden competir mediante:  
+
 - **Liderazgo de costes.** Producir a menor costo para reducir precios.  
 - **Diferenciación.** Ofrecer elementos únicos (diseño, imagen de marca).  
 - **Especialización.** Enfocarse en un segmento específico (ejemplo: hoteles de lujo).  
@@ -128,22 +141,24 @@ Las empresas pueden competir mediante:
 - Empresas retadoras. Atacar a los líderes.  
 - Empresas seguidoras. Imitar a los líderes.  
 - Empresas especializadas. Enfocarse en nichos.  
----
 ## 2. Marketing Mix
-### 2.1. Concepto de Marketing Mix
+### 2.1. **Concepto de Marketing Mix**
+
 El **Marketing Mix** es la combinación de variables controlables que una empresa utiliza para alcanzar sus objetivos. Tradicionalmente, se compone de las **4 Ps.**  
+
 - **Producto.** Bien o servicio ofrecido.  
 - **Precio.** Cantidad cobrada por el producto.  
 - **Distribución (Place).** Canales para hacer llegar el producto al consumidor.  
 - **Comunicación (Promotion).** Estrategias para promocionar el producto.  
 
 En el caso de los servicios, se añaden tres elementos adicionales:  
+
 - **Personal.** Empleados que interactúan con el cliente.  
 - **Procesos.** Procedimientos para entregar el servicio.  
 - **Presentación.** Aspecto físico y ambiente del servicio.  
 
----
-### 2.2. Producto
+### 2.2. **Producto**
+
 El **producto** es todo aquello que se ofrece al mercado para satisfacer una necesidad o deseo. Puede ser tangible (bienes) o intangible (servicios).  
 
 **Decisiones clave sobre el producto.**  
@@ -161,8 +176,8 @@ El **producto** es todo aquello que se ofrece al mercado para satisfacer una nec
 
 > **Ejemplo.** Los productos tecnológicos (móviles, ordenadores) tienen ciclos de vida cortos, mientras que otros, como los productos BIC, permanecen en madurez durante mucho tiempo.
 
----
-### 2.3. Precio
+### 2.3. **Precio**
+
 El **precio** es la cantidad de dinero que se cobra por un producto. Es el único elemento del Marketing Mix que genera ingresos; los demás implican costes.  
 
 **Factores para determinar el precio.**  
@@ -174,9 +189,8 @@ El **precio** es la cantidad de dinero que se cobra por un producto. Es el únic
    - **Demanda inelástica.** Cambios en el precio tienen poco efecto en la demanda (ejemplo: tabaco).  
 - **Estrategia de marketing.** Objetivos como penetración en el mercado, fidelización o maximización de beneficios.  
 
+### 2.4. **Distribución: Funciones y Canales**
 
----
-### 2.4. Distribución: Funciones y Canales
 La **distribución** es el proceso que lleva el producto desde el productor hasta el consumidor final.  
 
 **Funciones de la distribución.**  
@@ -197,8 +211,7 @@ La **distribución** es el proceso que lleva el producto desde el productor hast
 - **Canal convencional.** Empresas independientes que buscan maximizar su beneficio.  
 - **Sistema Vertical de Marketing (SVM).** Intermediarios actúan de manera coordinada (ejemplo: franquicias).  
 
----
-### 2.5. Distribución: Decisiones de Marketing
+### 2.5. **Distribución: Decisiones de Marketing**
 - **Tipo de distribución.**  
    - **Intensiva.** Máximo número de puntos de venta (productos de gran consumo).  
    - **Exclusiva.** Limitada a unos pocos intermediarios (productos de lujo).  
@@ -210,8 +223,8 @@ La **distribución** es el proceso que lleva el producto desde el productor hast
    - Facilita la información, promoción y venta.  
    - Permite el marketing directo y la interacción con el cliente.  
 
----
-### 2.6. Comunicación: Proceso y Herramientas
+### 2.6. **Comunicación: Proceso y Herramientas**
+
 La **comunicación** es esencial para construir y mantener relaciones con los clientes.  
 
 **Herramientas de comunicación.**  
@@ -225,11 +238,12 @@ La **comunicación** es esencial para construir y mantener relaciones con los cl
 - En servicios, el ambiente físico y la interacción con el personal son clave para generar confianza.  
 - Internet y las redes sociales han revolucionado la comunicación, permitiendo una interacción directa y personalizada. 
 
----
 ## 3. Marketing Online
 
-### 3.1. Ventajas del Marketing Online
+### 3.1. **Ventajas del Marketing Online**
+
 Internet es una herramienta esencial para el marketing, especialmente para las PYMES, debido a sus ventajas:  
+
 - **Bajo coste.** Acceso a un mercado global con inversiones reducidas.  
 - **Segmentación.** Permite dirigirse a audiencias específicas.  
 - **Seguimiento.** Facilita el monitoreo de las acciones de marketing.  
@@ -237,8 +251,7 @@ Internet es una herramienta esencial para el marketing, especialmente para las P
 
 Aunque no todos los segmentos de población están conectados, su audiencia sigue creciendo.  
 
----
-### 3.2. Sitio Web
+### 3.2. **Sitio Web**
 #### ¿Por qué tener una página web?  
 - **Presencia digital.** Si no estás en Internet, no existes.  
 - **Visibilidad.** Escaparate global para productos y servicios.  
@@ -249,13 +262,14 @@ Aunque no todos los segmentos de población están conectados, su audiencia sigu
 - **Nombre del dominio.** Elegir un nombre relevante y comprarlo.  
 - **Planificación.** Organizar el contenido y recopilar materiales.  
 
----
-### 3.3. Buscadores y Posicionamiento Web
+### 3.3. **Buscadores y Posicionamiento Web**
+
 Los buscadores son la puerta de entrada a Internet para la mayoría de los usuarios.  
+
 #### Importancia del posicionamiento
 - Los **10 primeros resultados** en la primera página tienen un 78% más de probabilidades de ser visitados.  
 - La búsqueda se abandona en la tercera página.  
-#### Tipos de resultados en buscadores:  
+#### Tipos de resultados en buscadores  
 - **Resultados naturales (SEO).**  
    - Dependen de la calidad del contenido, la arquitectura de la página y el uso de palabras clave.  
    - **SEO (Search Engine Optimization).** Técnicas para mejorar el posicionamiento orgánico.  
@@ -265,11 +279,12 @@ Los buscadores son la puerta de entrada a Internet para la mayoría de los usuar
 
 > **Recomendación.** Combinar SEO y SEM para maximizar la visibilidad.  
 
----
 ## 4. Plan de Marketing
 
-### 4.1. Definición y Proceso
+### 4.1. **Definición y Proceso**
+
 El **Plan de Marketing** es un documento que establece los objetivos y las estrategias para alcanzarlos. Responde a tres preguntas clave:
+
 - **¿Dónde estamos?** Diagnóstico de la situación actual.  
 - **¿Qué queremos?** Definición de objetivos.  
 - **¿Cómo lo lograremos?** Estrategias y acciones.  
@@ -283,8 +298,8 @@ El **Plan de Marketing** es un documento que establece los objetivos y las estra
 - **Estrategias de Marketing Mix.** Decisiones sobre producto, precio, distribución y comunicación.  
 - **Presupuesto.** Asignación de recursos para ejecutar el plan.  
 
----
-### 4.2. Estudio de Mercado
+### 4.2. **Estudio de Mercado**
+
 El **Estudio de Mercado** es una investigación para determinar la viabilidad comercial de una iniciativa.
 
 #### Aspectos a investigar

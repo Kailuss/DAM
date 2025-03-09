@@ -1,9 +1,13 @@
 ---
 number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
-tags:
-  - DAM/PSP
-  - Teoría
+tags: [DAM/PSP, Teoría]
+obsidianUIMode: preview
+banner: "![[psp.jpg]]"
+banner_y: 0.32
 ---
+
+# TEMA 3. Comunicaciones en red
+
 ## 1. Conexiones TCP/IP
 
 En 1969, ARPA (Advanced Research Projects Agency) del Departamento de Defensa de EE. UU. inició un proyecto para conectar ordenadores mediante redes telefónicas. Diseñado en plena Guerra Fría, el objetivo era garantizar la comunicación entre nodos incluso si parte de la red quedaba destruida. Esto dio lugar en 1972 a ARPAnet, la primera red de conmutación de paquetes, caracterizada por su fiabilidad gracias a topologías malladas y múltiples líneas punto a punto.
@@ -19,22 +23,19 @@ El modelo TCP/IP consta de cuatro capas:
 
 ![Capas Modelo TCP/IP](03-Capas-Modelo-TCP-IP.png)
 
----
-
-### 1.1. Conexiones TCP/UDP
+### 1.1. **Conexiones TCP/UDP**
 
 La capa de transporte establece reglas para conectar dispositivos, organizando los paquetes desordenados recibidos de la capa de red en un flujo coherente. Se encarga de transferir datos sin errores entre equipos.
 
 Existen dos tipos de conexiones:
 
-- **TCP (Transmission Control Protocol).** Protocolo fiable y orientado a conexión, que fragmenta y reensambla mensajes. Incluye control de flujo para evitar saturación.
+-[!TCP]**TCP (Transmission Control Protocol).**
+- Protocolo fiable y orientado a conexión, que fragmenta y reensambla mensajes. Incluye control de flujo para evitar saturación.
 - **UDP (User Datagram Protocol).** Protocolo sin conexión, más rápido pero menos fiable, ideal para aplicaciones como transmisión en tiempo real, donde los retrasos son críticos.
 
 La elección entre TCP o UDP depende de las necesidades específicas de la aplicación.
 
----
-
-### 1.2. Puertos de Comunicación
+### 1.2. **Puertos de Comunicación**
 
 Los puertos permiten que las aplicaciones se comuniquen identificando el servicio específico en el equipo destino. Según la IANA, los puertos se clasifican en:
 
@@ -44,27 +45,21 @@ Los puertos permiten que las aplicaciones se comuniquen identificando el servici
 
 Las aplicaciones suelen emplear puertos en el rango 1024-49151.
 
----
-
-### 1.3. Nombres en Internet
+### 1.3. **Nombres en Internet**
 
 Aunque los equipos se identifican mediante direcciones IP, se prefieren nombres más fáciles de recordar (ej. [www.mec.es](http://www.mec.es/)). El sistema DNS (Domain Name System) asocia nombres a direcciones IP, facilitando la comunicación y permitiendo cambios de máquina sin afectar las referencias.
 
 DNS utiliza servidores jerárquicos para resolver nombres, combinando centralización para sincronización y descentralización para flexibilidad.
 
----
-
-### 1.4. Modelos de Comunicaciones
+### 1.4. **Modelos de Comunicaciones**
 
 El modelo **Cliente/Servidor** es el más usado en informática, con servidores que ofrecen servicios y clientes que los consumen (ej. servidores web y navegadores).
 
 El **Modelo de Información Distribuido** amplía este esquema, permitiendo que los equipos actúen como clientes y servidores simultáneamente, interactuando para compartir recursos y realizar tareas. Aunque externamente funciona como cliente/servidor, internamente distribuye funciones entre sus componentes.
 
----
-
 ## 2. Sockets TCP
 
-### 2.1. Introducción
+### 2.1. **Introducción**
 
 Los **sockets** permiten la comunicación entre procesos en diferentes equipos de una red. Un socket es un punto por el cual un proceso puede enviar o recibir datos.
 
@@ -75,31 +70,28 @@ Existen dos protocolos principales:
 
 Esta sección aborda los **sockets TCP**, en los que el servidor usa un puerto (normalmente entre 1 y 1023) para recibir solicitudes de clientes. Tras establecer la conexión, cada comunicación cliente-servidor utiliza un socket único con puertos dinámicos (49152-65535).
 
----
-
-### 2.2. Servidor
+### 2.2. **Servidor**
 
 Pasos para establecer comunicación:
 
 - **Publicar puerto.** Se usa `ServerSocket` indicando el puerto.
-    
-    ```java
+
+	```java
     ServerSocket skServidor = new ServerSocket(Puerto);
     ```
-    
+
 - **Esperar cliente.** El servidor queda a la espera con `accept()`. Cuando un cliente se conecta, se crea un socket para la comunicación:
-    
-    ```java
+
+	```java
     Socket sCliente = skServidor.accept();
     ```
-    
+
 - **Enviar y recibir datos.** Se crean flujos de entrada y salida para intercambiar información.
 - **Cerrar conexión.** El socket se cierra tras finalizar la comunicación:
-    
-    ```java
+
+	```java
     sCliente.close();
     ```
-    
 
 **Ejemplo de servidor.**
 
@@ -124,25 +116,22 @@ class Servidor {
 }
 ```
 
----
-
-### 2.3. Cliente
+### 2.3. **Cliente**
 
 Pasos para establecer comunicación:
 
 - **Conexión al servidor.** Se usa `Socket` indicando la dirección del servidor y el puerto:
-    
-    ```java
+
+	```java
     Socket sCliente = new Socket(Host, Puerto);
     ```
-    
+
 - **Enviar y recibir datos.** Se crean flujos de entrada y salida.
 - **Cerrar conexión.** El socket se cierra tras finalizar la comunicación:
-    
-    ```java
+
+	```java
     sCliente.close();
     ```
-    
 
 **Ejemplo de cliente.**
 
@@ -166,9 +155,7 @@ class Cliente {
 }
 ```
 
----
-
-### 2.4. Flujos de entrada y salida
+### 2.4. **Flujos de entrada y salida**
 
 Para intercambiar datos se usan flujos. Ejemplo de flujo de salida:
 
@@ -186,9 +173,7 @@ DataInputStream flujo_entrada = new DataInputStream(aux);
 String datos = flujo_entrada.readUTF();
 ```
 
----
-
-### 2.5. Ejemplo completo
+### 2.5. **Ejemplo completo**
 
 **Servidor que atiende a 3 clientes secuencialmente.**
 
@@ -241,30 +226,25 @@ class Cliente {
 **Compilación y ejecución.**
 
 - Compilar:
-    
-    ```
+
+	``` bash
     javac Servidor.java Cliente.java
     ```
-    
+
 - Ejecutar:
-    
-    ```
+
+	``` bash
     java Servidor
     java Cliente
     ```
-    
 
 Este ejemplo muestra cómo un servidor atiende a tres clientes secuencialmente, enviándoles un mensaje.
-
----
 
 ## 3. Sockets UDP
 
 Los sockets UDP no establecen conexión como los TCP; permiten enviar y recibir mensajes mediante una dirección IP y un puerto. Sin embargo, no garantizan la entrega de los mensajes. En Java, la clase `DatagramSocket` gestiona los sockets UDP, y los mensajes se manejan con `DatagramPacket`. Los paquetes incluyen el mensaje, su longitud, el equipo destinatario y el puerto.
 
----
-
-### 3.1. Receptor
+### 3.1. **Receptor**
 
 Para iniciar un socket UDP en un puerto específico:
 
@@ -275,67 +255,61 @@ DatagramSocket sSocket = new DatagramSocket(puerto);
 Para recibir mensajes:
 
 - Se crea un espacio para el mensaje:
-    
-    ```java
+
+	```java
     byte[] cadena = new byte[1000];
     DatagramPacket mensaje = new DatagramPacket(cadena, cadena.length);
     ```
-    
+
 - El socket recibe el mensaje:
-    
-    ```java
+
+	```java
     sSocket.receive(mensaje);
     ```
-    
+
 - Se muestra el contenido:
-    
-    ```java
+
+	```java
     String datos = new String(mensaje.getData(), 0, mensaje.getLength());
     System.out.println("\tMensaje Recibido: " + datos);
     ```
-    
+
 - Se cierra el socket al finalizar:
-    
-    ```java
+
+	```java
     sSocket.close();
     ```
-    
 
----
-
-### 3.2. Emisor
+### 3.2. **Emisor**
 
 Para enviar mensajes UDP:
 
 - Inicializar el socket:
-    
-    ```java
+
+	```java
     DatagramSocket sSocket = new DatagramSocket();
     ```
-    
+
 - Crear el mensaje especificando contenido, longitud, equipo y puerto:
-    
-    ```java
+
+	```java
     InetAddress equipo = InetAddress.getByName("localhost");
     DatagramPacket mensaje = new DatagramPacket(mensajeBytes, mensajeBytes.length, equipo, puerto);
     ```
-    
+
 - Enviar el mensaje:
-    
-    ```java
+
+	```java
     sSocket.send(mensaje);
     ```
-    
+
 - Cerrar el socket:
-    
-    ```java
+
+	```java
     sSocket.close();
     ```
-    
 
----
-
-### 3.3. Ejemplo
+### 3.3. **Ejemplo**
 
 **Objetivo.** Crear dos procesos, `ReceptorUDP` y `EmisorUDP`, para intercambiar mensajes a través del puerto 1500.
 
@@ -393,31 +367,29 @@ public class EmisorUDP {
 }
 ```
 
----
-
-### 3.4. Prueba
+### 3.4. **Prueba**
 
 - Compilar ambos programas:
-    
-    ```bash
+
+	```bash
     javac ReceptorUDP.java
     javac EmisorUDP.java
     ```
-    
+
 - Ejecutar el receptor en un terminal:
-    
-    ```bash
+
+	```bash
     java ReceptorUDP
     ```
-    
+
 - En otro terminal, ejecutar el emisor:
-    
-    ```bash
+
+	```bash
     java EmisorUDP <equipo> <mensaje>
     ```
-    
-    Por ejemplo:
-    
-    ```bash
+
+	Por ejemplo:
+
+	```bash
     java EmisorUDP localhost hola
     ```

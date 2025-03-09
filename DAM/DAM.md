@@ -1,9 +1,13 @@
 ---
-node_size: 82
+node_size: 64
 title: Desarrollo de Aplicaciones Multiplataforma
 obsidianUIMode: preview
+number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+banner: "![[../Banners/philip-oroni-t3SIzaRVRJY-unsplash.jpg]]"
+banner_y: 0.79214
 ---
----
+# Desarrollo de Aplicaciones Multiplataforma
+
 %% Begin Waypoint %%
 - **[Acceso a Datos](./Acceso%20a%20Datos/Acceso%20a%20Datos.md)**
 - **[Desarrollo de Interfaces](./Desarrollo%20de%20Interfaces/Desarrollo%20de%20Interfaces.md)**

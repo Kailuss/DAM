@@ -2,8 +2,11 @@
 tags:
   - EIE
   - Tarea
+obsidianUIMode: preview
+number headings: auto, first-level 2, max 2, contents ^toc, skip ^skipped, start-at 1, _.1.1.
 ---
-## 1 Enunciado  
+# Tarea EIE04
+## 1. Enunciado  
 **La tarea de este tema consta de tres actividades:**
 
 1. **Ejemplos reales de diferentes tipos de empresas y organismos**, acercándote a la realidad empresarial de tu localidad y ciclo formativo.
@@ -12,9 +15,7 @@ tags:
 
 ¡Mucho ánimo!
 
----
-
-## 2 Actividad 1  
+## 2. Actividad 1  
 **Elabora un informe con ejemplos reales de:**
 
 - Una empresa de cada sector económico, clasificándola según su actividad económica. (Incluye nombre, actividad y, si es posible, URL). 
@@ -33,9 +34,7 @@ tags:
   - Justificación suficiente de los ejemplos.  
   - Presentación, expresión y ortografía correctas.  
 
----
-
-## 3 Actividad 2  
+## 3. Actividad 2  
 **Elabora un cuadro resumen comparativo de las formas jurídicas estudiadas:**  
 
 - Empresario individual.  
@@ -63,9 +62,7 @@ tags:
   - Elaboración propia, bien presentado y completo.  
   - No debe ser un simple resumen, sino un cuadro comparativo.  
 
----
-
-## 4 Actividad 3  
+## 4. Actividad 3  
 ### 4.1 Elaboración del plan de negocio  
 
 Basado en lo estudiado en esta unidad, completa estos datos de tu plan de negocio:  

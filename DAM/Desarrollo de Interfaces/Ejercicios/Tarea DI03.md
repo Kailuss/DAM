@@ -1,7 +1,10 @@
 ---
 number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags: []
+banner: "![[di.jpg]]"
+banner_y: 0.28
 ---
+
+# Tarea DI03
 ## 1. Dominio del problema
 
 Nuestros clientes han estado realizando pruebas con nuestras aplicaciones y están muy satisfechos con la funcionalidad, pero tienen algunas quejas sobre la usabilidad de la interfaz.
@@ -10,12 +13,11 @@ Por tanto, ha llegado el momento de centrarnos en la usabilidad y la experiencia
 
 Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemos estado desarrollando para crear un producto que cumpla con los requisitos de nuestros clientes.
 
----
 ## 2. Especificaciones
 
 **Objetivo:** Mejorar la usabilidad de la aplicación aplicando los conocimientos adquiridos en los apuntes de la unidad.
 
-### 2.1. Elementos de usabilidad
+### 2.1. **Elementos de usabilidad**
 
 - **Color y estilo:** Apariencia general.
 - **Texto:** Fuentes y tipografía.
@@ -23,10 +25,10 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 - **Interacción.**
 - **Metáforas.**
 - **Facilidad de uso (Affordance):**
-    - Visibilidad.
-    - Retroalimentación.
-    - Correspondencia natural (Natural mapping).
-    - Restricciones.
+	- Visibilidad.
+	- Retroalimentación.
+	- Correspondencia natural (Natural mapping).
+	- Restricciones.
 
 **Otras funcionalidades requeridas:**
 
@@ -35,8 +37,6 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 - Incluir un **dark pattern**.
 - Uso de hilos (threads) y evitar llamadas bloqueantes.
 - Expresiones regulares.
-
----
 
 ## 3. Criterios de calificación
 
@@ -49,8 +49,6 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 7. Añadir más cambios que mejoren la usabilidad, documentándolos en el archivo **Readme.md** del repositorio y justificando las decisiones tanto en interfaz como en código. **3 puntos.**
 8. **Código limpio:** Nombres descriptivos, estructura del proyecto, commits claros en GitHub, y un archivo Readme bien redactado. **1 punto.**
 
----
-
 ## 4. Recursos necesarios para realizar la tarea
 
 - Servidor **MS SQL Server.**
@@ -58,9 +56,7 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 - Proyecto entregado en la UT01.
 - Cuenta de almacenamiento en **Azure** para alojar vídeos en la nube.
 
----
-
-### 4.1. Consejos y recomendaciones
+### 4.1. **Consejos y recomendaciones**
 
 - Puedes cambiar cualquier elemento de la interfaz y la aplicación, incluso rediseñarla desde cero, siempre que se respete la funcionalidad.
 
@@ -71,8 +67,6 @@ Rediseñaremos la interfaz de usuario (UI) y la estructura del proyecto que hemo
 - Incluir mensajes informativos (p. ej., "X intentos necesitan revisión", "email o contraseña no encontrados").
 - Implementar barras de progreso, GIFs animados para estados de espera, etc.
 - Puedes integrar componentes personalizados (**JavaBeans**) creados por ti o disponibles en internet siempre que su licencia lo permita. Indica su uso en el **Readme.md**, mencionando al autor y la fuente.
-
----
 
 ## 5. Indicaciones de entrega
 

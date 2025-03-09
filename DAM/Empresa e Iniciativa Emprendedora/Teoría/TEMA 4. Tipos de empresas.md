@@ -1,10 +1,13 @@
 ---
 number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags:
-  - DAM
-  - EIE
-  - Teoría
+tags: [DAM, EIE, Teoría]
+banner: "![[eie.jpg]]"
+banner_y: 0.24
+obsidianUIMode: preview
 ---
+
+# TEMA 4. Tipos de Empresas
+
 ```audio-player
 [[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
 00:00:03 --- 1. Clasificación de empresas
@@ -26,17 +29,15 @@ tags:
 00:13:33 --- 11. Empresas de economía sumergida
 00:14:08 --- 12. Empresas relacionadas con el sector de la informática
 ```
----
+
 ## 1. Clasificación de empresas
 
 Las empresas pueden clasificarse según distintos criterios, lo que permite tener una visión global del tejido empresarial y comprender conceptos como PYMES, empresas de servicios, franquicias, monopolios, holdings, sectores económicos, ONG, cooperativas, asociaciones y cárteles. Los criterios principales son: actividad económica, sector económico, dimensión, ámbito geográfico, titularidad del negocio y forma jurídica.
 
----
 ## 2. Clasificación según la actividad económica
 
 Las empresas se clasifican según la actividad que realizan, ya sea la producción de bienes o la prestación de servicios. Esta clasificación ayuda a entender el papel de cada empresa en la economía.
 
----
 ## 3. Clasificación según el sector económico
 
 Las empresas se dividen en tres sectores principales:
@@ -47,7 +48,6 @@ Las empresas se dividen en tres sectores principales:
 
 Algunos autores añaden un **sector cuaternario**, que incluye actividades relacionadas con la investigación, desarrollo, innovación e información. Las grandes empresas pueden operar en varios sectores simultáneamente.
 
----
 ## 4. Clasificación según la dimensión
 
 La dimensión de una empresa se mide por parámetros como el número de empleados, volumen de ventas, capital social y beneficios. Según la UE, las empresas se clasifican en:
@@ -57,12 +57,10 @@ La dimensión de una empresa se mide por parámetros como el número de empleado
 - **Medianas empresas.** Entre 50 y 250 empleados, con facturación anual no superior a 50 millones de euros.
 - **Grandes empresas.** Más de 250 empleados y facturación anual superior a 50 millones de euros.
 
----
-### 4.1. Las PYMES
+### 4.1. **Las PYMES**
 
 Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 trabajadores, 50 millones de euros de facturación y 43 millones de euros de balance. En España, representan el 99% de las empresas y generan alrededor del 70% del empleo. Aunque enfrentan desafíos como la falta de tecnología y dificultades de financiación, ofrecen ventajas como un trato más personalizado al cliente y la capacidad de cubrir nichos de mercado.
 
----
 ## 5. Clasificación según el ámbito geográfico
 
 Las empresas pueden clasificarse según su alcance geográfico:
@@ -74,7 +72,6 @@ Las empresas pueden clasificarse según su alcance geográfico:
 - **Multinacionales.** Actúan en varios países simultáneamente.
 - **Mundiales o globales.** Tienen presencia en todo el planeta.
 
----
 ## 6. Clasificación según la titularidad del capital
 
 Según la titularidad del capital, las empresas pueden ser:
@@ -83,7 +80,6 @@ Según la titularidad del capital, las empresas pueden ser:
 - **Públicas.** El capital es propiedad del Estado o entidades públicas.
 - **Mixtas.** El capital se divide entre el Estado y particulares.
 
----
 ## 7. Clasificación jurídica de las empresas
 
 Desde el punto de vista jurídico, las empresas se clasifican en:
@@ -95,14 +91,12 @@ La elección de la forma jurídica depende de factores como el capital disponibl
 
 La elección de la forma jurídica es crucial y debe adaptarse a las necesidades y objetivos de la empresa. Además, es importante evaluar esta decisión a lo largo del tiempo, ya que las circunstancias pueden cambiar y requerir ajustes. La imagen, la responsabilidad y las relaciones entre socios son aspectos clave a considerar.
 
---- 
-### 7.1. Concepto de empresa individual
+### 7.1. **Concepto de empresa individual**
 
 La empresa individual es una forma jurídica en la que una sola persona física aporta el capital y asume los beneficios, pero también responde con todo su patrimonio (presente y futuro) de las deudas y obligaciones de la empresa. Esta forma es recomendable para emprendedores con pocos recursos, ya que su constitución es sencilla, rápida y no requiere un capital mínimo inicial. Además, está sujeta al Impuesto sobre la Renta de las Personas Físicas (IRPF), lo que puede ser ventajoso para negocios con bajos ingresos.
 
 Sin embargo, la responsabilidad ilimitada es un inconveniente, especialmente si la empresa crece o realiza inversiones arriesgadas. En estos casos, puede ser conveniente cambiar a otra forma jurídica. Existe la opción de limitar la responsabilidad en caso de la vivienda habitual.
 
----
 #### Requisitos para ser empresario individual
 
 Para ser empresario individual, se debe ser una persona física con capacidad legal, es decir, mayor de edad y con libre disposición de sus bienes. No pueden ser empresarios individuales personas incapacitadas judicialmente, declaradas pródigas o en quiebra. Además, el empresario individual debe realizar una actividad empresarial de forma habitual y en nombre propio, asumiendo los derechos y obligaciones derivados de su actividad.
@@ -113,15 +107,13 @@ Es importante distinguir entre "empresario individual" y "autónomo". Mientras q
 
 El empresario individual debe tener capacidad legal, realizar una actividad empresarial de forma habitual y ejercerla en nombre propio. Esto implica que asume los derechos y obligaciones de la empresa, respondiendo con su patrimonio personal. No se consideran empresarios individuales quienes realizan actividades esporádicas o quienes actúan como representantes legales o empleados de una empresa.
 
----
-### 7.2. Comunidad de bienes y sociedad civil
+### 7.2. **Comunidad de bienes y sociedad civil**
 
 La **comunidad de bienes (CB)** y la **sociedad civil (SC)** son formas jurídicas sin personalidad jurídica, en las que varias personas explotan un patrimonio común. Ambas requieren al menos dos personas, no exigen un capital mínimo inicial y permiten que los socios actúen en nombre propio. Sin embargo, los socios responden de forma ilimitada con su patrimonio personal ante las deudas de la empresa.
 
 La **comunidad de bienes** surge cuando varias personas son propietarias de un bien común, mientras que la **sociedad civil** se forma mediante un contrato en el que los socios aportan dinero, bienes o trabajo para obtener ganancias. Ambas formas son sencillas de constituir, pero su responsabilidad ilimitada puede ser un inconveniente.
 
----
-### 7.3. Sociedad de responsabilidad limitada (SRL)
+### 7.3. **Sociedad de responsabilidad limitada (SRL)**
 
 La **Sociedad de Responsabilidad Limitada (SRL)** es una de las formas jurídicas más comunes en España. Sus características principales son:
 
@@ -134,8 +126,7 @@ La **Sociedad de Responsabilidad Limitada (SRL)** es una de las formas jurídica
 
 Esta forma es ideal para pequeñas y medianas empresas, ya que combina responsabilidad limitada con requisitos de capital asequibles.
 
----
-### 7.4. Sociedad Limitada Nueva Empresa (SLNE)
+### 7.4. **Sociedad Limitada Nueva Empresa (SLNE)**
 
 La **Sociedad Limitada Nueva Empresa (SLNE)** es una variante simplificada de la SRL, diseñada para fomentar la creación de pequeñas empresas. Sus características son:
 
@@ -147,8 +138,7 @@ La **Sociedad Limitada Nueva Empresa (SLNE)** es una variante simplificada de la
 
 Esta forma es ideal para emprendedores que buscan una constitución ágil y sencilla.
 
----
-### 7.5. Sociedad Anónima (SA)
+### 7.5. **Sociedad Anónima (SA)**
 
 La **Sociedad Anónima (SA)** es una forma jurídica adecuada para grandes empresas. Sus características son:
 
@@ -160,10 +150,9 @@ La **Sociedad Anónima (SA)** es una forma jurídica adecuada para grandes empre
 
 Esta forma es ideal para empresas que necesitan movilizar grandes cantidades de capital, pero es menos adecuada para pequeños negocios debido a su complejidad y requisitos de capital.
 
----
-### 7.6. Empresas de economía social
+### 7.6. **Empresas de economía social**
 
-Las empresas de economía social priorizan valores como la primacía de las personas sobre el capital, la gestión democrática y la solidaridad. Las formas más comunes son las **sociedades laborales** y las **cooperativas**.
+Las empresas de economía social priorizan valores como la primacía de las personas sobre el capital, la gestión democrática y la solidaridad. Las formas más comunes son las **sociedades laborales** y las **cooperativas.**
 
 #### Sociedad laboral
 
@@ -196,12 +185,10 @@ Las cooperativas pueden ser de **primer grado** (formadas por personas físicas 
 
 Estas formas jurídicas son ideales para proyectos que buscan combinar objetivos económicos con valores sociales y solidarios.
 
----
 ## 8. Las franquicias
 
-La franquicia es un modelo empresarial basado en un acuerdo entre dos partes: el **franquiciador** y el **franquiciado**. El franquiciador cede al franquiciado el derecho a utilizar una marca, producto, servicio o know-how, junto con el conocimiento necesario para operar el negocio, a cambio de un canon o royalty. El franquiciado, por su parte, aporta el capital y se compromete a seguir las normas establecidas por el franquiciador. Este modelo permite al franquiciador expandir su negocio con menor riesgo, mientras que el franquiciado se beneficia de una marca consolidada y un modelo de negocio probado.
+La franquicia es un modelo empresarial basado en un acuerdo entre dos partes: el **franquiciador** y el **franquiciado.** El franquiciador cede al franquiciado el derecho a utilizar una marca, producto, servicio o know-how, junto con el conocimiento necesario para operar el negocio, a cambio de un canon o royalty. El franquiciado, por su parte, aporta el capital y se compromete a seguir las normas establecidas por el franquiciador. Este modelo permite al franquiciador expandir su negocio con menor riesgo, mientras que el franquiciado se beneficia de una marca consolidada y un modelo de negocio probado.
 
----
 ## 9. Formas de concentración empresarial
 
 La concentración empresarial se refiere a las estrategias que las empresas utilizan para crecer, aumentar su cuota de mercado o acceder a nuevos mercados. Las formas más comunes son:
@@ -213,8 +200,7 @@ La concentración empresarial se refiere a las estrategias que las empresas util
 
 La Comisión Europea supervisa y regula estas prácticas para evitar abusos de posición dominante y proteger a los consumidores.
 
----
-### 9.1. Información de interés sobre concentración empresarial
+### 9.1. **Información de interés sobre concentración empresarial**
 
 La Comisión Europea tiene competencias para regular y sancionar prácticas anticompetitivas. Por ejemplo:
 
@@ -224,7 +210,6 @@ La Comisión Europea tiene competencias para regular y sancionar prácticas anti
 
 Estas intervenciones buscan proteger a los consumidores y garantizar la libre competencia.
 
----
 ## 10. Incubadoras o viveros de empresas
 
 Las incubadoras o viveros de empresas son programas que apoyan a emprendedores en las primeras etapas de su negocio. Ofrecen servicios como:
@@ -236,7 +221,6 @@ Las incubadoras o viveros de empresas son programas que apoyan a emprendedores e
 
 Estos programas son promovidos por instituciones como cámaras de comercio, ayuntamientos, diputaciones, universidades y asociaciones empresariales. Su objetivo es fomentar el emprendimiento, crear empleo y fortalecer el tejido productivo local.
 
----
 ## 11. Empresas de economía sumergida
 
 Las empresas de economía sumergida operan fuera de la legalidad, evadiendo impuestos, no cotizando a la Seguridad Social y contratando trabajadores de forma precaria. Estas prácticas tienen consecuencias negativas, como:
@@ -247,9 +231,8 @@ Las empresas de economía sumergida operan fuera de la legalidad, evadiendo impu
 
 En España, se estima que la economía sumergida representa entre el 11% y el 25% del PIB, lo que supone un impacto significativo en la economía.
 
----
 ## 12. Empresas relacionadas con el sector de la informática
 
-Las empresas del sector de la informática suelen ser **empresas de servicios**, pertenecientes al sector terciario. La mayoría son **pequeñas o microempresas**, y su forma jurídica más común es la **empresa individual** o la **sociedad civil**, seguida de las **sociedades de responsabilidad limitada**. Estas empresas se caracterizan por su capacidad de innovación y adaptación a las necesidades del mercado.
+Las empresas del sector de la informática suelen ser **empresas de servicios**, pertenecientes al sector terciario. La mayoría son **pequeñas o microempresas**, y su forma jurídica más común es la **empresa individual** o la **sociedad civil**, seguida de las **sociedades de responsabilidad limitada.** Estas empresas se caracterizan por su capacidad de innovación y adaptación a las necesidades del mercado.
 
 Además, existen **franquicias** en el sector de la informática que permiten a los emprendedores iniciar un negocio con el apoyo de una marca consolidada. También hay **ONG** que reciclan material informático para ayudar a comunidades desfavorecidas.

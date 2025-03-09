@@ -1,7 +1,11 @@
 ---
-number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
 obsidianUIMode: preview
+banner: "![[../../../../Banners/ad.jpg]]"
+banner_y: 0.19
 ---
+
+# Resumen Tema AD04
 ## 1. ORM: Object Relational Mapping
 
 La gestión de datos en programación orientada a objetos se realiza mediante la manipulación de objetos, que suelen ser valores compuestos con múltiples atributos. Sin embargo, las bases de datos relacionales solo almacenan valores escalares (cadenas, números) organizados en tablas. Para evitar la conversión manual entre objetos y registros de la base de datos, se utiliza el mapeo objeto-relacional (ORM), que automatiza este proceso.
@@ -17,8 +21,6 @@ El ORM permite al programador trabajar con objetos sin preocuparse por las consu
 
 Aunque existen bases de datos orientadas a objetos que no requieren mapeo, no han sido populares.
 
----
-
 ## 2. Java Persistence API (JPA)
 
 JPA es una API de mapeo objeto-relacional para aplicaciones Java. Consta de:
@@ -30,9 +32,7 @@ JPA es una API de mapeo objeto-relacional para aplicaciones Java. Consta de:
 
 JPA es una especificación, por lo que requiere implementaciones como Hibernate o EclipseLink.
 
----
-
-### 2.1. Unidad de persistencia
+### 2.1. **Unidad de persistencia**
 
 Una unidad de persistencia es un conjunto de propiedades con un nombre único que gestiona entidades y su almacenamiento en la base de datos. Se define en el archivo `persistence.xml`, ubicado en `META-INF`. Este archivo especifica las clases de entidad, el DataSource, y otras propiedades como la URL de la base de datos, usuario, contraseña, y configuraciones de Hibernate.
 
@@ -57,9 +57,7 @@ Ejemplo de configuración en `persistence.xml`:
 </persistence>
 ```
 
----
-
-### 2.2. Clases de entidad
+### 2.2. **Clases de entidad**
 
 Las clases de entidad son POJOs que representan tablas de la base de datos. Cada atributo de la clase se mapea a una columna de la tabla. Las entidades deben implementar `equals` y `hashCode`.
 
@@ -91,13 +89,9 @@ public class Autor {
 }
 ```
 
----
-
 #### 2.2.2. Relaciones entre tablas
 
 Las relaciones entre tablas se mantienen en las entidades. Por ejemplo, en una relación 1-n entre `Autor` y `Nacionalitat`, la clase `Autor` tendrá un atributo de tipo `Nacionalitat`, y `Nacionalitat` tendrá una lista de `Autor`.
-
----
 
 #### 2.2.3. Fetch: Recuperación de datos asociados
 
@@ -108,9 +102,7 @@ El tipo de fetch (eager o lazy) determina cuándo se cargan los objetos relacion
 
 Por defecto, `@OneToMany` y `@ManyToMany` son lazy, mientras que `@ManyToOne` y `@OneToOne` son eager.
 
----
-
-### 2.3. Contexto de persistencia: Entity Manager
+### 2.3. **Contexto de persistencia: Entity Manager**
 
 El `EntityManager` gestiona el contexto de persistencia, donde se realizan operaciones como crear, modificar o eliminar entidades. Es importante mantener el `EntityManager` activo solo durante las operaciones necesarias.
 
@@ -130,8 +122,6 @@ Métodos importantes:
 - `.persist()`: Inserta una entidad.
 - `.merge()`: Actualiza una entidad.
 - `.remove()`: Elimina una entidad.
-
----
 
 #### 2.3.1. Transacciones
 
@@ -155,9 +145,7 @@ try {
 }
 ```
 
----
-
-### 2.4. Ciclo de vida de una entidad
+### 2.4. **Ciclo de vida de una entidad**
 
 Un objeto de entidad puede estar en los siguientes estados:
 
@@ -166,9 +154,7 @@ Un objeto de entidad puede estar en los siguientes estados:
 - **Removed**: Marcado para eliminación.
 - **Detached**: Perdió la relación con el contexto de persistencia.
 
----
-
-### 2.5. Definición de las clases de entidad
+### 2.5. **Definición de las clases de entidad**
 
 Cada tabla de la base de datos se representa con una clase de entidad. Los atributos de la clase deben coincidir con los campos de la tabla, y los tipos deben ser adecuados. Las relaciones se representan con atributos de tipo entidad.
 
@@ -192,8 +178,6 @@ Para claves primarias compuestas, se define una clase separada con `@Embeddable`
 #### 2.5.4. Relaciones
 
 Las relaciones entre tablas se mantienen en las entidades mediante anotaciones como `@OneToOne`, `@OneToMany`, `@ManyToOne`, y `@ManyToMany`. Las relaciones pueden ser unidireccionales o bidireccionales.
-
----
 
 ## 3. Consideraciones importantes
 

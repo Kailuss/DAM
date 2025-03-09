@@ -1,5 +1,7 @@
 ---
 obsidianUIMode: preview
+banner: "![[di.jpg]]"
+banner_y: 0.28
 ---
 %% Begin Waypoint %%
 - [Examen febrero 2](./Examen%20febrero%202.md)

@@ -1,13 +1,18 @@
 ---
-tags:
-  - PMDM
-  - Tarea
+number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
+tags: [Focus, PMDM, Tarea]
+node_size: 16
+obsidianUIMode: preview
+banner: "![[pmdm.jpg]]"
+banner_y: 0.42
 ---
-## 1 Instrucciones
+
+# Tarea PMDM03
+## 1. Instrucciones
 
 Al llegar a este punto, ya estarás familiarizado con la estructura de la aplicación del ejercicio anterior. El objetivo de esta práctica es realizar una funcionalidad similar. Para esta práctica, partiremos (si queréis) del mismo esquema proporcionado para el ejercicio anterior, y la idea es conseguir la misma funcionalidad, pero partiendo de una información diferente.
 
-1. Vuestra tarea en primer lugar será buscar un proveedor de información en formato JSON similar a https://www.themoviedb.org/. Una vez seleccionado, en función de la información, tendréis que modificar la página de detalle para mostrar la información detallada de vuestro elemento (canción, pokémon, animal, etc.). Los requisitos de la API que debéis buscar son:
+1. Vuestra tarea en primer lugar será buscar un proveedor de información en formato JSON similar a <https://www.themoviedb.org/>. Una vez seleccionado, en función de la información, tendréis que modificar la página de detalle para mostrar la información detallada de vuestro elemento (canción, pokémon, animal, etc.). Los requisitos de la API que debéis buscar son:
    - Que devuelva un listado de elementos.
    - Que cada elemento tenga al menos una imagen (en formato URL).
    - Que cada elemento, aparte de la imagen, tenga información para mostrar.
@@ -20,9 +25,10 @@ Al llegar a este punto, ya estarás familiarizado con la estructura de la aplica
 
 4. Para la entrega, adjuntad la URL del Git público y el vídeo en un enlace de Google Drive.
 
-## 2 Criterios de calificación
+## 2. Criterios de calificación
 
 Para la entrega de la práctica, el alumno deberá adjuntar todo el código del/los proyectos, además de realizar un vídeo de corta durada explicando y demostrando la ejecución de las actividades.
+
 - Funcionamiento del código - 60%
 - Estructura y formato del código - 10%
 - Comentarios de código - 10%

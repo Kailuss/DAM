@@ -1,9 +1,12 @@
 ---
 number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
 obsidianUIMode: preview
+banner: "![[ad.jpg]]"
+banner_y: 0.19
 ---
----
-## 1. Persistencia de datos  
+
+# TEMA 2.2. Flujos de información
+## 1. Persistencia de datos
 
 Persistencia de datos: cómo mantener los datos entre ejecución y ejecución de la aplicación.  
 
@@ -17,7 +20,6 @@ Básicamente, hay dos posibilidades para implementar la persistencia:
 
 Vamos a ver los streams.  
 
----
 ## 2. Flujo (Stream)  
 
 Un flujo de datos es una secuencia de datos. Un programa utilizará un flujo de entrada, `input stream`, para leer datos de un origen, y un flujo de salida, `output stream`, para escribir datos a un destino.  
@@ -28,8 +30,7 @@ El origen o el destino de los datos pueden ser de diversos tipos: archivos de di
 
 Los flujos pueden manejar cualquier tipo de datos, desde bytes, hasta objetos pasando por tipos primitivos.  
 
----
-### 2.1. Flujos de bytes  
+### 2.1. **Flujos de bytes**
 
 Nuestros programas utilizarán los flujos de bytes cuando queramos acceder a recursos a bajo nivel. No los deberíamos utilizar a menos que sea imprescindible, ya que hay clases mucho más especializadas.  
 
@@ -76,8 +77,7 @@ Las clases que definen los flujos de bytes son abstractas, `InputStream` y `Outp
 - `AudioInputStream`: Especializada en fuentes de audio.  
 - `ObjectInputStream` y `ObjectOutputStream`: Para trabajar con objetos.  
 
----
-### 2.2. Paréntesis: try-with-resources  
+### 2.2. **Paréntesis: try-with-resources**
 
 Esta variante del `try` declara recursos, objetos que el programa debe cerrar cuando ya no los necesite más. Se asegura que los objetos declarados se cierren, tanto si el bloque de código del `try` lanza excepciones como si no.  
 
@@ -96,8 +96,7 @@ Evidentemente, pueden haber tantos bloques `catch` como nos hagan falta. Antes d
 
 **Si no capturamos las excepciones, las tendremos que propagar.**  
 
----
-### 2.3. Flujos de caracteres  
+### 2.3. **Flujos de caracteres**
 
 Java almacena los caracteres en Unicode. Los flujos de caracteres automáticamente los transforman a y desde el conjunto de caracteres locales del sistema.  
 
@@ -136,8 +135,7 @@ out.write(caracteres);
 
 Tanto `read` como `write` utilizan `int` para manejar los datos leídos o escritos en el archivo. 
 
----
-### 2.4. Flujos con buffer  
+### 2.4. **Flujos con buffer**
 
 Los flujos que hemos visto hasta ahora no disponen de ningún buffer. Esto significa que cada petición de lectura o escritura se envía directamente al SO, con la consiguiente pérdida de eficiencia, ya que normalmente implican operaciones de disco o red que son muy costosas en tiempo.  
 
@@ -178,8 +176,7 @@ outputStream.flush();
 
 **`BufferedReader`** y **`BufferedWriter`** nos proporcionan operaciones sobre líneas de texto. Para trabajar con archivos de texto son más eficientes que `FileReader` y `FileWriter`.  
 
----
-### 2.5. Flujos de datos  
+### 2.5. **Flujos de datos**
 
 Los flujos de datos soportan valores de tipos de datos primitivos (`boolean`, `char`, `byte`, `short`, `int`, `long`, `float`, y `double`) y `String`. Todos los flujos de datos implementan o bien la interfaz `DataInput` o bien la `DataOutput`.  
 
@@ -229,8 +226,7 @@ try {
 }  
 ```  
 
----
-### 2.6. Flujos de objetos  
+### 2.6. **Flujos de objetos**
 
 Los flujos de objetos soportan objetos, es decir, en lugar de guardar en disco un `double`, un `int` y un `String`, podemos guardar directamente un `Producto`.  
 
@@ -276,7 +272,7 @@ try {
 }  
 ```  
 
-#### 2.6.1 Escritura y lectura de objetos complejos  
+#### Escritura y lectura de objetos complejos  
 
 Cuando todos los atributos de un objeto son tipos primitivos, es realmente simple escribir este objeto en un flujo. Pero muchas veces nos encontramos con que un objeto tiene un atributo que es otro objeto. Y este, a su vez, puede contener otro y, por ejemplo, un alumno puede incluir una lista con sus calificaciones.  
 
