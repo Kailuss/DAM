@@ -1,15 +1,12 @@
 ---
-number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags:
-  - DAM
-  - EIE
-  - Teoría
+number headings: first-level 0, max 3, skip ^skipped, _.1.1.
+tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
 ---
 
-# TEMA 2. La empresa como sistema
+# **TEMA 2.** La empresa como sistema
 
 ```audio-player
 [[Lecturas/Lectura_Tema_2_La_Empresa_y_su_Entorno.mp3]]
@@ -191,17 +188,16 @@ La imagen percibida por el público se estudia por los departamentos de marketin
 
 ### 8.2. **Factores que influyen en la imagen corporativa**
 
-2. **Lo que es mi empresa.**
-3. **Lo que yo creo acerca de lo que es mi empresa.**
-4. **Lo que transmito acerca de lo que es mi empresa.**
-5. **Lo que percibe el público sobre mi empresa.**
+1. **Lo que es mi empresa.**
+2. **Lo que yo creo acerca de lo que es mi empresa.**
+3. **Lo que transmito acerca de lo que es mi empresa.**
+4. **Lo que percibe el público sobre mi empresa.**
 
 ## 9. La Responsabilidad Social de la Empresa (RSE)
 
 Desde hace años se habla del nuevo papel que deben jugar las empresas en la sociedad, convirtiéndose en sujetos activos o "ciudadanos responsables". Esto se debe a que a la sociedad dirigen sus bienes y servicios, y de la sociedad misma obtienen su beneficio económico.
 
-- [!info]
-La **responsabilidad social** es ser "socialmente responsable".
+> [!quote] La **responsabilidad social** es ser "socialmente responsable".
 
 Las actuaciones de los gobiernos no están siendo suficientes para eliminar o corregir los desajustes sociales, económicos y medioambientales a nivel mundial, y el gran poder que acumulan las multinacionales las hace "co-responsables" de esta situación. Aunque la responsabilidad social en estas grandes empresas es visible desde hace años, también los pequeños negocios pueden hacer mucho por ser responsables.
 
@@ -209,7 +205,7 @@ No solo debes preocuparte por el resultado económico de tu negocio, sino tambi�
 
 ### 9.1. **Concepto y características de la RSE**
 
-A la Responsabilidad Social aplicada a la empresa se la denomina **Responsabilidad Social Corporativa (RSC)** o **Responsabilidad Empresarial**.
+A la Responsabilidad Social aplicada a la empresa se la denomina **Responsabilidad Social Corporativa (RSC)** o **Responsabilidad Empresarial.**
 
 La **RSC** es la forma de conducir el negocio de tu empresa teniendo en cuenta los impactos que tu actividad genera sobre:
 
@@ -220,7 +216,7 @@ La **RSC** es la forma de conducir el negocio de tu empresa teniendo en cuenta l
 - El medioambiente.
 - La sociedad en general.
 
-Desde las Administraciones y los Organismos Internacionales, como el **Pacto Mundial de la ONU**, las **Directrices de la OCDE** y el **Libro Verde de la UE**, se fomenta que las empresas introduzcan en su gestión acciones que contribuyan al progreso económico y social dentro del marco del **desarrollo sostenible**. Esto implica satisfacer las necesidades del presente sin sacrificar las necesidades de las generaciones futuras.
+Desde las Administraciones y los Organismos Internacionales, como el **Pacto Mundial de la ONU**, las **Directrices de la OCDE** y el **Libro Verde de la UE**, se fomenta que las empresas introduzcan en su gestión acciones que contribuyan al progreso económico y social dentro del marco del **desarrollo sostenible.** Esto implica satisfacer las necesidades del presente sin sacrificar las necesidades de las generaciones futuras.
 
 Si la incorporación de medidas de RSC en tu negocio es voluntaria, ¿por qué te puede interesar aplicarlas? Estas son algunas ventajas:
 
@@ -252,8 +248,8 @@ Cada negocio desarrolla las acciones de RSE más adecuadas a sus objetivos, estr
 
 Además, las empresas informáticas pueden ofrecer servicios para ayudar a otras empresas a cumplir sus propias acciones de RSE.
 
+> [!tip] Ejemplos
 > **Fundación Telefónica.** Programa piloto de **Teleasistencia Social** en Andalucía.
-
 >  **Alares.** Servicio **'Siempre Contigo'**, teleasistencia móvil para personas dependientes.
 
 Estas iniciativas muestran cómo la tecnología y la informática pueden integrarse en la responsabilidad social para mejorar la vida de las personas.

@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 2, max 2, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 ---
 # Tarea EIE05
 

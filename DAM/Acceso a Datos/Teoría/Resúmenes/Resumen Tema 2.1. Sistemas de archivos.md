@@ -1,8 +1,8 @@
 ---
-number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
 obsidianUIMode: preview
 banner: "![[../../../../Banners/ad.jpg]]"
 banner_y: 0.19
+number headings: first-level 0, max 3, _.1., skip ^skipped
 ---
 
 # Resumen Tema 2.1. Sistemas de archivos
@@ -37,7 +37,7 @@ cd ..  # Sube un nivel
 cd ./sally  # Navega a sally desde el directorio actual
 ```
 
-### **2.1. La clase _Path_**
+### **2.1. La clase *Path***
 
 La clase `Path` representa una ruta en el sistema de archivos y puede referirse a un archivo, directorio o no existir. Se puede crear un objeto `Path` de varias formas:
 
@@ -46,7 +46,7 @@ Path p1 = Path.of("/home/sally/statusReport");
 Path p2 = Path.of("home", "sally", "statusReport");
 ```
 
-#### 2.1.1 Métodos útiles de _Path_
+#### 2.1.1 Métodos útiles de *Path*
 
 `.toString()`: Devuelve la ruta como cadena.
 
@@ -58,7 +58,7 @@ Path p2 = Path.of("home", "sally", "statusReport");
 
 `.subpath(inicio, fin)`: Devuelve una subruta entre las posiciones especificadas.
 
-### **2.2. La clase _Files_**
+### **2.2. La clase *Files***
 
 La clase `Files` proporciona métodos para manipular archivos y directorios. Es una clase de utilidad con métodos estáticos.
 

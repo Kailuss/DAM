@@ -2,7 +2,7 @@
 node_size: 64
 title: Desarrollo de Aplicaciones Multiplataforma
 obsidianUIMode: preview
-number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: off
 banner: "![[../Banners/philip-oroni-t3SIzaRVRJY-unsplash.jpg]]"
 banner_y: 0.79214
 ---

@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 2, max 3, contents ^toc, skip ^skipped, start-at 1, 1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[eie.jpg]]"
 obsidianUIMode: preview
 banner_y: 0.32

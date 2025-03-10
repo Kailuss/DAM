@@ -1,11 +1,11 @@
 ---
-number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 2, skip ^skipped, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
 banner_y: 0.28
 ---
 
-# TEMA 1. Confección de interfaces
+# **TEMA 1.** Confección de interfaces
 
 ![Lectura MP3](Lectura_Tema_1_Confección_de_interfaces.mp3)
 
@@ -48,7 +48,7 @@ Los componentes suelen estar agrupados en bibliotecas, que también permiten cre
 	- **AWT.** Primera biblioteca de Java para interfaces gráficas. Multiplataforma, pero con componentes dependientes de código nativo. Actualmente en desuso.
 	- **Swing.** Biblioteca posterior y multiplataforma sin código nativo. Deriva de AWT; muchos componentes tienen nombres similares, con una "J" añadida (por ejemplo, `Button` en AWT es `JButton` en Swing). Es el estándar actual en Java.
 2. **Bibliotecas de Microsoft (C#, ASP, .NET).**
-	- **.NET Framework.** Incluye bibliotecas como ADO.NET, ASP.NET, Windows Forms y WPF (Windows Presentation Foundation) para desarrollar interfaces gráficas.
+	- .**NET Framework.** Incluye bibliotecas como ADO.NET, ASP.NET, Windows Forms y WPF (Windows Presentation Foundation) para desarrollar interfaces gráficas.
 3. **Bibliotecas basadas en XML.**
 	- Permiten crear interfaces traducibles a diferentes lenguajes de programación y luego integrarlas en la aplicación.
 4. **Otras API destacadas.**
@@ -92,11 +92,11 @@ Para los contenidos de esta unidad, se propone NetBeans como IDE utilizando la b
 
 1. Crear un proyecto tipo **Java Application** y configurar datos principales (nombre, ubicación y clase principal).
 2. Añadir un formulario Swing:
-	- Clic derecho en **Source Packages** → **Nuevo** → **Swing GUI Forms** → **Formulario JFrame**.
+	- Clic derecho en **Source Packages** → **Nuevo** → **Swing GUI Forms** → **Formulario JFrame.**
 	- Nombrar el formulario y finalizar.
 3. Configurar la clase principal:
-	- Clic derecho en el proyecto → **Propiedades** → **Ejecutar**.
-	- Seleccionar la clase principal desde la opción **Main Class**.
+	- Clic derecho en el proyecto → **Propiedades** → **Ejecutar.**
+	- Seleccionar la clase principal desde la opción **Main Class.**
 
 ## 4. Contenedores
 
@@ -188,7 +188,7 @@ Los **Layouts** definen la disposición de los controles:
 7. **GroupLayout.** Disposición horizontal y vertical (NetBeans).
 8. **SpringLayout.** Relaciones entre límites de los componentes.
 
-NetBeans facilita la colocación de componentes con guías visuales y el diseño **GroupLayout**.
+NetBeans facilita la colocación de componentes con guías visuales y el diseño **GroupLayout.**
 
 ### 5.5. **Enlace de componentes a bases de datos**
 

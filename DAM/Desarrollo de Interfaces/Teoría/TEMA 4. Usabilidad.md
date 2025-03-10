@@ -1,11 +1,11 @@
 ---
-number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 3, _.1.
 banner: "![[di.jpg]]"
 banner_y: 0.28
 obsidianUIMode: preview
 ---
 
-# TEMA 4. Usabilidad
+# **TEMA 4.** Usabilidad
 
 ![Lectura MP3](Lectura_Tema_4_Usabilidad.mp3)
 
@@ -15,7 +15,7 @@ La usabilidad en el diseño de aplicaciones multiplataforma es crucial para gara
 
 La usabilidad se diferencia de conceptos similares como la accesibilidad, que se refiere al diseño inclusivo para personas con discapacidades, y la utilidad, que mide el grado en que el software satisface las necesidades del usuario.
 
-### 1.1. **Características de una Interfaz Usable**
+### **Características de una Interfaz Usable**
 
 Una interfaz usable debe ser:
 
@@ -26,7 +26,7 @@ Una interfaz usable debe ser:
 
 Además, es importante prever errores, proporcionar retroalimentación y mantener un diseño simple para evitar sobrecargar al usuario.
 
-### 1.2. **Atributos de la Usabilidad**
+### **Atributos de la Usabilidad**
 
 Los cinco atributos clave de la usabilidad son:
 
@@ -80,7 +80,7 @@ El diseño de la interfaz debe ser una prioridad en el desarrollo de aplicacione
 - **Economía.** comunicar lo máximo con la mínima cantidad de elementos.
 - **Comunicación.** ajustar la presentación a las capacidades del usuario.
 
-### Aspectos específicos del diseño
+### **Aspectos específicos del diseño**
 
 - **Diseño visual.** centrado en mejorar la comunicación.
 - **Color.** usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales.
@@ -109,12 +109,12 @@ Para diseñar una interfaz coherente, es esencial conocer a los usuarios y cómo
 
 Los menús son listas de opciones que permiten a los usuarios navegar por el sistema y seleccionar acciones. En el diseño de menús, es importante definir el título, las opciones y las acciones asociadas.
 
-### Ventajas de los Menús
+### **Ventajas de los Menús**
 - Mantienen la pantalla despejada.
 - Ocultar opciones irrelevantes mejora la experiencia del usuario.
 - Facilitan la navegación rápida.
 
-### Tipos de Menús
+### **Tipos de Menús**
 1. **Menús de barras.** Ubicados en la parte superior de la pantalla, contienen acciones genéricas que despliegan submenús.
 2. **Menús desplegables (cascadas).** Presentan opciones que a su vez despliegan otros menús. Pueden cambiar dinámicamente y deshabilitar opciones no disponibles.
 3. **Paletas o barras de herramientas.** Menús gráficos con acciones y herramientas, comunes en programas de diseño.
@@ -125,11 +125,11 @@ Los menús son listas de opciones que permiten a los usuarios navegar por el sis
 
 Las ventanas son áreas de la pantalla dedicadas a tareas específicas. Permiten a los usuarios controlar la apariencia de la interfaz, abriendo, cerrando, minimizando o maximizando espacios.
 
-### Ventajas
+### **Ventajas**
 - Facilitan una captura rápida y correcta de la información.
 - Delimitan espacios para tareas concretas.
 
-### Consideraciones de Usabilidad
+### **Consideraciones de Usabilidad**
 - Evitar un número excesivo de ventanas, ya que puede causar confusión.
 - Asegurar que cada ventana tenga un propósito claro y esté bien organizada.
 
@@ -137,12 +137,12 @@ Las ventanas son áreas de la pantalla dedicadas a tareas específicas. Permiten
 
 Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las acciones del usuario. Son clave para la retroalimentación y la ayuda en línea.
 
-### Factores de Diseño
+### **Factores de Diseño**
 - **Nivel de habilidad del usuario.** Adaptar los mensajes a la terminología que el usuario comprende.
 - **Estilo.** Los mensajes deben ser positivos y activos.
 - **Cultura.** Evitar malentendidos culturales en el contenido de los mensajes.
 
-### Tipos de Cuadros de Diálogo
+### **Tipos de Cuadros de Diálogo**
 1. **Información de éxito o fracaso.** Notifican al usuario el resultado de una acción.
 2. **Motores de búsqueda.** Facilitan la búsqueda de información dentro de la aplicación.
 3. **Ayuda en línea.** Proporcionan asistencia al usuario durante el uso de la aplicación.
@@ -151,7 +151,7 @@ Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las a
 
 Los atajos de teclado son combinaciones de teclas que realizan acciones específicas, reemplazando el uso del ratón. Son especialmente útiles para acciones frecuentes, aumentando la eficiencia del usuario.
 
-### Consideraciones
+### **Consideraciones**
 - Definir atajos para las acciones más comunes.
 - Evitar sobrecargar al usuario con demasiados atajos.
 
@@ -163,18 +163,18 @@ El aspecto de la interfaz se refiere a la combinación de colores, tipografías,
 
 El color es una herramienta poderosa en el diseño de interfaces. Su uso adecuado mejora la comunicación visual, mientras que un uso inapropiado puede causar molestias o confusiones.
 
-### Ventajas del Uso de Colores
+### **Ventajas del Uso de Colores**
 - Comunican ideas de forma rápida y estética.
 - Resaltan información importante.
 - Crean un impacto psicológico, atrayendo la atención y generando emociones.
 
-### Precauciones
+### **Precauciones**
 - Evitar el abuso de colores, ya que puede causar confusión.
 - Limitar el número de colores: no más de 4-5 por ventana y 7 en la interfaz total.
 - Usar colores de manera consistente para representar estados o acciones específicas.
 - Seleccionar combinaciones de colores legibles entre el fondo y el texto.
 
-### Principios Básicos
+### **Principios Básicos**
 1. Limitar el número de colores.
 2. Usar cambios de color para indicar cambios en el estado del sistema.
 3. Aplicar códigos de color para apoyar las tareas del usuario.
@@ -187,7 +187,7 @@ El color es una herramienta poderosa en el diseño de interfaces. Su uso adecuad
 
 La elección de la tipografía es crucial para la legibilidad y el equilibrio visual de la interfaz. Una buena selección de fuentes establece una jerarquía visual que facilita la lectura y la comprensión de la información.
 
-### Consideraciones
+### **Consideraciones**
 - El tamaño de la fuente debe ser legible y adecuado a la resolución de la pantalla.
 - Evitar bloques de texto extensos; es preferible dividirlos en párrafos y ofrecer enlaces para continuar la lectura.
 - Utilizar diferentes tipos de fuentes para destacar información de distinta relevancia, pero sin excederse.
@@ -196,7 +196,7 @@ La elección de la tipografía es crucial para la legibilidad y el equilibrio vi
 
 Los iconos son imágenes que representan acciones o conceptos. Su ventaja principal es que se reconocen más rápido que el texto y ocupan menos espacio en la pantalla.
 
-### Consideraciones
+### **Consideraciones**
 - Equilibrar el uso de iconos y texto para evitar monotonía o distracción.
 - Evitar una sobrecarga de elementos gráficos que dificulten la organización visual.
 - Combinar texto y elementos gráficos de manera efectiva para guiar al usuario.
@@ -205,7 +205,7 @@ Los iconos son imágenes que representan acciones o conceptos. Su ventaja princi
 
 La organización espacial de los elementos es clave para una interfaz usable. Una distribución clara y ordenada facilita la interacción y la comprensión de la información.
 
-### Consideraciones
+### **Consideraciones**
 - Evitar imágenes superpuestas o bloques de contenido desorganizados.
 - Usar retículas base y estilos predefinidos para mantener un diseño coherente.
 - Definir claramente los espacios de texto, gráficos y espacios en blanco.
@@ -218,12 +218,12 @@ Los elementos interactivos son fundamentales para proporcionar retroalimentació
 
 Los botones son controles que permiten al usuario realizar acciones específicas, como confirmar, guardar o salir.
 
-### Tipos de Botones
+### **Tipos de Botones**
 - **Botones en relieve.** dan una sensación de profundidad.
 - **Botones de confirmación.** para acciones como "Aceptar" o "Cancelar".
 - **Botones de radio.** permiten seleccionar una opción entre varias (mutuamente excluyentes).
 
-### Consideraciones
+### **Consideraciones**
 - Deben ser intuitivos y fáciles de usar.
 - Su ubicación en la interfaz debe permitir un acceso rápido.
 
@@ -231,7 +231,7 @@ Los botones son controles que permiten al usuario realizar acciones específicas
 
 Las listas desplegables combinan un campo de texto con un menú de opciones. Son útiles para seleccionar entre varias opciones o autocompletar texto.
 
-### Consideraciones
+### **Consideraciones**
 - Las opciones deben ser limitadas y fáciles de navegar.
 - Son ideales para situaciones donde el usuario necesita seleccionar entre varias opciones predefinidas.
 
@@ -239,7 +239,7 @@ Las listas desplegables combinan un campo de texto con un menú de opciones. Son
 
 Las etiquetas son textos estáticos que identifican otros elementos de la interfaz, como campos de formularios o botones.
 
-### Consideraciones
+### **Consideraciones**
 - Mejoran la legibilidad y usabilidad de la aplicación.
 - Son esenciales en formularios para describir los campos que el usuario debe completar.
 
@@ -247,12 +247,12 @@ Las etiquetas son textos estáticos que identifican otros elementos de la interf
 
 La presentación de datos en la interfaz es crucial para garantizar la usabilidad. El usuario no lee la información de manera secuencial, sino que navega explorando menús, enlaces y herramientas de búsqueda. Por ello, la claridad visual y la organización son fundamentales.
 
-### Reglas de Diseño para la Presentación de Datos
+### **Reglas de Diseño para la Presentación de Datos**
 - **Enrejillado.** Organizar el espacio en áreas separadas según su función.
 - **Balanceado.** Buscar equilibrio entre los ejes horizontal y vertical.
 - **Simetría.** Duplicar la imagen a lo largo de un eje para asegurar equilibrio.
 
-### Consejos para una Presentación Efectiva
+### **Consejos para una Presentación Efectiva**
 - **Ser conciso.** Evitar bloques extensos de texto.
 - **Facilitar la navegación.** El usuario explora la interfaz antes de decidir si le interesa.
 - **Estructura piramidal.** Colocar las ideas más importantes al principio.
@@ -269,7 +269,7 @@ El diseño de la secuencia de control define cómo funcionará la aplicación y 
 4. **Pruebas y depuración.** Verificar el funcionamiento de la aplicación.
 5. **Generación del ejecutable.** Crear el archivo ejecutable y el instalador.
 
-### Consideraciones de Diseño
+### **Consideraciones de Diseño**
 - Definir objetivos para cada componente de la interfaz.
 - Asociar cada objetivo con una secuencia de interacción.
 - Especificar las acciones de las tareas y el estado del sistema.
@@ -280,13 +280,13 @@ El diseño de la secuencia de control define cómo funcionará la aplicación y 
 
 El aseguramiento de la información garantiza que los datos sean seguros, confiables y estén disponibles cuando se necesiten. Esto es esencial para la toma de decisiones en una organización.
 
-### Ámbitos del Aseguramiento
+### **Ámbitos del Aseguramiento**
 1. **Datos.** Proteger la integridad y confidencialidad de la información.
 2. **Procesos.** Asegurar que los procesos operativos sean seguros.
 3. **Comportamiento.** Garantizar que los usuarios interactúen de manera segura.
 4. **Sistema de Gestión.** Proteger los sistemas que gestionan la información.
 
-### Herramientas de Seguridad
+### **Herramientas de Seguridad**
 - **Control de acceso.** Limitar el acceso a recursos críticos.
 - **Políticas de seguridad.** Configurar permisos específicos para cada recurso.
 - **Criptografía.** Proteger la información mediante técnicas de cifrado.
@@ -296,14 +296,14 @@ El aseguramiento de la información garantiza que los datos sean seguros, confia
 
 Las aplicaciones multimedia integran elementos como sonido, imágenes, animaciones y vídeos, mejorando la experiencia del usuario y la retención de información.
 
-### Elementos Multimedia en Interfaces
+### **Elementos Multimedia en Interfaces**
 - **Gráficos.** Representaciones visuales que facilitan la comprensión de ideas.
 - **Imágenes.** Representaciones estáticas que transmiten información.
 - **Animaciones.** Secuencias rápidas de imágenes que generan sensación de movimiento.
 - **Vídeos.** Útiles para mostrar conceptos de manera dinámica, permitiendo pausar, reiniciar o detener la reproducción.
 - **Audio.** Mensajes acústicos que añaden sonoridad a la interfaz.
 
-### Consideraciones de Diseño
+### **Consideraciones de Diseño**
 - Mantener un equilibrio entre elementos multimedia y texto.
 - Evitar el exceso de elementos multimedia, que puede causar caos visual.
 - Diseñar contenidos relacionados y coherentes para facilitar la navegación.

@@ -1,6 +1,8 @@
 ---
-number headings: auto, first-level 1, max 4, contents ^toc, skip ^skipped, start-at 1, _.1.1.
-tags: [PMDM, Tarea]
+number headings: first-level 1, max 4, skip ^skipped, _.1.1.
+tags:
+  - PMDM
+  - Tarea
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 ---
@@ -23,8 +25,8 @@ Por lo que respecta a los clientes, solo nos interesa tener su ficha con todos s
 - Número de tarjeta de crédito.
 
 ### 1.2. **Constructores**
-- Un constructor con **DNI y nombre**. El resto de atributos tendrán valores por defecto (`null` o vacío).
-- Un constructor con **todos sus atributos**.
+- Un constructor con **DNI y nombre.** El resto de atributos tendrán valores por defecto (`null` o vacío).
+- Un constructor con **todos sus atributos.**
 
 ### 1.3. **Métodos**
 - Métodos `get` para todos los atributos.
@@ -56,18 +58,18 @@ Las clases **Coche** y **Moto** compartirán ciertos atributos.
 
 ## 3. Creación de la clase abstracta Vehículo
 
-Dado que Coche y Moto tienen atributos comunes, se propone la creación de una **clase abstracta `Vehículo`**.
+Dado que Coche y Moto tienen atributos comunes, se propone la creación de una **clase abstracta `Vehículo`.**
 
 ### 3.1. **Métodos a implementar**
 - `alquilar()`: cambia el estado de alquiler a `true`.
 - `devolver()`: cambia el estado de alquiler a `false`.
 - `estaAlquilado()`: devuelve si el vehículo está alquilado.
-- `compareTo(Object a)`: compara el kilometraje de dos vehículos, **solo si son del mismo tipo** (dos coches o dos motos). Se recomienda el uso de **casting de objetos**.
+- `compareTo(Object a)`: compara el kilometraje de dos vehículos, **solo si son del mismo tipo** (dos coches o dos motos). Se recomienda el uso de **casting de objetos.**
 
 ## 4. Implementación de la aplicación
 
 ### 4.1. **Pasos a seguir**
-1. Crear **dos listas**, una de coches y otra de motos, de **5 posiciones cada una**.
+1. Crear **dos listas**, una de coches y otra de motos, de **5 posiciones cada una.**
 2. Utilizar los diferentes **constructores** para crear e inicializar **5 coches y 5 motos** y almacenarlos en sus respectivas listas.
 3. Crear uno o varios **clientes** para alquilar vehículos.
 4. Realizar la **entrega** de algunos coches y motos utilizando el método `alquilar()`.
@@ -76,23 +78,23 @@ Dado que Coche y Moto tienen atributos comunes, se propone la creación de una *
 
 ## 5. Criterios de calificación
 
-La calificación total es de **10 puntos**.
+La calificación total es de **10 puntos.**
 
 ### 5.1. Funcionamiento del programa (**6 puntos**)
 - La aplicación debe funcionar correctamente sin errores.
 - Cumplir con todos los apartados del enunciado.
 
 ### 5.2. Diseño y estructura de clases (**3 puntos**)
-- Correcta implementación de **clases y herencia**.
+- Correcta implementación de **clases y herencia.**
 
 ### 5.3. Organización y documentación (**1 punto**)
-- Código correctamente **comentado y organizado**.
+- Código correctamente **comentado y organizado.**
 - Separación en **funciones** cuando sea necesario.
-- Organización adecuada en **directorios**.
+- Organización adecuada en **directorios.**
 
 ### 5.4. Video de demostración (**2 puntos**)
 - Explicación clara del código y su ejecución.
-- Duración máxima de **3 minutos**.
+- Duración máxima de **3 minutos.**
 
 ### 5.5. **Penalización**
 - **Plagio** = 0 puntos.
@@ -103,5 +105,5 @@ La calificación total es de **10 puntos**.
 
 El alumno debe adjuntar:
 
-- Todo el **código fuente del proyecto**.
+- Todo el **código fuente del proyecto.**
 - Un **video corto** mostrando la ejecución de las actividades.

@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: off
 obsidianUIMode: preview
 banner: "![[../../../Banners/psp.jpg]]"
 banner_y: 0.32

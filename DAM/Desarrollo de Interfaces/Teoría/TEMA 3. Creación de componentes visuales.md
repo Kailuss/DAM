@@ -1,11 +1,11 @@
 ---
-number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 4, skip ^skipped, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
 banner_y: 0.28
 ---
 
-# TEMA 3. Creación de componentes visuales
+# **TEMA 3.** Creación de componentes visuales
 
 ![Lectura MP3](Lectura_Tema_3_Creación_de_componentes_visuales.mp3)
 
@@ -72,7 +72,7 @@ public String getColor()
 
 ### 2.1. **Modificar gráficamente el valor de una propiedad con un editor**
 
-Los entornos de desarrollo identifican automáticamente propiedades a través de los métodos `get/set` mediante **introspección**. Pueden editar valores de tipos básicos y clases como `Color` o `Font`, pero para propiedades más complejas (ej. `Cliente`) se requiere un **editor de propiedades** personalizado.
+Los entornos de desarrollo identifican automáticamente propiedades a través de los métodos `get/set` mediante **introspección.** Pueden editar valores de tipos básicos y clases como `Color` o `Font`, pero para propiedades más complejas (ej. `Cliente`) se requiere un **editor de propiedades** personalizado.
 
 Un **editor de propiedad** permite modificar visualmente valores específicos dentro de un IDE. Para crearlo en Java, se implementa la interfaz, `PropertyEditor`, siguiendo la convención:
 
@@ -127,7 +127,7 @@ Para ilustrar la implementación de un componente en NetBeans, se creará un cam
 2. Añadir al proyecto un archivo de tipo **Componente JavaBeans.**
 	
 	- Seleccionar el proyecto > Botón derecho > Nuevo > Objeto JavaBeans.  
-	- Asignar el nombre **ComponenteMiTexto** dentro del paquete **miscontroles**.
+	- Asignar el nombre **ComponenteMiTexto** dentro del paquete **miscontroles.**
 	- Finalizar la creación. ![[Componente nuevo.jpg]]
 3. Acceder al código de la clase generada y eliminar el código introducido automáticamente por el IDE, dejando solo la estructura básica. ![[Componente código.jpg]]
 4. Modificar la clase `ComponenteMiTexto` para que herede de `JTextField`.
@@ -136,7 +136,7 @@ Para ilustrar la implementación de un componente en NetBeans, se creará un cam
 
 Se definen las propiedades **ancho**, **color** y **fuente**, agregando los métodos `set` y `get`:
 
-1. Desplegar el menú contextual sobre la clase y seleccionar **Insertar código** > **Agregar Propiedad**. ![[Insertar código.jpg]]
+1. Desplegar el menú contextual sobre la clase y seleccionar **Insertar código** > **Agregar Propiedad.** ![[Insertar código.jpg]]
 2. Definir las propiedades con visibilidad privada y generar los métodos `set` y `get`. ![[Agregar propiedad.jpg]]
 3. Implementar los métodos de acceso y modificación en el código de la clase. ![[Métodos de acceso.jpg]]
 
@@ -147,7 +147,7 @@ Se definen las propiedades **ancho**, **color** y **fuente**, agregando los mét
 Una vez creado el componente, se asocia un editor de propiedades mediante un objeto **BeanInfo.**
 
 1. Seleccionar la clase `ComponenteMiTexto` en el panel de proyectos.
-2. Seleccionar la opción **Editor BeanInfo**. ![[Editar BeanInfo.jpg]]
+2. Seleccionar la opción **Editor BeanInfo.** ![[Editar BeanInfo.jpg]]
 3. Crear un nuevo BeanInfo. ![[BeanInfo.jpg]]
 4. En el panel de ficheros del proyecto aparecerá una nueva clase llamada `ComponenteMiTextoBeanInfo.java`.
 
@@ -157,11 +157,11 @@ Accediendo al diseñador, se pueden ver las propiedades y métodos del nuevo Jav
 
 ##### Uso del componente
 
-Una vez creado y construido el componente, es necesario agregarlo a la paleta de componentes. Para ello, seleccionamos la clase `ComponenteMiTexto`, accedemos al menú contextual y elegimos la opción **Herramientas > Añadir a la paleta**.
+Una vez creado y construido el componente, es necesario agregarlo a la paleta de componentes. Para ello, seleccionamos la clase `ComponenteMiTexto`, accedemos al menú contextual y elegimos la opción **Herramientas > Añadir a la paleta.**
 
 Aparecerá una ventana para seleccionar la categoría donde almacenarlo. Se recomienda la categoría **Beans Personalizados** para organizar los JavaBeans creados. ![[Categoría de paleta.jpg]]
 
-Para probar el componente, creamos un nuevo proyecto de tipo aplicación Java, añadimos un `JFrame` y desde la paleta seleccionamos y agregamos nuestro componente al diseñador. Luego, accediendo a sus propiedades, podemos modificar atributos como **ancho, fuente y color**. ![[Componente de texto.jpg]]
+Para probar el componente, creamos un nuevo proyecto de tipo aplicación Java, añadimos un `JFrame` y desde la paleta seleccionamos y agregamos nuestro componente al diseñador. Luego, accediendo a sus propiedades, podemos modificar atributos como **ancho, fuente y color.** ![[Componente de texto.jpg]]
 
 ### 2.2. **Propiedades simples e indexadas**
 
@@ -247,13 +247,13 @@ La **persistencia** permite almacenar el estado de un objeto para recuperarlo po
 
 1. **Serialización automática.** Implementando `java.io.Serializable`, Java maneja automáticamente el proceso. Consideraciones:
 	
-	- La clase debe tener un **constructor sin argumentos**.
+	- La clase debe tener un **constructor sin argumentos.**
 		
 	- Se serializan todos los campos excepto los marcados como `static` o `transient`.
 		
 	- Se pueden personalizar los métodos `writeObject(ObjectOutputStream out)` y `readObject(ObjectInputStream in)`.
 		
-2. **Serialización programada.** Implementando `java.io.Externalizable`, el programador define cómo guardar y recuperar el objeto mediante los métodos `writeExternal()` y `readExternal()`. También requiere un **constructor sin argumentos**.
+2. **Serialización programada.** Implementando `java.io.Externalizable`, el programador define cómo guardar y recuperar el objeto mediante los métodos `writeExternal()` y `readExternal()`. También requiere un **constructor sin argumentos.**
 
 ## 6. Otras tecnologías para la creación de componentes visuales
 
@@ -285,7 +285,7 @@ En NetBeans, la opción **Limpiar y construir** genera automáticamente el JAR e
 
 Para añadir el componente a la paleta de NetBeans:  
 
-3. Haz clic derecho en la paleta → **Administrador de paleta**.  
+3. Haz clic derecho en la paleta → **Administrador de paleta.**  
 4. Selecciona la categoría (ej. *Componentes Personalizados*).  
 5. Importa el archivo JAR. 
 ![[Administrador de paleta.jpg]]
@@ -385,8 +385,8 @@ public void removeFinCuentaAtrasListener(FinCuentaAtrasListener receptor) {
 
 ### 8.5. **Uso en NetBeans**
 
-6. Genera el JAR con **Limpiar y construir**.  
-7. Añade el componente a la paleta mediante el **Administrador de paleta**.  
+6. Genera el JAR con **Limpiar y construir.**  
+7. Añade el componente a la paleta mediante el **Administrador de paleta.**  
 8. En un formulario, arrastra el componente y gestiona su evento:  
 
 ```java  

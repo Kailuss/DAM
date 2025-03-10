@@ -1,11 +1,12 @@
 ---
-number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 3, _.1.,  skip ^skipped
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.19
 ---
 
-# TEMA 2.2. Flujos de información
+# **TEMA 2.2.** Flujos de información
+
 ## 1. Persistencia de datos
 
 Persistencia de datos: cómo mantener los datos entre ejecución y ejecución de la aplicación.  

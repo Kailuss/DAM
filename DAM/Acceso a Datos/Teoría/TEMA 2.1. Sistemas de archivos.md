@@ -1,12 +1,12 @@
 ---
-number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 3, _.1., skip ^skipped
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.19
 ---
 
-# TEMA 2.1. Sistemas de archivos
-## Sistemas de archivos
+# **TEMA 2.1.** Sistemas de archivos
+## 1. Sistemas de archivos
 
 El sistema de archivos es un método para almacenar y organizar archivos de ordenador y los datos que contienen para facilitar su localización y acceso.  
 
@@ -14,7 +14,7 @@ Generalmente, un sistema de archivos tiene directorios que asocian nombres de ar
 
 En algunos sistemas de archivos, los nombres de archivos son estructurados, con sintaxis especiales para extensiones de archivos y números de versión. En otros, los nombres de archivos son simplemente cadenas de texto y las metadatos de cada archivo se almacenan por separado.  
 
-## Rutas
+## 2. Rutas
 
 En sistemas de archivos jerárquicos, normalmente, se declara la ubicación precisa de un archivo con una cadena de texto llamada "ruta". La nomenclatura para rutas varía ligeramente de sistema en sistema, pero mantienen en general una misma estructura.  
 
@@ -63,7 +63,7 @@ Tanto en sistemas Linux como Windows podemos utilizar los caracteres `.` y `..`.
 /sally/statusReport 
 ```
 
-- `..` significa el directorio superior, el que incluye el actual. Por ejemplo, si nos encontramos en el directorio _joe_, para acceder al archivo _statusReport_ podemos poner:  
+- `..` significa el directorio superior, el que incluye el actual. Por ejemplo, si nos encontramos en el directorio *joe*, para acceder al archivo *statusReport* podemos poner:  
 
 ```bash
 ../sally/statusReport
@@ -71,7 +71,7 @@ Tanto en sistemas Linux como Windows podemos utilizar los caracteres `.` y `..`.
 
 En el sistema de archivos podemos encontrar archivos especiales que sirven de referencia a otros archivos, los enlaces simbólicos. Cualquier operación realizada sobre el enlace se lleva a cabo con el archivo o directorio que enlaza, excepto la eliminación o el cambio de nombre. Normalmente son transparentes al usuario.  
 
-### **Comandos de consola básicos**
+### 2.1. **Comandos de consola básicos**
 
 #### Cambiar de directorio
 
@@ -91,13 +91,11 @@ cd ..             // Va a home si estamos dentro del directorio joe
 
 `dir` en sistemas Windows.
 
----
-
-## La clase _Path_
+## 3. La clase *Path*
 
 Esta clase representa una ruta dentro del sistema de archivos. Puede hacer referencia a un archivo, a un directorio o no existir. Utiliza la notación propia del sistema de archivos que estamos utilizando.  
 
-### **Crear un objeto de la clase _Path_**
+### 3.1. **Crear un objeto de la clase *Path***
 
 La forma más sencilla es utilizando el método estático of. Recibe como parámetro una cadena con la ruta que queremos utilizar:  
 
@@ -112,9 +110,7 @@ Path p3 = Path.of(URLcreate("file:///home/sally/statusReport");
 
 Para cada nivel de la ruta guarda un elemento que lo representa.  
 
----
-
-### **Recuperar información del _Path_**
+### 3.2. **Recuperar información del *Path***
 
 Si tenemos el path **/home/joe/foo** entonces:  
 
@@ -122,15 +118,15 @@ Si tenemos el path **/home/joe/foo** entonces:
 - `.getNameCount()` devuelve cuántos elementos hay en el path.  
 - `.getName(index)` devuelve el path del elemento de la ruta en esta posición.
 - `.getName(0)` devuelve **home.**  
-- `.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo**.  
+- `.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.**  
 - `.subpath(inicio, fin)` devuelve el path entre la posición inicio y fin.
 - `.subPath(0,2)` devuelve **home/joe.**
 
-## La clase _Files_
+## 4. La clase *Files*
 
 Es una clase de utilidad (una clase abstracta con métodos de clase) que nos permite leer, escribir y manipular archivos y directorios.
 
-### **Consultas**
+### 4.1. **Consultas**
 
 - `Files.isRegularFile(path)` true si el path que recibe como argumento es un archivo, false si es un directorio o un enlace.
 - `Files.isDirectory(path)` true si el path que recibe como argumento es un directorio.
@@ -143,24 +139,24 @@ Es una clase de utilidad (una clase abstracta con métodos de clase) que nos per
 - `Files.get/setLastModifiedTime(path)`
 - `Files.get/setOwner(path)`
 
-### **Crear directorio**
+### 4.2. **Crear directorio**
 
 - `Files.createDirectory(Path)` Crea el directorio definido por el parámetro. La ruta donde queremos crear el directorio debe existir. Es decir, si queremos crear **/home/joe/pruebas**, la ruta **/home/joe** debe existir.  
 - `Files.createDirectories(Path)` Crea el directorio definido por el parámetro. Si la ruta donde queremos crear el directorio no existe, la crea. Es decir, si queremos crear **/home/joe/pruebas** y no existe el directorio **joe**, también lo crea.  
 
-### **Eliminar archivos o directorios**
+### 4.3. **Eliminar archivos o directorios**
 
 `Files.delete(Path)` Elimina el objeto representado por el path.  
 
-### **Copiar archivos o directorios**
+### 4.4. **Copiar archivos o directorios**
 
-`Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un _vararg_ para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
+`Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
 
-### **Mover archivos o directorios**
+### 4.5. **Mover archivos o directorios**
 
-`Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un _vararg_ para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
+`Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
 
-### **Leer y escribir contenidos del archivo**
+### 4.6. **Leer y escribir contenidos del archivo**
 
 Estos métodos nos servirán cuando necesitemos manipular archivos sencillos. Para otros casos será mucho mejor utilizar los streams que veremos próximamente.  
 
@@ -229,9 +225,7 @@ O si está escrito en el juego de caracteres que utiliza normalmente Windows:
 List linies = Files.readAllLines(Path.of(fitxers.toString() + "/doi.txt"), StandardCharsets.ISO_8859_1);
 ```
 
----
-
-### **Leer el contenido de un directorio**
+### 4.7. **Leer el contenido de un directorio**
 
 #### `Files.newDirectoryStream()`
 

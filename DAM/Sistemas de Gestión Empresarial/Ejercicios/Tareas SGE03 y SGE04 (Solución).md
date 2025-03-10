@@ -1,5 +1,5 @@
 ---
-number headings: first-level 6, max 6, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: off
 ---
 
 # Tareas SGE03 y SGE04 (Solución)

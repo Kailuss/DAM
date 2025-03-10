@@ -1,12 +1,12 @@
 ---
-number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 3, _.1.
 tags: [DAM/PSP, Teoría]
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
 ---
 
-# TEMA 3. Comunicaciones en red
+# **TEMA 3.** Comunicaciones en red
 
 ## 1. Conexiones TCP/IP
 
@@ -313,7 +313,7 @@ Para enviar mensajes UDP:
 
 **Objetivo.** Crear dos procesos, `ReceptorUDP` y `EmisorUDP`, para intercambiar mensajes a través del puerto 1500.
 
-#### 3.3.1. ReceptorUDP.java
+#### ReceptorUDP.java
 
 ```java
 import java.net.*;
@@ -341,7 +341,7 @@ public class ReceptorUDP {
 }
 ```
 
-#### 3.3.2. EmisorUDP.java
+#### EmisorUDP.java
 
 ```java
 import java.net.*;

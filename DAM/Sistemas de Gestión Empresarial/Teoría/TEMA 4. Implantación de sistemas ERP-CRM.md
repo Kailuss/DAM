@@ -1,11 +1,10 @@
 ---
-number headings: auto, first-level 2, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 banner_y: 0.6
 ---
 
 # **TEMA 4.** Implantación de sistemas ERP-CRM
-
 ## 1. Introducción
 
 En la actualidad, existe una amplia oferta de software de planificación de recursos empresariales (ERP). Estos sistemas se diferencian por su tipo de licencia, módulos, sistemas operativos compatibles, entre otros factores. La elección del ERP adecuado es crucial para el éxito de su implantación. Determinará si el sistema se adapta a las necesidades de la empresa.

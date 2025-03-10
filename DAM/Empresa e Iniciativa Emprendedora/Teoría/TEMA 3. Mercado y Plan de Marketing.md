@@ -1,6 +1,9 @@
 ---
-number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags: [DAM, EIE, Teoría]
+number headings: first-level 0, max 3, skip ^skipped, _.1.1.
+tags:
+  - DAM
+  - EIE
+  - Teoría
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
@@ -49,15 +52,18 @@ Una vez identificados los segmentos, la empresa debe decidir su estrategia de ma
 
 1. **Estrategia indiferenciada (marketing de masas).** Ofrecer el mismo producto a todo el mercado. Reduce costes pero deja espacio para competidores.
 
-> **Coca-Cola.** Su producto principal se comercializa de la misma forma en casi todos los mercados del mundo.
+	> [!tip] **Coca-Cola.**
+	> Su producto principal se comercializa de la misma forma en casi todos los mercados del mundo.
 
 2. **Estrategia diferenciada.** Dirigirse a varios segmentos con ofertas específicas. Aumenta la cuota de mercado y la lealtad de marca, pero incrementa costes.
 
-> **Nike.** Ofrece zapatillas y ropa deportiva para distintos segmentos, como corredores, jugadores de baloncesto, futbolistas, etc., con campañas de marketing dirigidas a cada grupo.
+	> [!tip] **Nike.**
+	> Ofrece zapatillas y ropa deportiva para distintos segmentos, como corredores, jugadores de baloncesto, futbolistas, etc., con campañas de marketing dirigidas a cada grupo.
 
 3. **Estrategia concentrada.** Enfocarse en un solo segmento. Ideal para empresas con recursos limitados.
 
-> **Rolls-Royce.** Se dirige exclusivamente al segmento de lujo.
+	> [!tip] **Rolls-Royce.**
+	> Se dirige exclusivamente al segmento de lujo.
 
 ### 1.3. **Demanda: Concepto y Estimación**
 
@@ -115,7 +121,8 @@ No siempre decide el consumidor final. Los roles en el proceso de compra incluye
 
 La competencia incluye empresas que satisfacen la misma necesidad, ya sea con productos similares o sustitutivos.  
 
-> **Ejemplo.** Kodak no consideró la competencia de la fotografía digital, lo que llevó a su declive.  
+ > [!tip] Ejemplo.
+ > Kodak no consideró la competencia de la fotografía digital, lo que llevó a su declive.  
 
 **Análisis de la competencia.**  
 - **Nivel macroeconómico.**  
@@ -174,7 +181,8 @@ El **producto** es todo aquello que se ofrece al mercado para satisfacer una nec
 - **Madurez.** Estabilización de ventas.  
 - **Declive.** Reducción de ventas.  
 
-> **Ejemplo.** Los productos tecnológicos (móviles, ordenadores) tienen ciclos de vida cortos, mientras que otros, como los productos BIC, permanecen en madurez durante mucho tiempo.
+ > [!tip] Ejemplo
+ > Los productos tecnológicos (móviles, ordenadores) tienen ciclos de vida cortos, mientras que otros, como los productos BIC, permanecen en madurez durante mucho tiempo.
 
 ### 2.3. **Precio**
 
@@ -277,7 +285,8 @@ Los buscadores son la puerta de entrada a Internet para la mayoría de los usuar
    - Anuncios pagados que aparecen en función de palabras clave.  
    - **Google AdWords.** Plataforma para gestionar anuncios de pago por clic (PPC).  
 
-> **Recomendación.** Combinar SEO y SEM para maximizar la visibilidad.  
+ > [!tip] Recomendación
+ > Combinar SEO y SEM para maximizar la visibilidad.  
 
 ## 4. Plan de Marketing
 

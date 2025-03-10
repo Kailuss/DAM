@@ -1,12 +1,14 @@
 ---
-number headings: first-level 0, start-at 1, max 4, _.1., auto, contents ^toc, skip ^skipped
-tags: [DAM/PSP, Teoría]
+number headings: first-level 0, max 3, _.1.
+tags:
+  - DAM/PSP
+  - Teoría
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
 ---
 
-# TEMA 1. Programación multiproceso
+# **TEMA 1.** Programación multiproceso
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_Programación_multiproceso.mp3]]
@@ -22,7 +24,7 @@ banner_y: 0.32
 
 ## 1. Recordando cómo programar en Java y el uso básico del IDE NetBeans
 
-Java es un lenguaje de programación de alto nivel, orientado a objetos, que combina compilación e interpretación. Los programas Java se compilan a un lenguaje intermedio llamado **bytecode**, que es ejecutado por la **Java Virtual Machine (JVM)**. La JVM actúa como un traductor entre el bytecode, el sistema operativo y el hardware, permitiendo que los programas Java sean multiplataforma.
+Java es un lenguaje de programación de alto nivel, orientado a objetos, que combina compilación e interpretación. Los programas Java se compilan a un lenguaje intermedio llamado **bytecode**, que es ejecutado por la **Java Virtual Machine (JVM).** La JVM actúa como un traductor entre el bytecode, el sistema operativo y el hardware, permitiendo que los programas Java sean multiplataforma.
 
 La **plataforma Java** incluye la JVM y la **API Java**, un conjunto de bibliotecas (paquetes) que facilitan el desarrollo de aplicaciones. Las versiones principales de la plataforma son:
 
@@ -49,7 +51,7 @@ Los ejecutables pueden clasificarse según su tipo de código:
 - **Scripts.** Son ejecutables interpretados no compilados. Se pueden abrir y editar como texto plano. Ejemplos: JavaScript, Python, scripts de Bash.
 - **Librerías.** Contienen funciones reutilizables que son invocadas por otros programas. Ejemplos: DLL en Windows, API de Java.
 
-En sistemas como Windows, los ejecutables tienen extensión **.exe**, mientras que en GNU/Linux se identifican por permisos de ejecución.
+En sistemas como Windows, los ejecutables tienen extensión .**exe**, mientras que en GNU/Linux se identifican por permisos de ejecución.
 
 ## 3. Gestión de procesos
 
@@ -90,7 +92,7 @@ El SO utiliza un **planificador** para decidir qué proceso se ejecuta y durante
 
 El objetivo de la planificación es equilibrar la equidad, eficiencia, tiempo de respuesta y rendimiento del sistema.
 
-#### 3.3.1. Creación de procesos
+#### Creación de procesos
 
 El **cargador** es responsable de crear procesos. Cuando se inicia un proceso, el cargador:
 
@@ -130,14 +132,14 @@ Este código lanza un nuevo proceso del editor de texto cada vez que se ejecuta,
 
 Los comandos son esenciales para la gestión de procesos, ya que permiten interactuar directamente con el sistema operativo. Aunque las interfaces gráficas son comunes, los comandos ofrecen un control más preciso y son fundamentales en la administración de sistemas, especialmente en entornos remotos.
 
-#### 3.7.1. Trucos para usar comandos
+#### Trucos para usar comandos
 - **Nombres de comandos.** Suelen estar relacionados con la tarea que realizan (en inglés o siglas). Por ejemplo:
   - **tasklist** (Windows): Muestra un listado de procesos.
   - **ps** (GNU/Linux): Muestra el estado de los procesos (siglas de "process status").
 - **Sintaxis.** `nombreDelComando [opciones]`.
 - **Manuales.** En GNU/Linux, usa `man nombreDelComando`; en Windows, `nombreDelComando /?`.
 
-#### 3.7.2. Comandos útiles
+#### Comandos útiles
 
 ##### Windows
 - **`tasklist`.** Lista los procesos activos, mostrando el nombre del ejecutable, PID y uso de memoria.
@@ -154,11 +156,11 @@ Los comandos son esenciales para la gestión de procesos, ya que permiten intera
 
 Además de los comandos, existen herramientas gráficas para gestionar procesos:
 
-#### 3.8.1. Windows
+#### Windows
 - **Administrador de tareas.** Muestra procesos activos, uso de CPU, memoria, y permite finalizar procesos o cambiar su prioridad.
 - **SysInternals.** Herramientas avanzadas como **Process Explorer** (información detallada de procesos) y **Process Monitor** (actividad de E/S y hilos).
 
-#### 3.8.2. GNU/Linux
+#### GNU/Linux
 - **Monitor del sistema.** Similar al Administrador de tareas de Windows, muestra procesos, uso de recursos y permite gestionarlos.
 
 ## 4. Programación concurrente
@@ -189,12 +191,12 @@ Los procesos concurrentes pueden interactuar de tres formas:
 - **Cooperantes.** Un proceso produce información que otro consume.
 - **Competidores.** Necesitan acceder a los mismos recursos de forma exclusiva.
 
-#### 4.3.1. Conceptos clave
+#### Conceptos clave
 - **Región crítica.** Conjunto de instrucciones donde un proceso utiliza un recurso de forma exclusiva.
 - **Lock (bloqueo).** Un proceso obtiene acceso exclusivo a un recurso.
 - **Deadlock (interbloqueo).** Situación en la que dos o más procesos no pueden continuar porque cada uno está esperando un recurso que otro tiene bloqueado.
 
-#### 4.3.2. Ejemplo de deadlock
+#### Ejemplo de deadlock
 
 Imagina un cruce de caminos con cuatro coches:
 
@@ -221,17 +223,17 @@ En Java, los sockets y buffers se manejan como flujos de datos (`streams`), util
 
 La comunicación entre procesos puede clasificarse según:
 
-#### 5.2.1. Dirección del flujo de información
+#### Dirección del flujo de información
 - **Símplex.** La comunicación es unidireccional (ejemplo: emisión de radio).
 - **Dúplex (Full Duplex).** La comunicación es bidireccional y simultánea (ejemplo: telefonía).
 - **Semidúplex (Half Duplex).** La comunicación es bidireccional, pero no simultánea (ejemplo: walkie-talkies).
 
-#### 5.2.2. Sincronía
+#### Sincronía
 - **Síncrona.** El emisor espera a que el receptor reciba el mensaje antes de continuar.
 - **Asíncrona.** El emisor continúa su ejecución inmediatamente después de enviar el mensaje.
 - **Invocación remota.** El emisor espera confirmación del receptor antes de continuar.
 
-#### 5.2.3. Simetría
+#### Simetría
 - **Simétrica.** Todos los procesos pueden enviar y recibir mensajes.
 - **Asimétrica.** Solo un proceso actúa como emisor, y los demás como receptores.
 
@@ -241,9 +243,9 @@ La sincronización es esencial cuando varios procesos acceden a recursos compart
 
 ### 6.1. **Regiones críticas**
 
-Una **región crítica** es un conjunto de instrucciones que acceden a un recurso compartido y deben ejecutarse de forma **atómica** (indivisible) y **exclusiva**. Esto evita que otros procesos accedan al recurso mientras se está modificando.
+Una **región crítica** es un conjunto de instrucciones que acceden a un recurso compartido y deben ejecutarse de forma **atómica** (indivisible) y **exclusiva.** Esto evita que otros procesos accedan al recurso mientras se está modificando.
 
-#### 6.1.1. Características de las regiones críticas
+#### Características de las regiones críticas
 - Solo un proceso puede estar en su región crítica a la vez.
 - Los demás procesos esperan fuera de la región crítica.
 - Al finalizar, el recurso se libera para que otros procesos lo usen.
@@ -253,7 +255,7 @@ En Java, las regiones críticas se implementan utilizando mecanismos como **bloq
 **Ejemplo:**
 En un sistema donde múltiples procesos incrementan un valor en un archivo, la secuencia **leer-incrementar-escribir** debe ser una región crítica para evitar inconsistencias.
 
-#### 6.1.2. Categoría de proceso cliente-suministrador
+#### Categoría de proceso cliente-suministrador
 
 En la programación concurrente, los procesos pueden clasificarse como **cliente** o **suministrador** (también llamado **servidor** en algunos contextos).
 
@@ -262,7 +264,7 @@ En la programación concurrente, los procesos pueden clasificarse como **cliente
 
 La comunicación entre cliente y suministrador se basa en un **protocolo**, que define las reglas para el intercambio de mensajes. Esta comunicación puede ser síncrona o asíncrona, y puede utilizar recursos compartidos o intercambio de mensajes.
 
-#### 6.1.3. Sincronización entre cliente y suministrador
+#### Sincronización entre cliente y suministrador
 
 Para garantizar la correcta comunicación entre cliente y suministrador, se necesitan mecanismos de sincronización que aseguren:
 
@@ -275,22 +277,22 @@ Un enfoque sencillo es utilizar una **variable compartida** que indique si el da
 
 Los **semáforos** son una herramienta de sincronización que permite controlar el acceso a recursos compartidos en un entorno concurrente. Funcionan como un semáforo de tráfico, indicando cuándo un proceso puede acceder a un recurso y cuándo debe esperar.
 
-#### 6.2.1. Tipos de semáforos
+#### Tipos de semáforos
 
 - **Semáforos binarios.** Solo pueden tomar los valores 0 (cerrado) o 1 (abierto).
 - **Semáforos generales.** Pueden tomar cualquier valor entero no negativo.
 
-#### 6.2.2. Operaciones con semáforos
+#### Operaciones con semáforos
 
 - **wait().** Si el semáforo está abierto (valor > 0), decrementa su valor y permite el acceso al recurso. Si está cerrado (valor = 0), el proceso se bloquea y se añade a una lista de espera.
 - **signal().** Si hay procesos en espera, despierta a uno de ellos. Si no hay procesos en espera, incrementa el valor del semáforo.
 
-#### 6.2.3. Uso de semáforos
+#### Uso de semáforos
 
 - Un proceso padre crea e inicializa el semáforo.
 - Los procesos hijos acceden al recurso compartido utilizando `wait()` antes de entrar en la región crítica y `signal()` al salir.
 
-#### 6.2.4. Ventajas y desventajas
+#### Ventajas y desventajas
 
 - **Ventajas.** Son fáciles de entender y proporcionan una solución eficiente para la sincronización.
 - **Desventajas.** Su bajo nivel de abstracción los hace propensos a errores, como **interbloqueos** (deadlocks), y su gestión puede ser complicada.
@@ -299,7 +301,7 @@ En Java, los semáforos están implementados en la clase `Semaphore` del paquete
 
 ### 6.3. **Monitores**
 
-Los **monitores** son una abstracción de alto nivel que encapsula recursos compartidos y garantiza el acceso a ellos en **exclusión mutua**. A diferencia de los semáforos, los monitores proporcionan una interfaz clara y segura para acceder a los recursos.
+Los **monitores** son una abstracción de alto nivel que encapsula recursos compartidos y garantiza el acceso a ellos en **exclusión mutua.** A diferencia de los semáforos, los monitores proporcionan una interfaz clara y segura para acceder a los recursos.
 
 **Características de los monitores**
 
@@ -319,11 +321,11 @@ Los **monitores** son una abstracción de alto nivel que encapsula recursos comp
 
 En Java, aunque no existe una clase `Monitor`, se pueden implementar monitores utilizando semáforos o sincronización de hilos.
 
-#### 6.3.1. Lecturas y escrituras bloqueantes en recursos compartidos
+#### Lecturas y escrituras bloqueantes en recursos compartidos
 
 En Java, las operaciones de lectura y escritura en recursos compartidos (como archivos o sockets) pueden ser **bloqueantes**, lo que significa que el proceso se detiene hasta que la operación se completa. Esto es útil para sincronizar procesos cliente y suministrador.
 
-#### 6.3.2. Ejemplo de uso
+#### Ejemplo de uso
 - **Cliente.** Lee datos de un recurso compartido utilizando métodos como `read()`.
 - **Suministrador.** Escribe datos en el recurso compartido utilizando métodos como `write()`.
 
@@ -346,7 +348,7 @@ El **paso de mensajes** es una técnica de comunicación entre procesos que no r
 **Tipos de paso de mensajes**
 
 - **Asíncrono.** El emisor no espera a que el receptor reciba el mensaje. Se utilizan **buzones** o **colas** para almacenar mensajes pendientes.
-- **Síncrono.** El emisor espera a que el receptor reciba el mensaje antes de continuar. También se conoce como **encuentro** o **rendezvous**.
+- **Síncrono.** El emisor espera a que el receptor reciba el mensaje antes de continuar. También se conoce como **encuentro** o **rendezvous.**
 
 El paso de mensajes es fundamental en sistemas distribuidos, donde los procesos se comunican a través de redes.
 
@@ -369,13 +371,13 @@ Los programas concurrentes deben cumplir requisitos de calidad, como:
 
 ### 7.1. **Arquitecturas y patrones de diseño**
 
-#### 7.1.1. Arquitecturas de software
+#### Arquitecturas de software
 - **Monolítica.** Software estructurado en grupos funcionales muy acoplados.
 - **Cliente-servidor.** Divide la carga de cómputo entre clientes (consumidores) y servidores (proveedores).
 - **Tres niveles.** Divide el software en capas de presentación, lógica de negocio y almacenamiento.
 - **Orientada a servicios (SOA).** Basada en servicios independientes que se comunican a través de interfaces estándar.
 
-#### 7.1.2. Patrones de diseño
+#### Patrones de diseño
 - **Ventajas.** Facilitan el diseño de programas complejos, promueven la reusabilidad y son bien conocidos.
 - **Ejemplos.** Patrones como **Productor-Consumidor** o **Observador** son comunes en programación concurrente.
 
@@ -389,7 +391,7 @@ La documentación es esencial para entender y mantener el código. En Java, se u
 
 En aplicaciones concurrentes, es importante documentar:
 
-- Las **condiciones de sincronización**.
+- Las **condiciones de sincronización.**
 - Las **regiones críticas** y los recursos compartidos que protegen.
 
 ### 7.3. **Dificultades en la depuración**
@@ -400,10 +402,10 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 - **Interferencias entre procesos.** Cuando varios procesos acceden a recursos compartidos.
 - **Falta de herramientas.** Las herramientas de depuración no siempre están preparadas para manejar concurrencia.
 
-#### 7.3.1. Herramientas de depuración
+#### Herramientas de depuración
 - **Depurador de NetBeans.** Útil para depurar hilos dentro de un mismo proceso.
 - **Volcados de actividad.** Registrar la ejecución en un archivo de log.
-- **Herramientas específicas.** Como **TotalView** o **StreamIt Debugger Tool**.
+- **Herramientas específicas.** Como **TotalView** o **StreamIt Debugger Tool.**
 
 ## 8. Programación paralela y distribuida
 
@@ -412,13 +414,13 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 - **Programación paralela.** Ejecución simultánea de tareas en sistemas con múltiples núcleos o procesadores.
 - **Programación distribuida.** Ejecución de tareas en sistemas heterogéneos conectados por redes.
 
-#### 8.1.1. Taxonomía de Flynn
+#### Taxonomía de Flynn
 - **SISD (Single Instruction, Single Data).** Arquitectura secuencial.
 - **SIMD (Single Instruction, Multiple Data).** Misma instrucción aplicada a múltiples datos.
 - **MISD (Multiple Instruction, Single Data).** Múltiples instrucciones aplicadas a un solo dato.
 - **MIMD (Multiple Instruction, Multiple Data).** Múltiples instrucciones aplicadas a múltiples datos.
 
-#### 8.1.2. Sistemas distribuidos
+#### Sistemas distribuidos
 - **Clusters.** Conjunto de ordenadores conectados para trabajar en tareas comunes.
 - **Grids.** Clusters conectados a través de Internet.
 
@@ -431,7 +433,7 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 - **A nivel de tareas.** Ejecutar tareas independientes en paralelo.
 - **A nivel de aplicación.** Gestión de procesos por el sistema operativo.
 
-#### 8.2.1. Granularidad
+#### Granularidad
 - **Grano fino.** Paralelización automática de pequeñas secciones de código.
 - **Grano grueso.** Paralelización de grandes secciones de código, optimizando el rendimiento.
 

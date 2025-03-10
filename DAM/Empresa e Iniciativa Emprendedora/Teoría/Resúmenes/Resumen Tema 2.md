@@ -1,6 +1,8 @@
 ---
-number headings: ffirst-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags: [EIE, Resumen]
+number headings: first-level 0, max 3, skip ^skipped, _.1.1.
+tags:
+  - EIE
+  - Resumen
 ---
 
 # Resumen Tema 2

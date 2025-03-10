@@ -1,10 +1,12 @@
 ---
-number headings: auto, first-level 1, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 1, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 banner_y: 0.6
 ---
 
 # **TEMA 3.** Organización, consulta y tratamiento de la información
+
+![cover](Pasted image 20250309150007.png)
 
 ## 1. Organización y consulta de la información
 

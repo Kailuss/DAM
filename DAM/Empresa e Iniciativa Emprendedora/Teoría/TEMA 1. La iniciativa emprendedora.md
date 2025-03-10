@@ -1,15 +1,14 @@
 ---
-number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
-tags:
-  - DAM
-  - EIE
-  - Teoría
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
+cssclasses:
+  - dam-eie
 ---
 
-# TEMA 1. La iniciativa emprendedora 
+# **TEMA 1.** La iniciativa emprendedora 
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3]]
@@ -24,7 +23,7 @@ obsidianUIMode: preview
 
 La iniciativa emprendedora es un proceso dinámico en el que individuos, solos o en colaboración, identifican oportunidades para innovar y transformar ideas en proyectos viables dentro de un contexto social, cultural o económico. En la creación de empresas, implica motivación y capacidad para generar valor y éxito económico. En Europa, se ha promovido la cultura emprendedora como base del crecimiento.
 
-### 1.1 **Barreras para emprender**
+### 1.1. **Barreras para emprender**
 
 El mundo cambia constantemente y las empresas deben adaptarse para ser competitivas. No basta con mantener lo establecido; es necesario innovar y emprender. Esta actitud debe extenderse a toda la organización y la sociedad.
 
@@ -34,11 +33,11 @@ En España, el dinamismo empresarial es menor que en EE.UU., con una menor creac
 - **Déficit educativo.** Falta formación en valores y competencias emprendedoras desde la educación primaria.
 - **Motivación.** Más allá del interés económico, destaca la autorrealización. El "motivo" (como perder un empleo) no siempre se traduce en "motivación" para emprender; hace falta pasión y deseo de llevar a cabo un proyecto.
 
-### 1.2 **La necesidad**
+### 1.2. **La necesidad**
 
 La iniciativa emprendedora es clave para la innovación y el crecimiento económico. En la UE se ha promovido para mejorar la competitividad frente a EE.UU.
 
-#### 1.2.1 Motivos prácticos para emprender
+#### Motivos prácticos para emprender
 
 - El empleo por cuenta ajena no es la única opción.
 - Generar el propio puesto de trabajo (autoempleo).
@@ -50,7 +49,7 @@ La iniciativa emprendedora es clave para la innovación y el crecimiento económ
 
 ## 2. El emprendedor
 
-### 2.1 **¿Qué hace el emprendedor?**
+### 2.1. **¿Qué hace el emprendedor?**
 
 Un emprendedor identifica oportunidades y organiza los recursos necesarios para materializarlas. No es solo quien crea una empresa, sino quien impulsa proyectos de cualquier índole.
 
@@ -58,7 +57,7 @@ Joseph Schumpeter definió al emprendedor como el motor del sistema económico, 
 
 **Intraemprendedores.** Desde los años 70, las empresas fomentan el intraemprendimiento, donde empleados desarrollan proyectos innovadores dentro de la organización. Guilford Pinchot los definió como "soñadores que hacen".
 
-### 2.2 **Características**
+### 2.2. **Características**
 
 La capacidad emprendedora no es innata, sino que se desarrolla. Las características clave incluyen:
 
@@ -72,7 +71,7 @@ La capacidad emprendedora no es innata, sino que se desarrolla. Las característ
 
 El contexto también influye. El acceso a recursos económicos y el apoyo social.
 
-### 2.3 **Emprendedores sociales**
+### 2.3. **Emprendedores sociales**
 
 Los emprendedores sociales buscan solucionar problemas sociales mediante proyectos que pueden o no generar lucro. Algunos buscan beneficios económicos para crear empleo y riqueza; otros operan a través de asociaciones y fundaciones financiadas por subvenciones y donaciones.
 
@@ -86,7 +85,7 @@ Muchos los consideran los "héroes modernos" por su impacto en la sociedad.
 
 ## 3. La idea de negocio
 
-### 3.1 **Detectar oportunidades**
+### 3.1. **Detectar oportunidades**
 
 Las ideas de negocio pueden surgir de diversas fuentes.
 
@@ -96,7 +95,7 @@ Las ideas de negocio pueden surgir de diversas fuentes.
 - **Conocimientos y experiencia.** Aplicación de habilidades personales para mejorar servicios o procesos.
 - **Observación del entorno.** Tendencias en otros países, franquicias, innovaciones exitosas.
 - **Cambios legales.** Nuevas normativas que crean necesidades de adaptación (Ejemplo. protección de datos, regulaciones ambientales).
-### 3.2 **Características de una idea de negocio viable**
+### 3.2. **Características de una idea de negocio viable**
 
 Una idea de negocio debe:
 
@@ -105,7 +104,7 @@ Una idea de negocio debe:
 - **Tener ventaja competitiva** sobre la competencia (costes, calidad, ubicación, profesionalidad, etc.).
 - **Ser rentable**, generando beneficios.
 - **Estar dentro de nuestras capacidades**, tanto técnicas como profesionales.
-### 3.3 **Generando ideas**
+### 3.3. **Generando ideas**
 
 Existen varias estrategias para innovar o mejorar servicios.
 
@@ -114,7 +113,7 @@ Existen varias estrategias para innovar o mejorar servicios.
 - **Desarrollo del servicio.** Mejoras en organización, atención o profesionalización (Ejemplo. experiencia de compra en Imaginarium).
 - **Innovación tecnológica.** Implementación de herramientas digitales para mejorar la prestación de servicios (Ejemplo. mapas interactivos de servicios sociales).
 
-### 3.4 **Selección de ideas**
+### 3.4. **Selección de ideas**
 
 Antes de desarrollar un plan de empresa, es importante evaluar estas ideas.
 
@@ -123,25 +122,25 @@ Antes de desarrollar un plan de empresa, es importante evaluar estas ideas.
 - **Diferenciación.** ¿Tu idea aporta algo nuevo o innovador?
 - **Recursos disponibles.** ¿Cuentas con los materiales, equipo humano y financiamiento necesarios?
 - **Rentabilidad.** ¿Existen indicios de que generará beneficios?
-### 3.5 **Oportunidades en el sector**
+### 3.5. **Oportunidades en el sector**
 
 El sector de los Sistemas Informáticos en Red evoluciona rápidamente, generando oportunidades.
 
 - Demanda de **servicios técnicos especializados** en PYMEs para integración y seguridad de sistemas.
 - Crecimiento del **soporte informático en la industria** para garantizar continuidad de servicios.
-- Expansión de **tele-operación y asistencia remota**.
+- Expansión de **tele-operación y asistencia remota.**
 - Necesidad de **seguridad y custodia de datos** en transacciones online.
 - Oportunidades en zonas con alta demanda y poca oferta, combinando venta de hardware con asistencia a domicilio.
 
-### 3.6 **Perspectivas de futuro**
+### 3.6. **Perspectivas de futuro**
 
 El crecimiento de la tecnología garantiza la demanda de estos servicios en diversos sectores.
 
-- Empresas de todos los tamaños y sectores necesitan **gestión y mantenimiento de redes**.
+- Empresas de todos los tamaños y sectores necesitan **gestión y mantenimiento de redes.**
 - Expansión del mercado hacia clientes particulares.
 - Posibilidades de negocio sin grandes inversiones. Desde almacenes de componentes hasta agencias de instalación y reparación de equipos.
 
-#### 3.6.1 Requisitos que debe cumplir una idea de negocio
+#### Requisitos que debe cumplir una idea de negocio
 
 - Dar satisfacción a una **necesidad** detectada.
 - Tiene que ser **realizable**, sin exigir recursos inalcanzables.
@@ -151,14 +150,14 @@ El crecimiento de la tecnología garantiza la demanda de estos servicios en dive
 
 Desde el punto de vista económico, una empresa es una unidad de producción que organiza recursos para transformarlos en bienes y servicios con el objetivo de obtener beneficio.
 
-### 4.1 Características principales de la empresa
+### 4.1. **Características principales de la empresa**
 
 - Actúa como agente económico, generando riqueza e innovación.
 - Utiliza recursos como capital, técnica, trabajo y dirección.
 - Optimiza el uso de recursos para ser eficiente.
 - Produce bienes (tangibles) o servicios (intangibles).
 - Ofrece productos en el mercado para satisfacer necesidades.
-- Su fin es el lucro. **Beneficio = Ingresos - Costes**.
+- Su fin es el lucro. **Beneficio = Ingresos - Costes.**
 
 ## 5. Los objetivos
 
@@ -171,7 +170,7 @@ Definir objetivos es clave para el éxito de un proyecto. Se deben formular resp
 
 Tener objetivos claros mejora la coordinación y permite evaluar el desempeño.
 
-### 5.1 Cualidades de los objetivos
+### 5.1. **Cualidades de los objetivos**
 
 - **Medibles**
 - **Ambiciosos y estimulantes**
@@ -190,7 +189,7 @@ Las empresas buscan diversos objetivos.
 - **Técnicos.** Satisfacer necesidades con tecnología adecuada, I+D+I y creatividad.
 - **Humanos.** Generar empleo, fomentar relaciones y desarrollo personal.
 - **Sociales.** Contribuir a la economía, generar empleo y pagar impuestos que financian servicios públicos.
-### 6.1 Misión, visión y valores
+### 6.1. **Misión, visión y valores**
 
 - **Misión.** Definir la actividad y ventaja competitiva.
 - **Visión.** Establecer metas realistas y motivadoras.
@@ -198,7 +197,7 @@ Las empresas buscan diversos objetivos.
 
 Los objetivos generales (a largo plazo) concretan la misión y deben revisarse periódicamente. Los objetivos operacionales (corto plazo) detallan los pasos para alcanzarlos.
 
-### 6.2 Proceso para establecer objetivos
+### 6.2. **Proceso para establecer objetivos**
 
 1. Definir misión, visión y valores.
 2. Establecer objetivos a largo plazo según el análisis del entorno.
@@ -215,34 +214,36 @@ La estrategia empresarial es el conjunto de acciones para lograr objetivos a lar
 
 Los objetivos y la estrategia son distintos pero complementarios. La estrategia es el medio para alcanzarlos.
 
-### 7.1 Niveles de estrategia empresarial
+### 7.1. **Niveles de estrategia empresarial**
 
 1. **Corporativo.** Decisiones que afectan a toda la organización.
-
-	> Ejemplo. "Servicios exprés" para reducir tiempos en tintorerías, peluquerías, etc.
+    > [!tip] Ejemplo
+    > "Servicios exprés" para reducir tiempos en tintorerías, peluquerías, etc.
 
 2. **Funcional.** Estrategias específicas por departamento.
 
-	> Ejemplo. Si la estrategia global es reducir costes:
+	> [!tip] Ejemplo
+	> Si la estrategia global es reducir costes:
 		> - RRHH no contrata personal con sueldos altos.
 		> - Compras busca materias primas más baratas.
 		> - Finanzas obtiene préstamos con bajo interés.
 
 3. **Unidad de negocio.** Estrategias para distintos productos o mercados.
 
-	> Ejemplo. BIC usa estrategias diferentes para bolígrafos, mecheros y maquinillas.
+	> [!tip] Ejemplo.
+	> BIC usa estrategias diferentes para bolígrafos, mecheros y maquinillas.
 
 ## 8. Estrategias de Ventaja Competitiva
 
 Una empresa tiene ventaja competitiva cuando supera a sus competidores en el mercado. Existen dos principales estrategias.
 
-### 8.1 Liderazgo en costes
+### 8.1. **Liderazgo en costes**
 
 Reducir costes para ofrecer precios más bajos y seguir obteniendo beneficios.
 
 > Ejemplo. **Toyota** aplicó "Just in time" para optimizar costes.
 
-### 8.2 Diferenciación
+### 8.2. **Diferenciación**
 
 Hacer que el producto sea percibido como único y valioso.
 
@@ -250,19 +251,19 @@ Hacer que el producto sea percibido como único y valioso.
 
 Formas de diferenciación.
 
-1. **Producto**. Características exclusivas (Mercedes, Porsche).
-2. **Mercado**. Adaptación a necesidades específicas.
-3. **Empresa**. Identidad, valores y reputación (Comercio Justo, Louis Vuitton).
+1. **Producto.** Características exclusivas (Mercedes, Porsche).
+2. **Mercado.** Adaptación a necesidades específicas.
+3. **Empresa.** Identidad, valores y reputación (Comercio Justo, Louis Vuitton).
 
 ## 9. Estrategias de Desarrollo o Crecimiento
 
 Las empresas pueden adoptar diferentes estrategias para crecer.
 
-### 9.1 Estrategia de Concentración
+### 9.1. **Estrategia de Concentración**
 
 Se basa en especializarse en un único producto o segmento de mercado.
 
-### 9.2 Estrategia de Diversificación
+### 9.2. **Estrategia de Diversificación**
 
 Consiste en ampliar la oferta o entrar en nuevos mercados.
 
@@ -274,7 +275,7 @@ Consiste en ampliar la oferta o entrar en nuevos mercados.
 
 	> *Ejemplo.* Un fabricante de automóviles que produce sus propios amortiguadores y frenos.
 
-### 9.3 Internacionalización
+### 9.3. **Internacionalización**
 
 Expansión a mercados extranjeros para aumentar la demanda y prolongar el ciclo de vida del producto.
 
@@ -299,19 +300,19 @@ Las empresas pueden formar alianzas estratégicas mediante diversos acuerdos.
 
 El riesgo es la posibilidad de sufrir pérdidas debido a factores internos o externos.
 
-### 11.1 Tipos de Riesgos
+### 11.1. **Tipos de Riesgos**
 
 - **Económico-financieros.** Relacionados con la actividad empresarial (obsolescencia tecnológica, fluctuación de precios, inflación, competencia, etc.).
 - **Extraeconómicos.** Factores externos que pueden afectar a la empresa (robos, desastres naturales, inestabilidad política, etc.).
 
-### 11.2 Evaluación del Riesgo
+### 11.2. **Evaluación del Riesgo**
 
 Para analizar el riesgo, se consideran:
 
 - **Interdependencia de riesgos.** Pueden potenciarse entre sí (efecto sinérgico).
 - **Percepción subjetiva.** La actitud del decisor influye en la toma de riesgos.
 
-### 11.3 El Coste de Oportunidad
+### 11.3. **El Coste de Oportunidad**
 
 Elegir una opción implica renunciar a otras, generando un coste de oportunidad.
 
@@ -321,7 +322,7 @@ Elegir una opción implica renunciar a otras, generando un coste de oportunidad.
 
 Tener una idea emprendedora no es suficiente; es necesario documentarla en un plan de empresa. Este documento servirá para analizar la viabilidad del negocio y presentarlo ante posibles inversores, socios o instituciones que puedan apoyarlo.
 
-### 12.1 **Concepto y Características**
+### 12.1. **Concepto y Características**
 
 El plan de empresa describe la actividad del negocio, presenta a sus promotores y evalúa su viabilidad. Es una guía para estructurar y organizar su funcionamiento y establecer estrategias.
 
@@ -335,23 +336,23 @@ Debe estar elaborado por los promotores del negocio y presentarse de forma orden
 **Errores comunes al elaborar un plan de empresa.**  
 Evita el optimismo excesivo en estimaciones de ventas y costos, no ignores debilidades ni dependas exclusivamente de la originalidad de la idea. Enfócate en proyecciones realistas a corto plazo, prueba el concepto antes de implementarlo y asegúrate de tener conocimientos financieros básicos.
 
-### 12.2 **Partes del Plan de Empresa**
+### 12.2. **Partes del Plan de Empresa**
 
 El plan de empresa se divide en varias secciones que permiten estructurar y analizar todos los aspectos clave del negocio.
 
-#### 12.2.1 Presentación de los Promotores
+#### Presentación de los Promotores
 
 Incluye los datos personales, experiencia profesional y formación académica de los emprendedores. Su propósito es demostrar que poseen las habilidades y conocimientos necesarios para gestionar el negocio.
 
-#### 12.2.2 Descripción del Negocio
+#### Descripción del Negocio
 
 Detalla la actividad de la empresa, sus objetivos, ubicación y fecha prevista de inicio. También describe el producto o servicio que se ofrecerá, sus características, tecnología utilizada y factores diferenciadores respecto a la competencia.
 
-#### 12.2.3 Análisis del Entorno y del Mercado
+#### Análisis del Entorno y del Mercado
 
 Evalúa los factores externos que pueden afectar al negocio, como el contexto socioeconómico, regulaciones legales y tendencias tecnológicas. También analiza el mercado, los clientes potenciales y la competencia para identificar oportunidades y amenazas.
 
-#### 12.2.4 Plan de Marketing
+#### Plan de Marketing
 
 Define las estrategias para comercializar el producto o servicio basándose en cuatro elementos clave.
 
@@ -360,19 +361,19 @@ Define las estrategias para comercializar el producto o servicio basándose en c
 - **Place.** Canales utilizados para hacer llegar el producto al cliente.
 - **Promotion.** Acciones de marketing y comunicación para dar visibilidad al negocio.
 
-#### 12.2.5 Aspectos Jurídicos de la Empresa
+#### Aspectos Jurídicos de la Empresa
 
 Especifica la forma jurídica del negocio (autónomo, sociedad mercantil, cooperativa, etc.), los trámites legales para su constitución y las obligaciones fiscales, laborales y de seguros que se deben cumplir.
 
-#### 12.2.6 Estructura Organizativa y Recursos Humanos
+#### Estructura Organizativa y Recursos Humanos
 
 Describe la organización interna del negocio, los puestos de trabajo, sus funciones y la jerarquía dentro de la empresa. También define los criterios de contratación, política salarial y posibles actividades subcontratadas.
 
-#### 12.2.7 Plan de Producción y Estimación de Ventas
+#### Plan de Producción y Estimación de Ventas
 
 Explica la gestión del proceso productivo, desde la adquisición de materiales hasta la entrega del producto o servicio. También incluye una previsión de ventas basada en el análisis del mercado y costos de producción.
 
-#### 12.2.8 Plan Económico-Financiero
+#### Plan Económico-Financiero
 
 Analiza la viabilidad económica del negocio e incluye:
 

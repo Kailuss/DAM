@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 2, max 2, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/joanna-kosinska-1_CMoFsPfso-unsplash.jpg]]"
 banner_y: 0.24
 ---
@@ -13,9 +13,9 @@ banner_y: 0.24
 
 ## 1. Enunciado
 
-Esta tarea trata de conocer la base de datos del ERP escogido para estudiar: **Odoo**. La base de datos que se utiliza en Odoo es **PostgreSQL**. Para poder realizar acciones directamente en la base de datos, se pueden usar diferentes programas, por ejemplo **PgAdmin IV** (interfaz gráfica) o **psql** (línea de comandos). Además, se pueden utilizar otros programas compatibles con bases de datos **PostgreSQL** como **DBeaver** o **DataGrip**, y conectar con la base de datos utilizando conectores.  
+Esta tarea trata de conocer la base de datos del ERP escogido para estudiar: **Odoo.** La base de datos que se utiliza en Odoo es **PostgreSQL.** Para poder realizar acciones directamente en la base de datos, se pueden usar diferentes programas, por ejemplo **PgAdmin IV** (interfaz gráfica) o **psql** (línea de comandos). Además, se pueden utilizar otros programas compatibles con bases de datos **PostgreSQL** como **DBeaver** o **DataGrip**, y conectar con la base de datos utilizando conectores.  
 
-Por ejemplo, si utilizamos el lenguaje de programación **Python**, podemos utilizar la librería **psycopg2** para conectar con la base de datos **PostgreSQL**. En esta práctica conectaremos con la base de datos y gestionaremos los usuarios y sus privilegios mediante el sublenguaje **DCL** de SQL y las herramientas gráficas que nos proporcionan los clientes de acceso a la base de datos. Finalmente, se realizará una instalación de un **IDE** como **Microsoft Visual Studio** o **PyCharm Pro** para instalar un módulo “plantilla” en Odoo.
+Por ejemplo, si utilizamos el lenguaje de programación **Python**, podemos utilizar la librería **psycopg2** para conectar con la base de datos **PostgreSQL.** En esta práctica conectaremos con la base de datos y gestionaremos los usuarios y sus privilegios mediante el sublenguaje **DCL** de SQL y las herramientas gráficas que nos proporcionan los clientes de acceso a la base de datos. Finalmente, se realizará una instalación de un **IDE** como **Microsoft Visual Studio** o **PyCharm Pro** para instalar un módulo “plantilla” en Odoo.
 
 ### Apartado A. Odoo a través de pgAdmin y psql
 
@@ -55,7 +55,7 @@ Por ejemplo, si utilizamos el lenguaje de programación **Python**, podemos util
    - `{}`  
    - `{usu1=a/postgres, usu2=r/postgres, usu3=r*Dd*t/toni}`  
 
-7. **Usa psycopg2** para conectar con la base de datos de Odoo utilizando **Python**.  
+7. **Usa psycopg2** para conectar con la base de datos de Odoo utilizando **Python.**  
    - Dibuja un **histograma** de los productos del módulo de comedor (número de productos por categoría y histograma de precios).  
    - Puedes usar los siguientes ejemplos de referencia:  
 	 - [Ejemplo 1](https://sites.google.com/paucasesnovescifp.cat/sge-dam-2122/p%C3%A0gina-principal/sql-to-dataframe)  

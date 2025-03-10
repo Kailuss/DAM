@@ -1,10 +1,12 @@
 ---
-number headings: auto, first-level 2, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[eie.jpg]]"
 banner_y: 0.24
+cssclasses:
+  - table-clean
 ---
 
-# TEMA 5. La creación de una empresa
+# **TEMA 5.** La creación de una empresa
 
 ```audio-player
 [[Lecturas/Lectura_Tema_5_La_creación_de_una_empresa.mp3]]
@@ -105,17 +107,20 @@ Formas más comunes de financiación externa:
 
 Otras formas de financiación ajena:
 
-- **Capitalización del desempleo.** Pago único de prestaciones para iniciar un negocio.
-- **Leasing.** Alquiler con opción de compra al finalizar el contrato.
-- **Renting.** Alquiler con mantenimiento incluido, sin opción de compra.
-- **Pagarés de empresa.** Compromiso de pago futuro entre empresas.
-- **Factoring.** Cesión de cobro de facturas a una entidad financiera a cambio de una comisión.
-- **Confirming.** Gestión de pagos a proveedores con opción de anticipo.
-- **Descuento comercial.** Adelanto de efectivo por parte del banco a cambio de un documento de pago.
-- **Préstamos hipotecarios.** Crédito a largo plazo para compra de inmuebles empresariales.
-- **Descubierto en cuenta.** Uso de más dinero del disponible en la cuenta, con altos intereses.
-- **Sociedad de garantía recíproca (SGR).** Aval para PYMEs sin garantías propias.
-- **Préstamos participativos.** Fondos públicos para proyectos innovadores o con impacto social.
+| Financiación | Descripción |
+| - | - |
+| **Capitalización del desempleo** | Pago único de prestaciones para iniciar un negocio. |
+| **Leasing** | Alquiler con opción de compra al finalizar el contrato. |
+| **Renting** | Alquiler con mantenimiento incluido, sin opción de compra. |
+| **Pagarés de empresa** | Compromiso de pago futuro entre empresas. |
+| **Factoring** | Cesión de cobro de facturas a una entidad financiera a cambio de una comisión. |
+| **Confirming** | Gestión de pagos a proveedores con opción de anticipo. |
+| **Descuento comercial** | Adelanto de efectivo por parte del banco a cambio de un documento de pago. |
+| **Préstamos hipotecarios** | Crédito a largo plazo para compra de inmuebles empresariales. |
+| **Descubierto en cuenta** | Uso de más dinero del disponible en la cuenta, con altos intereses. |
+| **Sociedad de garantía recíproca (SGR)** | Aval para PYMEs sin garantías propias. |
+| **Préstamos participativos** | Fondos públicos para proyectos innovadores o con impacto social. |
+
 ### 4.3. **Ayudas y Subvenciones**
 
 Existen diversas ayudas públicas para fomentar la creación de empresas. Sin embargo, no se debe basar la viabilidad del negocio en ellas, ya que pueden tardar en aprobarse o no concederse. Estas ayudas pueden ser:
@@ -195,7 +200,7 @@ Los trabajadores de este sector están expuestos a diversos riesgos, entre los q
 - **Exposición a pantallas de visualización de datos**, que puede causar fatiga visual y otros problemas.
 - **Golpes con objetos o herramientas** en el entorno laboral.
 - **Estrés** debido a la alta demanda y presión laboral.
-- **Tensión por jornadas prolongadas**.
+- **Tensión por jornadas prolongadas.**
 - **Riesgos comunes** como incendios, caídas, riesgos eléctricos, problemas de ruido, iluminación inadecuada y temperaturas extremas.
 
 ### 7.2. **Obligaciones en materia de prevención**

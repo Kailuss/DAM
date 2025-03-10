@@ -1,12 +1,17 @@
 ---
-number headings: first-level 0, start-at 1, max 3, _.1., auto, contents ^toc, skip ^skipped
-tags: [DAM, EIE, Teoría]
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+tags:
+  - DAM
+  - EIE
+  - Teoría
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
+cssclasses:
+  - table-clean
 ---
 
-# TEMA 4. Tipos de Empresas
+# **TEMA 4.** Tipos de Empresas
 
 ```audio-player
 [[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
@@ -42,9 +47,11 @@ Las empresas se clasifican según la actividad que realizan, ya sea la producci�
 
 Las empresas se dividen en tres sectores principales:
 
-- **Sector primario.** Incluye actividades extractivas como la agricultura, ganadería y pesca.
-- **Sector secundario.** Abarca la transformación de materias primas, como la manufactura y la construcción.
-- **Sector terciario.** Se refiere a los servicios, como el comercio, transporte y finanzas.
+| Sector | Descripción                                           |
+| --------- | ------------------------------------------------------- |
+| **Sector primario** | Incluye actividades extractivas como la agricultura, ganadería y pesca. |
+| **Sector secundario** | Abarca la transformación de materias primas, como la manufactura y la construcción.
+| **Sector terciario** | Se refiere a los servicios, como el comercio, transporte y finanzas.
 
 Algunos autores añaden un **sector cuaternario**, que incluye actividades relacionadas con la investigación, desarrollo, innovación e información. Las grandes empresas pueden operar en varios sectores simultáneamente.
 
@@ -52,12 +59,13 @@ Algunos autores añaden un **sector cuaternario**, que incluye actividades relac
 
 La dimensión de una empresa se mide por parámetros como el número de empleados, volumen de ventas, capital social y beneficios. Según la UE, las empresas se clasifican en:
 
-- **Microempresas.** Menos de 10 empleados y facturación anual inferior a 2 millones de euros.
-- **Pequeñas empresas.** Entre 10 y 49 empleados, con facturación anual no superior a 10 millones de euros.
-- **Medianas empresas.** Entre 50 y 250 empleados, con facturación anual no superior a 50 millones de euros.
-- **Grandes empresas.** Más de 250 empleados y facturación anual superior a 50 millones de euros.
-
-### 4.1. **Las PYMES**
+| Dimensión | Parámetros                                             |
+| --------- | ------------------------------------------------------- |
+| **Microempresa** | Menos de 10 empleados y facturación anual inferior a 2 millones de euros. |
+| **Pequeña empresa** | Entre 10 y 49 empleados, con facturación anual no superior a 10 millones de euros. |
+| **Mediana empresa** | Entre 50 y 250 empleados, con facturación anual no superior a 50 millones de euros. |
+| **Gran empresa** | Más de 250 empleados y facturación anual superior a 50 millones de euros. |
+### **Las PYMES** ^skipped
 
 Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 trabajadores, 50 millones de euros de facturación y 43 millones de euros de balance. En España, representan el 99% de las empresas y generan alrededor del 70% del empleo. Aunque enfrentan desafíos como la falta de tecnología y dificultades de financiación, ofrecen ventajas como un trato más personalizado al cliente y la capacidad de cubrir nichos de mercado.
 
@@ -65,20 +73,24 @@ Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 tr
 
 Las empresas pueden clasificarse según su alcance geográfico:
 
-- **Locales.** Operan en una localidad o áreas cercanas.
-- **Regionales.** Actúan en varias provincias, con sucursales o delegaciones.
-- **Nacionales.** Cubren todo el territorio de un país.
-- **Comunitarias.** Operan en varios países de la Unión Europea.
-- **Multinacionales.** Actúan en varios países simultáneamente.
-- **Mundiales o globales.** Tienen presencia en todo el planeta.
+| Ámbito geográfico | Descripción |
+| - | - |
+| **Locales** | Operan en una localidad o áreas cercanas. |
+| **Regionales** | Actúan en varias provincias, con sucursales o delegaciones. |
+| **Nacionales** | Cubren todo el territorio de un país. |
+| **Comunitarias** | Operan en varios países de la Unión Europea. |
+| **Multinacionales** | Actúan en varios países simultáneamente. |
+| **Mundiales o globales** | Tienen presencia en todo el planeta. |
 
 ## 6. Clasificación según la titularidad del capital
 
 Según la titularidad del capital, las empresas pueden ser:
 
-- **Privadas.** El capital pertenece a particulares.
-- **Públicas.** El capital es propiedad del Estado o entidades públicas.
-- **Mixtas.** El capital se divide entre el Estado y particulares.
+| Titularidad | Descripción |
+| - | - |
+| **Privadas** | El capital pertenece a particulares. |
+| **Públicas** | El capital es propiedad del Estado o entidades públicas. |
+| **Mixtas** | El capital se divide entre el Estado y particulares. |
 
 ## 7. Clasificación jurídica de las empresas
 

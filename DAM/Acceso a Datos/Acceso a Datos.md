@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: off
 banner: "![[ad.jpg]]"
 banner_y: 0.19
 node_size: 24

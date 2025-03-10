@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 3, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 3 max 3, skip ^skipped, _.1.1.
 ---
 Para resolver la **Tarea EIE05**, debes seguir las actividades propuestas en el documento y utilizar la información proporcionada en el **Tema 5** y su **Resumen**. A continuación, te guío paso a paso para resolver cada actividad:
 

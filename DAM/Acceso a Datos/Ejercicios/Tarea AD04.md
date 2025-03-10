@@ -1,5 +1,5 @@
 ---
-number headings: first-level 0, start-at 1, max 2, _.1., auto, contents ^toc, skip ^skipped
+number headings: first-level 0, max 2, skip ^skipped, _.1.1.
 node_size: 16
 obsidianUIMode: preview
 tags:

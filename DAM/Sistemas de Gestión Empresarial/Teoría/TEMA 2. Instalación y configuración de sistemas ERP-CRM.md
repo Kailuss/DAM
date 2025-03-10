@@ -1,15 +1,17 @@
 ---
-number headings: auto, first-level 2, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner_y: 0.6
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 ---
 
 # **TEMA 2.** Instalación y configuración de sistemas ERP-CRM
 
-> [!done] Caso práctico 
-> Ada y María, tras investigar el mercado de los ERP, concluyen que desarrollar un sistema desde cero es costoso y poco práctico. En su lugar, optan por utilizar un ERP ya existente, especialmente uno de código abierto, que reduce costes de licencias y permite centrarse en la personalización. Ada, con su mente pragmática, decide que su empresa, BK Programación, se encargará de la implantación y adaptación del ERP, e incluso desarrollará módulos personalizados para clientes exigentes. María, por su parte, está emocionada por la flexibilidad que ofrecen estas soluciones. Juntas, se lanzan a explorar las opciones disponibles. 
+![[Mapa conceptual SGE02.canvas]]
 
 ## 1. Introducción
+
+> [!done] Caso práctico 
+> Ada y María, tras investigar el mercado de los ERP, concluyen que desarrollar un sistema desde cero es costoso y poco práctico. En su lugar, optan por utilizar un ERP ya existente, especialmente uno de código abierto, que reduce costes de licencias y permite centrarse en la personalización. Ada, con su mente pragmática, decide que su empresa, BK Programación, se encargará de la implantación y adaptación del ERP, e incluso desarrollará módulos personalizados para clientes exigentes. María, por su parte, está emocionada por la flexibilidad que ofrecen estas soluciones. Juntas, se lanzan a explorar las opciones disponibles. 
 
 En un entorno empresarial cada vez más competitivo y globalizado, la información se ha convertido en un valor diferencial clave. Las empresas necesitan mejorar continuamente sus procesos de gestión para responder mejor a las demandas de los clientes, reducir plazos de entrega y controlar inventarios. Aquí es donde entran en juego los **Sistemas de Planificación de Recursos Empresariales (ERP)**, que ofrecen una gestión **integrada** y **flexible** de todos los recursos de la empresa.
 
@@ -221,7 +223,7 @@ En entornos de producción, las actualizaciones deben planificarse cuidadosament
 ## 3. Tipos de módulos. Características funcionales. Descripción e Interconexión
 
 > [!done] Caso práctico 
-> Con Ada fuera por una reunión, María y Juan se ponen manos a la obra. María explica a Juan la diferencia entre el **módulo base** (el núcleo del ERP) y los **módulos adicionales** (como compras, ventas, almacén, contabilidad, etc.). Juan, que siempre ha sido más de "prueba y error", se emociona al descubrir que pueden adaptar el ERP a diferentes tipos de empresas. Además, los clientes del sector servicios están pidiendo a gritos un módulo CRM para gestionar llamadas y contactos.
+> *Con Ada fuera por una reunión, María y Juan se ponen manos a la obra. María explica a Juan la diferencia entre el **módulo base** (el núcleo del ERP) y los **módulos adicionales** (como compras, ventas, almacén, contabilidad, etc.). Juan, que siempre ha sido más de "prueba y error", se emociona al descubrir que pueden adaptar el ERP a diferentes tipos de empresas. Además, los clientes del sector servicios están pidiendo a gritos un módulo CRM para gestionar llamadas y contactos.*
 
 Un sistema ERP está compuesto por **módulos**, que son programas diseñados para cubrir funciones específicas dentro de la aplicación. Estos módulos pueden instalarse durante la configuración inicial o añadirse posteriormente según las necesidades de la empresa. Las características principales de los módulos incluyen:
 
@@ -357,7 +359,7 @@ La instalación de módulos adicionales permite ampliar las funcionalidades del 
 ## 4. Asistencia técnica remota en el sistema ERP-CRM
 
 > [!done] Caso práctico 
-> Ada, siempre un paso adelante, les pide a María y Juan que investiguen soluciones de **soporte remoto** para atender a clientes lejanos sin tener que viajar. María, que ya se siente cómoda con los webinars, sugiere usar herramientas como **VNC** para conectarse a los equipos de los clientes. Juan, mientras tanto, imagina cómo sería trabajar en pijama desde casa mientras resuelve problemas técnicos. Ada les recuerda que, aunque suene divertido, el soporte remoto es una solución seria para mejorar la atención al cliente. 
+> *Ada, siempre un paso adelante, les pide a María y Juan que investiguen soluciones de **soporte remoto** para atender a clientes lejanos sin tener que viajar. María, que ya se siente cómoda con los webinars, sugiere usar herramientas como **VNC** para conectarse a los equipos de los clientes. Juan, mientras tanto, imagina cómo sería trabajar en pijama desde casa mientras resuelve problemas técnicos. Ada les recuerda que, aunque suene divertido, el soporte remoto es una solución seria para mejorar la atención al cliente.* 
 
 La **asistencia técnica remota** permite controlar un equipo desde otro dispositivo, como si estuviéramos físicamente frente a él. Esta herramienta es especialmente útil en situaciones como:
 

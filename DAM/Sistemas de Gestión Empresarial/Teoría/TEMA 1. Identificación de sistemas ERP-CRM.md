@@ -1,5 +1,5 @@
 ---
-number headings: auto, first-level 2, max 3, contents ^toc, skip ^skipped, start-at 1, _.1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 banner_y: 0.6
 ---
@@ -8,7 +8,7 @@ banner_y: 0.6
 
 ## 1. Introducción a la gestión empresarial
 
-Una empresa existe siempre que obtenga beneficios, ya que estos le permiten crecer y desarrollarse. Para ser competitiva, una empresa debe gestionar eficientemente sus recursos. Sin embargo, es importante diferenciar entre empresas privadas y públicas: mientras las primeras buscan maximizar beneficios, las segundas priorizan ofrecer servicios a la sociedad.
+Una empresa existe siempre que obtenga beneficios, ya que estos le permiten crecer y desarrollarse. Para ser competitiva, una ;empresa debe gestionar eficientemente sus recursos. Sin embargo, es importante diferenciar entre empresas privadas y públicas: mientras las primeras buscan maximizar beneficios, las segundas priorizan ofrecer servicios a la sociedad.
 
 Uno de los principales objetivos de cualquier empresa es **satisfacer las necesidades del cliente.** Gracias a la innovación y las nuevas tecnologías, es posible identificar y atender a los clientes de manera más eficiente, lo que contribuye a la obtención de beneficios.
 
