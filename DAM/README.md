@@ -1,7 +1,7 @@
 # Desarrollo de Aplicaciones Multiplataforma
 
 ---
-Repositorio de resúmenes de 2º de DAM. Este espacio está diseñado para facilitar el estudio y la preparación de los compañeros de clase. Los documentos están organizados en carpetas según la práctica y la teoría, con resúmenes, algunas tareas y  exámenes. Espero que estos recursos os sean de ayuda en. ¡Éxito!
+Repositorio de resúmenes de 2º de DAM. Este espacio está diseñado para facilitar el estudio y la preparación de los compañeros de clase. Los documentos están organizados en carpetas según la práctica y la teoría, con resúmenes, algunas tareas y exámenes. Espero que estos recursos os sean de ayuda. ¡Éxito!
 
 ---
 
