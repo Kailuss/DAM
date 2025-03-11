@@ -1,13 +1,11 @@
 ---
-node_size: 24
+node_size: 20
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
 ---
 # Programación de Servicios y Procesos
-%% Begin Waypoint %%
-- **[Ejercicios](./Ejercicios/Ejercicios.md)**
-- **Exámenes**
-- **[Teoría](./Teor%C3%ADa/Teor%C3%ADa.md)**
 
-%% End Waypoint %%
+### [TEMA 1. Programación multiproceso](Teoría/TEMA%201.%20Programación%20multiproceso.md)
+
+### [TEMA 3. Comunicaciones en red](Teoría/TEMA%203.%20Comunicaciones%20en%20red.md)

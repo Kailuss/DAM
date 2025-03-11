@@ -1,12 +1,23 @@
 ---
 number headings: first-level 0, max 3, skip ^skipped, _.1.1.
-tags: [DAM, EIE, Teoría]
+tags:
+  - DAM
+  - EIE
+  - Teoría
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 2.** La empresa como sistema
+
+
+| Anexos     |
+| --- |
+| [Resumen Tema 2](Resúmenes/Resumen%20Tema%202.md)    |
+
 
 ```audio-player
 [[Lecturas/Lectura_Tema_2_La_Empresa_y_su_Entorno.mp3]]

@@ -6,6 +6,8 @@ banner_y: 0.6
 
 # **TEMA 1.** Identificación de sistemas ERP-CRM
 
+
+
 ## 1. Introducción a la gestión empresarial
 
 Una empresa existe siempre que obtenga beneficios, ya que estos le permiten crecer y desarrollarse. Para ser competitiva, una ;empresa debe gestionar eficientemente sus recursos. Sin embargo, es importante diferenciar entre empresas privadas y públicas: mientras las primeras buscan maximizar beneficios, las segundas priorizan ofrecer servicios a la sociedad.

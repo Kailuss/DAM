@@ -1,7 +1,6 @@
 ---
 number headings: first-level 0, max 3, skip ^skipped, _.1.1.
-obsidianUIMode: 
-node_size: 24
+obsidianUIMode: preview
 ---
 
 ## 1. Resumen Ejecutivo

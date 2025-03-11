@@ -13,6 +13,12 @@ cssclasses:
 
 # **TEMA 4.** Tipos de Empresas
 
+| Anexos |
+| --- |
+| [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md)    |
+| [Tarea EIE04](../Práctica/Tareas/Tarea%20EIE04.md)   |
+
+
 ```audio-player
 [[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
 00:00:03 --- 1. Clasificación de empresas

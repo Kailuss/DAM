@@ -4,7 +4,6 @@ tags:
   - Focus
   - PMDM
   - Tarea
-node_size: 16
 obsidianUIMode: preview
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42

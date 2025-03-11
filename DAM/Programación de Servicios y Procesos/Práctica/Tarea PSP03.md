@@ -1,6 +1,8 @@
 ---
-tags: [Focus, PSP, Tarea]
-node_size: 16
+tags:
+  - Focus
+  - PSP
+  - Tarea
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32

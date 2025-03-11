@@ -5,7 +5,9 @@ banner_y: 0.42
 ---
 # Ejercicios
 %% Begin Waypoint %%
-- [Tarea PMDM1](./Tarea%20PMDM1.md)
-- [Tarea PMDM3](./Tarea%20PMDM3.md)
+- **Exámenes**
+- **Tareas**
+	- [Tarea PMDM1](./Tareas/Tarea%20PMDM1.md)
+	- [Tarea PMDM3](./Tareas/Tarea%20PMDM3.md)
 
 %% End Waypoint %%

@@ -5,6 +5,7 @@ banner: "![[ad.jpg]]"
 banner_y: 0.19
 ---
 %% Begin Waypoint %%
+- **Exámenes**
 - [Tarea AD04](./Tarea%20AD04.md)
 
 %% End Waypoint %%

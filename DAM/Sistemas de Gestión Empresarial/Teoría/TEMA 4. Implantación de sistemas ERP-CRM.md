@@ -2,9 +2,16 @@
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 banner_y: 0.6
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 4.** Implantación de sistemas ERP-CRM
+
+| Anexos |
+| - |
+| [Resumen Tema SGE04](Resúmenes/Resumen%20Tema%20SGE04.md) |
+| [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 ## 1. Introducción
 
 En la actualidad, existe una amplia oferta de software de planificación de recursos empresariales (ERP). Estos sistemas se diferencian por su tipo de licencia, módulos, sistemas operativos compatibles, entre otros factores. La elección del ERP adecuado es crucial para el éxito de su implantación. Determinará si el sistema se adapta a las necesidades de la empresa.

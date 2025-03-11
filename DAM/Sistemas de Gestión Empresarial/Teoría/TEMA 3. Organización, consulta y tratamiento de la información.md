@@ -2,11 +2,17 @@
 number headings: first-level 1, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
 banner_y: 0.6
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 3.** Organización, consulta y tratamiento de la información
 
-![cover](Pasted image 20250309150007.png)
+| Anexos |
+| - |
+| [Resumen Tema 3](Resúmenes/Resumen%20Tema%20SGE03.md) |
+| [PostgreSQL](TEMA%203.1.%20PostgreSQL.md) |
+| [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 
 ## 1. Organización y consulta de la información
 
@@ -286,7 +292,7 @@ Los datos se almacenan en `/var/log/sysstat/saXX`, donde `XX` representa el día
 
 Los logs son esenciales para identificar y resolver incidencias. Por ejemplo, en OpenERP, los registros del servidor se encuentran en `/var/log/openerp-server.log`. Un ejemplo de contenido del log podría ser:
 
-```
+```terminal
 [2011-12-21 12:41:48,935][?] INFO:web-services:starting XML-RPC services, port 8069 
 [2011-12-21 12:41:48,935][?] INFO:web-services:starting NET-RPC service, port 8070 
 [2011-12-21 12:41:48,935][?] INFO:web-services:the server is running, waiting for connections... 

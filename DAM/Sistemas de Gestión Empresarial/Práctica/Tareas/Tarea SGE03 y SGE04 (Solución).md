@@ -1,5 +1,6 @@
 ---
 number headings: off
+obsidianUIMode: preview
 ---
 
 # Tareas SGE03 y SGE04 (Solución)

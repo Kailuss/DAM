@@ -2,11 +2,18 @@
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner_y: 0.6
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
+cssclasses:
+  - table-clean
+obsidianUIMode: preview
 ---
 
 # **TEMA 2.** Instalación y configuración de sistemas ERP-CRM
 
-![[Mapa conceptual SGE02.canvas]]
+| Anexos                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------- |
+| [TEMA 2.1. Sistemas ERP-CRM. Explotación y adecuación](TEMA%202.1.%20Sistemas%20ERP-CRM.%20Explotación%20y%20adecuación.md) |
+| [Resumen Tema SGE02.1](Resúmenes/Resumen%20Tema%20SGE02.1.md)                                                               |
+| ![Mapa conceptual](Mapa%20conceptual%20SGE02.canvas)                                                                                       |
 
 ## 1. Introducción
 

@@ -3,9 +3,17 @@ number headings: first-level 0, max 4, skip ^skipped, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
 banner_y: 0.28
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 3.** Creación de componentes visuales
+
+| Anexos                                                          |     
+| --------------------------------------------------------------- | 
+| [Resumen Tema 3](Resúmenes/Resumen%20Tema%203.md)               |
+| [Componentes Swing](Resúmenes/Resumen%20Componentes%20Swing.md) |
+| [Tarea DI03](../Práctica/Tareas/Tarea%20DI03.md)                     |
 
 ![Lectura MP3](Lectura_Tema_3_Creación_de_componentes_visuales.mp3)
 

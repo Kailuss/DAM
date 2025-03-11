@@ -8,6 +8,13 @@ cssclasses:
 
 # **TEMA 5.** La creación de una empresa
 
+| Anexos |
+| - |
+| [Resumen Tema 5](Resúmenes/Resumen%20Tema%205.md) |
+| [Tarea EIE05](../Práctica/Tareas/Tarea%20EIE05.md) |
+| [Guion EIE05](../Práctica/Tareas/Guion%20EIE05.md) |
+| [Solución EIE05](../Práctica/Tareas/Solución%20EIE05.md) |
+
 ```audio-player
 [[Lecturas/Lectura_Tema_5_La_creación_de_una_empresa.mp3]]
 00:00:04 --- 1. Introducción
@@ -35,7 +42,7 @@ En este tema se abordan aspectos fundamentales para emprender un negocio:
 
 Se compone de la gestión del aprovisionamiento y el programa de producción.
 
-### 2.1. **Gestión del aprovisionamiento**
+### 2.1. Gestión del aprovisionamiento
 
 Al iniciar un negocio, es esencial seleccionar proveedores que suministren los componentes necesarios.
 
@@ -45,19 +52,19 @@ Al iniciar un negocio, es esencial seleccionar proveedores que suministren los c
 
 Los criterios de selección incluyen calidad, precio, costes adicionales (portes, seguros), descuentos por volumen de compra y plazos de pago.
 
-### 2.2. **Programa de producción**
+### 2.2. Programa de producción
 
 Es la planificación del proceso productivo o de prestación de servicios. En empresas de producción de bienes, requiere un desarrollo técnico especializado. En empresas de servicios, aunque la descripción es más sencilla, debe estar bien detallada. Es importante prever si se podrá atender la demanda sin generar congestionamientos o ineficiencias.
 
 ![cover](Imágenes/05-Inversiones.png)
 
 ## 3. El plan de Inversiones y Gastos
-### 3.1. **Diferencia entre inversión y gasto**
+### 3.1. Diferencia entre inversión y gasto
 
 - **Inversión.** Desembolso de capital para adquirir bienes que no se venderán y serán utilizados en la empresa (terrenos, edificios, maquinaria, vehículos…).
 - **Gasto.** Pagos necesarios para el funcionamiento de la empresa pero sin permanencia (recibos de teléfono, luz, agua…).
 
-### 3.2. **Elementos del Plan de Inversiones**
+### 3.2. Elementos del Plan de Inversiones
 
 Incluye los siguientes conceptos:
 
@@ -90,13 +97,13 @@ Tras calcular las inversiones necesarias para constituir la empresa, es fundamen
 
 Las fuentes de financiación pueden clasificarse en:
 
-### 4.1. **Financiación Propia**
+### 4.1. Financiación Propia
 
 Se basa en ahorros personales y aportaciones del entorno, clave para la creación del capital inicial. A largo plazo, también incluye:
 
 - **Reservas.** Beneficios no distribuidos destinados a reinversión.
 - **Amortizaciones.** Fondos acumulados para reponer activos deteriorados.
-### 4.2. **Financiación Ajena**
+### 4.2. Financiación Ajena
 
 Formas más comunes de financiación externa:
 
@@ -121,7 +128,7 @@ Otras formas de financiación ajena:
 | **Sociedad de garantía recíproca (SGR)** | Aval para PYMEs sin garantías propias. |
 | **Préstamos participativos** | Fondos públicos para proyectos innovadores o con impacto social. |
 
-### 4.3. **Ayudas y Subvenciones**
+### 4.3. Ayudas y Subvenciones
 
 Existen diversas ayudas públicas para fomentar la creación de empresas. Sin embargo, no se debe basar la viabilidad del negocio en ellas, ya que pueden tardar en aprobarse o no concederse. Estas ayudas pueden ser:
 
@@ -131,7 +138,7 @@ Existen diversas ayudas públicas para fomentar la creación de empresas. Sin em
 - **Ayudas autonómicas.** Subvenciones gestionadas por cada Comunidad Autónoma.
 - **Ayudas locales.** Fondos de Ayuntamientos y Diputaciones Provinciales.
 
-### 4.4. **Otros Aspectos de la Financiación**
+### 4.4. Otros Aspectos de la Financiación
 
 También pueden existir programas locales de apoyo empresarial. Para conocerlos, se recomienda acudir a la Cámara de Comercio o al Ayuntamiento. Estas ayudas no fináncian directamente la creación de la empresa, pero pueden impulsar su desarrollo al facilitar publicidad y captación de clientes.
 
@@ -168,7 +175,7 @@ El recurso más valioso de una empresa son las personas que la integran, ya que 
 
 Al contratar, una persona emprendedora asume diversas obligaciones, tanto legales como económicas, como el pago de salarios, cuotas a la Seguridad Social, retenciones de IRPF, y la formalización de contratos. Además, debe ejercer un liderazgo eficaz, motivar al personal, fomentar su formación y promoción, delegar responsabilidades y reconocer los méritos de sus empleados. Una gestión planificada y motivadora del personal contribuye a su satisfacción y, en consecuencia, a una mayor productividad.
 
-### 6.1. **¿Cómo se hace un Plan de Recursos Humanos?**
+### 6.1. ¿Cómo se hace un Plan de Recursos Humanos?
 
 Un plan de Recursos Humanos debe comenzar por **determinar las funciones y tareas necesarias, identificando qué se debe hacer, en qué plazo, cómo, dónde y con qué recursos.** A continuación, se debe concretar el número de puestos de trabajo necesarios, considerando el horario de apertura y el nivel de atención requerido. Para cada puesto, se establecerá un perfil profesional que incluya la titulación, conocimientos, y características físicas y de carácter deseadas. Finalmente, se elaborará un organigrama que represente gráficamente la estructura de la empresa.
 
@@ -176,7 +183,7 @@ Un plan de Recursos Humanos debe comenzar por **determinar las funciones y tarea
 
 Una vez seleccionado el personal, es necesario **elegir el tipo de contrato más adecuado, considerando el puesto, la persona y las ayudas estatales disponibles.** También se debe determinar el coste de cada puesto, incluyendo salario, cuotas a la Seguridad Social, dietas y uniformes, consultando el Convenio Colectivo aplicable. La gestión del equipo humano debe incluir políticas de integración, promoción e incentivos que fomenten la productividad y la satisfacción del personal.
 
-### 6.2. **Los Recursos Humanos: especialidades en el sector**
+### 6.2. Los Recursos Humanos: especialidades en el sector
 
 En el sector de la Informática y las Comunicaciones, el personal no siempre necesita acreditar una titulación, aunque es recomendable para su inserción laboral. **Los profesionales de este sector deben ser capaces de implantar y administrar sistemas informáticos en entornos monousuario y multiusuario, gestionar redes locales, y facilitar el uso de aplicaciones informáticas.** 
 
@@ -192,7 +199,7 @@ En el ámbito laboral, todos los trabajos conllevan riesgos, incluidos aquellos 
 
 La prevención de riesgos laborales es un aspecto clave en cualquier empresa. La **Ley de Prevención de Riesgos Laborales** es la norma más importante en este ámbito, y el **Plan de Prevención** es el instrumento central para integrar la política preventiva en la gestión empresarial.
 
-### 7.1. **Riesgos específicos del personal en empresas de informática y comunicaciones**
+### 7.1. Riesgos específicos del personal en empresas de informática y comunicaciones
 
 Los trabajadores de este sector están expuestos a diversos riesgos, entre los que destacan:
 
@@ -203,7 +210,7 @@ Los trabajadores de este sector están expuestos a diversos riesgos, entre los q
 - **Tensión por jornadas prolongadas.**
 - **Riesgos comunes** como incendios, caídas, riesgos eléctricos, problemas de ruido, iluminación inadecuada y temperaturas extremas.
 
-### 7.2. **Obligaciones en materia de prevención**
+### 7.2. Obligaciones en materia de prevención
 
 Las empresas deben cumplir con varias obligaciones para garantizar la seguridad laboral:
 

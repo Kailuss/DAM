@@ -7,9 +7,17 @@ tags:
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
+cssclasses:
+  - table-clean
 ---
 
 # TEMA 3. Mercado y Plan de Marketing
+
+
+| Anexos    |
+| --- |
+| [Resumen Tema 3](Resúmenes/Resumen%20Tema%203.md)    |
+
 
 ```audio-player
 [[Lecturas/Lectura_Tema_3_Mercado_y_Plan_de_Marketing.mp3]]

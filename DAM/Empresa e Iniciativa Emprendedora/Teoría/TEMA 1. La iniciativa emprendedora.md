@@ -1,14 +1,24 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-tags: [DAM, EIE, Teoría]
+tags:
+  - DAM
+  - EIE
+  - Teoría
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
 cssclasses:
   - dam-eie
+  - table-clean
 ---
 
 # **TEMA 1.** La iniciativa emprendedora 
+
+
+| Anexos     |
+| --- |
+| [Resumen Tema 1](Resúmenes/Resumen%20Tema%201.md)    |
+
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3]]

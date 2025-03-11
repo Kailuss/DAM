@@ -2,9 +2,12 @@
 number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/joanna-kosinska-1_CMoFsPfso-unsplash.jpg]]"
 banner_y: 0.24
+obsidianUIMode: preview
 ---
 
 # Tareas SGE03 y SGE04
+
+[Tarea SGE03 y SGE04 (Solución)](Tarea%20SGE03%20y%20SGE04%20(Solución).md)
 
 > [!summary] 
 > **Curso.** 2º Grupo S2PD  

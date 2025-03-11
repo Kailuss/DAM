@@ -3,11 +3,19 @@ number headings: first-level 0, max 2, skip ^skipped, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
 banner_y: 0.28
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 1.** Confección de interfaces
 
-![Lectura MP3](Lectura_Tema_1_Confección_de_interfaces.mp3)
+| Anexos                                                           |
+| ---------------------------------------------------------------- |
+| [Resumen Tema 1](Resúmenes/Resumen%20Tema%201.md)                |
+
+```audio-player
+[[Lectura_Tema_1_Confección_de_interfaces.mp3]]
+```
 
 ## 1. Elaboración de interfaces de usuario
 
@@ -27,16 +35,17 @@ Una interfaz gráfica combina diversos elementos gráficos, llamados componentes
 
 ### 2.1. **Componentes típicos**
 
-- **Etiquetas.** Textos fijos en la interfaz, no interactivos.
-- **Campos de texto.** Cuadros de una sola línea para ingresar datos.
-- **Áreas de texto.** Cuadros de varias líneas para escribir párrafos.
-- **Botones.** Áreas rectangulares que ejecutan acciones al pulsarse.
-- **Botones de radio.** Botones circulares agrupados que permiten seleccionar un único elemento. El botón marcado se representa con un círculo.
-- **Cuadros de verificación.** Rectángulos que se marcan con un tic para seleccionar opciones. Pueden seleccionarse varios a la vez.
-- **Imágenes.** Elementos gráficos que aportan información visual.
-- **Password.** Campos de texto donde los caracteres aparecen ocultos para proteger información confidencial.
-- **Listas.** Cuadros con un conjunto de datos para elegir uno o varios.
-- **Listas desplegables.** Combinan cuadro de texto y lista. Permiten escribir un dato o seleccionarlo de una lista oculta que puede desplegarse.
+| **Etiquetas** | Textos fijos en la interfaz, no interactivos. |
+| --- | --- |
+| **Campos de texto** | Cuadros de una sola línea para ingresar datos. |
+| **Áreas de texto** | Cuadros de varias líneas para escribir párrafos. |
+| **Botones** | Áreas rectangulares que ejecutan acciones al pulsarse. |
+| **Botones de radio** | Botones circulares agrupados que permiten seleccionar un único elemento. El botón marcado se representa con un círculo. |
+| **Cuadros de verificación** | Rectángulos que se marcan con un tic para seleccionar opciones. Pueden seleccionarse varios a la vez. |
+| **Imágenes** | Elementos gráficos que aportan información visual. |
+| **Password** | Campos de texto donde los caracteres aparecen ocultos para proteger información confidencial. |
+| **Listas** | Cuadros con un conjunto de datos para elegir uno o varios. |
+| **Listas desplegables** | Combinan cuadro de texto y lista. Permiten escribir un dato o seleccionarlo de una lista oculta que puede desplegarse. |
 
 ### 2.2. **Bibliotecas de componentes**
 
@@ -60,23 +69,18 @@ Los componentes suelen estar agrupados en bibliotecas, que también permiten cre
 
 Las bibliotecas de componentes gráficos permiten crear aplicaciones a través de código, pero habitualmente se utilizan entornos integrados de desarrollo (IDE) para facilitar la tarea. Un IDE proporciona herramientas visuales para incorporar componentes de bibliotecas gráficas de forma sencilla e intuitiva, además de servir como medio de entrada para las acciones del usuario. Algunos de los IDE más utilizados son:
 
-### 3.1. **Principales IDE**
+### 3.1. Principales IDE
 
-1. **Microsoft Visual Studio.** Desarrollo de aplicaciones en escritorio, web y móviles usando .NET framework. Compatible con lenguajes como C++, C# y ASP, soportando Windows 7, 8, 10, aplicaciones web y RIA (Rich Internet Applications).
-	
-2. **NetBeans.** Distribuido por Oracle bajo licencia GNU GPL. Aunque está desarrollado en Java, permite crear aplicaciones en otros lenguajes como C++, PHP, Python y más.
-	
-3. **Eclipse.** Originalmente de IBM, ahora mantenido por la Fundación Eclipse. Destaca por su modularidad y ligereza, ofreciendo funcionalidades básicas con posibilidad de expansión mediante módulos. Incluye soporte para pruebas unitarias, control de versiones y asistentes para creación de proyectos.
-	
-4. **JDeveloper.** Entorno desarrollado por Oracle para Java y otros lenguajes como HTML, SQL y PHP. Desde la versión 9i se basa en Java, pero está menos utilizado tras la adquisición de Sun Microsystems por Oracle.
-	
-5. **Aptana Studio.** Basado en Eclipse, cuenta con un motor especializado para el desarrollo de interfaces web.
-	
-6. **Dreamweaver.** Herramienta para diseño de interfaces web que también soporta el desarrollo en ASP.NET, PHP, JavaScript, CSS y otros.
-	
-7. **Komodo Edit.** Sus características dependen de un intérprete de Python.
+| **Microsoft Visual Studio** | Desarrollo de aplicaciones en escritorio, web y móviles usando .NET framework. Compatible con lenguajes como C++, C# y ASP, soportando Windows 7, 8, 10, aplicaciones web y RIA (Rich Internet Applications).                                                                                  |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **NetBeans**                | Distribuido por Oracle bajo licencia GNU GPL. Aunque está desarrollado en Java, permite crear aplicaciones en otros lenguajes como C++, PHP, Python y más.                                                                                                                                     |
+| **Eclipse**                 | Originalmente de IBM, ahora mantenido por la Fundación Eclipse. Destaca por su modularidad y ligereza, ofreciendo funcionalidades básicas con posibilidad de expansión mediante módulos. Incluye soporte para pruebas unitarias, control de versiones y asistentes para creación de proyectos. |
+| **JDeveloper**              | Entorno desarrollado por Oracle para Java y otros lenguajes como HTML, SQL y PHP. Desde la versión 9i se basa en Java, pero está menos utilizado tras la adquisición de Sun Microsystems por Oracle.                                                                                           |
+| **Aptana Studio**           | Basado en Eclipse, cuenta con un motor especializado para el desarrollo de interfaces web.                                                                                                                                                                                                     |
+| **Dreamweaver**             | Herramienta para diseño de interfaces web que también soporta el desarrollo en ASP.NET, PHP, JavaScript, CSS y otros.                                                                                                                                                                          |
+| **Komodo Edit**             | Sus características dependen de un intérprete de Python.                                                                                                                                                                                                                                       |
 
-### 3.2. **NetBeans**
+### 3.2. NetBeans
 
 ![[1. NetBeans.png]]
 
@@ -151,7 +155,7 @@ Los **Layouts** rigen la disposición de los componentes:
 
 **Ampliar.** [Documentación Swing en Oracle](https://docs.oracle.com/javase/tutorial/uiswing/).
 
-### 5.1. **Añadir y eliminar componentes**
+### 5.1. Añadir y eliminar componentes
 
 En NetBeans, los componentes se añaden desde la **paleta** (ubicada a la derecha del IDE), dividida en:
 
@@ -162,7 +166,7 @@ En NetBeans, los componentes se añaden desde la **paleta** (ubicada a la derech
 
 Para añadir un componente, seleccionarlo en la paleta y hacer clic en la interfaz. Para eliminarlo, seleccionarlo y pulsar "Supr" o "Suprimir" en el menú contextual.
 
-### 5.2. **Modificación de propiedades**
+### 5.2. Modificación de propiedades
 
 Cada control tiene propiedades adaptables en el panel de propiedades, como:
 
@@ -171,26 +175,28 @@ Cada control tiene propiedades adaptables en el panel de propiedades, como:
 
 ![](DAM/Desarrollo%20de%20Interfaces/Teoría/Imágenes/01/Editor%20de%20propiedades.jpg)
 
-### 5.3. **Añadir funcionalidad desde NetBeans**
+### 5.3. Añadir funcionalidad desde NetBeans
 
 NetBeans genera automáticamente parte del código funcional, pero es necesario personalizarlo para que cumpla con las tareas específicas de la aplicación.
 
-### 5.4. **Ubicación y alineamiento de componentes**
+### 5.4. Ubicación y alineamiento de componentes
 
 Los **Layouts** definen la disposición de los controles:
 
-1. **BorderLayout.** Norte, Sur, Este, Oeste, Centro.
-2. **GridLayout.** Rejilla (filas y columnas).
-3. **GridBagLayout.** Rejilla flexible (celdas combinables).
-4. **CardLayout.** Paneles intercambiables.
-5. **BoxLayout.** Fila o columna ajustable.
-6. **FlowLayout.** Izquierda a derecha, fila por fila.
-7. **GroupLayout.** Disposición horizontal y vertical (NetBeans).
-8. **SpringLayout.** Relaciones entre límites de los componentes.
+
+| **BorderLayout** | Norte, Sur, Este, Oeste, Centro. |
+| ---------------- | --- |
+| **GridLayout**   | Rejilla (filas y columnas). |
+| **GridBagLayout** | Rejilla flexible (celdas combinables). |
+| **CardLayou**    |  Paneles intercambiables.   |
+| **BoxLayout**    | Fila o columna ajustable.    |
+| **FlowLayout**   |  Izquierda a derecha, fila por fila.   |
+| **GroupLayout**  | Disposición horizontal y vertical (NetBeans).    |
+| **SpringLayout** | Relaciones entre límites de los componentes.    |
 
 NetBeans facilita la colocación de componentes con guías visuales y el diseño **GroupLayout.**
 
-### 5.5. **Enlace de componentes a bases de datos**
+### 5.5. Enlace de componentes a bases de datos
 
 Para vincular un formulario con datos de una base de datos:
 

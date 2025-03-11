@@ -3,11 +3,20 @@ number headings: first-level 0, max 3, _.1.
 banner: "![[di.jpg]]"
 banner_y: 0.28
 obsidianUIMode: preview
+cssclasses:
+  - table-clean
 ---
 
 # **TEMA 4.** Usabilidad
 
-![Lectura MP3](Lectura_Tema_4_Usabilidad.mp3)
+
+| Anexos                                            |
+| ------------------------------------------------- |
+| [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md) |
+
+```audio-player
+[[Lecturas/Lectura_Tema_4_Usabilidad.mp3]]
+```
 
 ## 1. Concepto de Usabilidad
 
