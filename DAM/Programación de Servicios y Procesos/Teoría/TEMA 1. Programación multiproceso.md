@@ -1,5 +1,5 @@
 ---
-number headings: first-level 0, max 3, _.1.
+number headings: first-level 2, max 3, _.1.
 tags:
   - DAM/PSP
   - Teoría
@@ -11,10 +11,6 @@ cssclasses:
 ---
 
 # **TEMA 1.** Programación multiproceso
-
-| Anexos                                                                          |
-| ------------------------------------------------------------------------------- |
-|  |
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_Programación_multiproceso.mp3]]

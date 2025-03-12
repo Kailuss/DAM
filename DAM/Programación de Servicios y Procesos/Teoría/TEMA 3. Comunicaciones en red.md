@@ -37,8 +37,7 @@ La capa de transporte establece reglas para conectar dispositivos, organizando l
 
 Existen dos tipos de conexiones:
 
--[!TCP]**TCP (Transmission Control Protocol).**
-- Protocolo fiable y orientado a conexión, que fragmenta y reensambla mensajes. Incluye control de flujo para evitar saturación.
+- **TCP (Transmission Control Protocol).** Protocolo fiable y orientado a conexión, que fragmenta y reensambla mensajes. Incluye control de flujo para evitar saturación.
 - **UDP (User Datagram Protocol).** Protocolo sin conexión, más rápido pero menos fiable, ideal para aplicaciones como transmisión en tiempo real, donde los retrasos son críticos.
 
 La elección entre TCP o UDP depende de las necesidades específicas de la aplicación.
@@ -47,9 +46,11 @@ La elección entre TCP o UDP depende de las necesidades específicas de la aplic
 
 Los puertos permiten que las aplicaciones se comuniquen identificando el servicio específico en el equipo destino. Según la IANA, los puertos se clasifican en:
 
-- **Puertos conocidos (0-1023).** Reservados para servicios estándar (ej. HTTP, FTP).
-- **Puertos registrados (1024-49151).** Asignados a servicios o aplicaciones específicas.
-- **Puertos dinámicos (49152-65535).** Utilizados para conexiones temporales entre aplicaciones.
+|     |     | |
+| --- | --- | - |
+| **Puertos conocidos**| 0-1023 | Reservados para servicios estándar (ej. HTTP, FTP).| 
+| **Puertos registrados**| 1024-49151 | Asignados a servicios o aplicaciones específicas.| 
+| **Puertos dinámicos**| 49152-65535 | Utilizados para conexiones temporales entre aplicaciones.| 
 
 Las aplicaciones suelen emplear puertos en el rango 1024-49151.
 

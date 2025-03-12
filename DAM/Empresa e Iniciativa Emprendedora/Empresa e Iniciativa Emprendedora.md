@@ -8,7 +8,7 @@ number headings: off
 
 # Empresa e Iniciativa Emprendedora
 
-### [Plan de Empresa](Práctica/Plan%20de%20Empresa/Plan%20de%20Empresa.md)
+### [Plan de Empresa](Práctica/Proyecto/Plan%20de%20Empresa.md)
 
 ### [TEMA 1. La iniciativa emprendedora](Teoría/TEMA%201.%20La%20iniciativa%20emprendedora.md)
 

@@ -46,9 +46,11 @@ Se compone de la gestión del aprovisionamiento y el programa de producción.
 
 Al iniciar un negocio, es esencial seleccionar proveedores que suministren los componentes necesarios.
 
-- **Búsqueda de información.** Se pueden utilizar medios como prensa, ferias comerciales, Internet o asociaciones empresariales.
-- **Solicitud de información.** Se contacta con los proveedores para conocer aspectos como calidad, condiciones económicas y otras condiciones contractuales.
-- **Evaluación y elección.** Se elabora una ficha con las características de cada proveedor y un cuadro comparativo, para elegir el que ofrezca mejores condiciones. Para minimizar riesgos, conviene no depender de un único proveedor.
+| | |
+|-|-|
+| **Búsqueda de información** | Se pueden utilizar medios como prensa, ferias comerciales, Internet o asociaciones empresariales. |
+| **Solicitud de información** | Se contacta con los proveedores para conocer aspectos como calidad, condiciones económicas y otras condiciones contractuales. |
+| **Evaluación y elección** | Se elabora una ficha con las características de cada proveedor y un cuadro comparativo, para elegir el que ofrezca mejores condiciones. Para minimizar riesgos, conviene no depender de un único proveedor. |
 
 Los criterios de selección incluyen calidad, precio, costes adicionales (portes, seguros), descuentos por volumen de compra y plazos de pago.
 

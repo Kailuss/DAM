@@ -10,7 +10,7 @@ cssclasses:
 # **TEMA 4.** Usabilidad
 
 
-| Anexos                                            |
+| Documentos Relacionados                                            |
 | ------------------------------------------------- |
 | [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md) |
 
@@ -85,27 +85,31 @@ Una muestra de 5-10 usuarios suele ser suficiente para detectar problemas de usa
 
 El diseño de la interfaz debe ser una prioridad en el desarrollo de aplicaciones. Las pautas clave son:
 
-- **Organización.** disposición clara y consistente de los elementos.
-- **Economía.** comunicar lo máximo con la mínima cantidad de elementos.
-- **Comunicación.** ajustar la presentación a las capacidades del usuario.
+| Pautas clave del diseño de interfaces | |
+|-|-|
+| **Organización** | Disposición clara y consistente de los elementos. |
+| **Economía** | Comunicar lo máximo con la mínima cantidad de elementos. |
+| **Comunicación** | Ajustar la presentación a las capacidades del usuario. |
 
-### **Aspectos específicos del diseño**
-
-- **Diseño visual.** centrado en mejorar la comunicación.
-- **Color.** usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales.
-- **Matiz, contraste y resplandor.** garantizar legibilidad y accesibilidad.
-- **Disposición de elementos.** crear un flujo visual coherente.
-- **Redacción de texto.** usar bloques cortos, lenguaje claro y retroalimentación positiva para errores.
+| Aspectos específicos del diseño | |
+|-|-|
+| **Diseño visual** | Centrado en mejorar la comunicación. |
+| **Color** | Usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales. |
+| **Matiz, contraste y resplandor** | Garantizar legibilidad y accesibilidad. |
+| **Disposición de elementos** | Crear un flujo visual coherente. |
+| **Redacción de texto** | Usar bloques cortos, lenguaje claro y retroalimentación positiva para errores. |
 
 ## 6. Estructura de la Interfaz de Usuario
 
 La estructura de la interfaz de usuario debe basarse en los siguientes principios:
 
-- **Familiaridad del usuario.** La interfaz debe utilizar términos y conceptos que los usuarios reconozcan, basándose en su experiencia previa. Esto facilita el aprendizaje rápido.
-- **Consistencia.** Las operaciones similares deben activarse de la misma manera. La ergonomía se logra mediante menús, barras de acciones e iconos de fácil acceso.
-- **Legibilidad.** La información debe ser fácil de ubicar y leer, con una presentación visual clara y evitando la sobrecarga de datos.
-- **Mínima sorpresa.** El comportamiento de la aplicación no debe sorprender al usuario.
-- **Recuperabilidad.** La interfaz debe incluir mecanismos para que los usuarios puedan recuperarse de errores.
+| | |
+|-|-|
+| **Familiaridad del usuario** | La interfaz debe utilizar términos y conceptos que los usuarios reconozcan, basándose en su experiencia previa. Esto facilita el aprendizaje rápido. |
+| **Consistencia** | Las operaciones similares deben activarse de la misma manera. La ergonomía se logra mediante menús, barras de acciones e iconos de fácil acceso. |
+| **Legibilidad** | La información debe ser fácil de ubicar y leer, con una presentación visual clara y evitando la sobrecarga de datos. |
+| **Mínima sorpresa** | El comportamiento de la aplicación no debe sorprender al usuario. |
+| **Recuperabilidad** | La interfaz debe incluir mecanismos para que los usuarios puedan recuperarse de errores. |
 
 Para diseñar una interfaz coherente, es esencial conocer a los usuarios y cómo interactuarán con la aplicación. Factores clave incluyen:
 
@@ -124,11 +128,14 @@ Los menús son listas de opciones que permiten a los usuarios navegar por el sis
 - Facilitan la navegación rápida.
 
 ### **Tipos de Menús**
-1. **Menús de barras.** Ubicados en la parte superior de la pantalla, contienen acciones genéricas que despliegan submenús.
-2. **Menús desplegables (cascadas).** Presentan opciones que a su vez despliegan otros menús. Pueden cambiar dinámicamente y deshabilitar opciones no disponibles.
-3. **Paletas o barras de herramientas.** Menús gráficos con acciones y herramientas, comunes en programas de diseño.
-4. **Menús contextuales (pop-up).** Ofrecen opciones relevantes al contexto actual del usuario.
-5. **Personalización.** Permiten a los usuarios modificar o crear menús según sus necesidades.
+
+| | |
+|-|-|
+| **Menús de barras** | Ubicados en la parte superior de la pantalla, contienen acciones genéricas que despliegan submenús. |
+| **Menús desplegables (cascadas)** |  Presentan opciones que a su vez despliegan otros menús. Pueden cambiar dinámicamente y deshabilitar opciones no disponibles. |
+| **Paletas o barras de herramientas.** |  Menús gráficos con acciones y herramientas, comunes en programas de diseño. |
+| **Menús contextuales (pop-up)** |  Ofrecen opciones relevantes al contexto actual del usuario. |
+| **Personalización.** |  Permiten a los usuarios modificar o crear menús según sus necesidades. |
 
 ## 8. Ventanas
 
@@ -146,15 +153,17 @@ Las ventanas son áreas de la pantalla dedicadas a tareas específicas. Permiten
 
 Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las acciones del usuario. Son clave para la retroalimentación y la ayuda en línea.
 
-### **Factores de Diseño**
-- **Nivel de habilidad del usuario.** Adaptar los mensajes a la terminología que el usuario comprende.
-- **Estilo.** Los mensajes deben ser positivos y activos.
-- **Cultura.** Evitar malentendidos culturales en el contenido de los mensajes.
+| Factores de Diseño | |
+|-|-|
+| **Nivel de habilidad del usuario** | Adaptar los mensajes a la terminología que el usuario comprende. |
+| **Estilo** | Los mensajes deben ser positivos y activos. |
+| **Cultura** | Evitar malentendidos culturales en el contenido de los mensajes. |
 
-### **Tipos de Cuadros de Diálogo**
-1. **Información de éxito o fracaso.** Notifican al usuario el resultado de una acción.
-2. **Motores de búsqueda.** Facilitan la búsqueda de información dentro de la aplicación.
-3. **Ayuda en línea.** Proporcionan asistencia al usuario durante el uso de la aplicación.
+| Tipos de Cuadros de Diálogo | |
+|-|-|
+| **Información de éxito o fracaso** | Notifican al usuario el resultado de una acción. |
+| **Motores de búsqueda** | Facilitan la búsqueda de información dentro de la aplicación. |
+| **Ayuda en línea** | Proporcionan asistencia al usuario durante el uso de la aplicación. |
 
 ## 10. Atajos de Teclado
 
@@ -227,10 +236,11 @@ Los elementos interactivos son fundamentales para proporcionar retroalimentació
 
 Los botones son controles que permiten al usuario realizar acciones específicas, como confirmar, guardar o salir.
 
-### **Tipos de Botones**
-- **Botones en relieve.** dan una sensación de profundidad.
-- **Botones de confirmación.** para acciones como "Aceptar" o "Cancelar".
-- **Botones de radio.** permiten seleccionar una opción entre varias (mutuamente excluyentes).
+| Tipos de Botones | |
+|-|-|
+| **Botones en relieve** | Dan una sensación de profundidad. |
+| **Botones de confirmación** | Para acciones como "Aceptar" o "Cancelar". |
+| **Botones de radio** | Permiten seleccionar una opción entre varias (mutuamente excluyentes). |
 
 ### **Consideraciones**
 - Deben ser intuitivos y fáciles de usar.
