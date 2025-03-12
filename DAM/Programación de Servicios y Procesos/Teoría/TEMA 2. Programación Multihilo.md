@@ -226,7 +226,8 @@ Un hilo puede pasar al estado **No Ejecutable** por las siguientes razones:
 | `wait()` | Detiene el hilo hasta que se llame a `notify()` o `notifyAll()`. |
 | `notify()` y `notifyAll()` | Reanudan hilos en espera. |
 
-**Nota.** Los métodos `suspend()` y `resume()` están en desuso y no deben utilizarse, ya que no son seguros.
+> [!warning] Nota
+> Los métodos `suspend()` y `resume()` están en desuso y no deben utilizarse, ya que no son seguros. 
 
 ### 5.3. **Finalizar un hilo**
 

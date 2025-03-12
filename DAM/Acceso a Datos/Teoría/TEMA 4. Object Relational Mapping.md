@@ -1,10 +1,10 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[ad.jpg]]"
-banner_y: 0.19
+banner_y: 0.2
 ---
 
-# TEMA 4. Object Relational Mapping
+# **TEMA 4.** Object Relational Mapping
 
 ```audio-player
 [[Lecturas/Lectura_04AD.mp3]]
@@ -67,7 +67,7 @@ Tanto en sistemas Linux como Windows podemos utilizar los caracteres `.` y `..`.
 /sally/statusReport 
 ```
 
-- `..` significa el directorio superior, el que incluye el actual. Por ejemplo, si nos encontramos en el directorio _joe_, para acceder al archivo _statusReport_ podemos poner:  
+- `..` significa el directorio superior, el que incluye el actual. Por ejemplo, si nos encontramos en el directorio *joe*, para acceder al archivo *statusReport* podemos poner:  
 
 ```bash
 ../sally/statusReport
@@ -97,7 +97,7 @@ cd ..             // Va a home si estamos dentro del directorio joe
 
 Esta clase representa una ruta dentro del sistema de archivos. Puede hacer referencia a un archivo, a un directorio o no existir. Utiliza la notación propia del sistema de archivos que estamos utilizando.  
 
-### 3.1. Crear un objeto de la clase _Path_
+### 3.1. Crear un objeto de la clase *Path*
 
 La forma más sencilla es utilizando el método estático of. Recibe como parámetro una cadena con la ruta que queremos utilizar:  
 
@@ -111,7 +111,7 @@ Path p3 = Path.of(URLcreate("file:///home/sally/statusReport");
 
 Para cada nivel de la ruta guarda un elemento que lo representa.  
 
-### 3.2. Recuperar información del _Path_
+### 3.2. Recuperar información del *Path*
 
 Si tenemos el path **/home/joe/foo** entonces:  
 
@@ -120,7 +120,7 @@ Si tenemos el path **/home/joe/foo** entonces:
 `.getName(index)` devuelve el path del elemento de la ruta en esta posición.
 
 `.getName(0)` devuelve **home.**  
-`.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo**.  
+`.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.**  
 `.subpath(inicio, fin)` devuelve el path entre la posición inicio y fin.
 
 `.subPath(0,2)` devuelve **home/joe.**
@@ -151,11 +151,11 @@ Es una clase de utilidad (una clase abstracta con métodos de clase) que nos per
 
 ### 4.4. Copiar archivos o directorios
 
-`Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un _vararg_ para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
+`Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
 
 ### 4.5. Mover archivos o directorios
 
-`Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un _vararg_ para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
+`Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
 
 ### 4.6. Leer y escribir contenidos del archivo
 

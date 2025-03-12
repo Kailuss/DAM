@@ -2,7 +2,7 @@
 number headings: first-level 0, max 3, _.1.,  skip ^skipped
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
-banner_y: 0.19
+banner_y: 0.2
 ---
 
 # **TEMA 2.2.** Flujos de información
