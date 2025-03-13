@@ -1,9 +1,6 @@
 ---
 number headings: first-level 0, max 3, skip ^skipped, _.1.1.
-tags:
-  - DAM
-  - EIE
-  - Teoría
+tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
@@ -11,13 +8,11 @@ cssclasses:
   - table-clean
 ---
 
-# TEMA 3. Mercado y Plan de Marketing
-
+# **TEMA 3.** <br>Mercado y Plan de Marketing
 
 | Anexos    |
 | --- |
 | [Resumen Tema 3](Resúmenes/Resumen%20Tema%203.md)    |
-
 
 ```audio-player
 [[Lecturas/Lectura_Tema_3_Mercado_y_Plan_de_Marketing.mp3]]
@@ -42,7 +37,7 @@ El mercado está compuesto por:
 
 ### 1.2. **Segmentación de Mercados**
 
-La empresa no puede atender a todo el mercado, por lo que debe dividirlo en grupos homogéneos (segmentos) con características y necesidades similares. Este proceso se denomina **segmentación de mercado**. Los segmentos deben cumplir:  
+La empresa no puede atender a todo el mercado, por lo que debe dividirlo en grupos homogéneos (segmentos) con características y necesidades similares. Este proceso se denomina **segmentación de mercado.** Los segmentos deben cumplir:  
 
 - **Mensurabilidad.** Identificables y cuantificables.  
 - **Accesibilidad.** Alcanzables por la empresa.  

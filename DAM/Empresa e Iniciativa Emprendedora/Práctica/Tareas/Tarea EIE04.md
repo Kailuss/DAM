@@ -1,10 +1,9 @@
 ---
-tags:
-  - EIE
-  - Tarea
+tags: [EIE, Tarea]
 obsidianUIMode: preview
 number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 ---
+
 # Tarea EIE04
 ## 1. Enunciado  
 **La tarea de este tema consta de tres actividades:**
@@ -22,11 +21,11 @@ number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 - Un ejemplo de empresa **local, regional, nacional y multinacional**, indicando su ámbito territorial.  
 - Una **franquicia** relacionada con tu sector.  
 - El **vivero de empresas más cercano**, indicando el organismo al que pertenece y su dirección.  
-- Un ejemplo de **empresa pública**.  
+- Un ejemplo de **empresa pública.**  
 - Un ejemplo de **ONG** relacionada con tu sector.  
 - Una empresa de tu sector e investiga si es **pública, privada o concertada**, justificando tu respuesta.  
 
-### 2.1 **Indicaciones de entrega y criterios de corrección**  
+### 2.1 Indicaciones de entrega y criterios de corrección  
 - Documento de **máximo dos páginas**, en letra tamaño 12.  
 - Justifica tus respuestas incluyendo explicaciones, webs o direcciones.  
 - **Valoración:** 4 puntos  
@@ -57,7 +56,7 @@ number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 - Cuándo es conveniente crearlas  
 
 ### 3.1 Indicaciones de entrega y criterios de corrección  
-- El cuadro debe ser **claro y de fácil lectura**.  
+- El cuadro debe ser **claro y de fácil lectura.**  
 - **Valoración:** 4 puntos  
   - Elaboración propia, bien presentado y completo.  
   - No debe ser un simple resumen, sino un cuadro comparativo.  

@@ -3,9 +3,17 @@ number headings: first-level 0, max 3, _.1., skip ^skipped
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.2
+cssclasses:
+  - table-clean
 ---
 
-# **TEMA 2.1.** Sistemas de archivos
+# **TEMA 2.1.** <br>Sistemas de Archivos
+
+
+|Anexos|    
+|---|
+|[Resumen Tema 2.1. Sistemas de archivos](Resúmenes/Resumen%20Tema%202.1.%20Sistemas%20de%20archivos.md)|
+
 ## 1. Sistemas de archivos
 
 El sistema de archivos es un método para almacenar y organizar archivos de ordenador y los datos que contienen para facilitar su localización y acceso.  

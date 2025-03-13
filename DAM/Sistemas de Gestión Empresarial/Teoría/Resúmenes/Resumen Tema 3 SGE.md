@@ -4,7 +4,7 @@ banner: "![[../../../../_Media/Banners/vecteezy_yellow-and-white-background-with
 banner_y: 0.64
 ---
 
-# Resumen Tema SGE03
+# **Resumen Tema 3.**  <br>Organización, consulta y tratamiento de la información
 
 Este tema aborda cómo se organiza, consulta y trata la información en sistemas ERP (Enterprise Resource Planning), con un enfoque en OpenERP. A continuación, se presenta un resumen estructurado pero con explicaciones breves para facilitar la comprensión.
 

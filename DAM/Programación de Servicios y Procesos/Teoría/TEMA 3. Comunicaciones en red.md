@@ -1,8 +1,6 @@
 ---
 number headings: first-level 0, max 3, _.1.
-tags:
-  - DAM/PSP
-  - Teoría
+tags: [DAM/PSP, Teoría]
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
@@ -10,12 +8,13 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 3.** Comunicaciones en red
+# **TEMA 3.** <br>Comunicaciones en Red
 
 | Anexos |
 | ------ |
 | [Tarea PSP03](../Práctica/Tarea%20PSP03.md) |
 | [Tarea PSP03 (Solución)](../Práctica/Tarea%20PSP03%20(Solución).md) |
+
 ## 1. Conexiones TCP/IP
 
 En 1969, ARPA (Advanced Research Projects Agency) del Departamento de Defensa de EE. UU. inició un proyecto para conectar ordenadores mediante redes telefónicas. Diseñado en plena Guerra Fría, el objetivo era garantizar la comunicación entre nodos incluso si parte de la red quedaba destruida. Esto dio lugar en 1972 a ARPAnet, la primera red de conmutación de paquetes, caracterizada por su fiabilidad gracias a topologías malladas y múltiples líneas punto a punto.

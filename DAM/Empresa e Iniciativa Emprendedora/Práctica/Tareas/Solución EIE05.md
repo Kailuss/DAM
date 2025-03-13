@@ -2,41 +2,47 @@
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 obsidianUIMode:
 ---
+
 # Solución EIE05
 ## 1. Organismos de Ayuda al Proyecto Empresarial
 
 **Objetivo.** Identificar y aprovechar el apoyo de organismos que faciliten la puesta en marcha del proyecto en Palma de Mallorca.
 
 - **Ventanilla Única Empresarial.** En las Islas Baleares, esta entidad centraliza los trámites administrativos, lo que simplifica el proceso de creación de la empresa. Su uso puede agilizar la obtención de licencias y otros permisos necesarios.
+
 > [!info] 
 > **Dirección:** Carrer de l'Estudi General, 7, 07001 Palma<br/>
 > **Teléfono:** 971 71 01 88<br/>
 > **Correo electrónico:** info@cambramallorca.com
-    
+
 - **Punto de Atención al Emprendedor (PAE).** En Palma existen oficinas PAE que ofrecen asesoramiento integral, desde la elaboración del plan de negocio hasta el acompañamiento en la búsqueda de financiación y ayudas.
+
 > [!info] 
 > **Dirección:** Carrer de Socors, 22, 07002 Palma<br/>
 > **Teléfono:** 971 22 59 00<br/>
 > **Correo electrónico:** info@palmaactiva.com
-    
-- **Cámaras de Comercio.** La Cámara de Comercio de las Islas Baleares brinda formación, asesoramiento en financiación y acceso a redes de contactos que pueden resultar esenciales para la consolidación del proyecto. _Ejemplo:_ Pueden ofrecer cursos específicos sobre digitalización y herramientas tecnológicas aplicadas al emprendimiento.
+
+- **Cámaras de Comercio.** La Cámara de Comercio de las Islas Baleares brinda formación, asesoramiento en financiación y acceso a redes de contactos que pueden resultar esenciales para la consolidación del proyecto. *Ejemplo:* Pueden ofrecer cursos específicos sobre digitalización y herramientas tecnológicas aplicadas al emprendimiento.
+
 > [!info] 
 > **Dirección:** 
 > **Teléfono:** 
 > **Correo electrónico:** 
-    
+
 - **Asociaciones Empresariales y Redes de Apoyo.** Organizaciones locales de emprendedores y asociaciones empresariales de la región colaboran mediante la realización de eventos, talleres y la difusión de subvenciones autonómicas o locales.
+
 > [!info] 
 > **Dirección:** 
 > **Teléfono:** 
 > **Correo electrónico:** 
-    
+
 - **Agencia Tributaria y Seguridad Social.** Estos organismos facilitan el cumplimiento de las obligaciones fiscales y laborales, aspecto fundamental en el contexto normativo de España y, concretamente, de Baleares.
+
 > [!info] 
 > **Dirección:** 
 > **Teléfono:** 
 > **Correo electrónico:** 
-    
+
 ## 2. Directorio de Organismos y Direcciones de Ayuda al Autoempleo
 
 Para fomentar una red de apoyo colaborativa, se propone la creación de fichas informativas. A modo de ejemplo, se desarrolla la siguiente ficha:
@@ -81,7 +87,7 @@ Se define una estructura organizativa que combine la experiencia del promotor y 
 | **Especialista en Marketing Digital** | Diseño y ejecución de campañas online, gestión de redes sociales y comunicación de marca.                | Experiencia en estrategias digitales y análisis de métricas de usuario.          |
 | **Administrativo/Financiero**         | Gestión de trámites, contabilidad y coordinación con organismos locales (PAE, Cámara de Comercio, etc.). | Formación en administración y experiencia en gestión de pequeñas empresas.       |
 
-### 5.1. **Determinación de Funciones y Tareas**
+### 5.1. Determinación de Funciones y Tareas
 
 Para lograr el desarrollo, lanzamiento y crecimiento de la app, es fundamental definir claramente las tareas y responsabilidades en las áreas clave: desarrollo tecnológico, diseño, marketing y administración. Esto implica identificar:
 
@@ -90,7 +96,7 @@ Para lograr el desarrollo, lanzamiento y crecimiento de la app, es fundamental d
 - **Actividades Administrativas y Financieras.** Gestión de trámites, contabilidad, cumplimiento de normativas y coordinación con organismos de apoyo en Palma.
 - **Atención al Cliente y Soporte Técnico (en fases posteriores).** Responder consultas, gestionar incidencias y asegurar una experiencia de usuario satisfactoria.
 
-### 5.2. **Identificación de Puestos y Perfiles Profesionales**
+### 5.2. Identificación de Puestos y Perfiles Profesionales
 
 **a) Director / Project Manager**
 
@@ -117,44 +123,44 @@ Para lograr el desarrollo, lanzamiento y crecimiento de la app, es fundamental d
 - **Funciones.** Gestionar trámites administrativos, contabilidad, relaciones con organismos locales (como la Ventanilla Única Empresarial y el PAE) y la coordinación con asesores fiscales y laborales.
 - **Perfil.** Formación en administración o contabilidad, conocimiento del entorno normativo y experiencia en la gestión de pequeñas empresas.
 
-### 5.3. **Proceso de Selección y Contratación**
+### 5.3. Proceso de Selección y Contratación
 
 - **Selección.**
-    - Revisión de currículos y portfolios, entrevistas personales y pruebas técnicas/dinámicas grupales, especialmente para roles críticos como el de desarrollador y diseñador UX/UI.
-    - Evaluación del encaje cultural con la filosofía de auto-mejora y bienestar que impulsa la app.
+	- Revisión de currículos y portfolios, entrevistas personales y pruebas técnicas/dinámicas grupales, especialmente para roles críticos como el de desarrollador y diseñador UX/UI.
+	- Evaluación del encaje cultural con la filosofía de auto-mejora y bienestar que impulsa la app.
 - **Tipo de Contrato.**
   - Inicialmente, se pueden optar por contratos temporales o por proyecto, con miras a formalizarlos de forma indefinida conforme se consolide la empresa y crezca la base de usuarios.
 
-### 5.4. **Estructura Organizativa y Comunicación**
+### 5.4. Estructura Organizativa y Comunicación
 
 - **Organigrama Inicial.** Una estructura plana que permita la comunicación directa entre el Director y los responsables de cada área, facilitando la toma de decisiones rápida y flexible.
-    
-    - **Director / Project Manager.** Líder del equipo.
-    - **Equipo Tecnológico.** Desarrollador y Diseñador UX/UI.
-    - **Equipo de Marketing y Comunicación.** Especialista en Marketing Digital.
-    - **Administración y Finanzas.** Administrativo/Financiero.
+	
+	- **Director / Project Manager.** Líder del equipo.
+	- **Equipo Tecnológico.** Desarrollador y Diseñador UX/UI.
+	- **Equipo de Marketing y Comunicación.** Especialista en Marketing Digital.
+	- **Administración y Finanzas.** Administrativo/Financiero.
 
 - **Comunicación Interna.**
-    - Reuniones semanales de seguimiento y coordinación.
-    - Uso de herramientas colaborativas (por ejemplo, Slack o Trello) para el control de tareas y proyectos.
+	- Reuniones semanales de seguimiento y coordinación.
+	- Uso de herramientas colaborativas (por ejemplo, Slack o Trello) para el control de tareas y proyectos.
 
-### 5.5. **Costes, Aspectos Contractuales y Políticas de Motivación**
+### 5.5. Costes, Aspectos Contractuales y Políticas de Motivación
 
 - **Costes.**
-    - Establecer un presupuesto acorde a las realidades del mercado en Palma de Mallorca, consultando convenios colectivos y evaluando salarios competitivos para atraer talento.
+	- Establecer un presupuesto acorde a las realidades del mercado en Palma de Mallorca, consultando convenios colectivos y evaluando salarios competitivos para atraer talento.
 - **Aspectos Contractuales.**
-    - Revisión del convenio colectivo del sector tecnológico para asegurar el cumplimiento de obligaciones legales, incluyendo salarios, Seguridad Social y otros beneficios.
+	- Revisión del convenio colectivo del sector tecnológico para asegurar el cumplimiento de obligaciones legales, incluyendo salarios, Seguridad Social y otros beneficios.
 - **Políticas de Integración y Motivación.**
-    - **Formación Continua.** Programas de capacitación en nuevas tecnologías, tendencias de marketing digital y gamificación.
-    - **Incentivos.** Bonificaciones o premios por el cumplimiento de objetivos clave (por ejemplo, alcanzar ciertos hitos de usuarios o mejoras en la retención).
-    - **Cultura Empresarial.** Fomentar un ambiente colaborativo, creativo y flexible que refleje el espíritu de auto-mejora y bienestar, en línea con la misión de la app.
+	- **Formación Continua.** Programas de capacitación en nuevas tecnologías, tendencias de marketing digital y gamificación.
+	- **Incentivos.** Bonificaciones o premios por el cumplimiento de objetivos clave (por ejemplo, alcanzar ciertos hitos de usuarios o mejoras en la retención).
+	- **Cultura Empresarial.** Fomentar un ambiente colaborativo, creativo y flexible que refleje el espíritu de auto-mejora y bienestar, en línea con la misión de la app.
 
-### 5.6. **Proyección de Crecimiento**
+### 5.6. Proyección de Crecimiento
 
 - **Fase Inicial (Primer Año).**
-    - Comenzar con un equipo reducido (aproximadamente 4-5 personas) para cubrir las áreas esenciales, aprovechando la experiencia del emprendedor y contratando personal clave en desarrollo y marketing.
+	- Comenzar con un equipo reducido (aproximadamente 4-5 personas) para cubrir las áreas esenciales, aprovechando la experiencia del emprendedor y contratando personal clave en desarrollo y marketing.
 - **Expansión a Mediano Plazo (3-5 Años).**
-    - Conforme la aplicación gane tracción y se alcancen los objetivos de usuarios, se prevé ampliar el equipo, incorporando roles adicionales (por ejemplo, soporte técnico, atención al cliente y personal especializado en análisis de datos) hasta alcanzar una plantilla de hasta 10 empleados.
+	- Conforme la aplicación gane tracción y se alcancen los objetivos de usuarios, se prevé ampliar el equipo, incorporando roles adicionales (por ejemplo, soporte técnico, atención al cliente y personal especializado en análisis de datos) hasta alcanzar una plantilla de hasta 10 empleados.
 ## 6. Plan de Riesgos Laborales
 
 A continuación se presenta el **Plan de Prevención de Riesgos Laborales** para la empresa de desarrollo de la aplicación móvil en Palma de Mallorca. Este plan está diseñado para identificar y mitigar los riesgos asociados a las actividades de oficina y trabajo en el sector tecnológico, siguiendo las pautas generales del "TEMA 5. La creación de una empresa".
@@ -163,7 +169,7 @@ A continuación se presenta el **Plan de Prevención de Riesgos Laborales** para
 
 **a) Riesgos Ergonómicos y Visuales.**
 
-- **Fatiga Visual.**  Debido a la exposición prolongada a pantallas, lo que puede generar tensión ocular, dolores de cabeza y fatiga visual.
+- **Fatiga Visual.** Debido a la exposición prolongada a pantallas, lo que puede generar tensión ocular, dolores de cabeza y fatiga visual.
 - **Fatiga Postural.** Uso inadecuado de mobiliario o posturas prolongadas que pueden causar molestias o lesiones musculoesqueléticas.
 
 **b) Riesgos Psicosociales.**
@@ -172,7 +178,7 @@ A continuación se presenta el **Plan de Prevención de Riesgos Laborales** para
 
 **c) Riesgos en el Entorno Físico de la Oficina.**
 
-- **Riesgos Generales.**  Posibles accidentes derivados del entorno (caídas, golpes, riesgos eléctricos, incendios) en la oficina situada en Palma.
+- **Riesgos Generales.** Posibles accidentes derivados del entorno (caídas, golpes, riesgos eléctricos, incendios) en la oficina situada en Palma.
 
 ### 6.2. Medidas Preventivas
 
@@ -188,26 +194,25 @@ Para cada riesgo identificado se proponen las siguientes medidas preventivas:
 ### 6.3. Organización y Responsabilidades
 
 - **Responsable de Prevención.**  
-    En empresas con pocos empleados, el propio director o un responsable designado asumirá la coordinación de la prevención, garantizando que se cumplan las normativas y se actualicen los protocolos de seguridad.
-    
+	En empresas con pocos empleados, el propio director o un responsable designado asumirá la coordinación de la prevención, garantizando que se cumplan las normativas y se actualicen los protocolos de seguridad.
+	
 - **Formación y Concienciación.**  
-    Se programarán sesiones de formación periódicas en materia de seguridad y prevención, tanto en aspectos ergonómicos como en el manejo del estrés y emergencias.
-    
+	Se programarán sesiones de formación periódicas en materia de seguridad y prevención, tanto en aspectos ergonómicos como en el manejo del estrés y emergencias.
+	
 - **Evaluación Continua.**  
-    Realizar evaluaciones regulares de riesgos y auditorías internas para detectar posibles áreas de mejora. Esto permitirá ajustar las medidas preventivas en función de la evolución del entorno laboral y de la tecnología utilizada.
-    
+	Realizar evaluaciones regulares de riesgos y auditorías internas para detectar posibles áreas de mejora. Esto permitirá ajustar las medidas preventivas en función de la evolución del entorno laboral y de la tecnología utilizada.
 
 ### 6.4. Documentación y Seguimiento
 
 - **Elaboración del Plan de Prevención.**  
-    Documentar todas las medidas preventivas, protocolos y procedimientos. Este documento debe ser conocido y accesible para todos los empleados.
-    
+	Documentar todas las medidas preventivas, protocolos y procedimientos. Este documento debe ser conocido y accesible para todos los empleados.
+	
 - **Actualización y Revisión.**  
-    Revisar el plan de manera periódica (al menos una vez al año o ante cualquier cambio significativo en las condiciones laborales) para asegurar que se mantienen las condiciones de seguridad.
-    
+	Revisar el plan de manera periódica (al menos una vez al año o ante cualquier cambio significativo en las condiciones laborales) para asegurar que se mantienen las condiciones de seguridad.
+	
 - **Comunicación Interna.**  
-    Establecer canales de comunicación (reuniones, boletines internos) para informar sobre cambios, novedades o incidencias en materia de prevención de riesgos.
-    
+	Establecer canales de comunicación (reuniones, boletines internos) para informar sobre cambios, novedades o incidencias en materia de prevención de riesgos.
+	
 ### 6.5. Conclusión
 
 Este plan de prevención de riesgos laborales se adapta a la realidad de una empresa tecnológica en Palma de Mallorca, priorizando la salud y el bienestar de los empleados a través de medidas específicas para mitigar riesgos ergonómicos, psicosociales y del entorno físico. Así, se contribuye a crear un ambiente de trabajo seguro, saludable y motivador, fundamental para el éxito del proyecto y el cumplimiento de los objetivos empresariales.

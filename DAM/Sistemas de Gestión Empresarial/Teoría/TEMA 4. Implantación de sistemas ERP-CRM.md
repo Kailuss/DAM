@@ -1,16 +1,16 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
-banner_y: 0.6
+banner_y: 0.58
 cssclasses:
   - table-clean
 ---
 
-# **TEMA 4.** Implantación de sistemas ERP-CRM
+# **TEMA 4.** <br>Implantación de <br>sistemas ERP-CRM
 
 | Anexos |
 | - |
-| [Resumen Tema SGE04](Resúmenes/Resumen%20Tema%20SGE04.md) |
+| [Resumen Tema 4 SGE](Resúmenes/Resumen%20Tema%204%20SGE.md) |
 | [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 ## 1. Introducción
 
@@ -147,11 +147,14 @@ El primer paso es estudiar la información que se introducirá en la aplicación
 
 Para crear una nueva base de datos, se accede al menú **Base de Datos.** Para crear nuevos objetos, se utiliza el menú **Administración/Personalización/Estructura de la base de datos/Objetos.** Al crear un objeto, se deben definir:
 
-- **Nombre del objeto.** Nombre en la aplicación.
-- **Objeto.** Nombre en la base de datos.
-- **Descripción de los campos.** Lista de campos del objeto.
-- **Tipo de los campos.** Tipo de dato (texto, fecha, etc.).
-- **Permisos de acceso.** Derechos de acceso por parte de los usuarios.
+
+|     |     |
+| --- | --- |
+| **Nombre del objeto.** |Nombre en la aplicación.|
+| **Objeto.** |Nombre en la base de datos.|
+| **Descripción de los campos.** |Lista de campos del objeto.|
+| **Tipo de los campos.** |Tipo de dato (texto, fecha, etc.).|
+| **Permisos de acceso.** |Derechos de acceso por parte de los usuarios.|
 
 En OpenERP, los objetos pueden ser tablas o vistas en la base de datos. Por ejemplo, el objeto **Estadísticas de Servidor** es una vista llamada `report_smtp_server` en la base de datos.
 
@@ -216,10 +219,13 @@ En OpenERP, los archivos CSV deben tener campos separados por punto y coma (`;`)
 
 La planificación del proyecto de implantación debe detallar todas las tareas, responsables y áreas afectadas. Las figuras clave en este proceso son:
 
-- **Dirección o responsables de la empresa.** Toman decisiones y deben estar plenamente implicados.
-- **Jefe de proyecto.** Valida, verifica y actúa como interlocutor entre los miembros del equipo.
-- **Responsable de migración de datos.** Conoce el sistema antiguo y las necesidades del nuevo.
-- **Equipo de consultoría.** Realiza el análisis inicial, propone soluciones, instala y configura el sistema, forma a los usuarios y desarrolla módulos a medida.
+
+|     |     |
+| --- | --- |
+| **Dirección o responsables de la empresa.** |Toman decisiones y deben estar plenamente implicados.|
+| **Jefe de proyecto.** |Valida, verifica y actúa como interlocutor entre los miembros del equipo.|
+| **Responsable de migración de datos.** |Conoce el sistema antiguo y las necesidades del nuevo.|
+| **Equipo de consultoría.** |Realiza el análisis inicial, propone soluciones, instala y configura el sistema, forma a los usuarios y desarrolla módulos a medida.|
 
 Las etapas principales del proceso de implantación son:
 

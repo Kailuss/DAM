@@ -6,7 +6,7 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 5.** La creación de una empresa
+# **TEMA 5.** <br>La creación de una empresa
 
 | Anexos |
 | - |
@@ -36,13 +36,12 @@ En este tema se abordan aspectos fundamentales para emprender un negocio:
 - **Recursos Humanos.** Determinar el personal necesario, sus funciones, contratos y costes.
 - **Plan de Prevención de Riesgos Laborales.** Analizar los riesgos específicos del sector.
 
-![cover](Imágenes/05-Plan.png)
-
 ## 2. El plan de operaciones
+![cover](Imágenes/05-Plan.png)
 
 Se compone de la gestión del aprovisionamiento y el programa de producción.
 
-### 2.1. Gestión del aprovisionamiento
+### 2.1. **Gestión del aprovisionamiento**
 
 Al iniciar un negocio, es esencial seleccionar proveedores que suministren los componentes necesarios.
 
@@ -54,19 +53,18 @@ Al iniciar un negocio, es esencial seleccionar proveedores que suministren los c
 
 Los criterios de selección incluyen calidad, precio, costes adicionales (portes, seguros), descuentos por volumen de compra y plazos de pago.
 
-### 2.2. Programa de producción
+### 2.2. **Programa de producción**
 
 Es la planificación del proceso productivo o de prestación de servicios. En empresas de producción de bienes, requiere un desarrollo técnico especializado. En empresas de servicios, aunque la descripción es más sencilla, debe estar bien detallada. Es importante prever si se podrá atender la demanda sin generar congestionamientos o ineficiencias.
 
-![cover](Imágenes/05-Inversiones.png)
-
 ## 3. El plan de Inversiones y Gastos
-### 3.1. Diferencia entre inversión y gasto
+![cover](Imágenes/05-Inversiones.png)
+### 3.1. **Diferencia entre inversión y gasto**
 
 - **Inversión.** Desembolso de capital para adquirir bienes que no se venderán y serán utilizados en la empresa (terrenos, edificios, maquinaria, vehículos…).
 - **Gasto.** Pagos necesarios para el funcionamiento de la empresa pero sin permanencia (recibos de teléfono, luz, agua…).
 
-### 3.2. Elementos del Plan de Inversiones
+### 3.2. **Elementos del Plan de Inversiones**
 
 Incluye los siguientes conceptos:
 
@@ -83,10 +81,8 @@ Incluye los siguientes conceptos:
 
 Para determinar los costes, es recomendable solicitar presupuestos o facturas proforma a los proveedores.
 
-![cover](Imágenes/05-Financiación.png)
-
 ## 4. Plan de Financiación
-
+![cover](Imágenes/05-Financiación.png)
 Tras calcular las inversiones necesarias para constituir la empresa, es fundamental **definir cómo obtener los recursos financieros.** La financiación es un factor crítico, especialmente en las primeras etapas del negocio. Para ello, se deben seguir ciertas recomendaciones:
 
 - **No ser optimista** en exceso con las previsiones.
@@ -99,13 +95,13 @@ Tras calcular las inversiones necesarias para constituir la empresa, es fundamen
 
 Las fuentes de financiación pueden clasificarse en:
 
-### 4.1. Financiación Propia
+### 4.1. **Financiación Propia**
 
 Se basa en ahorros personales y aportaciones del entorno, clave para la creación del capital inicial. A largo plazo, también incluye:
 
 - **Reservas.** Beneficios no distribuidos destinados a reinversión.
 - **Amortizaciones.** Fondos acumulados para reponer activos deteriorados.
-### 4.2. Financiación Ajena
+### 4.2. **Financiación Ajena**
 
 Formas más comunes de financiación externa:
 
@@ -130,7 +126,7 @@ Otras formas de financiación ajena:
 | **Sociedad de garantía recíproca (SGR)** | Aval para PYMEs sin garantías propias. |
 | **Préstamos participativos** | Fondos públicos para proyectos innovadores o con impacto social. |
 
-### 4.3. Ayudas y Subvenciones
+### 4.3. **Ayudas y Subvenciones**
 
 Existen diversas ayudas públicas para fomentar la creación de empresas. Sin embargo, no se debe basar la viabilidad del negocio en ellas, ya que pueden tardar en aprobarse o no concederse. Estas ayudas pueden ser:
 
@@ -140,14 +136,12 @@ Existen diversas ayudas públicas para fomentar la creación de empresas. Sin em
 - **Ayudas autonómicas.** Subvenciones gestionadas por cada Comunidad Autónoma.
 - **Ayudas locales.** Fondos de Ayuntamientos y Diputaciones Provinciales.
 
-### 4.4. Otros Aspectos de la Financiación
+### 4.4. **Otros Aspectos de la Financiación**
 
 También pueden existir programas locales de apoyo empresarial. Para conocerlos, se recomienda acudir a la Cámara de Comercio o al Ayuntamiento. Estas ayudas no fináncian directamente la creación de la empresa, pero pueden impulsar su desarrollo al facilitar publicidad y captación de clientes.
 
-![cover](Imágenes/05-Asesoramiento.png)
-
 ## 5. Fuentes de asesoramiento e información
-
+![cover](Imágenes/05-Asesoramiento.png)
 Al iniciar un negocio en el sector de la Informática y las Comunicaciones, es fundamental conocer los organismos y recursos disponibles para obtener asesoramiento e información. Internet es una herramienta útil, pero es importante seleccionar fuentes confiables para evitar la sobrecarga de información.
 
 Uno de los principales recursos es la **Ventanilla Única Empresarial**, una plataforma que simplifica la creación de empresas al centralizar trámites administrativos como registros, autorizaciones y licencias. Además, ofrece información sobre financiación, formas jurídicas y fiscalidad, reduciendo los tiempos de tramitación.
@@ -169,15 +163,15 @@ Otro organismo clave es el **Punto de Atención al Emprendedor (PAE)**, que prop
 - **Seguridad Social.** Proporciona información sobre afiliación, cotizaciones y otros trámites relacionados.
 - **Servicio Público de Empleo Estatal.** Informa sobre contratos de trabajo, certificados de empresa y otros aspectos laborales a través de su oficina virtual.
 
-![cover](Imágenes/05-rrhh.png)
+
 
 ## 6. Los Recursos Humanos
-
+![cover](Imágenes/05-rrhh.png)
 El recurso más valioso de una empresa son las personas que la integran, ya que detrás de cada actividad siempre hay personas. En empresas de servicios, este aspecto es aún más relevante, pues el personal es quien atiende directamente a los clientes. El éxito o fracaso de una empresa depende en gran medida de su equipo humano.
 
 Al contratar, una persona emprendedora asume diversas obligaciones, tanto legales como económicas, como el pago de salarios, cuotas a la Seguridad Social, retenciones de IRPF, y la formalización de contratos. Además, debe ejercer un liderazgo eficaz, motivar al personal, fomentar su formación y promoción, delegar responsabilidades y reconocer los méritos de sus empleados. Una gestión planificada y motivadora del personal contribuye a su satisfacción y, en consecuencia, a una mayor productividad.
 
-### 6.1. ¿Cómo se hace un Plan de Recursos Humanos?
+### 6.1. **¿Cómo se hace un Plan de Recursos Humanos?**
 
 Un plan de Recursos Humanos debe comenzar por **determinar las funciones y tareas necesarias, identificando qué se debe hacer, en qué plazo, cómo, dónde y con qué recursos.** A continuación, se debe concretar el número de puestos de trabajo necesarios, considerando el horario de apertura y el nivel de atención requerido. Para cada puesto, se establecerá un perfil profesional que incluya la titulación, conocimientos, y características físicas y de carácter deseadas. Finalmente, se elaborará un organigrama que represente gráficamente la estructura de la empresa.
 
@@ -185,7 +179,7 @@ Un plan de Recursos Humanos debe comenzar por **determinar las funciones y tarea
 
 Una vez seleccionado el personal, es necesario **elegir el tipo de contrato más adecuado, considerando el puesto, la persona y las ayudas estatales disponibles.** También se debe determinar el coste de cada puesto, incluyendo salario, cuotas a la Seguridad Social, dietas y uniformes, consultando el Convenio Colectivo aplicable. La gestión del equipo humano debe incluir políticas de integración, promoción e incentivos que fomenten la productividad y la satisfacción del personal.
 
-### 6.2. Los Recursos Humanos: especialidades en el sector
+### 6.2. **Los Recursos Humanos: especialidades en el sector**
 
 En el sector de la Informática y las Comunicaciones, el personal no siempre necesita acreditar una titulación, aunque es recomendable para su inserción laboral. **Los profesionales de este sector deben ser capaces de implantar y administrar sistemas informáticos en entornos monousuario y multiusuario, gestionar redes locales, y facilitar el uso de aplicaciones informáticas.** 
 
@@ -193,15 +187,13 @@ Las ocupaciones más relevantes incluyen **técnicos en mantenimiento de sistema
 
 En el sector de la Informática, es esencial consultar el Convenio Colectivo aplicable, que regula aspectos como la contratación, categorías profesionales, horarios, vacaciones, salarios y sanciones por incumplimiento de obligaciones. Además, se deben realizar revisiones médicas periódicas para el personal. Es recomendable contratar una asesoría fiscal-laboral para gestionar impuestos, contratos y altas en la Seguridad Social, y considerar externalizar servicios como la limpieza del centro para optimizar recursos.
 
-![cover](Imágenes/05-prevención.png)
-
 ## 7. El Plan de Prevención de Riesgos Laborales
-
+![cover](Imágenes/05-prevención.png)
 En el ámbito laboral, todos los trabajos conllevan riesgos, incluidos aquellos en el sector de la informática y las comunicaciones. Es fundamental identificar estos riesgos y establecer medidas preventivas para garantizar la seguridad y salud de los trabajadores.
 
 La prevención de riesgos laborales es un aspecto clave en cualquier empresa. La **Ley de Prevención de Riesgos Laborales** es la norma más importante en este ámbito, y el **Plan de Prevención** es el instrumento central para integrar la política preventiva en la gestión empresarial.
 
-### 7.1. Riesgos específicos del personal en empresas de informática y comunicaciones
+### 7.1. **Riesgos específicos del personal en empresas de informática y comunicaciones**
 
 Los trabajadores de este sector están expuestos a diversos riesgos, entre los que destacan:
 
@@ -212,7 +204,7 @@ Los trabajadores de este sector están expuestos a diversos riesgos, entre los q
 - **Tensión por jornadas prolongadas.**
 - **Riesgos comunes** como incendios, caídas, riesgos eléctricos, problemas de ruido, iluminación inadecuada y temperaturas extremas.
 
-### 7.2. Obligaciones en materia de prevención
+### 7.2. **Obligaciones en materia de prevención**
 
 Las empresas deben cumplir con varias obligaciones para garantizar la seguridad laboral:
 

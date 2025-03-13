@@ -1,8 +1,6 @@
 ---
 number headings: first-level 2, max 3, _.1.
-tags:
-  - DAM/PSP
-  - Teoría
+tags: [DAM/PSP, Teoría]
 obsidianUIMode: pre
 banner: "![[psp.jpg]]"
 banner_y: 0.32
@@ -10,7 +8,7 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 1.** Programación multiproceso
+# **TEMA 1.** <br>Programación Multiproceso
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_Programación_multiproceso.mp3]]
@@ -44,7 +42,7 @@ Un **programa** es un conjunto de instrucciones que realizan una tarea. Los prog
 
 Un **proceso** es un programa en ejecución. Mientras que un ejecutable es un fichero, un proceso es una entidad activa gestionada por el sistema operativo. Una aplicación puede involucrar varios procesos, ejecutables y librerías.
 
-### 2.1. Ejecutables. Tipos
+### 2.1. **Ejecutables. Tipos**
 
 Los ejecutables pueden clasificarse según su tipo de código:
 
@@ -69,13 +67,13 @@ Los procesos pueden clasificarse en:
 | **Interactivos** | Procesos que requieren interacción constante con el usuario. Ejemplo: un procesador de textos. |
 | **Tiempo real** | Procesos donde el tiempo de respuesta es crítico. Ejemplo: sistemas de control en automóviles o brazos robóticos. |
 
-### 3.1. Introducción
+### 3.1. **Introducción**
 
 En un sistema multitarea, como Windows o GNU/Linux, múltiples aplicaciones se ejecutan simultáneamente. Aunque el microprocesador ejecuta miles de millones de instrucciones por segundo, el sistema operativo (SO) gestiona qué proceso utiliza la CPU en cada momento. El SO asigna un tiempo de ejecución (quantum) a cada proceso, y cuando este tiempo termina, el proceso vuelve a la cola de espera para ceder la CPU a otro proceso.
 
 Los sistemas modernos con múltiples núcleos pueden ejecutar varios procesos en paralelo, pero el SO sigue siendo necesario para gestionar la distribución de recursos entre los procesos activos, incluyendo los del propio sistema operativo.
 
-### 3.2. Estados de un proceso
+### 3.2. **Estados de un proceso**
 
 Un proceso pasa por varios estados durante su ciclo de vida:
 
@@ -90,7 +88,7 @@ Un proceso pasa por varios estados durante su ciclo de vida:
 
 El SO gestiona las transiciones entre estos estados, asegurando que los procesos avanzan de manera equitativa y eficiente.
 
-### 3.3. Planificación de procesos por el Sistema Operativo
+### 3.3. **Planificación de procesos por el Sistema Operativo**
 
 El SO utiliza un **planificador** para decidir qué proceso se ejecuta y durante cuánto tiempo. El planificador sigue un **algoritmo de planificación**, como:
 
@@ -116,17 +114,17 @@ El **cargador** es responsable de crear procesos. Cuando se inicia un proceso, e
 
 El PCB permite al SO gestionar y controlar cada proceso de manera individual.
 
-### 3.4. Cambio de contexto en la CPU
+### 3.4. **Cambio de contexto en la CPU**
 
 El **cambio de contexto** ocurre cuando el SO pasa la CPU de un proceso a otro. Durante este cambio, el SO guarda el estado actual de la CPU (registros, contador de programa, etc.) y restaura el estado del proceso que va a ejecutarse. Este mecanismo es esencial para la multitarea, permitiendo que múltiples procesos compartan la CPU de manera eficiente.
 
-### 3.5. Servicios e hilos
+### 3.5. **Servicios e hilos**
 
 - **Hilos (threads).** Son unidades de ejecución dentro de un proceso. Comparten la memoria y recursos del proceso, pero ejecutan tareas independientes. Los cambios de contexto entre hilos son más rápidos que entre procesos, ya que no requieren guardar y restaurar todos los registros de la CPU.
   
 - **Servicios.** Son procesos que se ejecutan en segundo plano, generalmente iniciados durante el arranque del sistema. Esperan solicitudes para realizar tareas específicas, como el servicio de impresión, que gestiona la cola de trabajos de impresión.
 
-### 3.6. Creación de procesos en Java
+### 3.6. **Creación de procesos en Java**
 
 En Java, la creación de procesos se realiza utilizando las clases `java.lang.Process` y `java.lang.Runtime`. El método `Runtime.exec(String comando)` permite lanzar la ejecución de un programa externo, devolviendo un objeto `Process` que representa el proceso en ejecución.
 
@@ -138,7 +136,7 @@ Runtime.getRuntime().exec("ruta/al/editor.jar");
 
 Este código lanza un nuevo proceso del editor de texto cada vez que se ejecuta, permitiendo la edición simultánea de varios documentos.
 
-### 3.7. Comandos para la gestión de procesos
+### 3.7. **Comandos para la gestión de procesos**
 
 Los comandos son esenciales para la gestión de procesos, ya que permiten interactuar directamente con el sistema operativo. Aunque las interfaces gráficas son comunes, los comandos ofrecen un control más preciso y son fundamentales en la administración de sistemas, especialmente en entornos remotos.
 
@@ -164,43 +162,43 @@ Los comandos son esenciales para la gestión de procesos, ya que permiten intera
 | **`killall`** | Termina procesos por nombre. Ejemplo: `killall nombreDeAplicacion`. |
 | **`nice`** | Cambia la prioridad de un proceso. Ejemplo: `nice -n 5 comando`. |
 
-### 3.8. Herramientas gráficas para la gestión de procesos
+### 3.8. **Herramientas gráficas para la gestión de procesos**
 
 Además de los comandos, existen herramientas gráficas para gestionar procesos:
 
-#### Windows
-- **Administrador de tareas.** Muestra procesos activos, uso de CPU, memoria, y permite finalizar procesos o cambiar su prioridad.
-- **SysInternals.** Herramientas avanzadas como **Process Explorer** (información detallada de procesos) y **Process Monitor** (actividad de E/S y hilos).
+| Windows                                                             |   |
+| ------------------------------------------------------------------------------- | - |
+| **Administrador de tareas.** | Muestra procesos activos, uso de CPU, memoria, y permite finalizar procesos o cambiar su prioridad. |
+| **SysInternals.** | Herramientas avanzadas como **Process Explorer** (información detallada de procesos) y **Process Monitor** (actividad de E/S y hilos). |
 
-#### GNU/Linux
-- **Monitor del sistema.** Similar al Administrador de tareas de Windows, muestra procesos, uso de recursos y permite gestionarlos.
+| GNU/Linux                                                           |   |
+| ------------------------------------------------------------------------------- | - |
+| **Monitor del sistema.** | Similar al Administrador de tareas de Windows, muestra procesos, uso de recursos y permite gestionarlos. |
 
 ## 4. Programación concurrente
 
 La programación concurrente se refiere a la ejecución simultánea de múltiples procesos o hilos que compiten por recursos o necesitan comunicarse entre sí. Esto es esencial en sistemas modernos, donde los procesos no se ejecutan de forma aislada.
 
-### 4.1. ¿Para qué concurrencia?
+### 4.1. **¿Para qué concurrencia?**
 
-Las principales razones para usar concurrencia son:
+| Razones para usar concurrencia |                                                                                              |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| **Optimización de recursos.**              | Permite solapar operaciones de E/S con ejecución de CPU, reduciendo tiempos de inactividad   |
+| **Interactividad.**                        | Mejora la experiencia del usuario al permitir la ejecución simultánea de tareas.             |
+| **Disponibilidad.**                        | En servidores, permite atender múltiples solicitudes de clientes de forma simultánea.        |
+| **Diseño modular.**                        | Facilita la creación de aplicaciones más claras y mantenibles.                               |
+| **Protección.**                            | Aísla tareas en procesos independientes, permitiendo su finalización sin afectar al sistema. |
 
-- **Optimización de recursos.** Permite solapar operaciones de E/S con ejecución de CPU, reduciendo tiempos de inactividad.
-- **Interactividad.** Mejora la experiencia del usuario al permitir la ejecución simultánea de tareas.
-- **Disponibilidad.** En servidores, permite atender múltiples solicitudes de clientes de forma simultánea.
-- **Diseño modular.** Facilita la creación de aplicaciones más claras y mantenibles.
-- **Protección.** Aísla tareas en procesos independientes, permitiendo su finalización sin afectar al sistema.
+### 4.2. **Beneficios de la concurrencia**
 
-|  **Optimización de recursos.* | 
-| --- | --- |
-|  **Optimización de recursos.*   |  Permite solapar operaciones de E/S con ejecución de CPU, reduciendo tiempos de inactividad.  |
+|Beneficios| |
+| - | - |
+|**Claridad**|Facilita la comprensión de lo que cada proceso debe hacer.|
+|**Reducción de tiempo de ejecución**|En sistemas multiprocesador, los procesos se ejecutan en paralelo.|
+|**Flexibilidad de planificación**|Permite priorizar procesos urgentes.|
+|**Modelado más fiable**|Facilita el diseño y análisis de programas.|
 
-
-### 4.2. Beneficios de la concurrencia
-- **Claridad.** Facilita la comprensión de lo que cada proceso debe hacer.
-- **Reducción de tiempo de ejecución.** En sistemas multiprocesador, los procesos se ejecutan en paralelo.
-- **Flexibilidad de planificación.** Permite priorizar procesos urgentes.
-- **Modelado más fiable.** Facilita el diseño y análisis de programas.
-
-### 4.3. Condiciones de competencia
+### 4.3. **Condiciones de competencia**
 
 Los procesos concurrentes pueden interactuar de tres formas:
 
@@ -224,7 +222,7 @@ Imagina un cruce de caminos con cuatro coches:
 
 Los procesos tienen espacios de memoria privados, lo que impide que accedan directamente a los datos de otros procesos. Sin embargo, en ocasiones, los procesos necesitan comunicarse o compartir recursos. Para ello, se utilizan mecanismos de comunicación proporcionados por los lenguajes de programación y el sistema operativo.
 
-### 5.1. Mecanismos básicos de comunicación
+### 5.1. **Mecanismos básicos de comunicación**
 
 Los procesos pueden comunicarse de dos formas principales:
 
@@ -236,29 +234,34 @@ Los procesos pueden comunicarse de dos formas principales:
 
 En Java, los sockets y buffers se manejan como flujos de datos (`streams`), utilizando métodos como `read` y `write`. Las operaciones de lectura y escritura son **bloqueantes**, lo que significa que un proceso se detiene hasta que la operación se completa.
 
-### 5.2. Tipos de comunicación
+### 5.2. **Tipos de comunicación**
 
 La comunicación entre procesos puede clasificarse según:
 
-#### Dirección del flujo de información
-- **Símplex.** La comunicación es unidireccional (ejemplo: emisión de radio).
-- **Dúplex (Full Duplex).** La comunicación es bidireccional y simultánea (ejemplo: telefonía).
-- **Semidúplex (Half Duplex).** La comunicación es bidireccional, pero no simultánea (ejemplo: walkie-talkies).
+#### 
 
-#### Sincronía
-- **Síncrona.** El emisor espera a que el receptor reciba el mensaje antes de continuar.
-- **Asíncrona.** El emisor continúa su ejecución inmediatamente después de enviar el mensaje.
-- **Invocación remota.** El emisor espera confirmación del receptor antes de continuar.
+|Dirección del flujo de información| |
+| --- | --- |
+|**Símplex.**|La comunicación es unidireccional (ejemplo: emisión de radio).|
+|**Dúplex (Full Duplex).**|La comunicación es bidireccional y simultánea (ejemplo: telefonía).|
+|**Semidúplex (Half Duplex).**|La comunicación es bidireccional, pero no simultánea (ejemplo: walkie-talkies).|
 
-#### Simetría
-- **Simétrica.** Todos los procesos pueden enviar y recibir mensajes.
-- **Asimétrica.** Solo un proceso actúa como emisor, y los demás como receptores.
+|Sincronía| |
+| --- | --- |
+|**Síncrona.**|El emisor espera a que el receptor reciba el mensaje antes de continuar.|
+|**Asíncrona.**| El emisor continúa su ejecución inmediatamente después de enviar el mensaje.|
+|**Invocación remota.**|El emisor espera confirmación del receptor antes de continuar.|
+
+|Simetría| |
+| --- | --- |
+|**Simétrica.**|Todos los procesos pueden enviar y recibir mensajes.|
+|**Asimétrica.**|Solo un proceso actúa como emisor, y los demás como receptores.|
 
 ## 6. Sincronización entre procesos
 
 La sincronización es esencial cuando varios procesos acceden a recursos compartidos o necesitan coordinarse. Sin mecanismos de sincronización, pueden surgir inconsistencias, como en el caso de múltiples procesos leyendo y escribiendo en un mismo archivo.
 
-### 6.1. Regiones críticas
+### 6.1. **Regiones críticas**
 
 Una **región crítica** es un conjunto de instrucciones que acceden a un recurso compartido y deben ejecutarse de forma **atómica** (indivisible) y **exclusiva.** Esto evita que otros procesos accedan al recurso mientras se está modificando.
 
@@ -290,7 +293,7 @@ Para garantizar la correcta comunicación entre cliente y suministrador, se nece
 
 Un enfoque sencillo es utilizar una **variable compartida** que indique si el dato está listo para ser leído. Sin embargo, este enfoque puede ser ineficiente debido a la **espera activa**, donde el cliente consume tiempo de CPU sin realizar tareas útiles.
 
-### 6.2. Semáforos
+### 6.2. **Semáforos**
 
 Los **semáforos** son una herramienta de sincronización que permite controlar el acceso a recursos compartidos en un entorno concurrente. Funcionan como un semáforo de tráfico, indicando cuándo un proceso puede acceder a un recurso y cuándo debe esperar.
 
@@ -316,7 +319,7 @@ Los **semáforos** son una herramienta de sincronización que permite controlar 
 
 En Java, los semáforos están implementados en la clase `Semaphore` del paquete `java.util.concurrent`.
 
-### 6.3. Monitores
+### 6.3. **Monitores**
 
 Los **monitores** son una abstracción de alto nivel que encapsula recursos compartidos y garantiza el acceso a ellos en **exclusión mutua.** A diferencia de los semáforos, los monitores proporcionan una interfaz clara y segura para acceder a los recursos.
 
@@ -348,13 +351,13 @@ En Java, las operaciones de lectura y escritura en recursos compartidos (como ar
 
 En Java, las clases `FileChannel` y `SocketChannel` (del paquete `java.nio.channels`) permiten realizar operaciones bloqueantes de lectura y escritura, y también proporcionan métodos como `lock()` para implementar regiones críticas.
 
-### 6.4. Memoria compartida
+### 6.4. **Memoria compartida**
 
 La **memoria compartida** es una forma natural de comunicación entre procesos, donde varios procesos pueden acceder a la misma zona de memoria. Sin embargo, los sistemas operativos modernos protegen la memoria de cada proceso, haciéndola privada. A pesar de esto, la **programación multihilo** (varios hilos dentro de un mismo proceso) permite compartir memoria entre hilos, lo que facilita la comunicación y sincronización.
 
 En sistemas **multiprocesador** o **distribuidos**, la memoria compartida se utiliza para dividir tareas grandes en partes más pequeñas, asignando cada parte a un procesador o núcleo diferente. Esto permite resolver problemas complejos más rápidamente, aunque requiere una cuidadosa gestión de la sincronización y la división de tareas.
 
-### 6.5. Cola de mensajes
+### 6.5. **Cola de mensajes**
 
 El **paso de mensajes** es una técnica de comunicación entre procesos que no requiere memoria compartida. Los elementos principales son:
 
@@ -386,7 +389,7 @@ Los programas concurrentes deben cumplir requisitos de calidad, como:
 - **Eficiencia.** Utilizar solo los recursos necesarios y optimizar el código.
 - **Reusabilidad.** Diseñar el código de forma modular y documentarlo adecuadamente.
 
-### 7.1. Arquitecturas y patrones de diseño
+### 7.1. **Arquitecturas y patrones de diseño**
 
 #### Arquitecturas de software
 - **Monolítica.** Software estructurado en grupos funcionales muy acoplados.
@@ -398,7 +401,7 @@ Los programas concurrentes deben cumplir requisitos de calidad, como:
 - **Ventajas.** Facilitan el diseño de programas complejos, promueven la reusabilidad y son bien conocidos.
 - **Ejemplos.** Patrones como **Productor-Consumidor** o **Observador** son comunes en programación concurrente.
 
-### 7.2. Documentación
+### 7.2. **Documentación**
 
 La documentación es esencial para entender y mantener el código. En Java, se utilizan:
 
@@ -411,7 +414,7 @@ En aplicaciones concurrentes, es importante documentar:
 - Las **condiciones de sincronización.**
 - Las **regiones críticas** y los recursos compartidos que protegen.
 
-### 7.3. Dificultades en la depuración
+### 7.3. **Dificultades en la depuración**
 
 Depurar programas concurrentes es más complejo que depurar programas secuenciales debido a:
 
@@ -426,7 +429,7 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 
 ## 8. Programación paralela y distribuida
 
-### 8.1. Conceptos básicos
+### 8.1. **Conceptos básicos**
 
 - **Programación paralela.** Ejecución simultánea de tareas en sistemas con múltiples núcleos o procesadores.
 - **Programación distribuida.** Ejecución de tareas en sistemas heterogéneos conectados por redes.
@@ -441,7 +444,7 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 - **Clusters.** Conjunto de ordenadores conectados para trabajar en tareas comunes.
 - **Grids.** Clusters conectados a través de Internet.
 
-### 8.2. Tipos de paralelismo
+### 8.2. **Tipos de paralelismo**
 
 - **A nivel de bit.** Incrementar el tamaño de la palabra del procesador (ejemplo: 32 bits a 64 bits).
 - **A nivel de instrucciones.** Uso de **pipeline** para ejecutar múltiples instrucciones simultáneamente.
@@ -454,7 +457,7 @@ Depurar programas concurrentes es más complejo que depurar programas secuencial
 - **Grano fino.** Paralelización automática de pequeñas secciones de código.
 - **Grano grueso.** Paralelización de grandes secciones de código, optimizando el rendimiento.
 
-### 8.3. Modelos de infraestructura para programación distribuida
+### 8.3. **Modelos de infraestructura para programación distribuida**
 
 - **Sockets.** Comunicación de bajo nivel entre procesos.
 - **RPC (Remote Procedure Call).** Invocación remota de procedimientos.

@@ -2,7 +2,7 @@
 number headings: first-level 2, max 4, skip ^skipped, _.1.1.
 ---
 
-# Resumen **Tema SGE02.1**
+# **Resumen Tema 2.1.**  <br>Sistemas ERP-CRM.  <br>Explotación y adecuación
 
 Este documento proporciona una guía completa para la explotación y adecuación de sistemas ERP-CRM, con un enfoque práctico en Odoo. Se cubren desde la gestión de la base de datos hasta el desarrollo de módulos personalizados, incluyendo la creación de modelos, vistas y controladores. El uso de herramientas como **pgAdmin**, **Dia**, y **PyCharm** facilita el proceso de desarrollo y adaptación del ERP a las necesidades específicas de una organización.
 

@@ -3,7 +3,7 @@ banner: "![[pmdm.jpg]]"
 number headings: first-level 2, max 4, skip ^skipped, _.1.1.
 ---
 
-# **TEMA 4.** Persistencia
+# **TEMA 4.** <br>Persistencia
 
 ## 1. Persistencia en Android: ficheros y SQLite
 

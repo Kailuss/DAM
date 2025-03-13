@@ -1,23 +1,19 @@
 ---
+node_size: 24
 obsidianUIMode: preview
 banner: "![[eie.jpg]]"
-banner_y: 0.22476
-node_size: 20
-number headings: off
+banner_y: 0.11
 ---
 
 # Empresa e Iniciativa Emprendedora
 
-### [Plan de Empresa](Práctica/Proyecto/Plan%20de%20Empresa.md)
-
-### [TEMA 1. La iniciativa emprendedora](Teoría/TEMA%201.%20La%20iniciativa%20emprendedora.md)
-
-### [TEMA 2. La Empresa y su Entorno](Teoría/TEMA%202.%20La%20Empresa%20y%20su%20Entorno.md)
-
-### [TEMA 3. Mercado y Plan de Marketing](Teoría/TEMA%203.%20Mercado%20y%20Plan%20de%20Marketing.md)
-
-### [TEMA 4. Tipos de empresas](Teoría/TEMA%204.%20Tipos%20de%20empresas.md)
-
-### [TEMA 5. La creación de una empresa](Teoría/TEMA%205.%20La%20creación%20de%20una%20empresa.md)
+%% Begin Waypoint %%
+- **[Plan de Empresa](./Plan%20de%20Empresa/Plan%20de%20Empresa.md)**
+- **Teoría**
+	- [TEMA 1. La iniciativa emprendedora](./Teor%C3%ADa/TEMA%201.%20La%20iniciativa%20emprendedora.md)
+	- [TEMA 2. La Empresa y su Entorno](./Teor%C3%ADa/TEMA%202.%20La%20Empresa%20y%20su%20Entorno.md)
+	- [TEMA 3. Mercado y Plan de Marketing](./Teor%C3%ADa/TEMA%203.%20Mercado%20y%20Plan%20de%20Marketing.md)
+	- [TEMA 4. Tipos de empresas](./Teor%C3%ADa/TEMA%204.%20Tipos%20de%20empresas.md)
+	- [TEMA 5. La creación de una empresa](./Teor%C3%ADa/TEMA%205.%20La%20creaci%C3%B3n%20de%20una%20empresa.md)
 
 %% End Waypoint %%

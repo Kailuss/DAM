@@ -1,11 +1,13 @@
 ---
 number headings: first-level 2, max 2, skip ^skipped, _.1.1.
 ---
+
 # Tarea EIE05
 
 ## 1. Detalles de la tarea de esta unidad
 
 ### Enunciado
+
 Tomando como modelo el caso expuesto a lo largo del tema, realiza las siguientes actividades:
 
 ## 2. Actividades
@@ -16,14 +18,13 @@ Tomando como modelo el caso expuesto a lo largo del tema, realiza las siguientes
 ### Actividad 2
 **Directorio de "organismos y direcciones de ayuda al autoempleo".**
 
-Este directorio se realizará por todos los miembros del grupo cumplimentando una ficha de la base de datos **"Directorio de organismos y direcciones de ayuda al autoempleo"**.
+Este directorio se realizará por todos los miembros del grupo cumplimentando una ficha de la base de datos **"Directorio de organismos y direcciones de ayuda al autoempleo".**
 
 - La Base de datos para el directorio podrá ser editada por todo el alumnado.
 - En dicha base de datos, el alumnado deberá ir anotando -en colaboración con el resto de miembros del grupo- las direcciones de los organismos, completando al menos una ficha cada uno (o alguno de los campos, según decida tu profesora o profesor).
 
 ### Actividad 3
 **Inversiones.** Realiza un plan de inversiones de tu proyecto.
-
 
 ### Actividad 4
 **Financiación.** Elige cuáles van a ser tus líneas de financiación.

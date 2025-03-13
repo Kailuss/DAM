@@ -4,7 +4,7 @@ banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-
 banner_y: 0.6
 ---
 
-# **TEMA 1.** Identificación de sistemas ERP-CRM
+# **TEMA 1.** <br>Identificación de <br>sistemas ERP-CRM
 
 
 

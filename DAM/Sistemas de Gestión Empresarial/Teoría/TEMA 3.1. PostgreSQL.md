@@ -6,7 +6,7 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 3.1.** PostgreSQL
+# **TEMA 3.1.** <br>PostgreSQL
 ## 1. Gestión de privilegios en las BBDD de PostgreSQL
 
 Un punto muy importante a tener en cuenta en la gestión de privilegios de PostgreSQL es conocer los privilegios existentes, de forma automática, después de la creación de una base de datos. Es importante saber que:

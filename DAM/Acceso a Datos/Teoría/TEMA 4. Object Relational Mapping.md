@@ -2,9 +2,16 @@
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[ad.jpg]]"
 banner_y: 0.2
+cssclasses:
+  - table-clean
 ---
 
-# **TEMA 4.** Object Relational Mapping
+# **TEMA 4.** <br>Object Relational Mapping
+
+|Anexos|    
+|---|
+|[Resumen Tema 4. Object Relational Mapping](Resúmenes/Resumen%20Tema%204.%20Object%20Relational%20Mapping.md)|
+|[Tarea AD04](../Práctica/Tarea%20AD04.md)|
 
 ```audio-player
 [[Lecturas/Lectura_04AD.mp3]]

@@ -1,8 +1,9 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+banner: "[[../../../../_Media/Banners/eie.jpg]]"
 ---
 
-# Resumen Tema SGE04
+# **Resumen Tema 4.** <br>Implantación de <br>sistemas ERP-CRM
 
 Este tema aborda el proceso de selección, implantación y puesta en marcha de sistemas ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management). A continuación, se presenta un resumen estructurado con explicaciones breves para facilitar la comprensión.
 

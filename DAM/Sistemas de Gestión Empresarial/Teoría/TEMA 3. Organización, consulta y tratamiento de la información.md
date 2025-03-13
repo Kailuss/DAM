@@ -6,11 +6,11 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 3.** Organización, consulta y tratamiento de la información
+# **TEMA 3.** <br>Organización, consulta y <br>tratamiento de la información
 
 | Anexos |
 | - |
-| [Resumen Tema 3](Resúmenes/Resumen%20Tema%20SGE03.md) |
+| [Resumen Tema 3](Resúmenes/Resumen%20Tema%203%20SGE.md) |
 | [PostgreSQL](TEMA%203.1.%20PostgreSQL.md) |
 | [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 

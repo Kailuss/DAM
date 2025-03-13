@@ -6,13 +6,12 @@ banner: "![[psp.jpg]]"
 banner_y: 0.36
 ---
 
-# **TEMA 2.** Programación Multihilo
+# **TEMA 2.** <br>Programación Multihilo
 
 
 | Anexos     |
 | --- |
 | [Resumen TEMA 2. Programación Multihilo](Resúmenes/Resumen%20TEMA%202.%20Programación%20Multihilo.md)    |
-
 
 ## 1. Introducción
 
@@ -104,6 +103,8 @@ Para crear un hilo extendiendo `Thread`, se siguen estos pasos:
 
 **Ejemplo:**
 
+Imagina que tenemos una clase llamada `Saludo` que extiende la clase `Thread`. Dentro de esta clase, redefinimos el método `run()` para que imprima un mensaje de saludo. Luego, en el método `main`, creamos una instancia de esta clase y la iniciamos con el método `start()`.
+
 ```java
 public class Saludo extends Thread {
     public void run() {
@@ -128,6 +129,8 @@ Para crear un hilo implementando `Runnable`, se siguen estos pasos:
 5. Iniciar el hilo llamando al método `start()`.
 
 **Ejemplo:**
+
+En este caso, tenemos una clase llamada `Saludo` que implementa la interfaz `Runnable`. Dentro de esta clase, redefinimos el método `run()` para que imprima un mensaje de saludo. Luego, en el método `main`, creamos una instancia de esta clase y la pasamos como argumento al constructor de `Thread`. Finalmente, iniciamos el hilo con el método `start()`.
 
 ```java
 public class Saludo implements Runnable {
@@ -170,6 +173,8 @@ Para iniciar un hilo, se llama al método `start()`, que realiza las siguientes 
 - El orden de ejecución de los hilos es no determinístico.
 
 **Ejemplo de ejecución no determinística:**
+
+Imagina que tenemos tres hilos: `hilo1`, `hilo2` y `hilo3`. Cada hilo imprime su nombre varias veces. Al iniciar los hilos, no sabemos en qué orden se ejecutarán, ya que depende del planificador del sistema operativo.
 
 ```java
 public class Main {
@@ -244,6 +249,8 @@ Para comprobar si un hilo está vivo o no, se utiliza el método `isAlive()` de 
 
 #### Ejemplo de uso de `isAlive()` y `getState()`
 
+Imagina que tenemos un hilo llamado `Hilo_Auxiliar` que cuenta desde 10 hasta 1. En el método `main`, verificamos el estado del hilo antes y después de iniciarlo, y luego esperamos a que termine usando `join()`.
+
 ```java
 package PaquetePrincipal;
 
@@ -292,6 +299,8 @@ El método `sleep()` de la clase `Thread` permite detener temporalmente un hilo 
 
 #### Ejemplo de uso de `sleep()`
 
+Imagina que tenemos un hilo que cuenta del 1 al 5, pero entre cada número, el hilo se duerme durante 1 segundo. Esto permite que el hilo no consuma todos los recursos de la CPU y dé tiempo a otros hilos para ejecutarse.
+
 ```java
 public class EjemploSleep {
     public static void main(String[] args) {
@@ -330,6 +339,8 @@ En Java, cada hilo tiene una prioridad representada por un valor entero entre 1 
 Los métodos `getPriority()` y `setPriority()` permiten obtener y modificar la prioridad de un hilo.
 
 #### Ejemplo de uso de prioridades
+
+Imagina que tenemos varios hilos con diferentes prioridades: algunos con prioridad mínima, otros con prioridad normal y otros con prioridad máxima. Cada hilo realiza una tarea repetitiva y, al final, imprime un mensaje indicando que ha terminado.
 
 ```java
 package PaquetePrincipal;
@@ -383,6 +394,8 @@ En sistemas operativos sin **time-slicing**, un hilo puede monopolizar la CPU ha
 Para evitar esto, Java proporciona el método `yield()`, que sugiere al planificador que ceda el control a otros hilos de la misma prioridad. Sin embargo, el comportamiento de `yield()` no está garantizado.
 
 #### Ejemplo de uso de `yield()`
+
+Imagina que tenemos un hilo llamado `HiloEgoista` que imprime números del 1 al 100. En cada iteración, el hilo cede el control a otros hilos usando `yield()`.
 
 ```java
 public class HiloEgoista extends Thread {
@@ -915,6 +928,8 @@ Para que ocurra un interbloqueo, deben cumplirse las siguientes condiciones:
 
 #### Ejemplo de interbloqueo
 
+Imagina que tenemos dos hilos, `hilo1` y `hilo2`, que intentan acceder a dos recursos, `recurso1` y `recurso2`. `hilo1` bloquea `recurso1` y espera por `recurso2`, mientras que `hilo2` bloquea `recurso2` y espera por `recurso1`. Ambos hilos quedan en un estado de espera indefinida, causando un **interbloqueo.**
+
 ```java
 public class DeadlockExample {
     private static final Object recurso1 = new Object();
@@ -950,8 +965,6 @@ public class DeadlockExample {
     }
 }
 ```
-
-En este ejemplo, `hilo1` bloquea `recurso1` y espera por `recurso2`, mientras que `hilo2` bloquea `recurso2` y espera por `recurso1`. Ambos hilos quedan en un estado de espera indefinida, causando un **interbloqueo.**
 
 #### Solución al interbloqueo
 
@@ -1122,6 +1135,8 @@ Un **búfer circular** es una estructura de datos que permite almacenar datos de
 
 #### Ejemplo: Búfer circular en Java
 
+Imagina que tenemos un búfer circular que almacena números enteros. Un hilo productor produce números y los almacena en el búfer, mientras que un hilo consumidor los consume. El búfer circular garantiza que no se sobreescriban datos no consumidos y que no se lean datos no producidos.
+
 ```java
 public class BufferCircular {
     private final int[] buffer;
@@ -1213,8 +1228,6 @@ public class Main {
     }
 }
 ```
-
-En este ejemplo, el **productor** produce datos y los almacena en el búfer circular, mientras que el **consumidor** los consume. El búfer circular garantiza que no se sobreescriban datos no consumidos y que no se lean datos no producidos.
 
 ### 7.8. **La clase `Exchanger`**
 
@@ -1542,6 +1555,8 @@ En aplicaciones tipo servidor, es común manejar un gran número de tareas concu
 
 #### Ejemplo: Uso de `ExecutorService`
 
+Imagina que tenemos un pool de 2 hilos y enviamos 30 tareas al pool. Cada tarea genera números aleatorios y los imprime. El pool gestiona la ejecución de las tareas de manera eficiente.
+
 ```java
 package PaquetePrincipal;
 
@@ -1583,6 +1598,8 @@ class NumerosAleatorios implements Runnable {
 En aplicaciones multihilo, las excepciones no capturadas pueden causar que un hilo termine abruptamente. Para manejar excepciones, se puede usar un **manejador de excepciones no capturadas.**
 
 #### Ejemplo: Manejador de excepciones
+
+Imagina que tenemos varios hilos que realizan una división. Si ocurre una división por cero, el hilo lanza una excepción. Usamos un manejador de excepciones para capturar y manejar estas excepciones.
 
 ```java
 package manejoexcepciones;

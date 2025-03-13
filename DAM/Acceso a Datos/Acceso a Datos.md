@@ -2,12 +2,15 @@
 obsidianUIMode: preview
 number headings: off
 banner: "![[ad.jpg]]"
-banner_y: 0.19
+banner_y: 0.2
 node_size: 20
 ---
 # Acceso a Datos
 %% Begin Waypoint %%
-- **[Práctica](./Pr%C3%A1ctica/Pr%C3%A1ctica.md)**
-- **[Teoría](./Teor%C3%ADa/Teor%C3%ADa.md)**
+- **Teoría**
+	- [TEMA 1. Componentes de software](./Teor%C3%ADa/TEMA%201.%20Componentes%20de%20software.md)
+	- [TEMA 2.1. Sistemas de archivos](./Teor%C3%ADa/TEMA%202.1.%20Sistemas%20de%20archivos.md)
+	- [TEMA 2.2. Flujos de información](./Teor%C3%ADa/TEMA%202.2.%20Flujos%20de%20informaci%C3%B3n.md)
+	- [TEMA 4. Object Relational Mapping](./Teor%C3%ADa/TEMA%204.%20Object%20Relational%20Mapping.md)
 
 %% End Waypoint %%

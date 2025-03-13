@@ -1,16 +1,15 @@
 ---
-node_size: 20
-obsidianUIMode: previe
-number headings: off
+node_size: 24
+obsidianUIMode: preview
+number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
 banner: "![[di.jpg]]"
 banner_y: 0.28
 ---
 # Desarrollo de Interfaces
+%% Begin Waypoint %%
+- **Teoría**
+	- [TEMA 1. Confección de interfaces](./Teor%C3%ADa/TEMA%201.%20Confecci%C3%B3n%20de%20interfaces.md)
+	- [TEMA 3. Creación de componentes visuales](./Teor%C3%ADa/TEMA%203.%20Creaci%C3%B3n%20de%20componentes%20visuales.md)
+	- [TEMA 4. Usabilidad](./Teor%C3%ADa/TEMA%204.%20Usabilidad.md)
 
-### [Exámenes](Práctica/Exámenes/Exámenes.md)
-
-### [TEMA 1. Confección de interfaces](Teoría/TEMA%201.%20Confección%20de%20interfaces.md)
-
-### [TEMA 3. Creación de componentes visuales](Teoría/TEMA%203.%20Creación%20de%20componentes%20visuales.md)
-
-### [TEMA 4. Usabilidad](Teoría/TEMA%204.%20Usabilidad.md)
+%% End Waypoint %%

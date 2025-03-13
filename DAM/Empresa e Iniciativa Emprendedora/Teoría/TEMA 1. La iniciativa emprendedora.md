@@ -1,9 +1,6 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-tags:
-  - DAM
-  - EIE
-  - Teoría
+tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
@@ -12,13 +9,11 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 1.** La iniciativa emprendedora 
-
+# **TEMA 1.** <br>La iniciativa emprendedora 
 
 | Anexos     |
 | --- |
 | [Resumen Tema 1](Resúmenes/Resumen%20Tema%201.md)    |
-
 
 ```audio-player
 [[Lecturas/Lectura_Tema_1_La_iniciativa_emprendedora.mp3]]
@@ -227,8 +222,9 @@ Los objetivos y la estrategia son distintos pero complementarios. La estrategia 
 ### 7.1. **Niveles de estrategia empresarial**
 
 1. **Corporativo.** Decisiones que afectan a toda la organización.
-    > [!tip] Ejemplo
-    > "Servicios exprés" para reducir tiempos en tintorerías, peluquerías, etc.
+
+	> [!tip] Ejemplo
+	> "Servicios exprés" para reducir tiempos en tintorerías, peluquerías, etc.
 
 2. **Funcional.** Estrategias específicas por departamento.
 

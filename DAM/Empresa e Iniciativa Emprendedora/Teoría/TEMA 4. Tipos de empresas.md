@@ -1,9 +1,6 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-tags:
-  - DAM
-  - EIE
-  - Teoría
+tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
@@ -11,13 +8,12 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 4.** Tipos de Empresas
+# **TEMA 4.** <br>Tipos de Empresas
 
 | Anexos |
 | --- |
 | [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md)    |
 | [Tarea EIE04](../Práctica/Tareas/Tarea%20EIE04.md)   |
-
 
 ```audio-player
 [[Lecturas/Lectura_Tema_4_Tipos_de_empresas.mp3]]
@@ -71,6 +67,7 @@ La dimensión de una empresa se mide por parámetros como el número de empleado
 | **Pequeña empresa** | Entre 10 y 49 empleados, con facturación anual no superior a 10 millones de euros. |
 | **Mediana empresa** | Entre 50 y 250 empleados, con facturación anual no superior a 50 millones de euros. |
 | **Gran empresa** | Más de 250 empleados y facturación anual superior a 50 millones de euros. |
+
 ### **Las PYMES** ^skipped
 
 Las pequeñas y medianas empresas (PYMES) son aquellas que no superan los 250 trabajadores, 50 millones de euros de facturación y 43 millones de euros de balance. En España, representan el 99% de las empresas y generan alrededor del 70% del empleo. Aunque enfrentan desafíos como la falta de tecnología y dificultades de financiación, ofrecen ventajas como un trato más personalizado al cliente y la capacidad de cubrir nichos de mercado.

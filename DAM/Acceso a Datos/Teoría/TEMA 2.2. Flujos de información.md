@@ -3,9 +3,15 @@ number headings: first-level 0, max 3, _.1.,  skip ^skipped
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.2
+cssclasses:
+  - table-clean
 ---
 
-# **TEMA 2.2.** Flujos de información
+# **TEMA 2.2.** <br>Flujos de Información
+
+|Anexos|    
+|---|
+|[Resumen Tema 2.2. Flujos de información](Resúmenes/Resumen%20Tema%202.2.%20Flujos%20de%20información.md)|
 
 ## 1. Persistencia de datos
 

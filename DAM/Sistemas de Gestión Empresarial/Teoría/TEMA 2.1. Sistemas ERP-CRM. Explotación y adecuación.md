@@ -1,12 +1,18 @@
 ---
 number headings: first-level 2, max 4, skip ^skipped, _.1.1.
-banner: "![[../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
-banner_y: 0.64
+banner: "![[vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
+banner_y: 0.58
 cssclasses:
   - table-clean
 ---
 
-# **TEMA 2.1.** Sistemas ERP-CRM. Explotación y adecuación
+# **TEMA 2.1.** <br>Sistemas ERP-CRM. <br>Explotación y adecuación
+
+
+|Anexos|
+|-|
+|[Resumen Tema 2.1 SGE](Resúmenes/Resumen%20Tema%202.1%20SGE.md)|
+
 
 ## Introducción ^skipped
 
@@ -114,7 +120,7 @@ Estos razonamientos nos llevan a las **conclusiones** siguientes:
 - Hay que conocer la gestión de reglas de negocio del ERP.  
 - Hay que conocer las herramientas recomendadas por el fabricante del ERP para el desarrollo y/o retoque de módulos del ERP, hecho que puede ir acompañado del conocimiento de lenguajes de programación.  
 
-### 1.1. **La base de datos de Odoo**
+### 1.1. La base de datos de Odoo
 
 La gestión de una empresa puede hacer necesario, en un determinado momento, el acceso a la base de datos del ERP para obtener información en un formato no facilitado por el ERP. Por ello, es importante conocer el diseño de la BD (base de datos) del ERP y, en nuestro caso, de Odoo.  
 
@@ -291,7 +297,7 @@ Para diseñar diagramas con la herramienta Dia, es conveniente tener unos conoci
 
 Al mismo tiempo, para desarrollar módulos de Odoo son necesarios unos conocimientos básicos del lenguaje Python. Fundamentalmente, nuestra tarea será entender el código para poder replicarlo; trabajo adecuado para cualquier programador, aunque esté especializado en otro lenguaje.  
 
-### 2.1. **Generación de un entorno de desarrollo con el IDE Pycharm (vídeo)**
+### 2.1. Generación de un entorno de desarrollo con el IDE Pycharm (vídeo)
 
 Una de las necesidades de cualquier implantador es disponer de un buen entorno de desarrollo, donde poder hacer un *debug* rápido y cómodo. Para estas tareas existen los **IDE** (*Integrated Development Environment*). En estos materiales se utilizará el **IDE Pycharm**, por los siguientes motivos:  
 
@@ -303,7 +309,7 @@ Para describir con detalle la confección del entorno de desarrollo, puedes ver 
 
 [Enlace al vídeo](https://player.vimeo.com/video/472580019)  
 
-### 2.2. **Descripción del módulo de ejemplo: "manteni"**
+### 2.2. Descripción del módulo de ejemplo: "manteni"
 
 Para llevar a cabo el mantenimiento de las máquinas de una industria, es muy interesante contar con un programa que almacene toda la información que se va generando. Partimos de la siguiente situación: cada máquina que se adquiere por parte de una empresa sufrirá un desgaste a lo largo de su vida útil. Para conseguir alargar esta vida y evitar paradas se llevará a cabo un mantenimiento. Distinguimos dos tipos diferentes de mantenimiento:  
 
@@ -330,7 +336,7 @@ Pondremos un ejemplo de gama de mantenimiento: gama de mantenimiento eléctrico 
   - Transformador TR-002  
   - Grupo electrógeno GE-001  
 
-### 2.3. **Creación de un módulo desde cero**
+### 2.3. Creación de un módulo desde cero
 
 Una vez expuesto el problema inicial, nos dedicaremos a crear un módulo de Odoo que pueda resolver estas necesidades.  
 
@@ -426,7 +432,7 @@ Los diccionarios de Python se definen entre `{}` y las palabras clave separadas 
 }
 ```  
 
-### 2.4. **El modelo de Odoo**
+### 2.4. El modelo de Odoo
 
 Una vez presentado el desarrollo de módulos en Odoo, se llevará a cabo el primer paso importante: la **creación del modelo.** Esta tarea es crítica, ya que proporciona los fundamentos sobre los que se levantará todo el módulo. Es por ello que el primer paso será hacer el diseño teórico del módulo, mediante un **diagrama UML**; se utilizará la herramienta **DIA.** A continuación, se determinarán los archivos básicos a modificar para crear este modelo.  
 
@@ -709,7 +715,7 @@ Para describir con detalle la confección del modelo de un módulo mediante un e
 
 [Enlace al vídeo](https://player.vimeo.com/video/472582195)  
 
-### 2.5. **La vista en Odoo**
+### 2.5. La vista en Odoo
 
 Odoo es un software de gestión empresarial desarrollado sobre el *framework* OpenObject de tipo RAD (*Rapid Application Development*) que facilita una arquitectura MVC (modelo-vista-controlador) para los desarrollos. Una vez se domina el diseño del modelo de datos de una aplicación desarrollada sobre OpenObject, como es el caso de Odoo, hay que entrar en el conocimiento del diseño de la vista y del controlador. En las aplicaciones desarrolladas sobre el *framework* OpenObject, el concepto vista engloba las **pantallas** que permiten exponer la información al usuario (llamadas *vistas* o *views*) para visualizarla y/o editarla, y los menús, que facilitan un acceso organizado a las vistas. En consecuencia, debemos aprender a diseñar las vistas (*views*) y los menús (figura 2.19).  
 
@@ -1064,7 +1070,7 @@ Para describir con detalle la confección de las vistas de un módulo mediante u
 
 [Enlace al vídeo](https://player.vimeo.com/video/473780744)  
 
-### 2.6. **El controlador en Odoo**
+### 2.6. El controlador en Odoo
 
 Odoo es un *software* muy maduro y que proporciona los métodos para, entre otros, crear, modificar y borrar registros. Aunque el lenguaje que hay debajo es Python, el desarrollador no debe obsesionarse con este lenguaje, ya que se parte de una gran base. La capa ORM de OpenObject facilita un conjunto de métodos que se encargan del mapeo entre los objetos Python y las tablas de PostgreSQL. Así, disponemos de métodos para crear, modificar, eliminar y buscar registros en la base de datos. Estos métodos son utilizados de manera automática por OpenObject en la ejecución de los diversos tipos de vista que OpenObject nos permite diseñar.  
 
