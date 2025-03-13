@@ -122,15 +122,15 @@ Para cada nivel de la ruta guarda un elemento que lo representa.
 
 Si tenemos el path **/home/joe/foo** entonces:  
 
-`.toString()` devuelve **/home/joe/foo.**  
-`.getNameCount()` devuelve cuántos elementos hay en el path.  
-`.getName(index)` devuelve el path del elemento de la ruta en esta posición.
-
-`.getName(0)` devuelve **home.**  
-`.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.**  
-`.subpath(inicio, fin)` devuelve el path entre la posición inicio y fin.
-
-`.subPath(0,2)` devuelve **home/joe.**
+|     |     |
+| --- | --- |
+|`.toString()`|Devuelve **/home/joe/foo.**| 
+|`.getNameCount()`|Devuelve cuántos elementos hay en el path.|
+|`.getName(index)`|Devuelve el path del elemento de la ruta en esta posición.|
+|`.getName(0)`|Devuelve **home.**|
+|`.getFileName()`|Devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.**|
+|`.subpath(inicio, fin)`|Devuelve el path entre la posición inicio y fin.|
+|`.subPath(0,2)`|Devuelve **home/joe.**|
 
 ## 4. La clase Files
 
@@ -138,16 +138,22 @@ Es una clase de utilidad (una clase abstracta con métodos de clase) que nos per
 
 ### 4.1. Consultas
 
-- `Files.isRegularFile(path)` true si el path que recibe como argumento es un archivo, false si es un directorio o un enlace.
-- `Files.isDirectory(path)` true si el path que recibe como argumento es un directorio.
-- `Files.isReadable(path)`  
-- `Files.isWriteable(path)` 
-- `Files.isExecutable(path)`  
-- `Files.isSameFile(path1, path2)` true si los dos paths que recibe como argumentos representan el mismo objeto.
-- `Files.size(path)` tamaño del archivo en bytes.  
-- `Files.isHidden(path)`
-- `Files.get/setLastModifiedTime(path)`
-- `Files.get/setOwner(path)`
+Aquí tienes la lista convertida en una tabla de dos columnas, con las descripciones completas añadidas donde faltaban:
+
+| Método | Descripción |
+|--------|-------------|
+| `Files.isRegularFile(path)` | Devuelve `true` si el path que recibe como argumento es un archivo, `false` si es un directorio o un enlace. |
+| `Files.isDirectory(path)` | Devuelve `true` si el path que recibe como argumento es un directorio. |
+| `Files.isReadable(path)` | Devuelve `true` si el archivo es legible (tiene permisos de lectura). |
+| `Files.isWriteable(path)` | Devuelve `true` si el archivo es escribible (tiene permisos de escritura). |
+| `Files.isExecutable(path)` | Devuelve `true` si el archivo es ejecutable (tiene permisos de ejecución). |
+| `Files.isSameFile(path1, path2)` | Devuelve `true` si los dos paths que recibe como argumentos representan el mismo archivo o directorio. |
+| `Files.size(path)` | Devuelve el tamaño del archivo en bytes. |
+| `Files.isHidden(path)` | Devuelve `true` si el archivo está marcado como oculto en el sistema de archivos. |
+| `Files.getLastModifiedTime(path)` | Devuelve la fecha y hora de la última modificación del archivo. |
+| `Files.setLastModifiedTime(path, time)` | Establece la fecha y hora de la última modificación del archivo. |
+| `Files.getOwner(path)` | Devuelve el propietario del archivo o directorio. |
+| `Files.setOwner(path, owner)` | Establece el propietario del archivo o directorio. |
 ### 4.2. Crear directorio
 
 - `Files.createDirectory(Path)` Crea el directorio definido por el parámetro. La ruta donde queremos crear el directorio debe existir. Es decir, si queremos crear **/home/joe/pruebas**, la ruta **/home/joe** debe existir.  
@@ -172,10 +178,12 @@ Estos métodos nos servirán cuando necesitemos manipular archivos sencillos. Pa
 
 Escribe el contenido del array de bytes al archivo. Dentro de las opciones podemos decidir cómo se abre el archivo:
 
-- `StandardOpenOption.WRITE` Abre el archivo para escritura.  
-- `StandardOpenOption.READ` Abre el archivo para lectura.
-- `StandardOpenOption.CREATE` Lo abre si existe y si no lo crea.
-- `StandardOpenOption.APPEND` Junto con los anteriores lo abre al final para añadir datos.  
+| Opción | Descripción |
+|--------|-------------|
+| `StandardOpenOption.WRITE` | Abre el archivo para escritura. |
+| `StandardOpenOption.READ` | Abre el archivo para lectura. |
+| `StandardOpenOption.CREATE` | Lo abre si existe y si no lo crea. |
+| `StandardOpenOption.APPEND` | Junto con los anteriores lo abre al final para añadir datos. |
 
 El siguiente código abre para escritura el archivo /home/joe/doi.txt. Si no existe lo crea. Añade los bytes de la cadena de texto al final del archivo.  
 

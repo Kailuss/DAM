@@ -1,5 +1,5 @@
 ---
-number headings: first-level 0, max 3, _.1., skip ^skipped
+number headings: first-level 2, max 3, _.1.1.
 obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.2
@@ -9,10 +9,9 @@ cssclasses:
 
 # **TEMA 2.1.** <br>Sistemas de Archivos
 
-
-|Anexos|    
+| Anexos |
 |---|
-|[Resumen Tema 2.1. Sistemas de archivos](Resúmenes/Resumen%20Tema%202.1.%20Sistemas%20de%20archivos.md)|
+| [Resumen Tema 2.1. Sistemas de archivos](Resúmenes/Resumen%20Tema%202.1.%20Sistemas%20de%20archivos.md) |
 
 ## 1. Sistemas de archivos
 
@@ -122,13 +121,15 @@ Para cada nivel de la ruta guarda un elemento que lo representa.
 
 Si tenemos el path **/home/joe/foo** entonces:  
 
-- `.toString()` devuelve **/home/joe/foo.**  
-- `.getNameCount()` devuelve cuántos elementos hay en el path.  
-- `.getName(index)` devuelve el path del elemento de la ruta en esta posición.
-- `.getName(0)` devuelve **home.**  
-- `.getFileName()` devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.**  
-- `.subpath(inicio, fin)` devuelve el path entre la posición inicio y fin.
-- `.subPath(0,2)` devuelve **home/joe.**
+| Método | Descripción |
+|--------|-------------|
+| `.toString()` | Devuelve **/home/joe/foo.** |
+| `.getNameCount()` | Devuelve cuántos elementos hay en el path. |
+| `.getName(index)` | Devuelve el path del elemento de la ruta en esta posición. |
+| `.getName(0)` | Devuelve **home.** |
+| `.getFileName()` | Devuelve el path que representa el último elemento de la ruta, tanto si es un archivo como un directorio. En este caso **foo.** |
+| `.subpath(inicio, fin)` | Devuelve el path entre la posición inicio y fin. |
+| `.subPath(0,2)` | Devuelve **home/joe.** |
 
 ## 4. La clase *Files*
 
@@ -136,35 +137,35 @@ Es una clase de utilidad (una clase abstracta con métodos de clase) que nos per
 
 ### 4.1. **Consultas**
 
-- `Files.isRegularFile(path)` true si el path que recibe como argumento es un archivo, false si es un directorio o un enlace.
-- `Files.isDirectory(path)` true si el path que recibe como argumento es un directorio.
-- `Files.isReadable(path)`  
-- `Files.isWriteable(path)` 
-- `Files.isExecutable(path)`  
-- `Files.isSameFile(path1, path2)` true si los dos paths que recibe como argumentos representan el mismo objeto.
-- `Files.size(path)` tamaño del archivo en bytes.  
-- `Files.isHidden(path)`
-- `Files.get/setLastModifiedTime(path)`
-- `Files.get/setOwner(path)`
+| Método | Descripción |
+|--------|-------------|
+| `Files.isRegularFile(path)` | True si el path que recibe como argumento es un archivo, false si es un directorio o un enlace. |
+| `Files.isDirectory(path)` | True si el path que recibe como argumento es un directorio. |
+| `Files.isReadable(path)` | True si el archivo es legible. |
+| `Files.isWriteable(path)` | True si el archivo es escribible. |
+| `Files.isExecutable(path)` | True si el archivo es ejecutable. |
+| `Files.isSameFile(path1, path2)` | True si los dos paths que recibe como argumentos representan el mismo objeto. |
+| `Files.size(path)` | Tamaño del archivo en bytes. |
+| `Files.isHidden(path)` | True si el archivo está oculto. |
+| `Files.get/setLastModifiedTime(path)` | Obtiene o establece la última hora de modificación del archivo. |
+| `Files.get/setOwner(path)` | Obtiene o establece el propietario del archivo. |
 
 ### 4.2. **Crear directorio**
 
-- `Files.createDirectory(Path)` Crea el directorio definido por el parámetro. La ruta donde queremos crear el directorio debe existir. Es decir, si queremos crear **/home/joe/pruebas**, la ruta **/home/joe** debe existir.  
-- `Files.createDirectories(Path)` Crea el directorio definido por el parámetro. Si la ruta donde queremos crear el directorio no existe, la crea. Es decir, si queremos crear **/home/joe/pruebas** y no existe el directorio **joe**, también lo crea.  
+| Método | Descripción |
+|--------|-------------|
+| `Files.createDirectory(Path)` | Crea el directorio definido por el parámetro. La ruta donde queremos crear el directorio debe existir. Es decir, si queremos crear **/home/joe/pruebas**, la ruta **/home/joe** debe existir. |
+| `Files.createDirectories(Path)` | Crea el directorio definido por el parámetro. Si la ruta donde queremos crear el directorio no existe, la crea. Es decir, si queremos crear **/home/joe/pruebas** y no existe el directorio **joe**, también lo crea. |
 
-### 4.3. **Eliminar archivos o directorios**
+### 4.3. **Eliminar, copiar y mover archivos o directorios**
 
-`Files.delete(Path)` Elimina el objeto representado por el path.  
+| Método | Descripción |
+|--------|-------------|
+| `Files.delete(Path)` | Elimina el objeto representado por el path. |
+| `Files.copy(origen, destino, opciones)` | Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`. |
+| `Files.move(origen, destino, opciones)` | Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`. |
 
-### 4.4. **Copiar archivos o directorios**
-
-`Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
-
-### 4.5. **Mover archivos o directorios**
-
-`Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
-
-### 4.6. **Leer y escribir contenidos del archivo**
+### 4.4. **Leer y escribir contenidos del archivo**
 
 Estos métodos nos servirán cuando necesitemos manipular archivos sencillos. Para otros casos será mucho mejor utilizar los streams que veremos próximamente.  
 
@@ -172,10 +173,12 @@ Estos métodos nos servirán cuando necesitemos manipular archivos sencillos. Pa
 
 Escribe el contenido del array de bytes al archivo. Dentro de las opciones podemos decidir cómo se abre el archivo:
 
-- `StandardOpenOption.WRITE` Abre el archivo para escritura.  
-- `StandardOpenOption.READ` Abre el archivo para lectura.
-- `StandardOpenOption.CREATE` Lo abre si existe y si no lo crea.
-- `StandardOpenOption.APPEND` Junto con los anteriores lo abre al final para añadir datos.  
+| Opción | Descripción |
+|--------|-------------|
+| `StandardOpenOption.WRITE` | Abre el archivo para escritura. |
+| `StandardOpenOption.READ` | Abre el archivo para lectura. |
+| `StandardOpenOption.CREATE` | Lo abre si existe y si no lo crea. |
+| `StandardOpenOption.APPEND` | Junto con los anteriores lo abre al final para añadir datos. |
 
 El siguiente código abre para escritura el archivo /home/joe/doi.txt. Si no existe lo crea. Añade los bytes de la cadena de texto al final del archivo.  
 
@@ -233,7 +236,7 @@ O si está escrito en el juego de caracteres que utiliza normalmente Windows:
 List linies = Files.readAllLines(Path.of(fitxers.toString() + "/doi.txt"), StandardCharsets.ISO_8859_1);
 ```
 
-### 4.7. **Leer el contenido de un directorio**
+### 4.5. **Leer el contenido de un directorio**
 
 #### `Files.newDirectoryStream()`
 

@@ -1,6 +1,6 @@
 ---
 banner: "![[pmdm.jpg]]"
-number headings: first-level 2, max 4, skip ^skipped, _.1.1.
+number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 ---
 
 # **TEMA 4.** <br>Persistencia
@@ -15,7 +15,7 @@ En este módulo se exploran los mecanismos de almacenamiento de datos en Android
 
 Android permite el uso de ficheros tradicionales, aunque existen alternativas más avanzadas como SQLite y SharedPreferences.
 
-#### 1.2.1. Apertura de ficheros
+#### Apertura de ficheros
 
 Para abrir un fichero en Android, se utiliza `FileOutputStream` y `FileInputStream`. El fichero se almacena en la carpeta de la aplicación y puede ser accedido mediante el shell de adb.
 
@@ -28,7 +28,7 @@ FileInputStream fis = openFileInput("fichero.txt");
 
 El fichero abierto utilizando `openFileOutput` se guarda en la carpeta `/data/data/[paquete]/files/`, donde `[paquete]` es el nombre del paquete de la aplicación. Es importante cerrar el fichero después de su uso con `fos.close()` o `fis.close()`.
 
-#### 1.2.2. Ficheros como recursos
+#### Ficheros como recursos
 
 Los ficheros pueden añadirse como recursos en la carpeta `/res/raw/`. Estos ficheros son de solo lectura y se accede a ellos mediante `openRawResource`.
 
@@ -39,7 +39,7 @@ InputStream myFile = myResources.openRawResource(R.raw.fichero);
 
 Este método es útil para almacenar datos estáticos como diccionarios o configuraciones.
 
-#### 1.2.3. Operar con ficheros
+#### Operar con ficheros
 
 Se pueden usar clases como `DataInputStream` y `DataOutputStream` para leer y escribir en ficheros. Estas clases permiten manejar diferentes tipos de datos, como enteros y cadenas.
 
@@ -56,7 +56,7 @@ String string = dis.readLine();
 fin.close();
 ```
 
-#### 1.2.4. Almacenar datos en la tarjeta de memoria
+#### Almacenar datos en la tarjeta de memoria
 
 Para escribir en la tarjeta SD, se utiliza `Environment.getExternalStorageDirectory()` y `FileWriter`. Es necesario añadir el permiso `WRITE_EXTERNAL_STORAGE` en el archivo `Manifest.xml`.
 
@@ -78,7 +78,7 @@ try {
 
 SQLite es un gestor de bases de datos relacional ligero y de código abierto. En Android, SQLite se implementa como una librería C, lo que reduce dependencias externas y simplifica la sincronización.
 
-#### 1.3.1. Content Values
+#### Content Values
 
 Para insertar filas en una tabla, se utiliza la clase `ContentValues`. SQLite es débilmente tipado, lo que permite flexibilidad en el manejo de datos.
 
@@ -89,7 +89,7 @@ nuevaFila.put("edad", 25);
 db.insert("usuarios", null, nuevaFila);
 ```
 
-#### 1.3.2. Cursores
+#### Cursores
 
 Los cursores son punteros a los resultados de una consulta. Permiten navegar por los resultados y extraer valores específicos.
 
@@ -104,7 +104,7 @@ if (cursor.moveToFirst()) {
 cursor.close();
 ```
 
-#### 1.3.3. Trabajar con bases de datos SQLite
+#### Trabajar con bases de datos SQLite
 
 Es recomendable crear una clase auxiliar para interactuar con la base de datos. Esta clase debe incluir métodos para crear, abrir y cerrar la base de datos, así como para realizar operaciones como inserción, borrado y actualización.
 
@@ -137,7 +137,7 @@ public class MiAdaptadorBD {
 }
 ```
 
-#### 1.3.4. La clase SQLiteOpenHelper
+#### La clase SQLiteOpenHelper
 
 `SQLiteOpenHelper` es una clase abstracta que facilita la creación, apertura y actualización de bases de datos. Implementa métodos como `onCreate` y `onUpgrade` para manejar la creación y actualización de la base de datos.
 
@@ -162,7 +162,7 @@ public class MiHelperBD extends SQLiteOpenHelper {
 }
 ```
 
-#### 1.3.5. Crear una base de datos sin SQLiteHelper
+#### Crear una base de datos sin SQLiteHelper
 
 También es posible crear una base de datos sin usar `SQLiteHelper` mediante `openOrCreateDatabase` y `execSQL`.
 
@@ -171,7 +171,7 @@ SQLiteDatabase db = openOrCreateDatabase("mibasededatos.db", Context.MODE_PRIVAT
 db.execSQL("CREATE TABLE usuarios (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre TEXT, edad INTEGER);");
 ```
 
-#### 1.3.6. Realizar una consulta
+#### Realizar una consulta
 
 El método `query` de `SQLiteDatabase` permite realizar consultas. Los resultados se devuelven como un objeto `Cursor`.
 
@@ -179,7 +179,7 @@ El método `query` de `SQLiteDatabase` permite realizar consultas. Los resultado
 Cursor cursor = db.query("usuarios", new String[]{"nombre", "edad"}, "edad > ?", new String[]{"20"}, null, null, "nombre ASC");
 ```
 
-#### 1.3.7. Extraer resultados de un cursor
+#### Extraer resultados de un cursor
 
 Para extraer datos de un cursor, se utilizan métodos como `moveToFirst` y `getString`.
 
@@ -193,7 +193,7 @@ if (cursor.moveToFirst()) {
 cursor.close();
 ```
 
-#### 1.3.8. Añadir, actualizar y borrar filas
+#### Añadir, actualizar y borrar filas
 
 La clase `SQLiteDatabase` proporciona métodos como `insert`, `update` y `delete` para manipular datos en la base de datos.
 
@@ -311,7 +311,7 @@ public void onUpgrade(SQLiteDatabase db, int versionAnterior, int versionNueva) 
 
 `SharedPreferences` es un mecanismo ligero para almacenar datos en pares clave-valor. Se utiliza para guardar preferencias y estados de la aplicación.
 
-#### 3.1.1. Guardar Shared Preferences
+#### Guardar Shared Preferences
 
 Se utiliza `SharedPreferences.Editor` para modificar y guardar preferencias.
 
@@ -323,7 +323,7 @@ editor.putInt("edad", 25);
 editor.commit();
 ```
 
-#### 3.1.2. Leer Shared Preferences
+#### Leer Shared Preferences
 
 Se accede a las preferencias mediante `getSharedPreferences` y se obtienen valores con métodos como `getBoolean` y `getString`.
 
@@ -333,7 +333,7 @@ String nombre = prefs.getString("nombre", "Desconocido");
 int edad = prefs.getInt("edad", 0);
 ```
 
-#### 3.1.3. Interfaces para Shared Preferences
+#### Interfaces para Shared Preferences
 
 Android proporciona una plataforma basada en XML para crear interfaces gráficas de preferencias.
 
@@ -346,7 +346,7 @@ Android proporciona una plataforma basada en XML para crear interfaces gráficas
 </PreferenceScreen>
 ```
 
-#### 3.1.4. Definiendo una pantalla de preferencias con un layout en XML
+#### Definiendo una pantalla de preferencias con un layout en XML
 
 Se define un layout XML para la actividad de preferencias, utilizando elementos como `PreferenceCategory` y `CheckBoxPreference`.
 
@@ -361,7 +361,7 @@ Se define un layout XML para la actividad de preferencias, utilizando elementos 
 </PreferenceScreen>
 ```
 
-#### 3.1.5. Controles nativos para preferencias
+#### Controles nativos para preferencias
 
 Android incluye controles como `CheckBoxPreference`, `EditTextPreference` y `ListPreference` para manejar preferencias.
 
@@ -372,7 +372,7 @@ Android incluye controles como `CheckBoxPreference`, `EditTextPreference` y `Lis
     android:defaultValue="Anónimo" />
 ```
 
-#### 3.1.6. Actividades de preferencias
+#### Actividades de preferencias
 
 Se crea una subclase de `PreferenceActivity` para mostrar la pantalla de preferencias.
 
@@ -386,7 +386,7 @@ public class MisPreferencias extends PreferenceActivity {
 }
 ```
 
-#### 3.1.7. Shared Preference Change Listeners
+#### Shared Preference Change Listeners
 
 Se implementa `OnSharedPreferenceChangeListener` para detectar cambios en las preferencias.
 
@@ -413,7 +413,7 @@ public class MainActivity extends Activity implements OnSharedPreferenceChangeLi
 
 Los proveedores de contenidos permiten compartir datos entre aplicaciones mediante URIs.
 
-#### 3.2.1. Proveedores nativos
+#### Proveedores nativos
 
 Android incluye proveedores nativos para acceder a datos como contactos, calendarios y multimedia.
 
@@ -421,7 +421,7 @@ Android incluye proveedores nativos para acceder a datos como contactos, calenda
 Cursor cursor = getContentResolver().query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
 ```
 
-#### 3.2.2. Proveedores propios: crear un nuevo proveedor de contenidos
+#### Proveedores propios: crear un nuevo proveedor de contenidos
 
 Se crea un proveedor de contenidos personalizado extendiendo la clase `ContentProvider`.
 
@@ -465,7 +465,7 @@ public class MiProveedor extends ContentProvider {
 }
 ```
 
-#### 3.2.3. Proveedores propios: crear la interfaz de consultas
+#### Proveedores propios: crear la interfaz de consultas
 
 Se implementan los métodos `query`, `insert`, `update` y `delete` en el proveedor de contenidos.
 
@@ -489,7 +489,7 @@ public Cursor query(Uri uri, String[] projection, String selection, String[] sel
 }
 ```
 
-#### 3.2.4. Proveedores propios: tipo MIME
+#### Proveedores propios: tipo MIME
 
 Se define el tipo MIME para los datos devueltos por el proveedor.
 
@@ -507,7 +507,7 @@ public String getType(Uri uri) {
 }
 ```
 
-#### 3.2.5. Proveedores propios: registrar el proveedor
+#### Proveedores propios: registrar el proveedor
 
 El proveedor de contenidos se registra en el archivo `AndroidManifest.xml`.
 
@@ -517,7 +517,7 @@ El proveedor de contenidos se registra en el archivo `AndroidManifest.xml`.
     android:authorities="es.ua.jtech.proveedor" />
 ```
 
-#### 3.2.6. Content Resolvers
+#### Content Resolvers
 
 Se utiliza `ContentResolver` para realizar consultas y operaciones sobre proveedores de contenidos.
 
@@ -526,7 +526,7 @@ ContentResolver cr = getContentResolver();
 Cursor cursor = cr.query(MiProveedor.CONTENT_URI, null, null, null, null);
 ```
 
-#### 3.2.7. Otras operaciones con Content Resolvers
+#### Otras operaciones con Content Resolvers
 
 Se realizan operaciones como inserción, borrado y actualización de datos mediante `ContentResolver`.
 
@@ -607,7 +607,7 @@ En iOS, la persistencia de datos se realiza mediante memoria flash. Los métodos
 
 Los ficheros plist son archivos XML utilizados para almacenar datos de configuración.
 
-#### 5.2.1. Leyendo datos desde ficheros plist
+#### Leyendo datos desde ficheros plist
 
 Se crea un fichero plist y se accede a sus datos mediante `NSDictionary`.
 
@@ -617,7 +617,7 @@ NSDictionary *diccionario = [[NSDictionary alloc] initWithContentsOfFile:path];
 NSString *nombre = [diccionario objectForKey:@"nombre"];
 ```
 
-#### 5.2.2. Escribiendo datos en ficheros plist
+#### Escribiendo datos en ficheros plist
 
 Se escribe en un fichero plist almacenado en el directorio de documentos.
 
@@ -631,11 +631,11 @@ NSString *filePath = [documentsPath stringByAppendingPathComponent:@"configUsuar
 
 SQLite es una base de datos relacional ligera que se almacena en un fichero.
 
-#### 5.3.1. Herramientas disponibles
+#### Herramientas disponibles
 
 Se utiliza SQLite Database Browser para crear y gestionar la base de datos.
 
-#### 5.3.2. Lectura de datos
+#### Lectura de datos
 
 Se implementa una clase para manejar la base de datos y se leen datos mediante consultas SQL.
 
@@ -651,7 +651,7 @@ if (sqlite3_prepare_v2(database, [query UTF8String], -1, &statement, NULL) == SQ
 }
 ```
 
-#### 5.3.3. Mostrando los datos en una tabla
+#### Mostrando los datos en una tabla
 
 Se muestra un listado de personas en una tabla `UITableView`.
 
@@ -719,7 +719,7 @@ Se presentan User Defaults y Core Data como métodos de persistencia en iOS.
 
 User Defaults es un método sencillo para almacenar pequeñas cantidades de datos.
 
-#### 7.2.1. Guardar y leer datos
+#### Guardar y leer datos
 
 Se utiliza `NSUserDefaults` para guardar y leer datos como nombres y edades.
 
@@ -737,7 +737,7 @@ int edad = [defaults integerForKey:@"edad"];
 
 Core Data es un método avanzado para almacenar datos complejos.
 
-#### 7.3.1. Creando el proyecto
+#### Creando el proyecto
 
 Se crea un proyecto con Core Data y se define un modelo de datos.
 
@@ -753,7 +753,7 @@ if (![context save:&error]) {
 }
 ```
 
-#### 7.3.2. Definiendo el modelo de datos
+#### Definiendo el modelo de datos
 
 Se crean entidades como `Persona` y `DetallePersona` con atributos y relaciones.
 
@@ -767,7 +767,7 @@ NSManagedObject *detallePersona = [NSEntityDescription insertNewObjectForEntityF
 [persona setValue:detallePersona forKey:@"detalle"];
 ```
 
-#### 7.3.3. Probando el modelo
+#### Probando el modelo
 
 Se insertan datos en el modelo y se muestran en la consola.
 
@@ -783,7 +783,7 @@ for (NSManagedObject *info in fetchedObjects) {
 }
 ```
 
-#### 7.3.4. Generando los modelos automáticamente
+#### Generando los modelos automáticamente
 
 Se generan clases automáticamente para las entidades del modelo.
 
@@ -794,7 +794,7 @@ persona.apellidos = @"Martinez";
 persona.edad = [NSNumber numberWithInt:28];
 ```
 
-#### 7.3.5. Creando la vista de tabla
+#### Creando la vista de tabla
 
 Se muestra un listado de personas en una tabla `UITableView`.
 
@@ -812,7 +812,7 @@ Se muestra un listado de personas en una tabla `UITableView`.
 }
 ```
 
-#### 7.3.6. Migraciones de bases de datos con Core Data
+#### Migraciones de bases de datos con Core Data
 
 Se explica cómo realizar migraciones de bases de datos en Core Data.
 

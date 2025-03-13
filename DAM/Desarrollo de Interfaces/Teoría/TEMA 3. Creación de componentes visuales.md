@@ -1,5 +1,5 @@
 ---
-number headings: first-level 0, max 4, skip ^skipped, _.1.1.
+number headings: first-level 2, max 4, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
 banner_y: 0.28
