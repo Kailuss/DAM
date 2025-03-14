@@ -22,7 +22,7 @@ La comunicación implica la transferencia de información entre agentes independ
 
 El modelo clásico de comunicación es el cliente-servidor. El servidor contiene información que comparte con los clientes, quienes solicitan partes específicas de esa información. El servidor procesa las peticiones y envía las respuestas correspondientes. Actualmente, muchos dispositivos pueden actuar como clientes y servidores simultáneamente, lo que permite una mayor distribución de datos y procesos.
 
-![](Imágenes/Pasted-image-20250314193712.png)
+![](Imágenes/03.1-ServidorCliente1.png)
 
 <p class=pie-de-foto>Figura 1.2. Esquema de las tareas genéricas de los procesos servidor y cliente</p>
 
@@ -34,7 +34,7 @@ La comunicación en redes se basa en la transmisión de paquetes de información
 
 La comunicación en Internet se estructura en capas: física, enlace, red, transporte y aplicación. Cada capa añade información adicional a los datos, como direcciones y controles, para asegurar su correcta transmisión. La capa de transporte, implementada solo en los dispositivos finales, garantiza la calidad de la transmisión mediante protocolos como TCP y UDP.
 
-![](Imágenes/Pasted%20image%2020250314033251.png)
+![](Imágenes/03.1-capas.png)
 
 <p class=pie-de-foto>Figura 1.3.1. Esquema de la arquitectura de capas de Internet</p>
 
@@ -44,7 +44,7 @@ La comunicación en Internet se estructura en capas: física, enlace, red, trans
 
 Cada capa añade una cabecera a los datos, que contiene información específica para su gestión. En la recepción, estas cabeceras se eliminan progresivamente, dejando solo los datos originales para la aplicación.
 
-![](Imágenes/Pasted-image-20250314042206.png)
+![](Imágenes/03.1-Encabezados-capas.png)
 <p class=pie-de-foto>Figura 1.3.2. Esquema del traspaso de información entre capas</p>
 
 #### 1.3.3. Contenido de la información en cada capa
@@ -99,7 +99,7 @@ Si el comportamiento por defecto no es deseado, se puede configurar un valor de 
 
 Las aplicaciones pueden acceder a recursos remotos mediante URLs. Java ofrece las clases `URL` y `URLConnection` para trabajar con estos recursos. La clase `URLConnection` permite obtener flujos de entrada y salida, así como información adicional sobre el recurso, como su tipo y codificación.
 
-![](Imágenes/Pasted%20image%2020250314031543.png)
+![](Imágenes/03.1-URLConnection.png)
 
 <p class=pie-de-foto>Figura 1.4.2. Jerarquía de las clases que representan recursos remotos</p>
 
@@ -107,7 +107,7 @@ Las aplicaciones pueden acceder a recursos remotos mediante URLs. Java ofrece la
 
 Los sockets son la interfaz de programación que permite a dos aplicaciones intercambiar información a través de la red. En Java, los sockets pueden ser orientados a conexión (TCP) o no orientados a conexión (UDP). Los sockets TCP garantizan la integridad y el orden de los datos, mientras que los UDP son más rápidos pero menos fiables.
 
-![](Imágenes/Pasted%20image%2020250314031619.png)
+![](Imágenes/03.1-Socket.png)
 
 <p class=pie-de-foto>Figura 1.4.3 Jerarquía de clases para implementar sockets no orientados a conexión</p>
 
@@ -115,7 +115,7 @@ Los sockets son la interfaz de programación que permite a dos aplicaciones inte
 
 Java ofrece las clases `DatagramSocket` y `DatagramPacket` para implementar comunicaciones UDP. Estas clases permiten enviar y recibir paquetes de datos sin establecer una conexión previa. La clase `MulticastSocket` extiende `DatagramSocket` para soportar comunicaciones multicast, donde un servidor envía datos a múltiples clientes.
 
-![](Imágenes/Pasted%20image%2020250314031654.png)
+![](Imágenes/03.1-ServidorCliente2.png)
 
 <p class=pie-de-foto>Figura 1.4.4. Diagrama de flujo del proceso de un servidor multicast</p>
 
@@ -123,11 +123,11 @@ Java ofrece las clases `DatagramSocket` y `DatagramPacket` para implementar comu
 
 Los sockets orientados a conexión utilizan el protocolo TCP. En Java, el servidor usa `ServerSocket` para escuchar peticiones de conexión, mientras que el cliente usa `Socket` para conectarse al servidor. Una vez establecida la conexión, ambos extremos pueden intercambiar datos mediante flujos de entrada y salida.
 
-![](Imágenes/Pasted%20image%2020250314031713.png)
+![](Imágenes/03.1-SLLServerSocket.png)
 
 <p class=pie-de-foto>Figura 1.4.5a. Jerarquía de clases para implementar sockets orientados a conexión</p>
 
-![](Imágenes/Pasted%20image%2020250314031729.png)
+![](Imágenes/03.1-ServidorCliente3.png)
 
 <p class=pie-de-foto>Figura 1.4.5b. Esquema del procedimiento seguido para conectar con un servidor TCP en Java</p>
 
