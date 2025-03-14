@@ -8,6 +8,7 @@ banner_y: 0.11
 # Empresa e Iniciativa Emprendedora
 
 %% Begin Waypoint %%
+- **[Plan de Empresa](./Plan%20de%20Empresa/Plan%20de%20Empresa.md)**
 - **Teoría**
 	- [TEMA 1. La iniciativa emprendedora](./Teor%C3%ADa/TEMA%201.%20La%20iniciativa%20emprendedora.md)
 	- [TEMA 2. La Empresa y su Entorno](./Teor%C3%ADa/TEMA%202.%20La%20Empresa%20y%20su%20Entorno.md)
