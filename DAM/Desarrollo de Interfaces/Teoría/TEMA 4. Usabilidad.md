@@ -23,8 +23,6 @@ La usabilidad en el diseño de aplicaciones multiplataforma es crucial para gara
 
 La usabilidad se diferencia de conceptos similares como la accesibilidad, que se refiere al diseño inclusivo para personas con discapacidades, y la utilidad, que mide el grado en que el software satisface las necesidades del usuario.
 
-Aquí tienes el contenido con las listas convertidas en tablas de dos columnas:
-
 ### 1.1. **Características de una Interfaz Usable**
 
 Una interfaz usable debe ser:
