@@ -1,15 +1,21 @@
 ---
-tags: [Focus, PSP, Tarea]
+tags:
+  - Focus
+  - PSP
+  - Tarea
 obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
+number headings: _.1.1.
+cssclasses:
+  - table-clean
 ---
 
 # Tarea **PSP04**
 
-## Instrucciones
+## 1. Instrucciones
 
-### 1. **Crear una API REST**
+### 1.1. **Crear una API REST**
 
 Usando lo aprendido en clase, genera un servidor API REST que pueda gestionar la información de obras. La API debe permitir:
 
@@ -31,7 +37,7 @@ Después, se debe desarrollar un cliente en **Java** que realice las siguientes 
 - **PUT** (Actualizar una obra existente) → `http://localhost:8080/API_REST_v1/api/obres/updateObra`
 - **DELETE** (Eliminar una obra por ID)
 
-### Estructura de una obra
+### 1.2. Estructura de una obra
 
 Una obra debe contener los siguientes campos:
 
@@ -47,7 +53,7 @@ Guía para crear el servidor con **IntelliJ** disponible en el aula virtual.
 - **Crear API REST.** [Tutorial Java JAX-RS Jersey](https://rosamarfil.es/tutoriales/programacion/crear-api-rest-java-jax-rs-jersey/)
 - **Crear Cliente Java.** [Implementar peticiones GET y POST](https://dzone.com/articles/how-to-implement-get-and-post-request-through-simp)
 
-### 2. **Crear un cliente SMTP**
+### 1.3. **Crear un cliente SMTP**
 
 Se debe desarrollar un cliente **SMTP** que se conecte al servidor `alt1.gmail-smtp-in.l.google.com` en el puerto **25** para enviar correos electrónicos.
 
@@ -74,7 +80,7 @@ System.out.println(received);
 
 **Nota.** Si realizas pruebas de envío, revisa la carpeta de **SPAM**, ya que es probable que los correos se almacenen allí.
 
-### 3. **Crear un cliente FTP**
+### 1.4. **Crear un cliente FTP**
 
 Se debe desarrollar un cliente **FTP** que se conecte al siguiente servidor:
 
@@ -107,7 +113,7 @@ El cliente debe conectarse y realizar una operación **"LIST"** para mostrar el 
 
 **Nota.** Se debe grabar la pantalla en cada una de las pruebas de ejecución, además de entregar el código fuente.
 
-## Criterios de calificación
+## 2. Criterios de calificación
 
 Para la entrega, el alumno deberá adjuntar:
 

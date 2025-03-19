@@ -7,7 +7,6 @@ banner_y: 0.45
 ---
 # Teoría
 %% Begin Waypoint %%
-- [Sin título](./Sin%20t%C3%ADtulo.md)
 - [TEMA 1. Programación Multiproceso](./TEMA%201.%20Programaci%C3%B3n%20Multiproceso.md)
 - [TEMA 2. Programación Multihilo](./TEMA%202.%20Programaci%C3%B3n%20Multihilo.md)
 - [TEMA 3. Comunicaciones en Red](./TEMA%203.%20Comunicaciones%20en%20Red.md)
