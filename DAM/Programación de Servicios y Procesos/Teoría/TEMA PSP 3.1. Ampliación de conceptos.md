@@ -10,7 +10,7 @@ cssclasses:
 
 # **TEMA 3.1.** <br>Programación de <br> Servicios y Procesos
 
-## 1. Programación de comunicaciones en red
+## 1. Programación de <br>comunicaciones en red
 
 Hoy en día, es impensable un dispositivo de procesamiento de información sin capacidad de comunicación. La mayoría de las aplicaciones necesitan conexión para instalarse, actualizarse o ejecutarse correctamente. Las redes permiten compartir recursos entre dispositivos, lo que ha llevado al desarrollo de aplicaciones distribuidas transparentes, donde el usuario no necesita preocuparse por la distribución de los procesos.
 
@@ -38,8 +38,6 @@ La comunicación en Internet se estructura en capas: física, enlace, red, trans
 
 <p class=pie-de-foto>Figura 1.3.1. Esquema de la arquitectura de capas de Internet</p>
 
-![](Imágenes/Pasted%20image%2020250314025106.png)
-
 #### 1.3.2. Cabeceras y datos
 
 Cada capa añade una cabecera a los datos, que contiene información específica para su gestión. En la recepción, estas cabeceras se eliminan progresivamente, dejando solo los datos originales para la aplicación.
@@ -50,6 +48,8 @@ Cada capa añade una cabecera a los datos, que contiene información específica
 #### 1.3.3. Contenido de la información en cada capa
 
 La capa de aplicación formatea los datos según el protocolo utilizado. La capa de transporte gestiona los puertos y la integridad de los datos. La capa de red se encarga del direccionamiento IP, mientras que la capa de enlace gestiona la transmisión física de los datos.
+
+![](Imágenes/03.1-Orden-capas.png)
 
 ### 1.4. **Elementos de programación de aplicaciones en red**
 
