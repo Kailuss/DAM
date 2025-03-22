@@ -84,12 +84,13 @@ Para crear un sistema de ayuda con JavaHelp, se siguen los siguientes pasos:
 1. **Creación de los temas de ayuda (topics).** Se definen los temas de ayuda en formato HTML, organizándolos jerárquicamente.
 
 2. **Creación de los ficheros metadatos JavaHelp.** Se generan varios ficheros para organizar la información y facilitar la navegación y búsqueda:
-![screenshot](Imágenes/06-helptree.png)
    - **Fichero map.** Asocia los ficheros HTML e imágenes con identificadores. Su sintaxis es XML y tiene la extensión `.jhm`.
    - **Fichero HelpSet.** Fusiona y configura todos los ficheros de ayuda. Es referenciado por la aplicación y tiene la extensión `.hs`.
    - **Fichero TOC (Tabla de contenidos).** Describe la distribución de los contenidos en la tabla de contenidos.
    - **Fichero Índice.** Define la distribución y contenido del índice.
    - **Fichero de búsqueda.** Genera una base de datos de búsqueda utilizando la herramienta `jhindexer`.
+
+![screenshot](Imágenes/06-helptree.png)
 
 Ejemplo de ejecución de `jhindexer`:
 
