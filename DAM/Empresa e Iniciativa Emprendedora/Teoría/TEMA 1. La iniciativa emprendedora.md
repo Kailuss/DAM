@@ -1,11 +1,10 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+number headings: max 3, _.1.1.
 tags: [DAM, EIE, Teoría]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
 obsidianUIMode: preview
 cssclasses:
-  - dam-eie
   - table-clean
 ---
 
