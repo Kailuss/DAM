@@ -9,6 +9,8 @@ cssclasses:
 
 # **TEMA 6.** <br>Documentación de aplicaciones
 
+![cover](Imágenes/06-Help.png)
+
 
 | Anexos    | 
 | --- |
@@ -19,7 +21,7 @@ cssclasses:
 
 Los ficheros de ayuda son elementos esenciales en el desarrollo de aplicaciones informáticas. Proporcionan información sobre la instalación, configuración, uso y administración de un programa, sirviendo como guía para los usuarios. Estos ficheros suelen implementarse en diversos formatos, dependiendo de la plataforma, el lenguaje de programación o el entorno de desarrollo. Los formatos más comunes incluyen HTML y PDF.
 
-![](../../../Pasted%20image%2020250322142657.png)
+![screenshot](Imágenes/06-helpfile.png)
 
 En aplicaciones Java, se utiliza JavaHelp para generar ficheros de ayuda. Al activar JavaHelp, el sistema lee el archivo de ayuda especificado, que define la estructura y contenido de la ayuda. Un fichero de ayuda típico incluye:
 
@@ -82,6 +84,7 @@ Para crear un sistema de ayuda con JavaHelp, se siguen los siguientes pasos:
 1. **Creación de los temas de ayuda (topics).** Se definen los temas de ayuda en formato HTML, organizándolos jerárquicamente.
 
 2. **Creación de los ficheros metadatos JavaHelp.** Se generan varios ficheros para organizar la información y facilitar la navegación y búsqueda:
+![screenshot](../../../Pasted%20image%2020250322234120.png)
    - **Fichero map.** Asocia los ficheros HTML e imágenes con identificadores. Su sintaxis es XML y tiene la extensión `.jhm`.
    - **Fichero HelpSet.** Fusiona y configura todos los ficheros de ayuda. Es referenciado por la aplicación y tiene la extensión `.hs`.
    - **Fichero TOC (Tabla de contenidos).** Describe la distribución de los contenidos en la tabla de contenidos.
@@ -147,6 +150,8 @@ Este proceso permite integrar un sistema de ayuda robusto y funcional en aplicac
 ## 4. Tablas de contenidos
 
 Las tablas de contenidos (TOC, Table of Content) son una parte fundamental del sistema de ayuda de una aplicación. Organizan los temas de ayuda en una estructura jerárquica, similar a las carpetas de un administrador de archivos. Cada ítem de la lista representa un tema principal, y puede expandirse para mostrar subtemas más específicos.
+
+![screenshot](Imágenes/06-contexto.png)
 
 La profundidad de los niveles en la tabla de contenidos depende del tamaño y el detalle del diseño de la ayuda. Cuando el usuario selecciona un tema en la tabla de contenidos, se muestra el texto asociado a ese tema en la ventana de ayuda. La navegación entre temas se realiza mediante hipervínculos incrustados en el texto.
 

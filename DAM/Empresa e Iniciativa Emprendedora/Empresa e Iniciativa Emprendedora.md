@@ -2,7 +2,7 @@
 node_size: 24
 obsidianUIMode: preview
 banner: "![[eie.jpg]]"
-banner_y: 0.11
+banner_y: 0.24
 ---
 
 # Empresa e Iniciativa Emprendedora
