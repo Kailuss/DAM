@@ -13,7 +13,7 @@ cssclasses:
 | Anexos |
 | ------ |
 | [Tarea PSP03](../Práctica/Tarea%20PSP03.md) |
-| [Tarea PSP03 (Solución)](../Práctica/Tarea%20PSP03%20(Solución).md) |
+| [Guion PSP03](../Práctica/Guion%20PSP03.md) |
 
 ## 1. Conexiones TCP/IP
 
