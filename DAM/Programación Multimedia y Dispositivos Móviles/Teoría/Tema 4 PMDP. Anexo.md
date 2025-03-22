@@ -1,11 +1,9 @@
 ---
-
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 cssclasses:
 - table-clean
 number headings: _.1.1.
-
 ---
 
 # **TEMA 4.** <br>Persistencia en Flutter y Dart

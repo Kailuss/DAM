@@ -312,7 +312,7 @@ En resumen, aunque las empresas de informática y comunicaciones no requieren tr
 
 A continuación, se detallan los principales trámites relacionados con la Seguridad Social:
 
-| **Nombre del trámite**                          | **Objetivo del trámite**                                                                 | **Plazo de realización**                                                                 | **Modelo** | **Realización telemática** |
+| Nombre del trámite                          | Objetivo del trámite                                                                 | Plazo de realización                                                                 | Modelo | Realización telemática |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------|----------------------------|
 | Inscripción de la empresa en la Seguridad Social | Comunicar la intención de contratar trabajadores o trabajadoras.                         | Antes de contratar.                                                                     | TA06       | Sí                         |
 | Alta en el RETA                                 | Informar a la Seguridad Social de que Teresa va a cotizar como autónoma.                | Dentro de los 30 días naturales siguientes al inicio de la actividad.                   | TA0521     | Sí                         |

@@ -1,8 +1,8 @@
 ---
-number headings: first-level 2, max 3, _.1.1.
+number headings: max 2, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.28
+banner_y: 0.85
 cssclasses:
   - table-clean
 ---
@@ -33,9 +33,9 @@ En esta unidad, se estudiará la creación de interfaces gráficas, formadas por
 
 Una interfaz gráfica combina diversos elementos gráficos, llamados componentes o controles, para que el usuario pueda realizar peticiones y recibir resultados de la aplicación. Cada componente tiene características específicas y cumple funciones concretas.
 
-### 2.1. **Componentes típicos**
+### Componentes típicos
 
-| **Etiquetas** | Textos fijos en la interfaz, no interactivos. |
+| Etiquetas | Textos fijos en la interfaz, no interactivos. |
 | --- | --- |
 | **Campos de texto** | Cuadros de una sola línea para ingresar datos. |
 | **Áreas de texto** | Cuadros de varias líneas para escribir párrafos. |
@@ -47,7 +47,7 @@ Una interfaz gráfica combina diversos elementos gráficos, llamados componentes
 | **Listas** | Cuadros con un conjunto de datos para elegir uno o varios. |
 | **Listas desplegables** | Combinan cuadro de texto y lista. Permiten escribir un dato o seleccionarlo de una lista oculta que puede desplegarse. |
 
-### 2.2. **Bibliotecas de componentes**
+### Bibliotecas de componentes
 
 Los componentes suelen estar agrupados en bibliotecas, que también permiten crear nuevos componentes personalizados. Estas bibliotecas son colecciones de clases utilizadas en proyectos para desarrollar interfaces gráficas. La elección de una biblioteca depende del lenguaje de programación o el entorno de desarrollo.
 
@@ -69,10 +69,11 @@ Los componentes suelen estar agrupados en bibliotecas, que también permiten cre
 
 Las bibliotecas de componentes gráficos permiten crear aplicaciones a través de código, pero habitualmente se utilizan entornos integrados de desarrollo (IDE) para facilitar la tarea. Un IDE proporciona herramientas visuales para incorporar componentes de bibliotecas gráficas de forma sencilla e intuitiva, además de servir como medio de entrada para las acciones del usuario. Algunos de los IDE más utilizados son:
 
-### 3.1. Principales IDE
+### Principales IDE
 
-| **Microsoft Visual Studio** | Desarrollo de aplicaciones en escritorio, web y móviles usando .NET framework. Compatible con lenguajes como C++, C# y ASP, soportando Windows 7, 8, 10, aplicaciones web y RIA (Rich Internet Applications).                                                                                  |
+| | |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Microsoft Visual Studio** | Desarrollo de aplicaciones en escritorio, web y móviles usando .NET framework. Compatible con lenguajes como C++, C# y ASP, soportando Windows 7, 8, 10, aplicaciones web y RIA (Rich Internet Applications).                                                                                  |
 | **NetBeans**                | Distribuido por Oracle bajo licencia GNU GPL. Aunque está desarrollado en Java, permite crear aplicaciones en otros lenguajes como C++, PHP, Python y más.                                                                                                                                     |
 | **Eclipse**                 | Originalmente de IBM, ahora mantenido por la Fundación Eclipse. Destaca por su modularidad y ligereza, ofreciendo funcionalidades básicas con posibilidad de expansión mediante módulos. Incluye soporte para pruebas unitarias, control de versiones y asistentes para creación de proyectos. |
 | **JDeveloper**              | Entorno desarrollado por Oracle para Java y otros lenguajes como HTML, SQL y PHP. Desde la versión 9i se basa en Java, pero está menos utilizado tras la adquisición de Sun Microsystems por Oracle.                                                                                           |
@@ -80,7 +81,7 @@ Las bibliotecas de componentes gráficos permiten crear aplicaciones a través d
 | **Dreamweaver**             | Herramienta para diseño de interfaces web que también soporta el desarrollo en ASP.NET, PHP, JavaScript, CSS y otros.                                                                                                                                                                          |
 | **Komodo Edit**             | Sus características dependen de un intérprete de Python.                                                                                                                                                                                                                                       |
 
-### 3.2. NetBeans
+### NetBeans
 
 ![[1. NetBeans.png]]
 
@@ -155,7 +156,7 @@ Los **Layouts** rigen la disposición de los componentes:
 
 **Ampliar.** [Documentación Swing en Oracle](https://docs.oracle.com/javase/tutorial/uiswing/).
 
-### 5.1. Añadir y eliminar componentes
+### Añadir y eliminar componentes
 
 En NetBeans, los componentes se añaden desde la **paleta** (ubicada a la derecha del IDE), dividida en:
 
@@ -166,7 +167,7 @@ En NetBeans, los componentes se añaden desde la **paleta** (ubicada a la derech
 
 Para añadir un componente, seleccionarlo en la paleta y hacer clic en la interfaz. Para eliminarlo, seleccionarlo y pulsar "Supr" o "Suprimir" en el menú contextual.
 
-### 5.2. Modificación de propiedades
+### Modificación de propiedades
 
 Cada control tiene propiedades adaptables en el panel de propiedades, como:
 
@@ -175,17 +176,17 @@ Cada control tiene propiedades adaptables en el panel de propiedades, como:
 
 ![](DAM/Desarrollo%20de%20Interfaces/Teoría/Imágenes/01/Editor%20de%20propiedades.jpg)
 
-### 5.3. Añadir funcionalidad desde NetBeans
+### Añadir funcionalidad desde NetBeans
 
 NetBeans genera automáticamente parte del código funcional, pero es necesario personalizarlo para que cumpla con las tareas específicas de la aplicación.
 
-### 5.4. Ubicación y alineamiento de componentes
+### Ubicación y alineamiento de componentes
 
 Los **Layouts** definen la disposición de los controles:
 
-
-| **BorderLayout** | Norte, Sur, Este, Oeste, Centro. |
+| | |
 | ---------------- | --- |
+| **BorderLayout** | Norte, Sur, Este, Oeste, Centro. |
 | **GridLayout**   | Rejilla (filas y columnas). |
 | **GridBagLayout** | Rejilla flexible (celdas combinables). |
 | **CardLayou**    |  Paneles intercambiables.   |
@@ -196,7 +197,7 @@ Los **Layouts** definen la disposición de los controles:
 
 NetBeans facilita la colocación de componentes con guías visuales y el diseño **GroupLayout.**
 
-### 5.5. Enlace de componentes a bases de datos
+### Enlace de componentes a bases de datos
 
 Para vincular un formulario con datos de una base de datos:
 
@@ -219,7 +220,7 @@ El formulario incluirá una tabla (JTable) con tres columnas y campos enlazados 
 
 ---
 
-#### 5.5.1. Formularios maestro-detalle
+#### Formularios maestro-detalle
 
 Permiten mostrar datos relacionados de varias tablas (ej.: contactos y sus correos). Proceso:
 

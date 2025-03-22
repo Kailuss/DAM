@@ -1,9 +1,19 @@
 ---
 banner: "![[pmdm.jpg]]"
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+banner_y: 0.42
+cssclasses:
+- table-clean
+number headings: _.1.1.
 ---
 
 # **TEMA 4.** <br>Persistencia
+
+
+| Anexos     |
+| --- |
+| [Tema 4 PMDP. Anexo](Tema%204%20PMDP.%20Anexo.md) |
+| [Tarea PMDM04](../Práctica/Tareas/Tarea%20PMDM04.md) |
+
 
 ## 1. Persistencia en Android: ficheros y SQLite
 

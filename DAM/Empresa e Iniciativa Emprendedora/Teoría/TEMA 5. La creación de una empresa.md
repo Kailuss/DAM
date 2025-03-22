@@ -15,7 +15,7 @@ cssclasses:
 | [Resumen Tema 5](Resúmenes/Resumen%20Tema%205.md) |
 | [Tarea EIE05](../Práctica/Tareas/Tarea%20EIE05.md) |
 | [Guion EIE05](../Práctica/Tareas/Guion%20EIE05.md) |
-| [Solución EIE05](../Práctica/Tareas/Solución%20EIE05.md) |
+| [Guion EIE05](../Práctica/Tareas/Guion%20EIE05.md) |
 
 ```audio-player
 [[Lecturas/Lectura_Tema_5_La_creación_de_una_empresa.mp3]]

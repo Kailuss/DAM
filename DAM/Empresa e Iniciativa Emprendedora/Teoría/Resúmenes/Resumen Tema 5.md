@@ -1,11 +1,11 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
+number headings: max 2, _.1.1.
 banner: "![[eie.jpg]]"
 obsidianUIMode: preview
-banner_y: 0.32
+banner_y: 0.27
 ---
 
-# Resumen Tema 5
+# **Resumen TEMA 5.** <br>La creación de una empresa
 
 ``` audio-player
 [[../../../../Note Narration Audio\Sin_título_-_Mar_04_2025_13-23.mp3]]
@@ -19,13 +19,13 @@ Crear una empresa es un proceso complejo que exige planificación estratégica y
 
 El plan de operaciones define cómo se desarrollará la actividad empresarial. Una correcta gestión del aprovisionamiento, una planificación eficiente de la producción o prestación de servicios, son esenciales para evitar problemas futuros.
 
-### 1.1. **Gestión del aprovisionamiento**
+### Gestión del aprovisionamiento
 
 - Identificación de proveedores (prensa, ferias, Internet, etc.).
 - Evaluación de calidad, precios y condiciones de pago.
 - Diversificación de proveedores para minimizar riesgos.
 
-### 1.2. **Programa de producción**
+### Programa de producción
 
 - Planificación detallada del proceso productivo o servicio.
 - Previsión de demanda para evitar interrupciones.
@@ -36,12 +36,12 @@ El plan de operaciones define cómo se desarrollará la actividad empresarial. U
 
 Diferenciar entre inversiones y gastos es crucial para una gestión financiera eficiente. Las inversiones incluyen bienes duraderos como maquinaria e inmuebles, mientras que los gastos son pagos recurrentes necesarios para la operatividad.
 
-### 2.1. **Diferencias clave**
+### Diferencias clave
 
 - **Inversión.** Adquisición de activos (terrenos, maquinaria, herramientas, etc.).
 - **Gasto.** Costes operativos (electricidad, agua, telefonía, etc.).
 
-### 2.2. **Elaboración del plan de inversiones**
+### Elaboración del plan de inversiones
 
 - Incluir todos los elementos necesarios para la actividad.
 - Solicitar presupuestos y facturas proforma para estimar costes.

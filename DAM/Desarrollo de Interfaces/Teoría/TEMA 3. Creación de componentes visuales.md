@@ -1,8 +1,8 @@
 ---
-number headings: first-level 2, max 4, _.1.1.
+number headings: max 2, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.28
+banner_y: 0.85
 cssclasses:
   - table-clean
 ---
@@ -78,7 +78,7 @@ public void setColor(String color)
 public String getColor()
 ```
 
-### 2.1. **Modificar gráficamente el valor de una propiedad con un editor**
+### Modificar gráficamente el valor de una propiedad con un editor
 
 Los entornos de desarrollo identifican automáticamente propiedades a través de los métodos `get/set` mediante **introspección.** Pueden editar valores de tipos básicos y clases como `Color` o `Font`, pero para propiedades más complejas (ej. `Cliente`) se requiere un **editor de propiedades** personalizado.
 
@@ -103,7 +103,7 @@ public direccionEditor implements PropertyEditor {...}
 
 ---
 
-#### 2.1.1. Ejemplo de creación de un componente con un editor de propiedades
+#### Ejemplo de creación de un componente con un editor de propiedades
 
  Un **JavaBean** es un componente software reusable que puede ser manipulado visualmente mediante una herramienta gráfica.
 
@@ -171,7 +171,7 @@ Aparecerá una ventana para seleccionar la categoría donde almacenarlo. Se reco
 
 Para probar el componente, creamos un nuevo proyecto de tipo aplicación Java, añadimos un `JFrame` y desde la paleta seleccionamos y agregamos nuestro componente al diseñador. Luego, accediendo a sus propiedades, podemos modificar atributos como **ancho, fuente y color.** ![[Componente de texto.jpg]]
 
-### 2.2. **Propiedades simples e indexadas**
+### Propiedades simples e indexadas
 
 - **Propiedad simple.** Representa un único valor (número, booleano, texto, etc.). Cuenta con métodos **getter** y **setter** para acceder a su valor.
 
@@ -191,7 +191,7 @@ public <TipoProp> get<NombreProp>(int posicion)
 public void set<NombreProp> (int posicion, <TipoProp> p)
 ```
 
-### 2.3. **Propiedades compartidas y restringidas**
+### Propiedades compartidas y restringidas
 
 Una **propiedad compartida o ligada** permite notificar a otros objetos cuando su valor cambia. Para ello, se genera un `PropertyChangeEvent` que informa a los oyentes registrados sobre la modificación.
 
@@ -300,7 +300,7 @@ Para añadir el componente a la paleta de NetBeans:
 
 ## 8. Creación de un componente de ejemplo: Temporizador gráfico  
 
-### 8.1. **Estructura básica del componente**
+### Estructura básica del componente
 
 El componente hereda de `JLabel` e implementa `Serializable` para cumplir con los requisitos de JavaBean:  
 
@@ -318,7 +318,7 @@ public class TemporizadorBean extends JLabel implements Serializable, ActionList
 }  
 ```  
 
-### 8.2. **Añadir propiedades**
+### Añadir propiedades
 
 La propiedad `tiempo` se define con métodos `get`/`set` para permitir la introspección. NetBeans facilita esto con la opción **Insertar Código → Agregar propiedad.**  
 
@@ -336,7 +336,7 @@ public void setTiempo(int tiempo) {
 }  
 ```  
 
-### 8.3. **Implementar el comportamiento**
+### Implementar el comportamiento
 
 Se usa un `Timer` para decrementar el valor de `tiempo` cada segundo:  
 
@@ -357,7 +357,7 @@ public void actionPerformed(ActionEvent e) {
 }  
 ```  
 
-### 8.4. **Gestión de eventos**
+### Gestión de eventos
 
 **Paso 1.** Crear una clase para el evento (hereda de `EventObject`):  
 
@@ -391,7 +391,7 @@ public void removeFinCuentaAtrasListener(FinCuentaAtrasListener receptor) {
 }  
 ```  
 
-### 8.5. **Uso en NetBeans**
+### Uso en NetBeans
 
 6. Genera el JAR con **Limpiar y construir.**  
 7. Añade el componente a la paleta mediante el **Administrador de paleta.**  

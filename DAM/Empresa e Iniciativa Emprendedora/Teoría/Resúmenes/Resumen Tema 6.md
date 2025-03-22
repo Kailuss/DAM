@@ -1,11 +1,11 @@
 ---
-number headings: max 3, _.1.1.
+number headings: max 2, _.1.1.
 banner: "![[eie.jpg]]"
 obsidianUIMode: preview
 banner_y: 0.32
 ---
 
-# Resumen Tema 6
+# **Resumen TEMA 6.** <br>Trámites para la creación de la empresa
 
 ``` audio-player
 [[]]
@@ -28,27 +28,27 @@ banner_y: 0.32
 
 Son los pasos para que una sociedad adquiera personalidad jurídica.
 
-### 3.1. **Certificación negativa de denominación social**
+### Certificación negativa de denominación social
 - Acredita que no existe otra empresa con el mismo nombre.  
 - Se solicita en el **Registro Mercantil Central.**  
 - Plazo: 1 semana. Coste: 20 €.  
 
-### 3.2. **Depósito del capital social**
+### Depósito del capital social
 - El capital social debe depositarse en una cuenta bancaria.  
 - **Sociedad Limitada (S.L.).** Mínimo 3.000 €.  
 - **Sociedad Anónima (S.A.).** Mínimo 60.000 € (25% desembolsado inicialmente).  
 
-### 3.3. **Elaboración de estatutos y escritura pública**
+### Elaboración de estatutos y escritura pública
 - Los **estatutos** son las normas que rigen la sociedad.  
 - La **escritura pública** se firma ante notario.  
 - Coste: Aprox. 200 €.  
 
-### 3.4. **Solicitud del CIF provisional**
+### Solicitud del CIF provisional
 - El **Código de Identificación Fiscal (CIF)** identifica a la empresa ante Hacienda.  
 - Se solicita en la **Agencia Tributaria (AEAT).**  
 - Plazo: 30 días. Coste: 0 €.  
 
-### 3.5. **Inscripción en el Registro Mercantil**
+### Inscripción en el Registro Mercantil
 - Concluye los trámites de constitución y otorga personalidad jurídica.  
 - Plazo: 1 mes. Coste: Aprox. 100 €.  
 
@@ -56,19 +56,19 @@ Son los pasos para que una sociedad adquiera personalidad jurídica.
 
 Una vez constituida la empresa, se deben realizar estos trámites para operar.
 
-### 4.1. **En Hacienda (AEAT)**
+### En Hacienda (AEAT)
 - **Declaración censal.** Alta en el censo de empresarios (Modelo 036 o 037).  
 - **Alta en el IAE.** Impuesto de Actividades Económicas (solo obligatorio si la facturación supera 1 millón de euros).  
 
-### 4.2. **En la Seguridad Social**
+### En la Seguridad Social
 - **Alta en el RETA.** Régimen Especial de Trabajadores Autónomos (para autónomos).  
 - **Afiliación y alta de trabajadores.** Si se contratan empleados.  
 
-### 4.3. **En el Ayuntamiento**
+### En el Ayuntamiento
 - **Licencia de apertura.** Acredita que el local cumple con las normativas.  
 - **Licencia de obras.** Si se realizan reformas en el local.  
 
-### 4.4. **Otros trámites**
+### Otros trámites
 - **Registro de la Propiedad Industrial.** Para patentes, marcas o diseños industriales.  
 - **Libro de Reclamaciones.** Obligatorio para empresas con atención al público.  
 

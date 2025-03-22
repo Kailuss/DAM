@@ -1,10 +1,10 @@
 ---
-number headings: first-level 2, max 3, _.1.1.
+number headings: max 2, _.1.1.
 banner: "![[di.jpg]]"
-banner_y: 0.28
+banner_y: 0.85
 obsidianUIMode: preview
 cssclasses:
-  - table-clean
+  - table-compact-clean
 ---
 
 # **TEMA 4.** <br>Usabilidad
@@ -17,13 +17,13 @@ cssclasses:
 [[Lecturas/Lectura_Tema_4_Usabilidad.mp3]]
 ```
 
-## 1. Concepto de Usabilidad
+## Concepto de Usabilidad
 
 La usabilidad en el diseño de aplicaciones multiplataforma es crucial para garantizar que los usuarios se sientan cómodos y puedan interactuar de manera fácil, cómoda e intuitiva. Un mal diseño puede llevar al abandono de la aplicación. La usabilidad se define como la disciplina que estudia cómo diseñar interfaces para que los usuarios puedan interactuar con ellas de la manera más eficiente posible. Esto no solo mejora la experiencia del usuario, sino que también aumenta las posibilidades de éxito del software.
 
 La usabilidad se diferencia de conceptos similares como la accesibilidad, que se refiere al diseño inclusivo para personas con discapacidades, y la utilidad, que mide el grado en que el software satisface las necesidades del usuario.
 
-### 1.1. **Características de una Interfaz Usable**
+### Características de una Interfaz Usable
 
 Una interfaz usable debe ser:
 
@@ -36,11 +36,11 @@ Una interfaz usable debe ser:
 
 Además, es importante prever errores, proporcionar retroalimentación y mantener un diseño simple para evitar sobrecargar al usuario.
 
-### 1.2. **Atributos de la Usabilidad**
+### Atributos de la Usabilidad
 
 Los cinco atributos clave de la usabilidad son:
 
-| Atributo | |
+| | |
 |----------|-------------|
 | **Facilidad de aprendizaje** | El sistema debe ser fácil de entender. |
 | **Eficiencia** | Alta productividad una vez que el usuario aprende a usarlo. |
@@ -50,11 +50,11 @@ Los cinco atributos clave de la usabilidad son:
 
 Los beneficios de la usabilidad incluyen la reducción de costes de aprendizaje, optimización del diseño y mantenimiento, disminución de errores y aumento de la satisfacción del usuario.
 
-### 1.3. **Medida de Usabilidad de Aplicaciones**
+### Medida de Usabilidad de Aplicaciones
 
 Las métricas de usabilidad evalúan la interfaz de manera objetiva, dividiéndose en tres grupos:
 
-| Métricas de usabilidad | |
+| | |
 |-------|-------------|
 | **Efectividad** | Mide cómo se alcanzan los objetivos (porcentaje de tareas completadas, éxito en el primer intento, etc.). |
 | **Eficiencia** | Evalúa el esfuerzo necesario para completar tareas (tiempo empleado, errores cometidos, clics necesarios, etc.). |
@@ -62,11 +62,11 @@ Las métricas de usabilidad evalúan la interfaz de manera objetiva, dividiéndo
 
 Para medir estas métricas, es necesario definir tareas, establecer objetivos, seleccionar variables a medir y planificar la recogida de datos.
 
-### 1.4. **Pruebas de Expertos**
+### Pruebas de Expertos
 
 Las pruebas con expertos ayudan a detectar errores en el diseño de la interfaz. Los tipos de pruebas incluyen:
 
-| Tipo de Prueba | |
+| | |
 |----------------|-------------|
 | **Evaluación heurística** | Verificación frente a principios de diseño. |
 | **Revisión de normas** | Asegura el cumplimiento de estándares. |
@@ -75,11 +75,11 @@ Las pruebas con expertos ayudan a detectar errores en el diseño de la interfaz.
 
 Otra técnica es la **caminata cognitiva**, donde los expertos simulan el uso de la interfaz para identificar problemas.
 
-### 1.5. **Pruebas con Usuarios**
+### Pruebas con Usuarios
 
 Las pruebas con usuarios proporcionan información valiosa para un diseño centrado en el usuario. Las metodologías incluyen:
 
-| Metodología | |
+| | |
 |-------------|-------------|
 | **Reuniones** | Encuentros con usuarios y expertos durante el desarrollo. |
 | **Entrevistas y encuestas** | Contacto personalizado para obtener feedback cualitativo o cuantitativo. |
@@ -92,19 +92,19 @@ Espero que esta organización en tablas sea de utilidad. 😊
 
 Una muestra de 5-10 usuarios suele ser suficiente para detectar problemas de usabilidad, aunque los resultados no tienen validez estadística.
 
-## 2. Pautas de Diseño de la Interfaz de Usuario
+## Pautas de Diseño de la Interfaz de Usuario
 
 ![](Diseño%20de%20Interfaces.png)
 
 El diseño de la interfaz debe ser una prioridad en el desarrollo de aplicaciones. Las pautas clave son:
 
-| Pautas clave del diseño de interfaces | |
+|  | |
 |-|-|
 | **Organización** | Disposición clara y consistente de los elementos. |
 | **Economía** | Comunicar lo máximo con la mínima cantidad de elementos. |
 | **Comunicación** | Ajustar la presentación a las capacidades del usuario. |
 
-| Aspectos específicos del diseño | |
+|  | |
 |-|-|
 | **Diseño visual** | Centrado en mejorar la comunicación. |
 | **Color** | Usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales. |
@@ -112,11 +112,11 @@ El diseño de la interfaz debe ser una prioridad en el desarrollo de aplicacione
 | **Disposición de elementos** | Crear un flujo visual coherente. |
 | **Redacción de texto** | Usar bloques cortos, lenguaje claro y retroalimentación positiva para errores. |
 
-### 2.1. **Estructura de la Interfaz de Usuario**
+### Estructura de la Interfaz de Usuario
 
 La estructura de la interfaz de usuario debe basarse en los siguientes principios:
 
-|Principios de la interfaz de usuario| |
+| | |
 |-|-|
 | **Familiaridad del usuario** | La interfaz debe utilizar términos y conceptos que los usuarios reconozcan, basándose en su experiencia previa. Esto facilita el aprendizaje rápido. |
 | **Consistencia** | Las operaciones similares deben activarse de la misma manera. La ergonomía se logra mediante menús, barras de acciones e iconos de fácil acceso. |
@@ -131,11 +131,11 @@ Para diseñar una interfaz coherente, es esencial conocer a los usuarios y cómo
 - ¿Debe el usuario actuar en respuesta a cambios en la información?
 - ¿Necesita interactuar directamente con la información?
 
-## 3. Aspecto de la <br>Interfaz de Usuario
+## Aspecto de la <br>Interfaz de Usuario
 
 El aspecto de la interfaz se refiere a la combinación de colores, tipografías, iconos y la distribución de elementos en la pantalla. Su objetivo es facilitar la adaptación del usuario, la localización de información y la navegación de manera intuitiva.
 
-### 3.1. **Colores**
+### Colores
 
 El color es una herramienta poderosa en el diseño de interfaces. Su uso adecuado mejora la comunicación visual, mientras que un uso inapropiado puede causar molestias o confusiones.
 
@@ -159,7 +159,7 @@ El color es una herramienta poderosa en el diseño de interfaces. Su uso adecuad
 > 6. Mantener un color consistente para lograr homogeneidad.
 > 7. Elegir combinaciones de colores que favorezcan la legibilidad. 
 
-### 3.2. **Fuentes**
+### Fuentes
 
 La elección de la tipografía es crucial para la legibilidad y el equilibrio visual de la interfaz. Una buena selección de fuentes establece una jerarquía visual que facilita la lectura y la comprensión de la información.
 
@@ -168,7 +168,7 @@ La elección de la tipografía es crucial para la legibilidad y el equilibrio vi
 - Evitar bloques de texto extensos; es preferible dividirlos en párrafos y ofrecer enlaces para continuar la lectura.
 - Utilizar diferentes tipos de fuentes para destacar información de distinta relevancia, pero sin excederse.
 
-### 3.3. **Iconos**
+### Iconos
 
 Los iconos son imágenes que representan acciones o conceptos. Su ventaja principal es que se reconocen más rápido que el texto y ocupan menos espacio en la pantalla.
 
@@ -177,7 +177,7 @@ Los iconos son imágenes que representan acciones o conceptos. Su ventaja princi
 - Evitar una sobrecarga de elementos gráficos que dificulten la organización visual.
 - Combinar texto y elementos gráficos de manera efectiva para guiar al usuario.
 
-### 3.4. **Distribución de Elementos**
+### Distribución de Elementos
 
 La organización espacial de los elementos es clave para una interfaz usable. Una distribución clara y ordenada facilita la interacción y la comprensión de la información.
 
@@ -186,8 +186,8 @@ La organización espacial de los elementos es clave para una interfaz usable. Un
 - Usar retículas base y estilos predefinidos para mantener un diseño coherente.
 - Definir claramente los espacios de texto, gráficos y espacios en blanco.
 
-## 4. Elementos de la Interfaz
-### 4.1. **Menús**
+## Elementos de la Interfaz
+### Menús
 
 Los menús son listas de opciones que permiten a los usuarios navegar por el sistema y seleccionar acciones. En el diseño de menús, es importante definir el título, las opciones y las acciones asociadas.
 
@@ -204,7 +204,7 @@ Los menús son listas de opciones que permiten a los usuarios navegar por el sis
 | **Menú contextual (pop-up)** |  Ofrecen opciones relevantes al contexto actual del usuario. |
 | **Personalización.** |  Permiten a los usuarios modificar o crear menús según sus necesidades. |
 
-### 4.2. **Ventanas**
+### Ventanas
 
 Las ventanas son áreas de la pantalla dedicadas a tareas específicas. Permiten a los usuarios controlar la apariencia de la interfaz, abriendo, cerrando, minimizando o maximizando espacios.
 
@@ -216,7 +216,7 @@ Las ventanas son áreas de la pantalla dedicadas a tareas específicas. Permiten
 - Evitar un número excesivo de ventanas, ya que puede causar confusión.
 - Asegurar que cada ventana tenga un propósito claro y esté bien organizada.
 
-### 4.3. **Cuadros de Diálogo**
+### Cuadros de Diálogo
 
 Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las acciones del usuario. Son clave para la retroalimentación y la ayuda en línea.
 
@@ -232,7 +232,7 @@ Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las a
 | **Motores de búsqueda** | Facilitan la búsqueda de información dentro de la aplicación. |
 | **Ayuda en línea** | Proporcionan asistencia al usuario durante el uso de la aplicación. |
 
-### 4.4. **Atajos de Teclado**
+### Atajos de Teclado
 
 Los atajos de teclado son combinaciones de teclas que realizan acciones específicas, reemplazando el uso del ratón. Son especialmente útiles para acciones frecuentes, aumentando la eficiencia del usuario.
 
@@ -240,11 +240,11 @@ Los atajos de teclado son combinaciones de teclas que realizan acciones específ
 - Definir atajos para las acciones más comunes.
 - Evitar sobrecargar al usuario con demasiados atajos.
 
-## 5. Elementos Interactivos <br>de la Interfaz
+## Elementos Interactivos <br>de la Interfaz
 
 Los elementos interactivos son fundamentales para proporcionar retroalimentación al usuario. Deben informar sobre el estado del sistema, errores y confirmaciones de acciones.
 
-### 5.1. **Botones de Comando**
+### Botones de Comando
 
 Los botones son controles que permiten al usuario realizar acciones específicas, como confirmar, guardar o salir.
 
@@ -258,7 +258,7 @@ Los botones son controles que permiten al usuario realizar acciones específicas
 - Deben ser intuitivos y fáciles de usar.
 - Su ubicación en la interfaz debe permitir un acceso rápido.
 
-### 5.2. **Listas Desplegables**
+### Listas Desplegables
 
 Las listas desplegables combinan un campo de texto con un menú de opciones. Son útiles para seleccionar entre varias opciones o autocompletar texto.
 
@@ -266,7 +266,7 @@ Las listas desplegables combinan un campo de texto con un menú de opciones. Son
 - Las opciones deben ser limitadas y fáciles de navegar.
 - Son ideales para situaciones donde el usuario necesita seleccionar entre varias opciones predefinidas.
 
-### 5.3. **Etiquetas**
+### Etiquetas
 
 Las etiquetas son textos estáticos que identifican otros elementos de la interfaz, como campos de formularios o botones.
 
@@ -274,7 +274,7 @@ Las etiquetas son textos estáticos que identifican otros elementos de la interf
 - Mejoran la legibilidad y usabilidad de la aplicación.
 - Son esenciales en formularios para describir los campos que el usuario debe completar.
 
-## 6. Presentación de Datos
+## Presentación de Datos
 
 La presentación de datos en la interfaz es crucial para garantizar la usabilidad. El usuario no lee la información de manera secuencial, sino que navega explorando menús, enlaces y herramientas de búsqueda. Por ello, la claridad visual y la organización son fundamentales.
 
@@ -292,7 +292,7 @@ La presentación de datos en la interfaz es crucial para garantizar la usabilida
 | **Lenguaje cercano** | Utilizar un lenguaje que el usuario entienda fácilmente. |
 | **Información separada** | Transmitir mensajes de manera aislada, evitando sobrecargar ventanas o párrafos. |
 
-## 7. Diseño de la Secuencia de Control de la Aplicación
+## Diseño de la Secuencia de Control de la Aplicación
 
 El diseño de la secuencia de control define cómo funcionará la aplicación y qué acciones estarán asociadas a cada elemento de la interfaz. Este proceso incluye:
 
@@ -312,11 +312,11 @@ El diseño de la secuencia de control define cómo funcionará la aplicación y 
 | **Definir mecanismos de control** | Especificar cómo los controles afectan al sistema. |
 | **Asegurar interpretación correcta** | Garantizar que los usuarios interpreten correctamente el estado del sistema. |
 
-## 8. Aseguramiento <br>de la Información
+## Aseguramiento <br>de la Información
 
 El aseguramiento de la información garantiza que los datos sean seguros, confiables y estén disponibles cuando se necesiten. Esto es esencial para la toma de decisiones en una organización.
 
-| ÁÁmbitos del Aseguramiento | |
+| Ámbitos del Aseguramiento | |
 |--------|-------------|
 | **Datos** | Proteger la integridad y confidencialidad de la información. |
 | **Procesos** | Asegurar que los procesos operativos sean seguros. |
@@ -330,7 +330,7 @@ El aseguramiento de la información garantiza que los datos sean seguros, confia
 | **Criptografía** | Proteger la información mediante técnicas de cifrado. |
 | **Certificados y claves** | Gestionar autenticación y encriptación. |
 
-## 9. Aplicaciones Multimedia
+## Aplicaciones Multimedia
 
 Las aplicaciones multimedia integran elementos como sonido, imágenes, animaciones y vídeos, mejorando la experiencia del usuario y la retención de información.
 

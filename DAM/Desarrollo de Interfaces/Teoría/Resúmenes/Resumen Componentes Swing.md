@@ -1,8 +1,8 @@
 ---
-number headings: first-level 0, max 1, skip ^skipped, _.1.1.
+number headings: max 2, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.28
+banner_y: 0.85
 ---
 
 # Resumen Componentes Swing
@@ -11,7 +11,7 @@ banner_y: 0.28
 
 ## 1. Componentes básicos
 
-### 1.1. **Etiquetas (JLabel)**
+### Etiquetas (JLabel)
 
 Se usan para mostrar texto en la interfaz. No son interactivos.
 
@@ -19,7 +19,7 @@ Se usan para mostrar texto en la interfaz. No son interactivos.
 JLabel etiqueta = new JLabel("Hola Mundo");
 ```
 
-### 1.2. **Campos de texto (JTextField)**
+### Campos de texto (JTextField)
 
 Cuadro de texto de una sola línea donde el usuario puede escribir datos.
 
@@ -27,7 +27,7 @@ Cuadro de texto de una sola línea donde el usuario puede escribir datos.
 JTextField campoTexto = new JTextField("Escribe aquí");
 ```
 
-### 1.2. **Áreas de texto (JTextArea)**
+### Áreas de texto (JTextArea)
 
 Caja de texto multilínea para escribir párrafos.
 
@@ -35,7 +35,7 @@ Caja de texto multilínea para escribir párrafos.
 JTextArea areaTexto = new JTextArea("Texto largo...");
 ```
 
-### 1.3. **Botones (JButton)**
+### Botones (JButton)
 
 Área que el usuario puede pulsar para ejecutar una acción.
 
@@ -43,7 +43,7 @@ JTextArea areaTexto = new JTextArea("Texto largo...");
 JButton boton = new JButton("Haz clic");
 ```
 
-### 1.4. **Botones de radio (JRadioButton)**
+### Botones de radio (JRadioButton)
 
 Permiten elegir solo una opción de un grupo.
 
@@ -52,7 +52,7 @@ JRadioButton radioButton1 = new JRadioButton("Opción 1");
 JRadioButton radioButton2 = new JRadioButton("Opción 2");
 ```
 
-### 1.5. **Cuadros de verificación (JCheckBox)**
+### Cuadros de verificación (JCheckBox)
 
 Permite seleccionar varias opciones.
 
@@ -60,7 +60,7 @@ Permite seleccionar varias opciones.
 JCheckBox checkBox = new JCheckBox("Aceptar términos");
 ```
 
-### 1.2. **Listas (JList)**
+### Listas (JList)
 
 Muestra un conjunto de elementos de los cuales se puede seleccionar uno o más.
 
@@ -69,7 +69,7 @@ String[] items = {"Elemento 1", "Elemento 2"};
 JList<String> lista = new JList<>(items);
 ```
 
-### 1.3. **JComboBox**
+### JComboBox
 
 Lista desplegable que permite seleccionar un ítem.
 
@@ -79,7 +79,7 @@ JComboBox<String> comboBox = new JComboBox<>(items);
 
 ## 2. Ventanas y diálogos
 
-### 2.1. **JFrame**
+### JFrame
 
 Ventana principal con barra de título.
 
@@ -89,7 +89,7 @@ ventana.setSize(400, 300);
 ventana.setVisible(true);
 ```
 
-### 2.2. **JDialog (modal)**
+### JDialog (modal)
 
 Ventana de diálogo que bloquea la ventana principal hasta ser cerrada.
 
@@ -99,7 +99,7 @@ dialogo.setSize(300, 200);
 dialogo.setVisible(true);
 ```
 
-### 2.2. **JDialog (no modal)**
+### JDialog (no modal)
 
 Ventana de diálogo que no bloquea la ventana principal.
 
@@ -111,7 +111,7 @@ dialogoNoModal.setVisible(true);
 
 ## 3. Contenedores
 
-### 3.1. **JPanel**
+### JPanel
 
 Panel que agrupa otros componentes.
 
@@ -121,7 +121,7 @@ panel.add(boton);
 ventana.add(panel);
 ```
 
-### 3.2. **JMenuBar y JMenu**
+### JMenuBar y JMenu
 
 Barra de menús y menú dentro de ella.
 
@@ -131,7 +131,7 @@ JMenu menu = new JMenu("Archivo");
 menuBar.add(menu);
 ```
 
-### 3.3. **JToolBar**
+### JToolBar
 
 Barra de herramientas con iconos.
 
@@ -144,7 +144,7 @@ barraHerramientas.add(boton);
 
 Los `Layouts` en Swing definen cómo se distribuyen los componentes dentro de un contenedor.
 
-### 4.1. **BorderLayout**
+### BorderLayout
 
 Coloca los componentes en los bordes de la ventana (norte, sur, este, oeste, centro).
 
@@ -153,7 +153,7 @@ ventana.setLayout(new BorderLayout());
 ventana.add(boton, BorderLayout.SOUTH);
 ```
 
-### 4.2. **GridLayout**
+### GridLayout
 
 Organiza los componentes en una rejilla de filas y columnas.
 
@@ -162,7 +162,7 @@ ventana.setLayout(new GridLayout(2, 2));
 ventana.add(boton);
 ```
 
-### 4.3. **FlowLayout**
+### FlowLayout
 
 Coloca los componentes de izquierda a derecha.
 
@@ -171,7 +171,7 @@ ventana.setLayout(new FlowLayout());
 ventana.add(boton);
 ```
 
-### 4.4. **MigLayout**
+### MigLayout
 
 MigLayout es un gestor de diseño flexible y potente para Swing. Es más versátil que los gestores predeterminados ya que permite alineaciones precisas, control sobre tamaños y distribución dinámica.
 
@@ -202,7 +202,7 @@ ventana.add(btn3);
 
 ## 5. Propiedades
 
-### 5.1. **background**
+### background
 
 Establece el color de fondo.
 
@@ -210,7 +210,7 @@ Establece el color de fondo.
 boton.setBackground(Color.RED);
 ```
 
-### 5.2. **font**
+### font
 
 Establece la fuente del texto.
 
@@ -218,7 +218,7 @@ Establece la fuente del texto.
 etiqueta.setFont(new Font("Arial", Font.BOLD, 16));
 ```
 
-### 5.3. **text**
+### text
 
 Modifica el texto que se muestra.
 
@@ -226,7 +226,7 @@ Modifica el texto que se muestra.
 etiqueta.setText("Nuevo Texto");
 ```
 
-### 5.4. **toolTipText**
+### toolTipText
 
 Muestra un texto emergente al pasar el ratón sobre el componente.
 
@@ -236,7 +236,7 @@ boton.setToolTipText("Haz clic para continuar");
 
 ## 6. Métodos comunes de componentes
 
-### 6.1. **JFrame**
+### JFrame
 
 Métodos para manipular la ventana.
 
@@ -246,7 +246,7 @@ ventana.setTitle("Ventana Ejemplo");
 ventana.setVisible(true);
 ```
 
-### 6.2. **JButton**
+### JButton
 
 Métodos para manipular botones.
 
@@ -254,7 +254,7 @@ Métodos para manipular botones.
 boton.setEnabled(true);  // Activa el botón
 ```
 
-### 6.3. **JTextArea**
+### JTextArea
 
 Métodos para manipular el texto.
 
@@ -264,7 +264,7 @@ areaTexto.setText("Nuevo texto");
 
 ## 7. Eventos y Escuchadores (Listeners)
 
-### 7.1. **ActionListener**
+### ActionListener
 
 Para responder a acciones como clics de botones.
 
@@ -276,7 +276,7 @@ boton.addActionListener(new ActionListener() {
 });
 ```
 
-### 7.2. **MouseListener**
+### MouseListener
 
 Para eventos del ratón (mouseClicked, mouseEntered, mouseExited).
 
@@ -288,7 +288,7 @@ panel.addMouseListener(new MouseAdapter() {
 });
 ```
 
-### 7.2. **FocusListener**
+### FocusListener
 
 Para detectar cuándo un componente recibe o pierde el foco.
 
@@ -302,7 +302,7 @@ campoTexto.addFocusListener(new FocusAdapter() {
 
 ## 8. Elementos de un Componente: Propiedades y Atributos
 
-### 8.1. **Getter y Setter**
+### Getter y Setter
 
 Los getters leen el valor de una propiedad y los setters establecen su valor.
 
