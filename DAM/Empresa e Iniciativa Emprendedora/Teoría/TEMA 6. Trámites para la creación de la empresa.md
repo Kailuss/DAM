@@ -8,17 +8,11 @@ cssclasses:
   - table-clean
 ---
 
-# **TEMA 6.** <br>Trámites para la creación de la empresa
-
-
-| Anexos    |    
-| --- |
-| [Resumen Tema 6](Resúmenes/Resumen%20Tema%206.md)    |
-| [Tarea EIE06](../Práctica/Tareas/Tarea%20EIE06.md)    |
-| [Guion EIE06](../Práctica/Tareas/Guion%20EIE06.md)    |
-
+# **TEMA 6.** <br>Trámites para la creación <br>de la empresa
 
 ## 1. Comenzamos con los trámites
+
+![cover](Imágenes/06-Comenzamos.png)
 
 Hasta ahora, en EIE, hemos estudiado cómo emprender y crear una empresa como alternativa laboral. Hemos elegido una idea de negocio rentable, analizado su viabilidad en el mercado, seleccionado la forma jurídica adecuada y elaborado un plan de operaciones, incluyendo necesidades materiales, de personal y financiación.
 
@@ -46,6 +40,8 @@ En este tema, nos enfocaremos en dos tipos de trámites:
 
 ## 3. ¿Qué es la personalidad jurídica?
 
+![cover](Imágenes/06-Persona-jurídica.png)
+
 La personalidad jurídica es la capacidad de ser titular de derechos y obligaciones reconocidos por las normas jurídicas. Las personas físicas (humanos) tienen personalidad jurídica desde el nacimiento hasta la muerte, con derechos como la vida, la libertad de expresión y obligaciones como pagar impuestos.
 
 Además de las personas físicas, las personas jurídicas (entidades formadas por personas físicas) también tienen personalidad jurídica. Ejemplos incluyen ayuntamientos, ONGs y universidades.
@@ -55,6 +51,8 @@ En el caso de las empresas, estas también tienen personalidad jurídica, lo que
 Sin embargo, las sociedades, al ser creaciones artificiales, necesitan trámites específicos para adquirir personalidad jurídica independiente de sus socios. Estos trámites se conocen como trámites de constitución.
 
 ## 4. Trámites de constitución
+
+![cover](Imágenes/06-Constitución.png)
 
 Los trámites de constitución son los requisitos legales necesarios para que una sociedad adquiera personalidad jurídica independiente de sus socios. A continuación, se detallan los pasos generales para constituir una sociedad:
 
@@ -125,6 +123,8 @@ La inscripción en el Registro Mercantil concluye los trámites de constitución
 Este proceso de constitución y adopción de personalidad jurídica puede consultarse en detalle en la web del IPYME.
 
 ## 5. Trámites de puesta en marcha
+
+![cover](Imágenes/06-Trámites.png)
 
 Una vez adquirida la personalidad jurídica, la empresa debe realizar una serie de trámites para comenzar a funcionar. Estos trámites, denominados de puesta en marcha, son obligatorios para todas las empresas, independientemente de su forma jurídica, incluyendo al empresario individual. A diferencia de los trámites de constitución, que siguen un orden cronológico, los trámites de puesta en marcha pueden realizarse simultáneamente o según las necesidades de la empresa.
 
@@ -255,25 +255,7 @@ La empresa puede necesitar realizar otros trámites, como:
 - Reservar un dominio en Internet.
 - Incluir ficheros de datos personales en la Agencia de Protección de Datos.
 
-## 6. Creación telemática de una Sociedad Limitada Nueva Empresa (SLNE)
-
-La creación de una Sociedad Limitada Nueva Empresa (SLNE) sigue los mismos trámites básicos que otras sociedades, pero con algunas particularidades:
-
-- **Tramitación telemática.** Puede realizarse completamente por Internet.
-- **Documento Único Electrónico (DUE).** Recoge toda la información necesaria, evitando acudir físicamente al Registro Mercantil, Hacienda y la Seguridad Social.
-- **Puntos de Atención al Emprendedor (PAE).** Oficinas que dependen de Administraciones Públicas, entidades privadas, colegios profesionales y Cámaras de Comercio, encargadas de facilitar el proceso.
-
-### 6.1. **Sistema CIRCE**
-
-El Centro de Información y Red de Creación de Empresas (CIRCE) es un sistema informático que permite la tramitación telemática de expedientes electrónicos mediante el DUE. Actualmente, solo está disponible para sociedades limitadas y SLNE.
-
-### 6.2. **Funciones del PAE**
-- **Asesoramiento.** Ofrece información y apoyo a emprendedores durante la definición y tramitación de sus proyectos.
-- **Inicio de trámites.** Inicia el proceso de constitución de la sociedad a través del DUE.
-
-Para encontrar el PAE más cercano, consulta el siguiente enlace: [PAE](https://www.pae.es).
-
-## 7. Webs recomendadas
+## 6. Webs recomendadas
 
 A continuación, se presentan algunas webs útiles para la creación de empresas:
 
@@ -282,7 +264,7 @@ A continuación, se presentan algunas webs útiles para la creación de empresas
 - **Cámaras de Comercio.** Proporcionan asesoramiento y servicios para nuevas empresas. [Cámaras de Comercio](https://www.camaras.org).
 - **Reglamento de Actividades Molestas, Insalubres, Nocivas y Peligrosas.** [Descargar Reglamento](https://www.ejemplo.com/reglamento).
 
-## 8. Trámites en el sector de Informática y Comunicaciones
+## 7. Trámites en el sector de Informática y Comunicaciones
 
 Las empresas relacionadas con la Informática y las Comunicaciones deben cumplir con los trámites generales de creación de empresas, además de atender a las normativas específicas de su actividad y las exigencias de la Comunidad Autónoma y el Ayuntamiento correspondiente.
 
