@@ -363,8 +363,6 @@ La forma más simple de capturar una pantalla es usando la tecla **Impr Pant**, 
 2. Realizar las acciones en pantalla.
 3. Detener la grabación y guardar el archivo.
 
-> **Nota.** El portapapeles es una herramienta del sistema operativo que almacena temporalmente información, como imágenes o texto.
-
 ## 10. Herramientas de confección <br>de manuales interactivos
 
 Existen diversas herramientas, tanto de software libre como comercial, para crear tutoriales interactivos. Algunas de las más destacadas son:
