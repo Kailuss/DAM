@@ -66,7 +66,9 @@ Un instalador personalizado puede incluir el **logotipo** de la aplicación o em
 El **logotipo** es un elemento gráfico clave que identifica a la empresa o aplicación. Debe ser **legible**, **escalable**, **reproducible**, **distinguible** y **memorable.** En un instalador, el logotipo puede colocarse en cualquier posición (arriba, abajo, derecha o izquierda), y su tamaño dependerá del diseño del instalador y la fuente utilizada.
 
 En herramientas como **NSIS**, el logotipo se añade usando el atributo **AddBrandingImage**, con la sintaxis:  
-`(left|right|top|bottom) (width | height) [padding]`.
+```plaintext
+(left|right|top|bottom) (width | height) [padding]
+```
 
 ### 5.2. **Fondos**
 
@@ -388,7 +390,7 @@ Para firmar un fichero **JAR**, se utiliza la herramienta **jarsigner**, que for
 - **Archivo de bloque de firma (.DSA).**  
   Contiene la firma digital y el certificado, no es legible.
 
-### Resumen del proceso de firma digital ^sk
+### 9.2. **Resumen del proceso de firma digital**
 
 1. **Firma.**  
    - El desarrollador firma el fichero **JAR** con su **clave privada.**  
@@ -468,7 +470,7 @@ sudo apt install -f  # Para resolver dependencias
 - **Compatibilidad del sistema operativo.** Asegúrese de que el software descargado sea compatible con su sistema operativo y arquitectura (por ejemplo, **32-bit** o **64-bit**).
 - **Seguridad.** Verifique la autenticidad del software descargado, especialmente si proviene de fuentes no oficiales.
 
-###  Ejemplo de distribución de software ^sk
+### Ejemplo de distribución de software ^sk
 
 Supongamos que queremos distribuir una aplicación llamada **MiAplicacion** en formato **.deb** para **Ubuntu.** El proceso sería:
 
@@ -494,49 +496,42 @@ Este enfoque simplifica la distribución de software y permite a los usuarios in
 
 ## Autoevaluación ^sk
 
-#### 1: ¿Qué paso no se realiza en la instalación de un programa?
+### 1: ¿Qué paso no se realiza en la instalación de un programa?
 
 **Respuesta: Compilar el programa.**  
 En el proceso de instalación, no se compila el programa. La compilación es parte del desarrollo, no de la instalación. Los pasos de instalación incluyen la creación de directorios, verificación de compatibilidad, copia de archivos, etc.
 
----
-#### 2: ¿Qué herramienta no crea programas de instalación?
+### 2: ¿Qué herramienta no crea programas de instalación?
 
 **Respuesta: Centro de software.**  
 El **Centro de software** es una herramienta para instalar aplicaciones, no para crear instaladores. Herramientas como **IzPack**, **NSIS** e **InstallShield** sí se utilizan para crear programas de instalación.
 
----
-#### 3: ¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?
+### 3: ¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?
 
 **Respuesta: Paquetes deb.**  
 En distribuciones como **Ubuntu**, las aplicaciones se distribuyen en paquetes **.deb**, que contienen el software y sus dependencias.
 
----
-#### 4: Para crear un instalador personalizado en Windows deberemos:
+### 4: Para crear un instalador personalizado en Windows deberemos
 
 **Respuesta: Utilizar algún software específico como NSIS.**  
 En **Windows**, se utilizan herramientas como **NSIS**, **InstallShield** o **Inno Setup** para crear instaladores personalizados.
 
----
-#### 5: Los ficheros JAR:
+### 5: Los ficheros JAR
 
 **Respuesta: Son paquetes ejecutables que contienen clases Java y otros recursos.**  
 Los ficheros **JAR** son archivos comprimidos que contienen clases Java, recursos y un archivo **MANIFEST.MF** para definir la clase principal.
 
----
-#### 6: En una instalación desatendida
+### 6: En una instalación desatendida
 
 **Respuesta: La aplicación se instala de forma transparente al usuario.**  
 En una instalación desatendida, el usuario no interactúa con el instalador. El proceso se realiza automáticamente sin intervención del usuario.
 
----
-#### 7: El reconocimiento de la firma digital de un archivo JAR se conoce como:
+### 7: El reconocimiento de la firma digital de un archivo JAR se conoce como
 
 **Respuesta: Verificación.**  
 El proceso de reconocimiento de la firma digital se llama **verificación**, donde se confirma que el archivo no ha sido alterado y proviene de una fuente confiable.
 
----
-#### 8: En una instalación desde un servidor web:
+### 8: En una instalación desde un servidor web
 
 **Respuesta: La aplicación se instala automáticamente sólo si se trata de un archivo ejecutable.**  
 La instalación automática desde un servidor web depende del tipo de archivo. Si es un ejecutable (como un **.exe** o un **.sh**), puede instalarse directamente. Otros formatos (como **.deb** o **.jar**) requieren pasos adicionales.

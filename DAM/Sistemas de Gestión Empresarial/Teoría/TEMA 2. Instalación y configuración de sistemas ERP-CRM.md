@@ -11,8 +11,6 @@ obsidianUIMode: preview
 
 | Anexos                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------- |
-| [TEMA 2.1. Sistemas ERP-CRM. Explotación y adecuación](TEMA%202.1.%20Sistemas%20ERP-CRM.%20Explotación%20y%20adecuación.md) |
-| [Resumen Tema 2.1 SGE](Resúmenes/Resumen%20Tema%202.1%20SGE.md)                                                               |
 | ![Mapa conceptual](Mapa%20conceptual%20SGE02.canvas)                                                                                       |
 
 ## 1. Introducción
