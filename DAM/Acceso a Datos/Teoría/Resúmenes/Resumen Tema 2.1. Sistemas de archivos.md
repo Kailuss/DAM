@@ -1,11 +1,11 @@
 ---
 obsidianUIMode: preview
-banner: "![[../../../../Banners/ad.jpg]]"
-banner_y: 0.19
-number headings: first-level 0, max 3, _.1., skip ^skipped
+banner: "![[ad.jpg]]"
+banner_y: 0.32
+number headings: _.1.
 ---
 
-# Resumen Tema 2.1. Sistemas de archivos
+# **Resumen Tema 2.1.** <br>Sistemas de archivos
 
 Este tema aborda los conceptos fundamentales de los sistemas de archivos, las rutas y cómo interactuar con ellos mediante comandos de consola y clases en programación. A continuación, se presenta un resumen que mantiene los conceptos clave y el código relevante:
 

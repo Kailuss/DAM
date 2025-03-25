@@ -7,8 +7,6 @@ banner_y: 0.85
 
 # Resumen Componentes Swing
 
-![Lectura MP3](Lectura_Resumen_Componentes_Swing.mp3)
-
 ## 1. Componentes básicos
 
 ### Etiquetas (JLabel)

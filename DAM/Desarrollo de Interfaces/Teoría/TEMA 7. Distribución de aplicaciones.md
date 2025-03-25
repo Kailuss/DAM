@@ -1,7 +1,7 @@
 ---
 number headings: max 3, _.1.1., skip ^sk
 banner: "![[di.jpg]]"
-banner_y: 0.85
+banner_y: 0.56
 obsidianUIMode: preview
 cssclasses:
   - table-compact-clean

@@ -2,7 +2,7 @@
 number headings: max 2, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.85
+banner_y: 0.56
 cssclasses:
   - table-clean
 ---
@@ -15,7 +15,7 @@ cssclasses:
 | [Componentes Swing](Resúmenes/Resumen%20Componentes%20Swing.md) |
 | [Tarea DI03](../Práctica/Tareas/Tarea%20DI03.md)                     |
 
-![Lectura MP3](Lectura_Tema_3_Creación_de_componentes_visuales.mp3)
+![Lectura MP3](Lecturas/Lectura_Tema_03.mp3)
 
 ## 1. Concepto de componente y sus características
 

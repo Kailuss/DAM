@@ -1,11 +1,11 @@
 ---
-number headings: first-level 0, max 2, skip ^skipped, _.1.1.
+number headings: max 2, _.1.1.
 obsidianUIMode: preview
-banner: "![[../../../../Banners/ad.jpg]]"
-banner_y: 0.19
+banner: "![[ad.jpg]]"
+banner_y: 0.32
 ---
 
-# Resumen Tema 2.2. Flujos de información
+# **Resumen Tema 2.2.** <br>Flujos de información
 
 El tema aborda la **persistencia de datos** en Java, es decir, cómo mantener los datos entre ejecuciones de una aplicación. Se centra en dos enfoques principales: el uso de **archivos** (a través de flujos o *streams*) y las **bases de datos**, que son más adecuadas para aplicaciones con datos complejos.
 

@@ -1,11 +1,11 @@
 ---
-number headings: first-level 0, max 2, skip ^skipped, _.1.1.
+number headings: _.1.1.
 obsidianUIMode: preview
-banner: "![[../../../../Banners/ad.jpg]]"
-banner_y: 0.19
+banner: "![[ad.jpg]]"
+banner_y: 0.32
 ---
 
-# Resumen Tema AD04
+# **Resumen Tema 4.** <br>Object Relational Mapping
 ## 1. ORM: Object Relational Mapping
 
 La gestión de datos en programación orientada a objetos se realiza mediante la manipulación de objetos, que suelen ser valores compuestos con múltiples atributos. Sin embargo, las bases de datos relacionales solo almacenan valores escalares (cadenas, números) organizados en tablas. Para evitar la conversión manual entre objetos y registros de la base de datos, se utiliza el mapeo objeto-relacional (ORM), que automatiza este proceso.

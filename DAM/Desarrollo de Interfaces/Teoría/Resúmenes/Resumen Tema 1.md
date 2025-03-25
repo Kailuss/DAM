@@ -2,14 +2,12 @@
 number headings: max 2, skip ^sk, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.85
+banner_y: 0.28
 cssclasses:
   - table-compact-clean
 ---
 
 # **Resumen Tema 1.** <br> Confección de Interfaces
-
-![Lectura MP3](DAM/Desarrollo%20de%20Interfaces/Teoría/Lecturas/Lectura_Resumen_Tema_1.mp3)
 
 ## 1. Elaboración de Interfaces de Usuario
 

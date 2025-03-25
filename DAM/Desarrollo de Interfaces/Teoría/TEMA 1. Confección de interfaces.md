@@ -2,7 +2,7 @@
 number headings: max 2, _.1.1.
 obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.85
+banner_y: 0.56
 cssclasses:
   - table-clean
 ---
