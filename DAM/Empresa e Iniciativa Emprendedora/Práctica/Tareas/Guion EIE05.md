@@ -1,6 +1,8 @@
 ---
 number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-obsidianUIMode:
+obsidianUIMode: 
+cssclasses:
+  - table-clean
 ---
 
 # Solución EIE05
