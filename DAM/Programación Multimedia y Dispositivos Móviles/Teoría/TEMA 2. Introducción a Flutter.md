@@ -16,7 +16,7 @@ cssclasses:
 
 En Flutter, casi todo es un **widget**, incluidos los modelos de diseño, imágenes, iconos y texto. También hay widgets invisibles, como filas, columnas y cuadrículas, que organizan los elementos en la pantalla.
 
-|Concepto clave|Descripción|
+|Conceptos clave| |
 |---|---|
 |**Widget**|Unidad básica de la interfaz en Flutter.|
 |**Container**|Widget que permite agregar márgenes, relleno, bordes o color de fondo.|
