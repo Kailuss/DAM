@@ -8,7 +8,7 @@ cssclasses:
   - table-compact-clean
 ---
 
-# **TEMA 2.1.** <br>Estructuras de Control
+# **TEMA 1.1.** <br>Estructuras de Control
 
 ## 1. Condicionales
 Este ejemplo introduce las estructuras condicionales básicas en Dart, mostrando tres formas de manejar decisiones en el código.

@@ -11,7 +11,7 @@ cssclasses:
   - table-compact-clean
 ---
 
-# **TEMA 2.2** <br>Clases en Dart
+# **TEMA 1.2** <br>Clases en Dart
 
 ## 1. Clases Básicas
 |Concepto|Sintaxis|Ejemplo|Descripción|
