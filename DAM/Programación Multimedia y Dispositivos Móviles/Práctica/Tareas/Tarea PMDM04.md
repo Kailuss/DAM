@@ -1,6 +1,9 @@
 ---
-number headings: first-level 0, max 4, skip ^skipped, _.1.1.
-tags: [Focus, PMDM, Tarea]
+number headings: _.1.1.
+tags:
+  - Focus
+  - PMDM
+  - Tarea
 obsidianUIMode: preview
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42

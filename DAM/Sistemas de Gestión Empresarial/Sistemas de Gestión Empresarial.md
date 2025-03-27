@@ -1,8 +1,7 @@
 ---
 node_size: 24
 obsidianUIMode: preview
-banner: "![[../../Banners/philip-oroni-KUctVwVU9_w-unsplash.jpg]]"
-banner_y: 0.37109
+banner: "![[SGE.jpg]]"
 ---
 # Sistemas de Gestión Empresarial
 ### [TEMA 1. Identificación de sistemas ERP-CRM](./Teor%C3%ADa/TEMA%201.%20Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM.md)

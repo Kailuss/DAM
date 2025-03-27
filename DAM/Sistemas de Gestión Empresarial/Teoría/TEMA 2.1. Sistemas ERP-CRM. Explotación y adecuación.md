@@ -1,7 +1,6 @@
 ---
 number headings: first-level 2, max 4, skip ^skipped, _.1.1.
-banner: "![[vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
-banner_y: 0.58
+banner: "![[SGE.jpg]]"
 cssclasses:
   - table-clean
 ---
