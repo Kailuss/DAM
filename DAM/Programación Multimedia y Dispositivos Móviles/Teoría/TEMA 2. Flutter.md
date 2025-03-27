@@ -1,16 +1,26 @@
 ---
 number headings: max 3, _.1.1.
+tags: [PMDM]
+obsidianUIMode: preview
+banner: "![[pmdm.jpg]]"
+banner_y: 0.42
 cssclasses:
   - table-compact-clean
 ---
 
-# **Tema 2.** <br>Introducción a  Flutter
+# **Tema 2.** <br>Introducción a Flutter
+
+| **Subtemas** |
+| --- |
+| **[TEMA 2.1. Organización de Widgets](TEMA%202.1.%20Organización%20de%20Widgets.md)** |
+| **[TEMA 2.2. Widgets de Diseño Básicos](TEMA%202.2.%20Widgets%20de%20Diseño%20Básicos.md)** |
+
 
 ## 1. Visión general
 
 **Objetivo**
 
-- Los diseños en Flutter se construyen con **widgets**.
+- Los diseños en Flutter se construyen con **widgets.**
 - Los widgets son clases utilizadas para construir interfaces de usuario.
 - Se pueden combinar widgets simples para crear estructuras más complejas.
 
@@ -31,6 +41,7 @@ El siguiente ejemplo muestra tres iconos con etiquetas y su disposición en fila
 ![Diseño de ejemplo con depuración visual](Imágenes/flutter/0bf92b451f049e4f10722d354615c9bc_MD5.png)
 
 El siguiente diagrama representa la estructura de widgets utilizada en el diseño:
+
 ![Árbol de nodos](Imágenes/flutter/55de2d60bda4404b8307a2cb2a862817_MD5.png)
 
 **Detalles clave**
@@ -387,7 +398,6 @@ body: Center(
 Flutter tiene una amplia biblioteca de widgets de diseño. Aquí hay algunos de los más utilizados. El objetivo es que puedas comenzar rápidamente, en lugar de abrumarte con una lista completa. Para información sobre otros widgets disponibles consulta el [Catálogo de widgets](https://docs.flutter.dev/ui/widgets). Además, las páginas de widgets en la documentación de la API a menudo hacen sugerencias sobre widgets similares que podrían adaptarse mejor a tus necesidades.
 
 Los siguientes widgets se dividen en dos categorías: widgets estándar de la [biblioteca de widgets](https://api.flutter.dev/flutter/widgets/widgets-library.html) y widgets especializados de la [Material Library](https://api.flutter.dev/flutter/material/material-library.html). Cualquier aplicación puede usar la biblioteca de widgets, pero solo las aplicaciones Material pueden usar la biblioteca de componentes Material.
-
 
 |     |     |
 | --- | --- |
