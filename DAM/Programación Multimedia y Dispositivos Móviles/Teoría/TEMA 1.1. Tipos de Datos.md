@@ -7,6 +7,17 @@ banner_y: 0.42
 
 # **TEMA 1.1.** <br> Tipos de Datos
 
+![cover](Imágenes/flutter/fibra.jpg)
+
+- **Tipos básicos:** `int`, `double`, `bool`, `String`, y null safety (`?`).  
+- **Flexibilidad:** `var` (inferencia), `dynamic` (tipado dinámico), `num` (número genérico).  
+- **Colecciones:**  
+  - Listas (ordenadas, repetibles).  
+  - Sets (únicos, no ordenados).  
+  - Maps (clave-valor).  
+- **Strings:** Interpolación, multilínea, y conversiones.  
+- **Seguridad:** Condiciones solo con `bool`, manejo explícito de tipos. 
+
 ## 1. Tipos Básicos
 
 |Tipo|Ejemplo|Descripción|
@@ -333,13 +344,3 @@ void ejemploRunes() {
   print('Cohete: ${String.fromCharCodes(cohete)}');
 }
 ```
-
-## 8. Resumen
-- **Tipos básicos:** `int`, `double`, `bool`, `String`, y null safety (`?`).  
-- **Flexibilidad:** `var` (inferencia), `dynamic` (tipado dinámico), `num` (número genérico).  
-- **Colecciones:**  
-  - Listas (ordenadas, repetibles).  
-  - Sets (únicos, no ordenados).  
-  - Maps (clave-valor).  
-- **Strings:** Interpolación, multilínea, y conversiones.  
-- **Seguridad:** Condiciones solo con `bool`, manejo explícito de tipos. 
