@@ -8,7 +8,7 @@ cssclasses:
   - table-compact-clean
 ---
 
-![cover](fibra.jpg)
+![cover](Imágenes/flutter/fibra.jpg)
 
 # **TEMA 1.1.** <br> Tipos de Datos
 
