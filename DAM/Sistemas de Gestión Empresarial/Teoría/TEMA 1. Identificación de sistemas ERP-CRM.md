@@ -1,12 +1,7 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
-tags:
-  - DAM
-  - SGE
+tags: [DAM, SGE]
+cssclasses: [dam-sge, table-compact-clean]
 banner: "![[sge.jpg]]"
-cssclasses:
-  - dam-sge
-  - table-compact-clean
 ---
 
 # **TEMA 1.** <br>Identificación de <br>sistemas ERP-CRM

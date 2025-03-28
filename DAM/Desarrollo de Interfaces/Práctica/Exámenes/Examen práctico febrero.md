@@ -1,6 +1,8 @@
 ---
-number headings: first-level 3, max 3, skip ^skipped, _.1.1.
-tags:
+tags: [DAM, DI]
+cssclasses: [dam-di, table-compact-clean]
+banner: "![[di.jpg]]"
+banner_y: 0.76
 ---
 ### 1. ¿Cuál es la salida de la siguiente aplicación?
 

@@ -1,40 +1,44 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
-tags:
-  - DAM
-  - EIE
+tags: [DAM, EIE]
+cssclasses: [dam-eie, table-compact-clean]
 banner: "![[eie.jpg]]"
 banner_y: 0.24
-cssclasses:
-  - dam-eie
-  - table-compact-clean
 ---
+
 # **Resumen TEMA 4.** <br>Tipos de Empresas
+
 ## 1. Clasificación según la Actividad Económica
+
 | | |
 |---|---|
 |**Producción de bienes**|Empresas que fabrican productos tangibles.|
 |**Prestación de servicios**|Empresas que ofrecen servicios intangibles.|
+
 ## 2. Clasificación según el Sector Económico
+
 | | |
 |---|---|
 |**Sector primario**|Agricultura, ganadería, pesca.|
 |**Sector secundario**|Manufactura, construcción.|
 |**Sector terciario**|Comercio, transporte, finanzas.|
 |**Sector cuaternario**|Investigación, desarrollo, innovación.|
+
 ## 3. Clasificación según la Dimensión
+
 | | |
 |---|---|
 |**Microempresas**|<10 empleados, <2M€ facturación.|
 |**Pequeñas empresas**|10-49 empleados, <10M€ facturación.|
 |**Medianas empresas**|50-250 empleados, <50M€ facturación.|
 |**Grandes empresas**|>250 empleados, >50M€ facturación.|
+
 ### Las PYMES
 - Representan el 99% de las empresas en España.
 - Generan el 70% del empleo.
 - Ventajas: Trato personalizado, nichos de mercado.
 - Desafíos: Falta de tecnología, dificultades de financiación.
 ## 4. Clasificación según el Ámbito Geográfico
+
 | | |
 |---|---|
 |**Locales**|Operan en una localidad específica.|
@@ -43,12 +47,15 @@ cssclasses:
 |**Comunitarias**|Operan en varios países de una comunidad (ej. UE).|
 |**Multinacionales**|Operan en varios países.|
 |**Mundiales**|Operan a nivel global.|
+
 ## 5. Clasificación según la Titularidad del Capital
+
 | | |
 |---|---|
 |**Privadas**|Capital de particulares.|
 |**Públicas**|Capital del Estado.|
 |**Mixtas**|Capital compartido entre Estado y particulares.|
+
 ## 6. Clasificación Jurídica de las Empresas
 - **Empresario individual.** Persona física, responsabilidad ilimitada.
 - **Sociedad.** Persona jurídica, responsabilidad limitada.

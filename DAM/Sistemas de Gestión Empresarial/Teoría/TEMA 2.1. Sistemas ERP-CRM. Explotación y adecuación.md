@@ -1,12 +1,7 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
-tags:
-  - DAM
-  - SGE
+tags: [DAM, SGE]
+cssclasses: [dam-sge, table-compact-clean]
 banner: "![[sge.jpg]]"
-cssclasses:
-  - dam-sge
-  - table-compact-clean
 ---
 
 # **TEMA 2.1.** <br>Sistemas ERP-CRM. <br>Explotación y adecuación

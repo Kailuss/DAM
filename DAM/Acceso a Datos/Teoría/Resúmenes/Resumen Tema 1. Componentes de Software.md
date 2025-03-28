@@ -1,13 +1,8 @@
 ---
+tags: [DAM, AD]
+cssclasses: [dam-ad, table-compact-clean]
 banner: "![[ad.jpg]]"
 banner_y: 0.32
-number headings: max 3, _.1.1.
-tags:
-  - DAM
-  - AD
-cssclasses:
-  - table-compact-clean
-  - dam-ad
 ---
 
 # **Resumen Tema 1.** <br>Componentes de Software

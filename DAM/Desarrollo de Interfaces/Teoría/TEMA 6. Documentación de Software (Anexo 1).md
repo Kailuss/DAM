@@ -1,13 +1,8 @@
 ---
+tags: [DAM, DI]
+cssclasses: [dam-di, table-compact-clean]
 banner: "![[di.jpg]]"
 banner_y: 0.76
-number headings: max 2, _.1.1., skip ^sk
-cssclasses:
-  - dam-di
-  - table-compact-clean
-tags:
-  - DAM
-  - DI
 ---
 
 # **Anexo TEMA 6.** <br>Documentación de Software
