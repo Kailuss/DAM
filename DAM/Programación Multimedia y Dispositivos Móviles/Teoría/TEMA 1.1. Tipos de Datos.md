@@ -8,6 +8,8 @@ cssclasses:
   - table-compact-clean
 ---
 
+![cover](fibra.jpg)
+
 # **TEMA 1.1.** <br> Tipos de Datos
 
 ## 1. Introducción a los Tipos Básicos
@@ -141,7 +143,7 @@ Las listas son colecciones ordenadas y modificables. Pueden contener elementos d
 |------------------------|------------------------------|-----------------------------------------------------------------------------|-------------------------------|
 | **Creación**           | `List<int> nums = [1, 2, 3];`| Crea una lista de enteros.                                                  | `[1, 2, 3]`                   |
 | **Añadir elemento**    | `nums.add(4);`               | Añade un elemento al final.                                                 | `[1, 2, 3, 4]`                |
-| **Eliminar elemento**  | `nums.remove(2);`            | Elimina la primera ocurrencia del valor `2`.                                | `[1, 3, 4]`                   |
+| **Borrar elemento**  | `nums.remove(2);`            | Elimina la primera ocurrencia del valor `2`.                                | `[1, 3, 4]`                   |
 | **Acceso por índice**  | `nums[0];`                   | Obtiene el primer elemento.                                                 | `1`                           |
 | **Longitud**          | `nums.length;`               | Devuelve el número de elementos.                                            | `3`                           |
 | **Condicionales**     | `[1, 2, if (nums.length > 2) 3];` | Añade `3` solo si la lista `nums` tiene más de 2 elementos.           | `[1, 2, 3]` (si `nums.length > 2`) |
