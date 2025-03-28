@@ -1,9 +1,8 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
 tags: [DAM, PMDM]
+cssclasses: [dam-pmdm, table-compact-clean]
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
-cssclasses: [dam-pmdm, table-compact-clean]
 ---
 
 # **TEMA 1.2** <br>Clases en Dart

@@ -1,13 +1,8 @@
 ---
-number headings: _.1.1.
-tags:
-  - PMDM
-  - Tarea
+tags: [DAM, PMDM]
+cssclasses: [dam-pmdm, table-compact-clean]
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
-cssclasses:
-  - table-compact-clean
-  - dam-pmdm
 ---
 
 # Tarea **PMDM04**

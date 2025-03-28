@@ -1,13 +1,9 @@
 ---
+tags: [DAM, PMDM]
+cssclasses: [dam-pmdm, table-compact-clean]
 number headings: off
-tags:
-  - DAM
-  - PMDM
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
-cssclasses:
-  - dam-pmdm
-  - table-compact-clean
 ---
 
 # **TEMA 1.** <br> Introducción a Dart
