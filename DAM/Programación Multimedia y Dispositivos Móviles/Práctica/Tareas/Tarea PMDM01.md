@@ -1,10 +1,13 @@
 ---
-number headings: first-level 1, max 4, skip ^skipped, _.1.1.
+number headings: max 3, _.1.1., skip ^sk
 tags:
+  - DAM
   - PMDM
-  - Tarea
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
+cssclasses:
+  - dam-pmdm
+  - table-compact-clean
 ---
 
 # Realiza los siguientes supuestos prácticos con Dart

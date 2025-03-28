@@ -1,6 +1,12 @@
 ---
-number headings: off
-obsidianUIMode: preview
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - SGE
+banner: "![[sge.jpg]]"
+cssclasses:
+  - dam-sge
+  - table-compact-clean
 ---
 
 # Tareas SGE03 y SGE04 (Solución)

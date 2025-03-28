@@ -1,7 +1,12 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-banner: "![[../../../../_Media/Banners/vecteezy_yellow-and-white-background-with-a-wave-pattern-the-yellow_53887306.jpg]]"
-banner_y: 0.64
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - SGE
+banner: "![[sge.jpg]]"
+cssclasses:
+  - dam-sge
+  - table-compact-clean
 ---
 
 # **Resumen Tema 3.**  <br>Organización, consulta y tratamiento de la información

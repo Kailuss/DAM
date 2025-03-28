@@ -1,8 +1,6 @@
 ---
 number headings: max 3, _.1.1., skip ^sk
-tags:
-  - DAM
-  - PMDM
+tags: [DAM, PMDM]
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 cssclasses:
@@ -10,47 +8,9 @@ cssclasses:
   - table-compact-clean
 ---
 
-# **TEMA 1.** <br> Introducción a Dart
+# **TEMA 1.1.** <br> Tipos de Datos
 
-
-| **Subtemas** |
-| --- |
-| **[TEMA 1.1. Tipos de Datos](TEMA%201.1.%20Tipos%20de%20Datos.md)** |
-| **[TEMA 1.2. Estructuras de Control](TEMA%201.2.%20Estructuras%20de%20Control.md)** |
-| **[TEMA 1.3. Clases en Dart](TEMA%201.3.%20Clases%20en%20Dart.md)** |
-| **[TEMA 1.4. Programación Asíncrona en Dart](TEMA%201.4.%20Programación%20Asíncrona%20en%20Dart.md)** |
-
-| Anexos |
-| --- |
-| [Tarea PMDM01](../Práctica/Tareas/Tarea%20PMDM01.md) |
-| [Ejercicios de Dart](../Práctica/Ejercicios%20de%20Dart.md) |
-
-
-## 1. Introducción 
-1. **Estructura mínima de un programa.** Todo programa en Dart requiere una función `main()` como punto de entrada.  
-2. **Comentarios.** Muestra cómo escribir comentarios de una línea (`//`) y multilínea (`/* ... */`), incluyendo anidación de estos últimos.  
-3. **Salida básica.** Uso de `print()` para mostrar mensajes en la consola.  
-
-```dart
-// Programa de ejemplo con comentarios
-void main() {
-  // Comentario de una línea
-  
-  /*
-    Comentario multilínea
-    Podemos anidar comentarios
-    /*
-      Como este comentario interno
-    */
-  */
-  
-  print('¡Hola, mundo de Dart!');
-}
-```
-
-## 2. Tipos de Datos en Dart
-
-### 2.1. **Introducción a los Tipos Básicos**
+## 1. Introducción a los Tipos Básicos
 
 |Tipo|Ejemplo|Descripción|
 |---|---|---|
@@ -83,7 +43,7 @@ void ejemploTiposDatos() {
 > - Todas las variables son objetos en Dart (incluso los tipos primitivos).  
 > - Métodos útiles: `x.ceil()` (redondear arriba), `x.floor()` (redondear abajo). 
 
-### 2.2. **Inferencia de Tipos y `dynamic`**
+## 2. Inferencia de Tipos y `dynamic`
 
 |Concepto|Ejemplo|Comportamiento|
 |---|---|---|
@@ -110,7 +70,7 @@ void ejemploInferenciaTipos() {
 > [!note] Nota
 > Una vez inferido el tipo con `var`, no se puede cambiar (ej. `var a = 7` no puede ser `a = 7.0`).  
 
-### 2.3. **Conversión de Tipos**
+## 3. Conversión de Tipos
 
 |Operación|Ejemplo|Resultado|
 |---|---|---|
@@ -137,7 +97,7 @@ void ejemploConversionTipos() {
 > [!note] Nota
 > `parse` lanza una excepción si la cadena no es un número válido.  
 
-### 2.4. **Interpolación y Cadenas**
+## 4. Interpolación y Cadenas
 
 |Sintaxis|Ejemplo|Resultado|
 |---|---|---|
@@ -171,9 +131,9 @@ void ejemploInterpolacion() {
 }
 ```
 
-### 2.5. **Colecciones: Listas, Sets y Maps**
+## 5. Colecciones: Listas, Sets y Maps
 
-#### 2.5.1. Listas
+### 5.1. **Listas**
 
 Las listas son colecciones ordenadas y modificables. Pueden contener elementos duplicados.
 
@@ -219,9 +179,7 @@ void ejemploListas() {
 }
 ```
 
----
-
-#### 2.5.2. Sets
+### 5.2. **Sets**
 
 Los sets son colecciones no ordenadas de elementos únicos.
 
@@ -253,9 +211,7 @@ void ejemploSets() {
 }
 ```
 
----
-
-#### 2.5.3. Maps
+### 5.3. **Maps**
 
 Los maps son colecciones clave-valor, ideales para representar datos estructurados.
 
@@ -301,9 +257,7 @@ void ejemploMaps() {
 }
 ```
 
----
-
-#### 2.5.4. Resumen de Colecciones
+### 5.4. **Resumen de Colecciones**
 
 | Tipo      | Orden | Elementos Únicos | Uso Principal               | Ejemplo Típico               |
 |-----------|-------|------------------|-----------------------------|-------------------------------|
@@ -311,7 +265,7 @@ void ejemploMaps() {
 | **Set**   | No    | Sí               | Eliminar duplicados         | `{1, 2, 3}`                    |
 | **Map**   | No*   | Claves únicas    | Estructuras clave-valor     | `{'nombre': 'Ana', 'edad': 25}`|
 
-### 2.6. **Condiciones y Booleanos**
+## 6. Condiciones y Booleanos
 
 ```dart
 void ejemploCondicionesBooleanos() {
@@ -365,7 +319,7 @@ void ejemploCondicionesBooleanos() {
 }
 ```
 
-### 2.7. **Runes y Emojis**
+## 7. Runes y Emojis
 
 |Sintaxis|Ejemplo|Resultado|
 |---|---|---|
@@ -383,7 +337,7 @@ void ejemploRunes() {
 }
 ```
 
-### 2.8. **Resumen**
+## 8. Resumen
 - **Tipos básicos:** `int`, `double`, `bool`, `String`, y null safety (`?`).  
 - **Flexibilidad:** `var` (inferencia), `dynamic` (tipado dinámico), `num` (número genérico).  
 - **Colecciones:**  

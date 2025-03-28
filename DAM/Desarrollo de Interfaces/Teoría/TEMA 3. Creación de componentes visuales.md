@@ -1,10 +1,13 @@
 ---
-number headings: max 2, _.1.1.
-obsidianUIMode: preview
 banner: "![[di.jpg]]"
-banner_y: 0.56
+banner_y: 0.76
+number headings: max 2, _.1.1., skip ^sk
 cssclasses:
-  - table-clean
+  - dam-di
+  - table-compact-clean
+tags:
+  - DAM
+  - DI
 ---
 
 # **TEMA 3.** <br>Creación de componentes visuales

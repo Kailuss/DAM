@@ -1,11 +1,13 @@
 ---
 number headings: max 3, _.1.1.
-tags: [DAM, EIE, Teoría]
+tags:
+  - DAM
+  - EIE
 banner: "![[eie.jpg]]"
 banner_y: 0.24
-obsidianUIMode: preview
 cssclasses:
-  - table-clean
+  - dam-eie
+  - table-compact-clean
 ---
 
 # **TEMA 5.** <br>La creación de una empresa

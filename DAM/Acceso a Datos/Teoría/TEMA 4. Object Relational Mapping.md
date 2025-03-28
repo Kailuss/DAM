@@ -1,9 +1,13 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
 banner: "![[ad.jpg]]"
 banner_y: 0.32
+number headings: max 3, _.1.1.
+tags:
+  - DAM
+  - AD
 cssclasses:
-  - table-clean
+  - table-compact-clean
+  - dam-ad
 ---
 
 # **TEMA 4.** <br>Object Relational Mapping

@@ -1,9 +1,14 @@
 ---
-number headings: off
-cssclasses:
-  - table-clean
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - EIE
 banner: "![[eie.jpg]]"
-banner_y: 0.1
+banner_y: 0.24
+obsidianUIMode: preview
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 ---
 
 # **Guion EIE06:** <br>Trámites de Constitución y Puesta en Marcha de una Empresa

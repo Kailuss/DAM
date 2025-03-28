@@ -1,9 +1,9 @@
 ---
+number headings: max 3, _.1.1., skip ^sk
+tags: [DAM, PMDM]
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
-cssclasses:
-  - table-compact-clean
-number headings: max 3, _.1.1.
+cssclasses: [dam-pmdm, table-compact-clean]
 ---
 
 # **TEMA 4.2.** <br>Persistencia en iOS

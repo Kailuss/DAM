@@ -1,10 +1,13 @@
 ---
-number headings: first-level 2, max 3, _.1.1.
-obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.32
+number headings: max 3, _.1.1.
+tags:
+  - DAM
+  - AD
 cssclasses:
-  - table-clean
+  - table-compact-clean
+  - dam-ad
 ---
 
 # **TEMA 2.1.** <br>Sistemas de Archivos

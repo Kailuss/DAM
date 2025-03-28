@@ -1,14 +1,13 @@
 ---
+number headings: max 3, _.1.1., skip ^sk
 tags:
-  - Focus
+  - DAM
   - PSP
-  - Tarea
-obsidianUIMode: preview
 banner: "![[psp.jpg]]"
 banner_y: 0.32
-number headings: _.1.1.
 cssclasses:
-  - table-clean
+  - dam-psp
+  - table-compact-clean
 ---
 
 # Tarea **PSP04**

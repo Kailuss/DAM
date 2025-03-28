@@ -1,9 +1,13 @@
 ---
-number headings: first-level 3, max 3, skip ^skipped, _.1.1.
-cssclasses:
-  - table-clean
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - PSP
 banner: "![[psp.jpg]]"
-banner_y: 0.36
+banner_y: 0.32
+cssclasses:
+  - dam-psp
+  - table-compact-clean
 ---
 
 # **Resumen TEMA 2.**<br>Programación Multihilo

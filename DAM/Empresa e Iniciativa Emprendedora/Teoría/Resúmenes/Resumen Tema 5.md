@@ -1,8 +1,13 @@
 ---
-number headings: max 2, _.1.1.
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - EIE
 banner: "![[eie.jpg]]"
-obsidianUIMode: preview
-banner_y: 0.27
+banner_y: 0.24
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 ---
 
 # **Resumen TEMA 5.** <br>La creación de una empresa

@@ -1,11 +1,13 @@
 ---
-number headings: first-level 0, max 3, _.1.
-tags: [DAM/PSP, Teoría]
-obsidianUIMode: preview
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - PSP
 banner: "![[psp.jpg]]"
 banner_y: 0.32
 cssclasses:
-  - table-clean
+  - dam-psp
+  - table-compact-clean
 ---
 
 # **TEMA 3.2. **<br>Aplicaciones cliente-servidor

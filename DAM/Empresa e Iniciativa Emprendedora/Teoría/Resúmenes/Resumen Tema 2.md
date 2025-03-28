@@ -1,8 +1,13 @@
 ---
-number headings: first-level 0, max 3, skip ^skipped, _.1.1.
+number headings: max 3, _.1.1., skip ^sk
 tags:
+  - DAM
   - EIE
-  - Resumen
+banner: "![[eie.jpg]]"
+banner_y: 0.24
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 ---
 
 # Resumen Tema 2

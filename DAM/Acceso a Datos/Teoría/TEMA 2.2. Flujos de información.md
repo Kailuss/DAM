@@ -1,10 +1,13 @@
 ---
-number headings: first-level 0, max 3, _.1.,  skip ^skipped
-obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.32
+number headings: max 3, _.1.1.
+tags:
+  - DAM
+  - AD
 cssclasses:
-  - table-clean
+  - table-compact-clean
+  - dam-ad
 ---
 
 # **TEMA 2.2.** <br>Flujos de Información

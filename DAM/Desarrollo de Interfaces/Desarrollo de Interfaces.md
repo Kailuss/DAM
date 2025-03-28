@@ -1,9 +1,15 @@
 ---
 node_size: 24
 obsidianUIMode: preview
-number headings: auto, first-level 1, max 1, contents ^toc, skip ^skipped, start-at 1, _.1.1.
 banner: "![[di.jpg]]"
-banner_y: 0.28
+banner_y: 0.76
+number headings: off
+cssclasses:
+  - dam-di
+  - table-compact-clean
+tags:
+  - DAM
+  - DI
 ---
 
 # Desarrollo de Interfaces

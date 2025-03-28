@@ -1,8 +1,13 @@
 ---
-obsidianUIMode: preview
 banner: "![[ad.jpg]]"
 banner_y: 0.32
-number headings: _.1.
+number headings: max 3, _.1.1.
+tags:
+  - DAM
+  - AD
+cssclasses:
+  - table-compact-clean
+  - dam-ad
 ---
 
 # **Resumen Tema 1.** <br>Componentes de Software

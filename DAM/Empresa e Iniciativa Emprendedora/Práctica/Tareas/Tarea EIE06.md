@@ -1,7 +1,14 @@
 ---
-number headings: max 2, _.1.
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - EIE
+banner: "![[eie.jpg]]"
+banner_y: 0.24
+obsidianUIMode: preview
 cssclasses:
-  - table-clean
+  - dam-eie
+  - table-compact-clean
 ---
 
 # Tarea **EIE06**

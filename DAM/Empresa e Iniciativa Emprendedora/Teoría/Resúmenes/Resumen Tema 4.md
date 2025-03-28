@@ -1,12 +1,14 @@
 ---
-number headings: max 2, _.1.1.
+number headings: max 3, _.1.1., skip ^sk
 tags:
+  - DAM
   - EIE
-  - Resumen
+banner: "![[eie.jpg]]"
+banner_y: 0.24
 cssclasses:
+  - dam-eie
   - table-compact-clean
 ---
-
 # **Resumen TEMA 4.** <br>Tipos de Empresas
 ## 1. Clasificación según la Actividad Económica
 | | |

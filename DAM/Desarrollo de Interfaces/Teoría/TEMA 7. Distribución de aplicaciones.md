@@ -1,27 +1,32 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
 banner: "![[di.jpg]]"
-banner_y: 0.56
-obsidianUIMode: preview
+banner_y: 0.76
+number headings: max 2, _.1.1., skip ^sk
 cssclasses:
+  - dam-di
   - table-compact-clean
+tags:
+  - DAM
+  - DI
 ---
 
 # **TEMA 7.** <br>Distribución de aplicaciones
 
-## 1. Definición y composición de una distribución. Sistema de gestión de paquetes
+## **1.** Definición y composición <br>de una distribución
 
-Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como **.exe** o **.msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
+Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como .**exe** o .**msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
+
+### 1.1. **Sistema de gestión de paquetes**
 
 Un **sistema de gestión de paquetes** automatiza la instalación, actualización, configuración y eliminación de paquetes de software. Es común en sistemas **Linux**, como el **Centro de Software de Ubuntu** o el **Gestor de Paquetes Synaptic.** Los paquetes contienen el software, su nombre, descripción, versión, distribuidor, suma de verificación y dependencias necesarias. Esta información se almacena en una **base de datos local.**
 
-## 2. Instaladores. Pasos en la instalación. Asistente de instalación
+## 2. Instaladores
 
 Un **instalador** es un programa que automatiza la instalación de software. Normalmente, un programa consta de múltiples archivos que deben copiarse en directorios específicos y, en sistemas **Windows**, registrarse en el **Registro de Windows.** Los instaladores realizan estas tareas de forma transparente para el usuario, guiándolo mediante formularios que limitan las acciones a pequeñas modificaciones o simplemente pulsar **"siguiente".** Copian los archivos, registran la aplicación y crean accesos directos en el escritorio.
 
 Ejemplos de instaladores incluyen: **InstallAnywhere**, **Windows Installer**, **InstallShield**, **NSIS**, **Visual Studio 2019**, **IzPack**, entre otros.
 
-Los pasos en la instalación son:
+### 2.1. **Los pasos en la instalación**
 
 - **Verificación de compatibilidad.** Se comprueban los requisitos de hardware y software.
 - **Verificación de integridad.** Se asegura que el paquete de software es original.
@@ -33,7 +38,9 @@ Los pasos en la instalación son:
 - **Variables de entorno.** Se definen las variables necesarias.
 - **Registro.** La aplicación se registra ante el autor.
 
-Los **asistentes de instalación** son aplicaciones que guían al usuario durante el proceso. Permiten personalizar aspectos como la ubicación de instalación, la integración en menús, la aceptación de licencias y el registro del software. Cada paso se muestra en un formulario con la información correspondiente.
+### 2.2. **Los asistentes de instalación**
+
+Son aplicaciones que guían al usuario durante el proceso. Permiten personalizar aspectos como la ubicación de instalación, la integración en menús, la aceptación de licencias y el registro del software. Cada paso se muestra en un formulario con la información correspondiente.
 
 ## 3. Paquetes autoinstalables
 
@@ -41,7 +48,7 @@ Al finalizar el ciclo de desarrollo de una aplicación, es crucial decidir cómo
 
 En **Windows**, el paquete autoinstalable es una aplicación que, al ejecutarse, descomprime los archivos, crea las carpetas necesarias, copia los archivos a sus directorios de destino, modifica el **Registro de Windows**, añade entradas en el menú de aplicaciones y crea accesos directos en el escritorio. El usuario puede personalizar la instalación, eligiendo componentes, modificando directorios o aceptando las opciones por defecto.
 
-En **Ubuntu**, por ejemplo, se crea un paquete **.deb.** Este paquete contiene todos los archivos y directorios de la aplicación. Al instalar, el usuario utiliza el **Software de Ubuntu**, que guía el proceso mediante ventanas de instalación.
+En **Ubuntu**, por ejemplo, se crea un paquete .**deb.** Este paquete contiene todos los archivos y directorios de la aplicación. Al instalar, el usuario utiliza el **Software de Ubuntu**, que guía el proceso mediante ventanas de instalación.
 
 ## 4. Herramientas para crear paquetes de instalación. Repositorios
 
@@ -49,9 +56,9 @@ Existen diversas herramientas para crear paquetes de instalación, siendo las m�
 
 En **Windows**, herramientas como **NSIS** (Nullsoft Scriptable Install System) permiten crear instaladores personalizados. NSIS es **open-source** y permite crear instaladores que pueden instalar, desinstalar, configurar el sistema y extraer archivos. Está basado en scripts, lo que otorga control total al programador.
 
-En **Linux**, el tipo de paquete depende de la distribución. En **Ubuntu**, se utiliza el formato **.deb**, que empaqueta todos los archivos necesarios y configura el **Software de Ubuntu** para copiar los archivos y ajustar las opciones de configuración.
+En **Linux**, el tipo de paquete depende de la distribución. En **Ubuntu**, se utiliza el formato .**deb**, que empaqueta todos los archivos necesarios y configura el **Software de Ubuntu** para copiar los archivos y ajustar las opciones de configuración.
 
-En sistemas como **Windows** o **Mac OS**, los programas suelen distribuirse como instaladores ejecutables descargables desde Internet o en CDs/DVDs. En sistemas **open source** como **Ubuntu**, el software se distribuye principalmente en paquetes **.deb** (o **.rpm** en Red Hat), que incluyen programas y bibliotecas necesarias.
+En sistemas como **Windows** o **Mac OS**, los programas suelen distribuirse como instaladores ejecutables descargables desde Internet o en CDs/DVDs. En sistemas **open source** como **Ubuntu**, el software se distribuye principalmente en paquetes .**deb** (o .**rpm** en Red Hat), que incluyen programas y bibliotecas necesarias.
 
 Los **repositorios** son servidores que centralizan paquetes de software, ofreciendo una amplia variedad de aplicaciones. En **Ubuntu**, los repositorios oficiales suelen ser suficientes, pero es común añadir repositorios de terceros para acceder a más software. Herramientas como el **Centro de Software** facilitan el acceso a estos repositorios.
 
@@ -66,6 +73,7 @@ Un instalador personalizado puede incluir el **logotipo** de la aplicación o em
 El **logotipo** es un elemento gráfico clave que identifica a la empresa o aplicación. Debe ser **legible**, **escalable**, **reproducible**, **distinguible** y **memorable.** En un instalador, el logotipo puede colocarse en cualquier posición (arriba, abajo, derecha o izquierda), y su tamaño dependerá del diseño del instalador y la fuente utilizada.
 
 En herramientas como **NSIS**, el logotipo se añade usando el atributo **AddBrandingImage**, con la sintaxis:  
+
 ```plaintext
 (left|right|top|bottom) (width | height) [padding]
 ```
@@ -150,7 +158,7 @@ Existen herramientas externas a los entornos de desarrollo que permiten crear pa
 
 #### Creación de scripts mediante NSIS
 
-Un script **NSIS** es un archivo de texto con extensión **.nsi** que define el comportamiento del instalador. Los scripts pueden incluir:
+Un script **NSIS** es un archivo de texto con extensión .**nsi** que define el comportamiento del instalador. Los scripts pueden incluir:
 
 - **Atributos del instalador.** Determinan el nombre de la aplicación, el directorio de instalación y otros parámetros. Por ejemplo:
 
@@ -320,10 +328,10 @@ La firma digital en **Java** se basa en el uso de **claves públicas y privadas*
 
 3. **Resúmenes y ficheros de firmas.**  
    - Al firmar un fichero **JAR**, se generan **resúmenes** (hashes) de cada archivo contenido en el **JAR.** Estos resúmenes se almacenan en el archivo **MANIFEST.MF.**  
-   - Además, se crea un archivo de firma (con extensión **.SF**) en el directorio **META-INF**, que contiene resúmenes de las entradas del manifiesto y un resumen del manifiesto completo.
+   - Además, se crea un archivo de firma (con extensión .**SF**) en el directorio **META-INF**, que contiene resúmenes de las entradas del manifiesto y un resumen del manifiesto completo.
 
 4. **Archivo de bloque de firma.**  
-   - Se genera un archivo de bloque de firma (con extensión **.DSA** o similar) que contiene:  
+   - Se genera un archivo de bloque de firma (con extensión .**DSA** o similar) que contiene:  
 	 - La **firma digital** del fichero **JAR**, generada con la clave privada.  
 	 - El **certificado** con la clave pública del firmante.  
    - Este archivo no es legible y es esencial para la verificación.
@@ -398,7 +406,7 @@ Para firmar un fichero **JAR**, se utiliza la herramienta **jarsigner**, que for
 
 2. **Verificación.**  
    - El usuario verifica la firma utilizando la **clave pública** y el **certificado.**  
-   - Se recalculan los resúmenes de los archivos y se comparan con los almacenados en el **MANIFEST.MF** y el archivo de firma (**.SF**).
+   - Se recalculan los resúmenes de los archivos y se comparan con los almacenados en el **MANIFEST.MF** y el archivo de firma (.**SF**).
 
 Este proceso garantiza la autenticidad e integridad del software distribuido, protegiendo a los usuarios de posibles alteraciones o suplantaciones.
 
@@ -438,18 +446,18 @@ Cuando se descarga un fichero desde un servidor web, existen varias formas de pr
 
 ### Ficheros ejecutables ^sk
 
-Si el fichero descargado es un ejecutable (por ejemplo, un **.exe** en **Windows** o un **.sh** en **Linux**), basta con ejecutarlo para iniciar el proceso de instalación.
+Si el fichero descargado es un ejecutable (por ejemplo, un .**exe** en **Windows** o un .**sh** en **Linux**), basta con ejecutarlo para iniciar el proceso de instalación.
 
 ### Ficheros empaquetados y comprimidos ^sk
 
-Si la aplicación se distribuye en un fichero comprimido (como **.zip**, **.rar** o una imagen **.iso**), se debe descomprimir o montar antes de la instalación:
+Si la aplicación se distribuye en un fichero comprimido (como .**zip**, .**rar** o una imagen .**iso**), se debe descomprimir o montar antes de la instalación:
 
 - **Imágenes ISO.** Se pueden grabar en un **CD/DVD** o montar con herramientas como **Daemon Tools.**
 - **Paquetes comprimidos.** Se necesita un programa compatible para descomprimir (por ejemplo, **WinRAR** o **7-Zip**).
 
 ### Paquetes específicos de Linux ^sk
 
-En distribuciones como **Ubuntu**, es común descargar paquetes **.deb** o **.rpm.** Estos paquetes contienen aplicaciones instalables y pueden gestionarse mediante:
+En distribuciones como **Ubuntu**, es común descargar paquetes .**deb** o .**rpm.** Estos paquetes contienen aplicaciones instalables y pueden gestionarse mediante:
 
 - **Entorno gráfico.** Usando el **Gestor de Paquetes de Ubuntu.**
 - **Entorno de consola.** Utilizando comandos como `dpkg` o `apt`.
@@ -472,13 +480,13 @@ sudo apt install -f  # Para resolver dependencias
 
 ### Ejemplo de distribución de software ^sk
 
-Supongamos que queremos distribuir una aplicación llamada **MiAplicacion** en formato **.deb** para **Ubuntu.** El proceso sería:
+Supongamos que queremos distribuir una aplicación llamada **MiAplicacion** en formato .**deb** para **Ubuntu.** El proceso sería:
 
 1. **Crear el paquete .deb.**  
-   - Empaquetar la aplicación y sus dependencias en un fichero **.deb.**
+   - Empaquetar la aplicación y sus dependencias en un fichero .**deb.**
 
 2. **Subir el paquete a un servidor web.**  
-   - Alojar el fichero **.deb** en un servidor accesible.
+   - Alojar el fichero .**deb** en un servidor accesible.
 
 3. **Proporcionar un enlace de descarga.**  
    - Incluir un enlace en una página web para que los usuarios puedan descargar e instalar la aplicación.
@@ -490,48 +498,48 @@ Supongamos que queremos distribuir una aplicación llamada **MiAplicacion** en f
 ```
 
 4. **Instalación por el usuario.**  
-   - El usuario descarga el fichero **.deb** y lo instala usando el gestor de paquetes o la consola.
+   - El usuario descarga el fichero .**deb** y lo instala usando el gestor de paquetes o la consola.
 
 Este enfoque simplifica la distribución de software y permite a los usuarios instalar aplicaciones de manera rápida y segura.
 
 ## Autoevaluación ^sk
 
-### 1: ¿Qué paso no se realiza en la instalación de un programa?
+### 11.1. **¿Qué paso no se realiza en la instalación de un programa?**
 
 **Respuesta: Compilar el programa.**  
 En el proceso de instalación, no se compila el programa. La compilación es parte del desarrollo, no de la instalación. Los pasos de instalación incluyen la creación de directorios, verificación de compatibilidad, copia de archivos, etc.
 
-### 2: ¿Qué herramienta no crea programas de instalación?
+### 11.2. **¿Qué herramienta no crea programas de instalación?**
 
 **Respuesta: Centro de software.**  
 El **Centro de software** es una herramienta para instalar aplicaciones, no para crear instaladores. Herramientas como **IzPack**, **NSIS** e **InstallShield** sí se utilizan para crear programas de instalación.
 
-### 3: ¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?
+### 11.3. **¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?**
 
 **Respuesta: Paquetes deb.**  
-En distribuciones como **Ubuntu**, las aplicaciones se distribuyen en paquetes **.deb**, que contienen el software y sus dependencias.
+En distribuciones como **Ubuntu**, las aplicaciones se distribuyen en paquetes .**deb**, que contienen el software y sus dependencias.
 
-### 4: Para crear un instalador personalizado en Windows deberemos
+### 11.4. **Para crear un instalador personalizado en Windows deberemos**
 
 **Respuesta: Utilizar algún software específico como NSIS.**  
 En **Windows**, se utilizan herramientas como **NSIS**, **InstallShield** o **Inno Setup** para crear instaladores personalizados.
 
-### 5: Los ficheros JAR
+### 11.5. **Los ficheros JAR**
 
 **Respuesta: Son paquetes ejecutables que contienen clases Java y otros recursos.**  
 Los ficheros **JAR** son archivos comprimidos que contienen clases Java, recursos y un archivo **MANIFEST.MF** para definir la clase principal.
 
-### 6: En una instalación desatendida
+### 11.6. **En una instalación desatendida**
 
 **Respuesta: La aplicación se instala de forma transparente al usuario.**  
 En una instalación desatendida, el usuario no interactúa con el instalador. El proceso se realiza automáticamente sin intervención del usuario.
 
-### 7: El reconocimiento de la firma digital de un archivo JAR se conoce como
+### 11.7. **El reconocimiento de la firma digital de un archivo JAR se conoce como**
 
 **Respuesta: Verificación.**  
 El proceso de reconocimiento de la firma digital se llama **verificación**, donde se confirma que el archivo no ha sido alterado y proviene de una fuente confiable.
 
-### 8: En una instalación desde un servidor web
+### 11.8. **En una instalación desde un servidor web**
 
 **Respuesta: La aplicación se instala automáticamente sólo si se trata de un archivo ejecutable.**  
-La instalación automática desde un servidor web depende del tipo de archivo. Si es un ejecutable (como un **.exe** o un **.sh**), puede instalarse directamente. Otros formatos (como **.deb** o **.jar**) requieren pasos adicionales.
+La instalación automática desde un servidor web depende del tipo de archivo. Si es un ejecutable (como un .**exe** o un .**sh**), puede instalarse directamente. Otros formatos (como .**deb** o .**jar**) requieren pasos adicionales.

@@ -1,6 +1,12 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-banner: "![[SGE.jpg]]"
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - SGE
+banner: "![[sge.jpg]]"
+cssclasses:
+  - dam-sge
+  - table-compact-clean
 ---
 
 # **TEMA 1.** <br>Identificación de <br>sistemas ERP-CRM
@@ -9,7 +15,7 @@ banner: "![[SGE.jpg]]"
 
 ## 1. Introducción a la gestión empresarial
 
-Una empresa existe siempre que obtenga beneficios, ya que estos le permiten crecer y desarrollarse. Para ser competitiva, una ;empresa debe gestionar eficientemente sus recursos. Sin embargo, es importante diferenciar entre empresas privadas y públicas: mientras las primeras buscan maximizar beneficios, las segundas priorizan ofrecer servicios a la sociedad.
+Una empresa existe siempre que obtenga beneficios, ya que estos le permiten crecer y desarrollarse. Para ser competitiva, una empresa debe gestionar eficientemente sus recursos. Sin embargo, es importante diferenciar entre empresas privadas y públicas: mientras las primeras buscan maximizar beneficios, las segundas priorizan ofrecer servicios a la sociedad.
 
 Uno de los principales objetivos de cualquier empresa es **satisfacer las necesidades del cliente.** Gracias a la innovación y las nuevas tecnologías, es posible identificar y atender a los clientes de manera más eficiente, lo que contribuye a la obtención de beneficios.
 

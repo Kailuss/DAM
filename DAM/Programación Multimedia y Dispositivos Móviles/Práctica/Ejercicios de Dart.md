@@ -1,12 +1,13 @@
 ---
-number headings: _.1.1.
+number headings: max 3, _.1.1., skip ^sk
 tags:
-  - Focus
+  - DAM
   - PMDM
-  - Tarea
-obsidianUIMode: preview
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
+cssclasses:
+  - dam-pmdm
+  - table-compact-clean
 ---
 # Ejercicios de **Dart**
 

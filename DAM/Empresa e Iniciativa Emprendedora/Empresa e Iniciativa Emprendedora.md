@@ -1,8 +1,15 @@
 ---
 node_size: 24
 obsidianUIMode: preview
+number headings: off
+tags:
+  - DAM
+  - EIE
 banner: "![[eie.jpg]]"
 banner_y: 0.24
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 ---
 
 # Empresa e Iniciativa Emprendedora

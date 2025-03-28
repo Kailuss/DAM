@@ -1,8 +1,12 @@
 ---
-number headings: first-level 2, max 3, skip ^skipped, _.1.1.
-banner: "![[SGE.jpg]]"
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - SGE
+banner: "![[sge.jpg]]"
 cssclasses:
-  - table-clean
+  - dam-sge
+  - table-compact-clean
 ---
 
 # **TEMA 4.** <br>Implantación de <br>sistemas ERP-CRM

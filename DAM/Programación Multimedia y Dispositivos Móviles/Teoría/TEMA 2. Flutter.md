@@ -1,11 +1,9 @@
 ---
-number headings: max 3, _.1.1.
-tags: [PMDM]
-obsidianUIMode: preview
+number headings: max 3, _.1.1., skip ^sk
+tags: [DAM, PMDM]
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
-cssclasses:
-  - table-compact-clean
+cssclasses: [dam-pmdm, table-compact-clean]
 ---
 
 # **Tema 2.** <br>Introducción a Flutter

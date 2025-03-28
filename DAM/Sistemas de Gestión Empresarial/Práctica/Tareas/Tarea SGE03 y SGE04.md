@@ -1,8 +1,12 @@
 ---
-number headings: first-level 2, max 2, skip ^skipped, _.1.1.
-banner: "![[../../../_Media/Banners/joanna-kosinska-1_CMoFsPfso-unsplash.jpg]]"
-banner_y: 0.24
-obsidianUIMode: preview
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - SGE
+banner: "![[sge.jpg]]"
+cssclasses:
+  - dam-sge
+  - table-compact-clean
 ---
 
 # Tareas SGE03 y SGE04

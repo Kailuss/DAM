@@ -1,11 +1,13 @@
 ---
-number headings: max 3, _.1.
-tags: [DAM/PSP, Teoría]
-obsidianUIMode: source
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - PSP
 banner: "![[psp.jpg]]"
 banner_y: 0.32
 cssclasses:
-  - table-clean
+  - dam-psp
+  - table-compact-clean
 ---
 
 # **TEMA 4.** <br>Generación de servicios en red

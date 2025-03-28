@@ -1,8 +1,13 @@
 ---
-number headings: first-level 0, max 2, skip ^skipped, _.1.1.
-obsidianUIMode: preview
+banner: "![[ad.jpg]]"
+banner_y: 0.32
+number headings: max 3, _.1.1.
 tags:
-  - Focus
+  - DAM
+  - AD
+cssclasses:
+  - table-compact-clean
+  - dam-ad
 ---
 
 # Tarea AD04

@@ -1,7 +1,15 @@
 ---
-number headings: first-level 2, max 2, skip ^skipped, _.1.1.
+number headings: max 3, _.1.1., skip ^sk
+tags:
+  - DAM
+  - EIE
+banner: "![[eie.jpg]]"
+banner_y: 0.24
+obsidianUIMode: preview
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 ---
-
 # Tarea EIE05
 
 ## 1. Detalles de la tarea de esta unidad
