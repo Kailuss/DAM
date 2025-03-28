@@ -8,10 +8,10 @@ cssclasses:
   - table-compact-clean
 ---
 
-![cover](Imágenes/flutter/fibra.jpg)
+
 
 # **TEMA 1.1.** <br> Tipos de Datos
-
+![cover](Imágenes/flutter/fibra.jpg)
 ## 1. Introducción a los Tipos Básicos
 
 |Tipo|Ejemplo|Descripción|
