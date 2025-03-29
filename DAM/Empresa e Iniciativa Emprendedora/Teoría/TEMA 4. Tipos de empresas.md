@@ -1,8 +1,12 @@
 ---
-tags: [DAM, EIE]
-cssclasses: [dam-eie, table-compact-clean]
+tags:
+  - DAM
+  - EIE
+cssclasses:
+  - dam-eie
+  - table-compact-clean
 banner: "![[eie.jpg]]"
-banner_y: 0.24
+banner_y: 0.27
 ---
 
 # **TEMA 4.** <br>Tipos de Empresas

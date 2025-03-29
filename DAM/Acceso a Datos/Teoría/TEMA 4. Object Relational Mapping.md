@@ -1,5 +1,5 @@
 ---
-tags: [DAM, AD]
+tags: [AD, DAM]
 cssclasses: [dam-ad, table-compact-clean]
 banner: "![[ad.jpg]]"
 banner_y: 0.32
@@ -9,7 +9,9 @@ banner_y: 0.32
 
 |Anexos|    
 |---|
+
 |[Resumen Tema 4. Object Relational Mapping](Resúmenes/Resumen%20Tema%204.%20Object%20Relational%20Mapping.md)|
+
 |[Tarea AD04](../Práctica/Tarea%20AD04.md)|
 
 ```audio-player
@@ -81,7 +83,7 @@ Tanto en sistemas Linux como Windows podemos utilizar los caracteres `.` y `..`.
 
 En el sistema de archivos podemos encontrar archivos especiales que sirven de referencia a otros archivos, los enlaces simbólicos. Cualquier operación realizada sobre el enlace se lleva a cabo con el archivo o directorio que enlaza, excepto la eliminación o el cambio de nombre. Normalmente son transparentes al usuario.  
 
-### 2.1. Comandos de consola básicos
+### 2.1. **Comandos de consola básicos**
 
 #### Cambiar de directorio
 
@@ -103,7 +105,7 @@ cd ..             // Va a home si estamos dentro del directorio joe
 
 Esta clase representa una ruta dentro del sistema de archivos. Puede hacer referencia a un archivo, a un directorio o no existir. Utiliza la notación propia del sistema de archivos que estamos utilizando.  
 
-### 3.1. Crear un objeto de la clase *Path*
+### 3.1. **Crear un objeto de la clase *Path***
 
 La forma más sencilla es utilizando el método estático of. Recibe como parámetro una cadena con la ruta que queremos utilizar:  
 
@@ -117,7 +119,7 @@ Path p3 = Path.of(URLcreate("file:///home/sally/statusReport");
 
 Para cada nivel de la ruta guarda un elemento que lo representa.  
 
-### 3.2. Recuperar información del *Path*
+### 3.2. **Recuperar información del *Path***
 
 Si tenemos el path **/home/joe/foo** entonces:  
 
@@ -135,7 +137,7 @@ Si tenemos el path **/home/joe/foo** entonces:
 
 Es una clase de utilidad (una clase abstracta con métodos de clase) que nos permite leer, escribir y manipular archivos y directorios.
 
-### 4.1. Consultas
+### 4.1. **Consultas**
 
 Aquí tienes la lista convertida en una tabla de dos columnas, con las descripciones completas añadidas donde faltaban:
 
@@ -153,23 +155,24 @@ Aquí tienes la lista convertida en una tabla de dos columnas, con las descripci
 | `Files.setLastModifiedTime(path, time)` | Establece la fecha y hora de la última modificación del archivo. |
 | `Files.getOwner(path)` | Devuelve el propietario del archivo o directorio. |
 | `Files.setOwner(path, owner)` | Establece el propietario del archivo o directorio. |
-### 4.2. Crear directorio
+
+### 4.2. **Crear directorio**
 
 - `Files.createDirectory(Path)` Crea el directorio definido por el parámetro. La ruta donde queremos crear el directorio debe existir. Es decir, si queremos crear **/home/joe/pruebas**, la ruta **/home/joe** debe existir.  
 - `Files.createDirectories(Path)` Crea el directorio definido por el parámetro. Si la ruta donde queremos crear el directorio no existe, la crea. Es decir, si queremos crear **/home/joe/pruebas** y no existe el directorio **joe**, también lo crea.  
-### 4.3. Eliminar archivos o directorios
+### 4.3. **Eliminar archivos o directorios**
 
 `Files.delete(Path)` Elimina el objeto representado por el path.  
 
-### 4.4. Copiar archivos o directorios
+### 4.4. **Copiar archivos o directorios**
 
 `Files.copy(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `COPY_ATTRIBUTES`, `LinkOption.NOFOLLOW_LINKS`.  
 
-### 4.5. Mover archivos o directorios
+### 4.5. **Mover archivos o directorios**
 
 `Files.move(origen, destino, opciones)` Origen y destino son paths y opciones es un *vararg* para las constantes `StandardCopyOption.REPLACE_EXISTING`, `StandardCopyOption.ATOMIC_MOVE`.  
 
-### 4.6. Leer y escribir contenidos del archivo
+### 4.6. **Leer y escribir contenidos del archivo**
 
 Estos métodos nos servirán cuando necesitemos manipular archivos sencillos. Para otros casos será mucho mejor utilizar los streams que veremos próximamente.  
 
@@ -240,7 +243,7 @@ O si está escrito en el juego de caracteres que utiliza normalmente Windows:
 List linies = Files.readAllLines(Path.of(fitxers.toString() + "/doi.txt"), StandardCharsets.ISO_8859_1);
 ```
 
-### 4.7. Leer el contenido de un directorio
+### 4.7. **Leer el contenido de un directorio**
 
 #### `Files.newDirectoryStream()`
 

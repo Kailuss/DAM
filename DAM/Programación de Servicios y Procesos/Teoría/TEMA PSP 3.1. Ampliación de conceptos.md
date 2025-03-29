@@ -1,8 +1,12 @@
 ---
-tags: [DAM, PSP]
-cssclasses: [dam-psp, table-compact-clean]
+tags:
+  - DAM
+  - PSP
+cssclasses:
+  - dam-psp
+  - table-compact-clean
 banner: "![[psp.jpg]]"
-banner_y: 0.32
+banner_y: 0.26
 ---
 
 # **TEMA 3.1.** <br>Programación de <br> Servicios y Procesos
@@ -27,7 +31,7 @@ El modelo clásico de comunicación es el cliente-servidor. El servidor contiene
 
 La comunicación en redes se basa en la transmisión de paquetes de información, similar al envío de cartas. Cada paquetes contiene datos necesarios para llegar a su destino, como la dirección IP y el puerto. Internet utiliza el protocolo IP para el direccionamiento y TCP para garantizar la integridad y el orden de los datos.
 
-#### 1.3.1. Arquitectura de Internet: una estructura de capas
+#### Arquitectura de Internet: una estructura de capas
 
 La comunicación en Internet se estructura en capas: física, enlace, red, transporte y aplicación. Cada capa añade información adicional a los datos, como direcciones y controles, para asegurar su correcta transmisión. La capa de transporte, implementada solo en los dispositivos finales, garantiza la calidad de la transmisión mediante protocolos como TCP y UDP.
 
@@ -35,14 +39,14 @@ La comunicación en Internet se estructura en capas: física, enlace, red, trans
 
 <p class=pie-de-foto>Figura 1.3.1. Esquema de la arquitectura de capas de Internet</p>
 
-#### 1.3.2. Cabeceras y datos
+#### Cabeceras y datos
 
 Cada capa añade una cabecera a los datos, que contiene información específica para su gestión. En la recepción, estas cabeceras se eliminan progresivamente, dejando solo los datos originales para la aplicación.
 
 ![](Imágenes/03.1-Encabezados-capas.png)
 <p class=pie-de-foto>Figura 1.3.2. Esquema del traspaso de información entre capas</p>
 
-#### 1.3.3. Contenido de la información en cada capa
+#### Contenido de la información en cada capa
 
 La capa de aplicación formatea los datos según el protocolo utilizado. La capa de transporte gestiona los puertos y la integridad de los datos. La capa de red se encarga del direccionamiento IP, mientras que la capa de enlace gestiona la transmisión física de los datos.
 
@@ -52,7 +56,7 @@ La capa de aplicación formatea los datos según el protocolo utilizado. La capa
 
 Los lenguajes de alto nivel, como Java, ofrecen bibliotecas para desarrollar aplicaciones distribuidas. Estas bibliotecas abstraen los detalles de las capas inferiores, permitiendo al programador centrarse en la lógica de la aplicación.
 
-#### 1.4.1. Direccionamiento (Clase `InetAddress`)
+#### Direccionamiento (Clase `InetAddress`)
 
 Java proporciona la clase `InetAddress` para gestionar direcciones IP de forma transparente, independientemente de si son IPv4 o IPv6. Los métodos como `getByName` y `getAllByName` permiten obtener instancias de `InetAddress` a partir de nombres de dominio o direcciones IP.
 
@@ -60,8 +64,8 @@ La clase `InetAddress` representa una dirección de Protocolo de Internet (IP), 
 
 ##### Tipos de direcciones
 
-| Tipo de dirección | Descripción |
-|-------------------|-------------|
+| | |
+|-|-|
 | **Unicast**       | Identificador para una única interfaz. Un paquete enviado a una dirección unicast se entrega a la interfaz identificada por esa dirección. |
 | **Dirección no especificada** | También llamada *anylocal* o *wildcard*. Nunca se asigna a ningún nodo. Indica la ausencia de una dirección. Se usa, por ejemplo, como destino en `bind`, permitiendo que un servidor acepte conexiones en cualquier interfaz. |
 | **Dirección de loopback** | Asignada a la interfaz de loopback. Cualquier cosa enviada a esta dirección se devuelve como entrada IP en el host local. Se usa comúnmente para pruebas. |
@@ -69,9 +73,11 @@ La clase `InetAddress` representa una dirección de Protocolo de Internet (IP), 
 
 ##### Alcance de las direcciones IP
 
-- **Direcciones link-local**: Diseñadas para ser usadas en un solo enlace, como en la configuración automática de direcciones o cuando no hay routers presentes.
-- **Direcciones site-local**: Usadas dentro de un sitio sin necesidad de un prefijo global.
-- **Direcciones globales**: Únicas en toda Internet.
+| | |
+|-|-|
+| **Direcciones link-local**| Diseñadas para ser usadas en un solo enlace, como en la configuración automática de direcciones o cuando no hay routers presentes.|
+| **Direcciones site-local**| Usadas dentro de un sitio sin necesidad de un prefijo global.|
+| **Direcciones globales**| Únicas en toda Internet.|
 
 ##### Representación textual de direcciones IP
 
@@ -92,7 +98,7 @@ Si el comportamiento por defecto no es deseado, se puede configurar un valor de 
 - **networkaddress.cache.ttl**: Controla el tiempo de caché para resoluciones exitosas. Un valor de `-1` indica "almacenar indefinidamente".
 - **networkaddress.cache.negative.ttl**: Controla el tiempo de caché para resoluciones fallidas. Un valor de `0` indica "no almacenar", y `-1` indica "almacenar indefinidamente". El valor por defecto es 10 segundos.
 
-#### 1.4.2. Referencias remotas y obtención de recursos
+#### Referencias remotas y obtención de recursos
 
 Las aplicaciones pueden acceder a recursos remotos mediante URLs. Java ofrece las clases `URL` y `URLConnection` para trabajar con estos recursos. La clase `URLConnection` permite obtener flujos de entrada y salida, así como información adicional sobre el recurso, como su tipo y codificación.
 
@@ -100,7 +106,7 @@ Las aplicaciones pueden acceder a recursos remotos mediante URLs. Java ofrece la
 
 <p class=pie-de-foto>Figura 1.4.2. Jerarquía de las clases que representan recursos remotos</p>
 
-#### 1.4.3. Sockets
+#### Sockets
 
 Los sockets son la interfaz de programación que permite a dos aplicaciones intercambiar información a través de la red. En Java, los sockets pueden ser orientados a conexión (TCP) o no orientados a conexión (UDP). Los sockets TCP garantizan la integridad y el orden de los datos, mientras que los UDP son más rápidos pero menos fiables.
 
@@ -108,7 +114,7 @@ Los sockets son la interfaz de programación que permite a dos aplicaciones inte
 
 <p class=pie-de-foto>Figura 1.4.3 Jerarquía de clases para implementar sockets no orientados a conexión</p>
 
-#### 1.4.4. Implementación de sockets no orientados a conexión
+#### Implementación de sockets no orientados a conexión
 
 Java ofrece las clases `DatagramSocket` y `DatagramPacket` para implementar comunicaciones UDP. Estas clases permiten enviar y recibir paquetes de datos sin establecer una conexión previa. La clase `MulticastSocket` extiende `DatagramSocket` para soportar comunicaciones multicast, donde un servidor envía datos a múltiples clientes.
 
@@ -116,7 +122,7 @@ Java ofrece las clases `DatagramSocket` y `DatagramPacket` para implementar comu
 
 <p class=pie-de-foto>Figura 1.4.4. Diagrama de flujo del proceso de un servidor multicast</p>
 
-#### 1.4.5. Implementación de sockets orientados a conexión
+#### Implementación de sockets orientados a conexión
 
 Los sockets orientados a conexión utilizan el protocolo TCP. En Java, el servidor usa `ServerSocket` para escuchar peticiones de conexión, mientras que el cliente usa `Socket` para conectarse al servidor. Una vez establecida la conexión, ambos extremos pueden intercambiar datos mediante flujos de entrada y salida.
 

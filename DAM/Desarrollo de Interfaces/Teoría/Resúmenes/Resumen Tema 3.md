@@ -2,7 +2,7 @@
 tags: [DAM, DI]
 cssclasses: [dam-di, table-compact-clean]
 banner: "![[di.jpg]]"
-banner_y: 0.76
+banner_y: 0.72
 ---
 
 # **Resumen Tema 3.** <br>Creación de Componentes Visuales

@@ -7,8 +7,6 @@ banner_y: 0.42
 
 # **TEMA 1.1.** <br> Tipos de Datos
 
-![cover](Imágenes/flutter/fibra.jpg)
-
 - **Tipos básicos:** `int`, `double`, `bool`, `String`, y null safety (`?`).  
 - **Flexibilidad:** `var` (inferencia), `dynamic` (tipado dinámico), `num` (número genérico).  
 - **Colecciones:**  

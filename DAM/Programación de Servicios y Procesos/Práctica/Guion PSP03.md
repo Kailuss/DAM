@@ -1,8 +1,12 @@
 ---
-tags: [DAM, PSP]
-cssclasses: [dam-psp, table-compact-clean]
+tags:
+  - DAM
+  - PSP
+cssclasses:
+  - dam-psp
+  - table-compact-clean
 banner: "![[psp.jpg]]"
-banner_y: 0.32
+banner_y: 0.26
 ---
 
 A continuación te explico cómo puedes programar este sistema de chat multiusuario utilizando Maven para gestionar el proyecto y sus dependencias. Utilizaremos Java y las librerías estándar para sockets TCP y UDP.

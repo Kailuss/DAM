@@ -129,7 +129,7 @@ Una vez adquirida la personalidad jurídica, la empresa debe realizar una serie 
 
 La AEAT es el organismo encargado de gestionar, recaudar y organizar el sistema fiscal estatal. Aquí se gestionan los impuestos que gravan la actividad empresarial. Es fundamental informarse en la Delegación de la AEAT correspondiente para evitar problemas fiscales y conocer posibles bonificaciones.
 
-#### 5.1.1. Declaración censal o alta en el censo
+#### Declaración censal o alta en el censo
 
 La declaración censal es un documento que comunica a Hacienda el inicio de la actividad empresarial, el tipo de actividad, las características del local y la modalidad tributaria elegida. Este trámite compromete a la empresa al pago de impuestos como el IVA, IRPF o Impuesto de Sociedades.
 
@@ -137,7 +137,7 @@ La declaración censal es un documento que comunica a Hacienda el inicio de la a
 - Debe presentarse antes del inicio de la actividad, dentro de los 30 días posteriores a la constitución.
 - También es necesaria en caso de modificaciones o cese de la actividad.
 
-#### 5.1.2. Alta en el Impuesto de Actividades Económicas (IAE)
+#### Alta en el Impuesto de Actividades Económicas (IAE)
 
 Todas las personas que inicien actividades empresariales, profesionales o artísticas deben darse de alta en el IAE, en los epígrafes correspondientes a sus actividades, antes del inicio de la actividad (dentro de los 10 días hábiles anteriores).
 
@@ -154,18 +154,18 @@ Los trámites en la Tesorería General de la Seguridad Social dependen de las ne
 
 Los trámites laborales se realizan en la Dirección Provincial de Trabajo o en la Delegación de Trabajo (si la Comunidad Autónoma tiene competencias transferidas). Incluyen:
 
-#### 5.3.1. Comunicación de apertura de centro de trabajo
+#### Comunicación de apertura de centro de trabajo
 - Se realiza en un modelo oficial dentro de los 30 días siguientes al inicio de la actividad.
 - Debe incluir datos de la empresa, actividad y número de trabajadores.
 
-#### 5.3.2. Adquisición y sellado de libros
+#### Adquisición y sellado de libros
 - **Libro de matrícula.** Se inscriben a todos los trabajadores (no es obligatorio).
 - **Libro de visitas.** Debe estar disponible para la Inspección de Trabajo, incluso si no hay trabajadores. Se adquiere en papelerías por unos 6 euros.
 
-#### 5.3.3. Presentación del calendario laboral
+#### Presentación del calendario laboral
 - El calendario laboral debe estar expuesto y visible en el centro de trabajo.
 
-#### 5.3.4. En las oficinas de empleo (SEPE)
+#### En las oficinas de empleo (SEPE)
 
 El Servicio Público de Empleo Estatal (SEPE) gestiona:
 
@@ -177,18 +177,18 @@ El Servicio Público de Empleo Estatal (SEPE) gestiona:
 
 Si la empresa requiere un local, es esencial consultar en el Ayuntamiento la normativa vigente sobre creación de empresas y la actividad a desarrollar. Los trámites locales incluyen:
 
-#### 5.4.1. Licencia de Apertura
+#### Licencia de Apertura
 
 Todas las empresas con sede física deben solicitar una licencia municipal de apertura, que acredita la adecuación del local a las normativas urbanísticas, ambientales y de seguridad. La actividad debe comenzar dentro de los seis meses posteriores a la concesión de la licencia, que tarda entre uno y tres meses.
 
-#### 5.4.2. Licencia de Obras
+#### Licencia de Obras
 
 Si el local necesita reformas, se requiere una licencia de obras, que asegura que las reformas cumplen con las normas urbanísticas. Esta licencia tarda entre uno y tres meses y su costo depende del presupuesto de la obra. Existen dos tipos:
 
 - **Obras de nueva planta.** Para construcciones de mayor entidad.
 - **Reformas de edificaciones existentes.** Para obras menores, como reparaciones o decoración.
 
-#### 5.4.3. Tributos locales
+#### Tributos locales
 
 La empresa debe darse de alta en tasas o tributos municipales, como la recogida de basura o el servicio de aguas.
 
@@ -205,7 +205,7 @@ La empresa debe darse de alta en tasas o tributos municipales, como la recogida 
 Con la solicitud de licencia, se presenta el proyecto de instalaciones, el alta en el IAE, el CIF, una memoria de la actividad y un listado de vecinos (quienes pueden presentar alegaciones).
 
 ### 5.5. **Trámites relativos a compra o arrendamiento de local de negocio**
-#### 5.5.1. Compra de local
+#### Compra de local
 
 Los trámites para comprar un local incluyen:
 
@@ -215,7 +215,7 @@ Los trámites para comprar un local incluyen:
 4. Liquidar el Impuesto sobre Transmisiones Patrimoniales o el IVA (en caso de primera transmisión).
 5. Presentar la declaración de alta en el Impuesto sobre Bienes Inmuebles dentro de los dos meses posteriores a la compra.
 
-#### 5.5.2. Arrendamiento de local
+#### Arrendamiento de local
 
 El contrato de arrendamiento puede ser verbal o escrito (recomendable), privado o ante notario. El arrendatario debe depositar dos mensualidades como fianza, y el arrendador retiene un 15% mensual para Hacienda.
 
@@ -223,7 +223,7 @@ El contrato de arrendamiento puede ser verbal o escrito (recomendable), privado 
 Es la cesión del arrendatario a un tercero, quien asume los derechos y obligaciones del contrato. El traspaso se formaliza en escritura pública ante notario.
 
 ### 5.6. **Otros trámites**
-#### 5.6.1. Registro de la Propiedad Industrial
+#### Registro de la Propiedad Industrial
 
 En la Oficina Española de Patentes y Marcas se pueden registrar derechos de propiedad industrial, como:
 
@@ -235,15 +235,15 @@ En la Oficina Española de Patentes y Marcas se pueden registrar derechos de pro
 
 Estos trámites pueden realizarse de forma telemática.
 
-#### 5.6.2. Registro Mercantil
+#### Registro Mercantil
 
 Todas las empresas deben llevar una contabilidad ordenada y legalizar los libros obligatorios en el Registro Mercantil. La legalización cuesta unos 35 euros y puede realizarse en papel, CD o de forma telemática.
 
-#### 5.6.3. Libro de Reclamaciones
+#### Libro de Reclamaciones
 
 Las empresas con atención al público deben solicitar el Libro de Reclamaciones en el organismo competente en consumo de su Comunidad Autónoma. Este libro debe estar disponible para que los clientes formulen quejas o reclamaciones.
 
-#### 5.6.4. Otros trámites adicionales
+#### Otros trámites adicionales
 
 La empresa puede necesitar realizar otros trámites, como:
 
@@ -265,23 +265,23 @@ A continuación, se presentan algunas webs útiles para la creación de empresas
 
 Las empresas relacionadas con la Informática y las Comunicaciones deben cumplir con los trámites generales de creación de empresas, además de atender a las normativas específicas de su actividad y las exigencias de la Comunidad Autónoma y el Ayuntamiento correspondiente.
 
-### 8.1. **Trámites específicos**
+### 7.1. **Trámites específicos**
 
 Para abrir una tienda de informática o una empresa de soporte informático, los trámites principales son:
 
-#### 8.1.1. Licencia de Apertura y Funcionamiento
+#### Licencia de Apertura y Funcionamiento
 - **Emisor.** Ayuntamiento del municipio donde se instalará el negocio.
 - **Requisitos.** Presentación de un Proyecto Técnico realizado por un arquitecto.
 
-#### 8.1.2. Subvenciones y ayudas
+#### Subvenciones y ayudas
 - Investigar y solicitar las subvenciones y ayudas disponibles para el sector.
 
-#### 8.1.3. Normativas aplicables
+#### Normativas aplicables
 - **Condiciones del local.** Cumplir con las normativas urbanísticas y de seguridad.
 - **Instalaciones.** Asegurar que cumplen con los requisitos técnicos y legales.
 - **Personal.** Atender a la legislación laboral, incluyendo el Convenio Colectivo aplicable y la normativa de Prevención de Riesgos Laborales.
 
-### 8.2. **Asesoramiento**
+### 7.2. **Asesoramiento**
 
 La Cámara de Comercio de la Comunidad Autónoma correspondiente puede ayudar con los trámites burocráticos y proporcionar información adicional sobre normativas locales y regionales.
 
@@ -321,7 +321,7 @@ A continuación, se detallan los principales trámites relacionados con la Segur
 
 A continuación, se describen los libros obligatorios según el tipo de empresa:
 
-### 8.3. **Empresa individual**
+### 7.3. **Empresa individual**
 - **Estimación objetiva.** No está obligada a llevar libros, pero debe conservar justificantes de sus operaciones.
 - **Estimación directa normal.**
   - Actividad industrial, comercial o de servicios: Libro diario y libro de inventario y cuentas anuales.
@@ -330,14 +330,14 @@ A continuación, se describen los libros obligatorios según el tipo de empresa:
   - Conservar facturas numeradas por fechas y agrupadas por trimestres.
   - Libro registro de bienes de inversión, ventas e ingresos, y compras y gastos.
 
-### 8.4. **Sociedad**
+### 7.4. **Sociedad**
 - Libro diario.
 - Libro de inventarios y cuentas anuales.
 - Libro de actas.
 - Libro de acciones nominativas (solo para sociedades anónimas con acciones nominativas).
 - Libro registro de socios (solo para sociedades limitadas).
 
-### 8.5. **Cooperativa**
+### 7.5. **Cooperativa**
 - Libro registro de socios.
 - Libro registro de aportaciones al capital social.
 - Libro de actas.
