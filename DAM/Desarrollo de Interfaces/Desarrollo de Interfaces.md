@@ -1,15 +1,14 @@
 ---
-node_size: 24
-obsidianUIMode: preview
-banner: "![[di.jpg]]"
-banner_y: 0.76
-number headings: off
-cssclasses:
-  - dam-di
-  - table-compact-clean
 tags:
   - DAM
   - DI
+cssclasses:
+  - dam-di
+obsidianUIMode: preview
+number headings: off
+banner: "![[di.jpg]]"
+banner_y: 0.72
+node_size: 24
 ---
 
 # Desarrollo de Interfaces

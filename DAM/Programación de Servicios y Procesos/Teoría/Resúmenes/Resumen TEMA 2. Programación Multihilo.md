@@ -1,7 +1,5 @@
 ---
-tags:
-  - DAM
-  - PSP
+tags: [DAM, PSP]
 cssclasses:
   - dam-psp
   - table-compact-clean
@@ -186,6 +184,7 @@ Hilo1 bloquea *recurso1* y espera *recurso2*. Hilo2 bloquea *recurso2* y espera 
 ### 8.1. **`Semaphore`**
 
 Controla el acceso a recursos mediante permisos.  
+
 - *acquire()*: Solicita un permiso.  
 - *release()*: Libera un permiso.  
 
@@ -202,6 +201,7 @@ semaforo.release(); // Libera el permiso
 ### 8.2. **`CountDownLatch`**
 
 Espera a que varios hilos terminen.  
+
 - *await()*: Bloquea hasta que el contador llegue a cero.  
 - *countDown()*: Reduce el contador.  
 
@@ -220,6 +220,7 @@ latch.await(); // Espera hasta que el contador llegue a 0
 ### 8.3. **`ExecutorService` (Pools de Hilos)**
 
 Gestiona pools de hilos para optimizar recursos.  
+
 - *newFixedThreadPool()*: Crea un número fijo de hilos.  
 - *submit()*: Envía tareas al pool.  
 
@@ -234,7 +235,6 @@ executor.shutdown();
 ```
 
 ## 9. Buenas Prácticas
-
 
 |     |     |
 | --- | --- |

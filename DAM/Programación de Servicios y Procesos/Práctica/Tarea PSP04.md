@@ -1,7 +1,5 @@
 ---
-tags:
-  - DAM
-  - PSP
+tags: [DAM, PSP]
 cssclasses:
   - dam-psp
   - table-compact-clean
@@ -35,7 +33,7 @@ Después, se debe desarrollar un cliente en **Java** que realice las siguientes 
 - **PUT** (Actualizar una obra existente) → `http://localhost:8080/API_REST_v1/api/obres/updateObra`
 - **DELETE** (Eliminar una obra por ID)
 
-### 1.2. Estructura de una obra
+### 1.2. **Estructura de una obra**
 
 Una obra debe contener los siguientes campos:
 

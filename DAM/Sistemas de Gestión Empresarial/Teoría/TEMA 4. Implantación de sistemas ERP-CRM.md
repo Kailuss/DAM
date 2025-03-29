@@ -8,7 +8,7 @@ banner: "![[sge.jpg]]"
 
 | Anexos |
 | - |
-| [Resumen Tema 4 SGE](Resúmenes/Resumen%20Tema%204%20SGE.md) |
+| [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md) |
 | [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 ## 1. Introducción
 

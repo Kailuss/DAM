@@ -1,13 +1,17 @@
 ---
-tags: [DAM, DI]
-cssclasses: [dam-di, table-compact-clean]
+tags:
+  - DAM
+  - DI
+cssclasses:
+  - table-compact-clean
+  - dam-di
 banner: "![[di.jpg]]"
 banner_y: 0.72
 ---
 
 # **TEMA 7.** <br>Distribución de aplicaciones
 
-## **1.** Definición y composición <br>de una distribución
+## 1. Definición y composición <br>de una distribución
 
 Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como .**exe** o .**msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
 

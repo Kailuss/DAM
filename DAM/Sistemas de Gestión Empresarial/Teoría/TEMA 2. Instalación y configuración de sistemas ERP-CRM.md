@@ -6,10 +6,6 @@ banner: "![[sge.jpg]]"
 
 # **TEMA 2.** <br>Instalación y configuración <br>de sistemas ERP-CRM
 
-| Anexos                                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------------- |
-| ![Mapa conceptual](Mapa%20conceptual%20SGE02.canvas)                                                                                       |
-
 ## 1. Introducción
 
 > [!done] Caso práctico 

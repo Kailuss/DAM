@@ -1,7 +1,5 @@
 ---
-tags:
-  - DAM
-  - PSP
+tags: [DAM, PSP]
 cssclasses:
   - dam-psp
   - table-compact-clean
@@ -9,7 +7,7 @@ banner: "![[psp.jpg]]"
 banner_y: 0.26
 ---
 
-# Tarea PSP03
+# Tarea **PSP03**
 ## 1 Introducción
 
 En esta práctica, se desarrollará un sistema de chat multiusuario que permita a múltiples clientes conectarse a un servidor centralizado para intercambiar mensajes en tiempo real. El objetivo es poner en práctica los conceptos de comunicación en red utilizando sockets TCP para gestionar conexiones cliente-servidor y datagramas UDP para enviar notificaciones rápidas.

@@ -5,7 +5,7 @@ banner: "![[eie.jpg]]"
 banner_y: 0.24
 ---
 
-# Solución EIE05
+# Guion EIE05
 ## 1. Organismos de Ayuda al Proyecto Empresarial
 
 **Objetivo.** Identificar y aprovechar el apoyo de organismos que faciliten la puesta en marcha del proyecto en Palma de Mallorca.

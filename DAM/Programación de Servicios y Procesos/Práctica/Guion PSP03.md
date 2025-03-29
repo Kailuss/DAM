@@ -1,7 +1,5 @@
 ---
-tags:
-  - DAM
-  - PSP
+tags: [DAM, PSP]
 cssclasses:
   - dam-psp
   - table-compact-clean
@@ -9,21 +7,19 @@ banner: "![[psp.jpg]]"
 banner_y: 0.26
 ---
 
-A continuación te explico cómo puedes programar este sistema de chat multiusuario utilizando Maven para gestionar el proyecto y sus dependencias. Utilizaremos Java y las librerías estándar para sockets TCP y UDP.
+# Guion **PSP03**
 
----
-
-### **Pasos para crear el proyecto con Maven**
+## 1. Pasos para crear el proyecto con Maven
 
 1. **Crear el proyecto Maven**  
-    En tu IDE favorito (por ejemplo, IntelliJ IDEA o Eclipse):
-    
-    - Selecciona la opción para crear un nuevo proyecto Maven.
-    - Configura el archivo `pom.xml` con las dependencias necesarias.
+	En tu IDE favorito (por ejemplo, IntelliJ IDEA o Eclipse):
+	
+	- Selecciona la opción para crear un nuevo proyecto Maven.
+	- Configura el archivo `pom.xml` con las dependencias necesarias.
 2. **Estructura básica del proyecto**  
-    Maven crea automáticamente la estructura básica:
-    
-    ```
+	Maven crea automáticamente la estructura básica:
+
+	```
     src/
     ├── main/
     │   ├── java/
@@ -34,11 +30,11 @@ A continuación te explico cómo puedes programar este sistema de chat multiusua
     │   └── resources/               # Archivos de configuración, si los necesitas
     └── test/
     ```
-    
+
 3. **Archivo `pom.xml`**  
-    Añade las dependencias básicas. Por ejemplo:
-    
-    ```xml
+	Añade las dependencias básicas. Por ejemplo:
+
+	```xml
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <modelVersion>4.0.0</modelVersion>
         <groupId>com.tuchat</groupId>
@@ -60,15 +56,12 @@ A continuación te explico cómo puedes programar este sistema de chat multiusua
         </dependencies>
     </project>
     ```
-    
 
----
-
-### **Implementación del Servidor**
+## 2. Implementación del Servidor
 
 1. **Clase `Server`**
-    
-    ```java
+
+	```java
     package com.tuchat;
     
     import java.io.*;
@@ -186,15 +179,12 @@ A continuación te explico cómo puedes programar este sistema de chat multiusua
         }
     }
     ```
-    
 
----
-
-### **Implementación del Cliente**
+## 3. Implementación del Cliente
 
 2. **Clase `Client`**
-    
-    ```java
+
+	```java
     package com.tuchat;
     
     import java.io.*;
@@ -258,8 +248,3 @@ A continuación te explico cómo puedes programar este sistema de chat multiusua
         }
     }
     ```
-    
-
----
-
-Este código básico establece la lógica del servidor y cliente con Maven. Para probarlo, simplemente ejecuta primero el servidor y luego inicia varios clientes.

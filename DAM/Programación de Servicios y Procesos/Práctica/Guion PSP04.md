@@ -1,7 +1,5 @@
 ---
-tags:
-  - DAM
-  - PSP
+tags: [DAM, PSP]
 cssclasses:
   - dam-psp
   - table-compact-clean
@@ -9,7 +7,7 @@ banner: "![[psp.jpg]]"
 banner_y: 0.26
 ---
 
-# Tarea **PSP04** <br>Solución
+# Guion **PSP04**
 
 ## 1. Crear una API REST en Java
 

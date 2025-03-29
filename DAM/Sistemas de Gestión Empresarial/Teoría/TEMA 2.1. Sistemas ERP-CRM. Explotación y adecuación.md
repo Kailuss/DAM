@@ -9,7 +9,7 @@ banner: "![[sge.jpg]]"
 
 |Anexos|
 |-|
-|[Resumen Tema 2.1 SGE](Resúmenes/Resumen%20Tema%202.1%20SGE.md)|
+|[Resumen Tema 2.1](Resúmenes/Resumen%20Tema%202.1.md)|
 
 
 ## Introducción ^skipped
