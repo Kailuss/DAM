@@ -6,7 +6,7 @@ cssclasses:
   - dam-psp
   - table-compact-clean
 banner: "![[psp.jpg]]"
-banner_y: 0.26
+banner_y: 0.25
 ---
 
 # **TEMA 3.** <br>Comunicaciones en Red

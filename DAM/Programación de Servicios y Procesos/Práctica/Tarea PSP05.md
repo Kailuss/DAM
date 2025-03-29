@@ -4,7 +4,7 @@ cssclasses:
   - dam-psp
   - table-compact-clean
 banner: "![[psp.jpg]]"
-banner_y: 0.26
+banner_y: 0.25
 number headings: max 2, _.1.
 ---
 

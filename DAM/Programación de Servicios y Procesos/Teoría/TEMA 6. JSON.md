@@ -4,10 +4,18 @@ cssclasses:
   - dam-psp
   - table-compact-clean
 banner: "![[psp.jpg]]"
-banner_y: 0.26
+banner_y: 0.25
 ---
 
 # **TEMA 6.** <br>JSON
+
+
+| Anexos |
+| --- |
+|[TEMA 6.1. MongoDB](TEMA%206.1.%20MongoDB.md)|
+|[TEMA 6.2. MongoDB y Java](TEMA%206.2.%20MongoDB%20y%20Java.md)|
+
+
 **JSON** (*JavaScript Object Notation*) es un formato de intercambio de datos basado en una parte de la especificación de ECMAScript (JavaScript). Es un formato de texto independiente del lenguaje, aunque utiliza características de lenguajes tipo C (C++, Java, Python, etc.).  
 
 Como formato de texto, siempre se encuentra dentro de una variable de tipo texto o como literal entre comillas. Es una alternativa a XML, siendo más fácil de entender y escribir para humanos, y más eficiente en espacio.  

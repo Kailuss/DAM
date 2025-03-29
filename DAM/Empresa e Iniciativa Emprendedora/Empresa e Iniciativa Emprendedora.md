@@ -27,3 +27,6 @@ node_size: 24
 
 ---
 ### [**TEMA 6.** Trámites para la creación de la empresa](Teoría/TEMA%206.%20Trámites%20para%20la%20creación%20de%20la%20empresa.md)
+
+---
+### [Plan de Empresa](Plan%20de%20Empresa/Plan%20de%20Empresa.md)

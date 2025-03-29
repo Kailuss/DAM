@@ -6,7 +6,7 @@ banner_y: 0.42
 ---
 
 # **TEMA 4.** <br>Persistencia
-En este tema se exploran los mecanismos de almacenamiento de datos en Android e iOS. En Android, se cubre el manejo de ficheros y el uso de SQLite para bases de datos. También se presentan los proveedores de contenidos, que permiten el intercambio de información entre aplicaciones. En iOS, se aborda el uso de ficheros plist, SQLite, User Defaults y Core Data.
+En este tema se exploran los **mecanismos de almacenamiento de datos** en Android e iOS. En Android, se cubre el manejo de ficheros y el uso de SQLite para bases de datos. También se presentan los proveedores de contenidos, que permiten el intercambio de información entre aplicaciones. En iOS, se aborda el uso de ficheros `plist`, `SQLite`, `User Defaults` y `Core Data`.
 
 | **Subtemas**     |
 | --- |
