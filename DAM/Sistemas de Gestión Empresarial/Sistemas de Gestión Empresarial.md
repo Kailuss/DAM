@@ -9,7 +9,7 @@ number headings: off
 banner: "![[sge.jpg]]"
 node_size: 24
 ---
-# Sistemas de Gestión Empresarial
+# **SGE.** Sistemas de <br>Gestión Empresarial
 ### [**TEMA 1.** Identificación de sistemas ERP-CRM](./Teor%C3%ADa/TEMA%201.%20Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM.md)
 
 ### [**TEMA 2.** Instalación y configuración de sistemas ERP-CRM](./Teor%C3%ADa/TEMA%202.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM.md)

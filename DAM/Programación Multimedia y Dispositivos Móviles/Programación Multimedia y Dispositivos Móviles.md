@@ -10,7 +10,7 @@ banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 ---
 
-# Programación Multimedia <br>y Dispositivos Móviles
+# **PMDM.** Programación Multimedia y Dispositivos Móviles
 
 ### [**TEMA 1.** Dart](Teoría/TEMA%201.%20Dart.md)
 [**TEMA 1.1.** Tipos de Datos](Teoría/TEMA%201.1.%20Tipos%20de%20Datos.md)

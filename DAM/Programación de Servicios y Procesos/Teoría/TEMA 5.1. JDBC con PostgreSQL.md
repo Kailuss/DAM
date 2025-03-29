@@ -7,7 +7,7 @@ banner: "![[psp.jpg]]"
 banner_y: 0.26
 ---
 
-# **TEMA 5.2.** <br>JDBC con PostgreSQL <br>y tipos avanzados
+# **TEMA 5.1.** <br>JDBC con PostgreSQL <br>y tipos avanzados
 
 En las últimas versiones, JDBC incorpora métodos y clases que permiten utilizar los nuevos tipos de datos. Seguiremos utilizando PostgreSQL para practicar estos conceptos.
 
