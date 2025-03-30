@@ -23,9 +23,3 @@ node_size: 24
 
 ---
 ### [**TEMA 4.** Generación de servicios en red](Teoría/TEMA%204.%20Generación%20de%20servicios%20en%20red.md)
-
----
-### [**TEMA 5.** ORDB y JDBC](Teoría/TEMA%205.%20ORDB%20y%20JDBC.md)
-
----
-### [**TEMA 6.** JSON](Teoría/TEMA%206.%20JSON.md)

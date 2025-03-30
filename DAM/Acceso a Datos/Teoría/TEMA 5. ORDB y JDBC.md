@@ -1,12 +1,12 @@
 ---
 tags:
   - DAM
-  - PSP
+  - AD
 cssclasses:
-  - dam-psp
+  - dam-ad
   - table-compact-clean
-banner: "![[psp.jpg]]"
-banner_y: 0.25
+banner: "![[ad.jpg]]"
+banner_y: 0.32
 ---
 
 # **TEMA 5.** <br>Bases de datos objeto-relacionales (PostgreSQL)
@@ -15,7 +15,7 @@ banner_y: 0.25
 | Anexos |
 | --- |
 | [TEMA 5.1. JDBC con PostgreSQL](TEMA%205.1.%20JDBC%20con%20PostgreSQL.md) |
-| [Tarea PSP05](../Práctica/Tarea%20PSP05.md) |
+| [Tarea PSP05](../../Programación%20de%20Servicios%20y%20Procesos/Práctica/Tarea%20PSP05.md) |
 
 
 Las diferentes versiones del lenguaje SQL han ido incorporando características que permiten trabajar directamente con objetos. La revisión más significativa se produjo en 1999, dando lugar al estándar SQL99. Esta revisión introdujo tipos de datos no convencionales y permitió la definición de tipos compuestos o estructurados. Los principales tipos que incorpora son:

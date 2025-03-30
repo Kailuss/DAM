@@ -1,10 +1,12 @@
 ---
-tags: [DAM, PSP]
+tags:
+  - DAM
+  - AD
 cssclasses:
-  - dam-psp
+  - dam-ad
   - table-compact-clean
-banner: "![[psp.jpg]]"
-banner_y: 0.25
+banner: "![[ad.jpg]]"
+banner_y: 0.32
 ---
 
 # **TEMA 6.** <br>JSON
