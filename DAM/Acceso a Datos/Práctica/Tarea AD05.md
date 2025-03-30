@@ -1,14 +1,14 @@
 ---
-tags: [DAM, PSP]
+tags: [DAM, AD]
 cssclasses:
-  - dam-psp
+  - dam-ad
   - table-compact-clean
-banner: "![[psp.jpg]]"
-banner_y: 0.25
+banner: "![[ad.jpg]]"
+banner_y: 0.32
 number headings: max 2, _.1.
 ---
 
-# Tarea **PSP05**
+# Tarea **AD05**
 
 ## 1. Instrucciones SQL
 
