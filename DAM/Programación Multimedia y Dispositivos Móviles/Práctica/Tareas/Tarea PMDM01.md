@@ -5,9 +5,9 @@ banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 ---
 
-# Realiza los siguientes supuestos prácticos con Dart
+# Tarea **PMDM01.**
 
-Puedes utilizar el entorno que desees para ejecutarlo.
+**Realiza los siguientes supuestos prácticos con Dart. Puedes utilizar el entorno que desees para ejecutarlo.**
 
 Se nos pide que programemos el sistema para gestionar un **rent a car** en la costa norte de Mallorca. Este rent a car alquila vehículos de diferentes tipos, **coches y motos**, a clientes. 
 

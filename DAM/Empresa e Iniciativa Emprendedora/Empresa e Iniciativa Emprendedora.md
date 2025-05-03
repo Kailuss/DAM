@@ -20,6 +20,8 @@ node_size: 24
 
 ---
 ### [**TEMA 3.** Mercado y Plan de Marketing](Teoría/TEMA%203.%20Mercado%20y%20Plan%20de%20Marketing.md)
+
+---
 ### [**TEMA 4.** Tipos de empresas](Teoría/TEMA%204.%20Tipos%20de%20empresas.md)
 
 ---
@@ -27,6 +29,12 @@ node_size: 24
 
 ---
 ### [**TEMA 6.** Trámites para la creación de la empresa](Teoría/TEMA%206.%20Trámites%20para%20la%20creación%20de%20la%20empresa.md)
+
+---
+### [**TEMA 7.** La contabilidad y el análisis contable](Teoría/jk.md)
+
+---
+### [**TEMA 8.** La gestión de la empresa](Teoría/TEMA%208.%20La%20gestión%20de%20la%20empresa.md)
 
 ---
 ### [Plan de Empresa](Plan%20de%20Empresa/Plan%20de%20Empresa.md)

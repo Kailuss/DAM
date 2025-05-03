@@ -9,7 +9,7 @@ banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
 
-# **TEMA 6.2** <br>MongoDB y Java 
+# **TEMA 6.2.** <br>Bases de Datos Documentales. <br>MongoDB y Java 
 
 ## 1. Driver y configuración  
 

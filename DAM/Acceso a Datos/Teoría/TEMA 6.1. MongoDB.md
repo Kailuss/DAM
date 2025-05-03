@@ -9,7 +9,7 @@ banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
 
-# **TEMA 6.1** <br>MongoDB  
+# **TEMA 6.1.** <br>Bases de Datos Documentales. <br>MongoDB  
 
 ## 1. Bases de datos documentales  
 

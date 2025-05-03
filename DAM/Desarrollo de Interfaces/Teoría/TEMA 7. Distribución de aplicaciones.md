@@ -13,7 +13,7 @@ banner_y: 0.72
 
 ## 1. Definición y composición <br>de una distribución
 
-Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como .**exe** o .**msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
+Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como **.exe** o **.msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
 
 ### 1.1. **Sistema de gestión de paquetes**
 
@@ -27,15 +27,15 @@ Ejemplos de instaladores incluyen: **InstallAnywhere**, **Windows Installer**, *
 
 ### 2.1. **Los pasos en la instalación**
 
-- **Verificación de compatibilidad.** Se comprueban los requisitos de hardware y software.
-- **Verificación de integridad.** Se asegura que el paquete de software es original.
-- **Creación de directorios.** Se generan las carpetas necesarias.
-- **Creación de usuarios.** Se definen grupos de usuarios para el software.
-- **Copia y descompresión.** Los archivos se extraen del paquete.
-- **Compilación y enlace.** Se vinculan las bibliotecas requeridas.
-- **Configuración.** Se ajustan los parámetros necesarios.
-- **Variables de entorno.** Se definen las variables necesarias.
-- **Registro.** La aplicación se registra ante el autor.
+- **Verificación de compatibilidad:** Se comprueban los requisitos de hardware y software.
+- **Verificación de integridad:** Se asegura que el paquete de software es original.
+- **Creación de directorios:** Se generan las carpetas necesarias.
+- **Creación de usuarios:** Se definen grupos de usuarios para el software.
+- **Copia y descompresión:** Los archivos se extraen del paquete.
+- **Compilación y enlace:** Se vinculan las bibliotecas requeridas.
+- **Configuración:** Se ajustan los parámetros necesarios.
+- **Variables de entorno:** Se definen las variables necesarias.
+- **Registro:** La aplicación se registra ante el autor.
 
 ### 2.2. **Los asistentes de instalación**
 
@@ -43,11 +43,11 @@ Son aplicaciones que guían al usuario durante el proceso. Permiten personalizar
 
 ## 3. Paquetes autoinstalables
 
-Al finalizar el ciclo de desarrollo de una aplicación, es crucial decidir cómo distribuirla, incluyendo la incorporación de características adicionales, parches y revisiones. Un **paquete autoinstalable** empaqueta la aplicación en un único archivo que contiene todos los archivos y directorios necesarios. Este archivo puede ser un ejecutable en Windows (.**exe**), un paquete **Debian** (.**deb**) en distribuciones como Ubuntu, o un paquete **RPM** en distribuciones como Red Hat.
+Al finalizar el ciclo de desarrollo de una aplicación, es crucial decidir cómo distribuirla, incluyendo la incorporación de características adicionales, parches y revisiones. Un **paquete autoinstalable** empaqueta la aplicación en un único archivo que contiene todos los archivos y directorios necesarios. Este archivo puede ser un ejecutable en Windows (**.exe**), un paquete **Debian** (**.deb**) en distribuciones como Ubuntu, o un paquete **RPM** en distribuciones como Red Hat.
 
 En **Windows**, el paquete autoinstalable es una aplicación que, al ejecutarse, descomprime los archivos, crea las carpetas necesarias, copia los archivos a sus directorios de destino, modifica el **Registro de Windows**, añade entradas en el menú de aplicaciones y crea accesos directos en el escritorio. El usuario puede personalizar la instalación, eligiendo componentes, modificando directorios o aceptando las opciones por defecto.
 
-En **Ubuntu**, por ejemplo, se crea un paquete .**deb.** Este paquete contiene todos los archivos y directorios de la aplicación. Al instalar, el usuario utiliza el **Software de Ubuntu**, que guía el proceso mediante ventanas de instalación.
+En **Ubuntu**, por ejemplo, se crea un paquete **.deb**. Este paquete contiene todos los archivos y directorios de la aplicación. Al instalar, el usuario utiliza el **Software de Ubuntu**, que guía el proceso mediante ventanas de instalación.
 
 ## 4. Herramientas para crear paquetes de instalación. Repositorios
 
@@ -55,9 +55,9 @@ Existen diversas herramientas para crear paquetes de instalación, siendo las m�
 
 En **Windows**, herramientas como **NSIS** (Nullsoft Scriptable Install System) permiten crear instaladores personalizados. NSIS es **open-source** y permite crear instaladores que pueden instalar, desinstalar, configurar el sistema y extraer archivos. Está basado en scripts, lo que otorga control total al programador.
 
-En **Linux**, el tipo de paquete depende de la distribución. En **Ubuntu**, se utiliza el formato .**deb**, que empaqueta todos los archivos necesarios y configura el **Software de Ubuntu** para copiar los archivos y ajustar las opciones de configuración.
+En **Linux**, el tipo de paquete depende de la distribución. En **Ubuntu**, se utiliza el formato **.deb**, que empaqueta todos los archivos necesarios y configura el **Software de Ubuntu** para copiar los archivos y ajustar las opciones de configuración.
 
-En sistemas como **Windows** o **Mac OS**, los programas suelen distribuirse como instaladores ejecutables descargables desde Internet o en CDs/DVDs. En sistemas **open source** como **Ubuntu**, el software se distribuye principalmente en paquetes .**deb** (o .**rpm** en Red Hat), que incluyen programas y bibliotecas necesarias.
+En sistemas como **Windows** o **Mac OS**, los programas suelen distribuirse como instaladores ejecutables descargables desde Internet o en CDs/DVDs. En sistemas **open source** como **Ubuntu**, el software se distribuye principalmente en paquetes **.deb** (o **.rpm** en Red Hat), que incluyen programas y bibliotecas necesarias.
 
 Los **repositorios** son servidores que centralizan paquetes de software, ofreciendo una amplia variedad de aplicaciones. En **Ubuntu**, los repositorios oficiales suelen ser suficientes, pero es común añadir repositorios de terceros para acceder a más software. Herramientas como el **Centro de Software** facilitan el acceso a estos repositorios.
 

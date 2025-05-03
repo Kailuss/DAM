@@ -1,5 +1,4 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
 tags:
   - DAM
   - SGE

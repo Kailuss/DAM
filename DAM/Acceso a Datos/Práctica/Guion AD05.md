@@ -17,7 +17,7 @@ number headings: max 2, _.1.
 ```sql
 -- Crear el esquema
 CREATE SCHEMA "ut5-practica";
-GRANT ALL PRIVILEGES ON SCHEMA "ut5-practica" TO tu_usuario;
+GRANT ALL PRIVILEGES ON SCHEMA "ut5-practica" TO aoton;
 
 -- Crear el tipo de datos personalizado
 CREATE TYPE "ut5-practica".tipo_conexion AS (
@@ -27,7 +27,7 @@ CREATE TYPE "ut5-practica".tipo_conexion AS (
 );
 
 -- Crear la tabla servidors
-CREATE TABLE "ut5-practica".servidors (
+CREATE TABLE "ut5-practica".servidores (
     codigo VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     usuarios_permitidos VARCHAR(50)[] NOT NULL,

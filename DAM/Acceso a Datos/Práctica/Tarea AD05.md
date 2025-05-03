@@ -1,5 +1,7 @@
 ---
-tags: [DAM, AD]
+tags:
+  - DAM
+  - AD
 cssclasses:
   - dam-ad
   - table-compact-clean
@@ -10,19 +12,20 @@ number headings: max 2, _.1.
 
 # Tarea **AD05**
 
+
 ## 1. Instrucciones SQL
 
 1. Crear un nuevo esquema en la base de datos llamado `ut5-practica`. Asegúrate de otorgar todos los privilegios a tu usuario.  
 2. Puedes utilizar los asistentes de pgAdmin4 para realizar los ejercicios del apartado SQL.  
-
+. 
 ## 2. Ejercicios SQL (4 puntos)
 
 ### Ejercicio 1 (2 puntos)
 
 Crear un tipo de datos personalizado para almacenar la información de conexión a un servidor de base de datos. El tipo debe incluir:  
 
-- **SGBD.** MySQL, PostgreSQL, Oracle, ZOODB, etc.  
-- **IP o dominio.**  
+- **SGBD:** MySQL, PostgreSQL, Oracle, ZOODB, etc.  
+- **IP o dominio:**  
 - **Puerto** (numérico).  
 
 Crear la tabla `servidors` con las siguientes columnas:  

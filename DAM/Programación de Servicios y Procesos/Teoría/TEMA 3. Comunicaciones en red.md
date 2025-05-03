@@ -13,10 +13,12 @@ banner_y: 0.25
 
 | Anexos |
 | ------ |
+| [**TEMA 3.1.** Ampliación de conceptos](TEMA%203.1.%20Ampliación%20de%20conceptos.md) |
+| [**TEMA 3.2.** Aplicaciones cliente-servidor](TEMA%203.2.%20Aplicaciones%20cliente-servidor.md) |
 | [Tarea PSP03](../Práctica/Tarea%20PSP03.md) |
 | [Guion PSP03](../Práctica/Guion%20PSP03.md) |
 
-## 1. Conexiones TCP/IP
+## 1. Conexiones TCP/IP 
 
 En 1969, ARPA (Advanced Research Projects Agency) del Departamento de Defensa de EE. UU. inició un proyecto para conectar ordenadores mediante redes telefónicas. Diseñado en plena Guerra Fría, el objetivo era garantizar la comunicación entre nodos incluso si parte de la red quedaba destruida. Esto dio lugar en 1972 a ARPAnet, la primera red de conmutación de paquetes, caracterizada por su fiabilidad gracias a topologías malladas y múltiples líneas punto a punto.
 
@@ -46,11 +48,11 @@ La elección entre TCP o UDP depende de las necesidades específicas de la aplic
 
 Los puertos permiten que las aplicaciones se comuniquen identificando el servicio específico en el equipo destino. Según la IANA, los puertos se clasifican en:
 
-|     |     | |
-| --- | --- | - |
-| **Puertos conocidos**| 0-1023 | Reservados para servicios estándar (ej. HTTP, FTP).| 
-| **Puertos registrados**| 1024-49151 | Asignados a servicios o aplicaciones específicas.| 
-| **Puertos dinámicos**| 49152-65535 | Utilizados para conexiones temporales entre aplicaciones.| 
+| | | |
+| - | - | - |
+|**Puertos conocidos** | 0-1023 | Reservados para servicios estándar (ej. HTTP, FTP). | 
+|**Puertos registrados** | 1024-49151 | Asignados a servicios o aplicaciones específicas. | 
+|**Puertos dinámicos** | 49152-65535 | Utilizados para conexiones temporales entre aplicaciones. | 
 
 Las aplicaciones suelen emplear puertos en el rango 1024-49151.
 

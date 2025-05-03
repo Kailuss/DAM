@@ -1,8 +1,13 @@
 ---
-tags: [DAM, PMDM]
-cssclasses: [dam-pmdm, table-compact-clean]
+tags:
+  - DAM
+  - PMDM
+cssclasses:
+  - dam-pmdm
+  - table-compact-clean
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
+number headings:
 ---
 
 # **TEMA 4.1.** <br>Persistencia en Android

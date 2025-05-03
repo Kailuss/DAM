@@ -5,7 +5,7 @@ banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 ---
 
-# Tarea PMDM03
+# Tarea **PMDM03**
 ## 1. Instrucciones
 
 Al llegar a este punto, ya estarás familiarizado con la estructura de la aplicación del ejercicio anterior. El objetivo de esta práctica es realizar una funcionalidad similar. Para esta práctica, partiremos (si queréis) del mismo esquema proporcionado para el ejercicio anterior, y la idea es conseguir la misma funcionalidad, pero partiendo de una información diferente.

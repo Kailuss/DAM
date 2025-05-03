@@ -1,15 +1,12 @@
 ---
-number headings: max 3, _.1.1., skip ^sk
-tags:
-  - DAM
-  - SGE
+tags: [DAM, SGE]
 banner: "![[sge.jpg]]"
 cssclasses:
   - dam-sge
   - table-compact-clean
 ---
 
-# **Resumen Tema 2.1.**  <br>Sistemas ERP-CRM.  <br>Explotación y adecuación
+# **Resumen Tema 2.1.** <br>Sistemas ERP-CRM. <br>Explotación y adecuación
 
 Este documento proporciona una guía completa para la explotación y adecuación de sistemas ERP-CRM, con un enfoque práctico en Odoo. Se cubren desde la gestión de la base de datos hasta el desarrollo de módulos personalizados, incluyendo la creación de modelos, vistas y controladores. El uso de herramientas como **pgAdmin**, **Dia**, y **PyCharm** facilita el proceso de desarrollo y adaptación del ERP a las necesidades específicas de una organización.
 
@@ -40,19 +37,19 @@ Al finalizar esta unidad, el alumno será capaz de:
 
 Odoo utiliza **PostgreSQL** como sistema de gestión de bases de datos (SGBD). La base de datos se genera a partir del mapeo de clases Python diseñadas en Odoo, lo que significa que no hay un diseño explícito de la base de datos, sino que se deriva del modelo de clases.
 
-#### 1.1.1. Conexión a la base de datos mediante pgAdmin
+#### Conexión a la base de datos mediante pgAdmin
 
 Se explica cómo conectar a la base de datos de Odoo utilizando **pgAdmin**, una herramienta gráfica para administrar PostgreSQL.
 
-#### 1.1.2. Identificar las tablas
+#### Identificar las tablas
 
 Odoo permite identificar las tablas y columnas de la base de datos a través de los nombres de las clases Python y sus atributos. Por ejemplo, la clase `hr.employee.category` se mapea a la tabla `hr_employee_category` en PostgreSQL.
 
-#### 1.1.3. Acceso de solo lectura a la base de datos
+#### Acceso de solo lectura a la base de datos
 
 Se recomienda crear usuarios con privilegios de solo lectura para consultas no previstas, utilizando herramientas como **pgAdmin** o **dBeaver.**
 
-#### 1.1.4. Acceso a PostgreSQL desde aplicaciones clientes
+#### Acceso a PostgreSQL desde aplicaciones clientes
 
 Se muestran ejemplos de conexión a la base de datos desde herramientas como **dBeaver** y **LibreOffice Base.**
 
@@ -78,19 +75,19 @@ Se explica cómo crear un módulo vacío en Odoo utilizando el comando `odoo-bin
 
 El modelo de datos se diseña utilizando **diagramas UML** con la herramienta **Dia.** Luego, se implementa en Python, definiendo clases y campos.
 
-#### 2.4.1. Diseño de clases con Dia
+#### Diseño de clases con Dia
 
 Se utiliza **Dia** para crear diagramas UML que representan las clases del módulo, como `manteni.workorder` (órdenes de trabajo) y `manteni.machine` (máquinas).
 
-#### 2.4.2. models.py
+#### models.py
 
 El archivo `models.py` contiene la definición de las clases del módulo. Se definen atributos de clase y campos, como `Char`, `Integer`, `Float`, y campos relacionales como `Many2one`, `One2many`, y `Many2many`.
 
-#### 2.4.3. Atributos de clase
+#### Atributos de clase
 
 Los atributos de clase, como `_name`, `_rec_name`, y `_order`, permiten personalizar el comportamiento de las clases.
 
-#### 2.4.4. Campos posibles en Odoo
+#### Campos posibles en Odoo
 
 Se describen los tipos de campos disponibles en Odoo, como campos básicos (`Char`, `Boolean`, `Integer`) y campos avanzados (`Text`, `Selection`, `Date`, `Datetime`, campos relacionales, campos calculados, etc.).
 
@@ -108,14 +105,14 @@ Las vistas en Odoo permiten visualizar y editar la información. Se definen en a
 
 El controlador gestiona la lógica de negocio y la interacción con la base de datos. Odoo proporciona métodos ORM (Object-Relational Mapping) para crear, modificar, eliminar y buscar registros.
 
-#### 2.6.1. Métodos ORM más comunes
+#### Métodos ORM más comunes
 - **`create(vals_list)`.** Crea registros.
 - **`write(vals)`.** Modifica registros.
 - **`browse([ids])`.** Recupera registros por ID.
 - **`search(args)`.** Busca registros según criterios.
 - **`unlink()`.** Elimina registros.
 
-#### 2.6.2. Los decoradores
+#### Los decoradores
 
 Los decoradores modifican el comportamiento de las funciones:
 

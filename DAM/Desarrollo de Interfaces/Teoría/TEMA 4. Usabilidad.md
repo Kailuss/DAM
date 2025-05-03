@@ -1,6 +1,11 @@
 ---
-tags: [DAM, DI]
-cssclasses: [dam-di, table-compact-clean]
+tags:
+  - DAM
+  - DI
+cssclasses:
+  - dam-di
+  - table-compact-clean
+  - table-data
 banner: "![[di.jpg]]"
 banner_y: 0.72
 ---
@@ -27,10 +32,10 @@ Una interfaz usable debe ser:
 
 | | |
 |----------------|-------------|
-| **Útil** | Capaz de cumplir las tareas para las que fue diseñada. |
-| **Fácil de usar** | Eficiente, rápida y con pocos errores. |
-| **Fácil de aprender** | No requiere mucho tiempo para aprender y es sencilla de recordar. |
-| **Elegante en su diseño** | Atractiva visualmente para mejorar la percepción del usuario. |
+| **Útil.** | Capaz de cumplir las tareas para las que fue diseñada. |
+| **Fácil de usar.** | Eficiente, rápida y con pocos errores. |
+| **Fácil de aprender.** | No requiere mucho tiempo para aprender y es sencilla de recordar. |
+| **Elegante en su diseño.** | Atractiva visualmente para mejorar la percepción del usuario. |
 
 Además, es importante prever errores, proporcionar retroalimentación y mantener un diseño simple para evitar sobrecargar al usuario.
 
@@ -40,11 +45,11 @@ Los cinco atributos clave de la usabilidad son:
 
 | | |
 |----------|-------------|
-| **Facilidad de aprendizaje** | El sistema debe ser fácil de entender. |
-| **Eficiencia** | Alta productividad una vez que el usuario aprende a usarlo. |
-| **Recuerdo de uso** | El funcionamiento debe ser fácil de recordar. |
-| **Tasas de error** | Minimizar los errores cometidos por el usuario. |
-| **Satisfacción** | El usuario debe sentirse cómodo y satisfecho con la aplicación. |
+| **Facilidad de aprendizaje.** | El sistema debe ser fácil de entender. |
+| **Eficiencia.** | Alta productividad una vez que el usuario aprende a usarlo. |
+| **Recuerdo de uso.** | El funcionamiento debe ser fácil de recordar. |
+| **Tasas de error.** | Minimizar los errores cometidos por el usuario. |
+| **Satisfacción.** | El usuario debe sentirse cómodo y satisfecho con la aplicación. |
 
 Los beneficios de la usabilidad incluyen la reducción de costes de aprendizaje, optimización del diseño y mantenimiento, disminución de errores y aumento de la satisfacción del usuario.
 
@@ -54,9 +59,9 @@ Las métricas de usabilidad evalúan la interfaz de manera objetiva, dividiéndo
 
 | | |
 |-------|-------------|
-| **Efectividad** | Mide cómo se alcanzan los objetivos (porcentaje de tareas completadas, éxito en el primer intento, etc.). |
-| **Eficiencia** | Evalúa el esfuerzo necesario para completar tareas (tiempo empleado, errores cometidos, clics necesarios, etc.). |
-| **Satisfacción** | Mide el grado de satisfacción del usuario (recomendaciones, calificaciones de facilidad de uso, etc.). |
+| **Efectividad.** | Mide cómo se alcanzan los objetivos (porcentaje de tareas completadas, éxito en el primer intento, etc.). |
+| **Eficiencia.** | Evalúa el esfuerzo necesario para completar tareas (tiempo empleado, errores cometidos, clics necesarios, etc.). |
+| **Satisfacción.** | Mide el grado de satisfacción del usuario (recomendaciones, calificaciones de facilidad de uso, etc.). |
 
 Para medir estas métricas, es necesario definir tareas, establecer objetivos, seleccionar variables a medir y planificar la recogida de datos.
 
@@ -66,10 +71,10 @@ Las pruebas con expertos ayudan a detectar errores en el diseño de la interfaz.
 
 | | |
 |----------------|-------------|
-| **Evaluación heurística** | Verificación frente a principios de diseño. |
-| **Revisión de normas** | Asegura el cumplimiento de estándares. |
-| **Inspección de consistencia** | Revisa la coherencia en una familia de interfaces. |
-| **Inspección formal de usabilidad** | Evaluación detallada por un grupo de expertos. |
+| **Evaluación heurística.** | Verificación frente a principios de diseño. |
+| **Revisión de normas.** | Asegura el cumplimiento de estándares. |
+| **Inspección de consistencia.** | Revisa la coherencia en una familia de interfaces. |
+| **Inspección formal de usabilidad.** | Evaluación detallada por un grupo de expertos. |
 
 Otra técnica es la **caminata cognitiva**, donde los expertos simulan el uso de la interfaz para identificar problemas.
 
@@ -79,16 +84,10 @@ Las pruebas con usuarios proporcionan información valiosa para un diseño centr
 
 | | |
 |-------------|-------------|
-| **Reuniones** | Encuentros con usuarios y expertos durante el desarrollo. |
-| **Entrevistas y encuestas** | Contacto personalizado para obtener feedback cualitativo o cuantitativo. |
-| **Diseño de escenarios** | Los usuarios describen secuencias de acciones para completar tareas. |
-| **Diseño participativo** | Usuarios potenciales colaboran en el diseño de la interfaz. |
-
---- 
-
-Espero que esta organización en tablas sea de utilidad. 😊
-
-Una muestra de 5-10 usuarios suele ser suficiente para detectar problemas de usabilidad, aunque los resultados no tienen validez estadística.
+| **Reuniones.** | Encuentros con usuarios y expertos durante el desarrollo. |
+| **Entrevistas y encuestas.** | Contacto personalizado para obtener feedback cualitativo o cuantitativo. |
+| **Diseño de escenarios.** | Los usuarios describen secuencias de acciones para completar tareas. |
+| **Diseño participativo.** | Usuarios potenciales colaboran en el diseño de la interfaz. |
 
 ## Pautas de Diseño de la Interfaz de Usuario
 
@@ -98,17 +97,17 @@ El diseño de la interfaz debe ser una prioridad en el desarrollo de aplicacione
 
 |  | |
 |-|-|
-| **Organización** | Disposición clara y consistente de los elementos. |
-| **Economía** | Comunicar lo máximo con la mínima cantidad de elementos. |
-| **Comunicación** | Ajustar la presentación a las capacidades del usuario. |
+| **Organización.** | Disposición clara y consistente de los elementos. |
+| **Economía.** | Comunicar lo máximo con la mínima cantidad de elementos. |
+| **Comunicación.** | Ajustar la presentación a las capacidades del usuario. |
 
 |  | |
 |-|-|
-| **Diseño visual** | Centrado en mejorar la comunicación. |
-| **Color** | Usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales. |
-| **Matiz, contraste y resplandor** | Garantizar legibilidad y accesibilidad. |
-| **Disposición de elementos** | Crear un flujo visual coherente. |
-| **Redacción de texto** | Usar bloques cortos, lenguaje claro y retroalimentación positiva para errores. |
+| **Diseño visual.** | Centrado en mejorar la comunicación. |
+| **Color.** | Usar colores apagados y complementarios, con opciones de personalización para usuarios con necesidades visuales. |
+| **Matiz, contraste y resplandor.** | Garantizar legibilidad y accesibilidad. |
+| **Disposición de elementos.** | Crear un flujo visual coherente. |
+| **Redacción de texto.** | Usar bloques cortos, lenguaje claro y retroalimentación positiva para errores. |
 
 ### Estructura de la Interfaz de Usuario
 
@@ -116,11 +115,11 @@ La estructura de la interfaz de usuario debe basarse en los siguientes principio
 
 | | |
 |-|-|
-| **Familiaridad del usuario** | La interfaz debe utilizar términos y conceptos que los usuarios reconozcan, basándose en su experiencia previa. Esto facilita el aprendizaje rápido. |
-| **Consistencia** | Las operaciones similares deben activarse de la misma manera. La ergonomía se logra mediante menús, barras de acciones e iconos de fácil acceso. |
-| **Legibilidad** | La información debe ser fácil de ubicar y leer, con una presentación visual clara y evitando la sobrecarga de datos. |
-| **Mínima sorpresa** | El comportamiento de la aplicación no debe sorprender al usuario. |
-| **Recuperabilidad** | La interfaz debe incluir mecanismos para que los usuarios puedan recuperarse de errores. |
+| **Familiaridad del usuario.** | La interfaz debe utilizar términos y conceptos que los usuarios reconozcan, basándose en su experiencia previa. Esto facilita el aprendizaje rápido. |
+| **Consistencia.** | Las operaciones similares deben activarse de la misma manera. La ergonomía se logra mediante menús, barras de acciones e iconos de fácil acceso. |
+| **Legibilidad.** | La información debe ser fácil de ubicar y leer, con una presentación visual clara y evitando la sobrecarga de datos. |
+| **Mínima sorpresa.** | El comportamiento de la aplicación no debe sorprender al usuario. |
+| **Recuperabilidad.** | La interfaz debe incluir mecanismos para que los usuarios puedan recuperarse de errores. |
 
 Para diseñar una interfaz coherente, es esencial conocer a los usuarios y cómo interactuarán con la aplicación. Factores clave incluyen:
 
@@ -196,10 +195,10 @@ Los menús son listas de opciones que permiten a los usuarios navegar por el sis
 
 |Tipos de Menú| |
 |-|-|
-| **Menú de barra** | Ubicados en la parte superior de la pantalla, contienen acciones genéricas que despliegan submenús. |
-| **Menú desplegable (cascada)** |  Presentan opciones que a su vez despliegan otros menús. Pueden cambiar dinámicamente y deshabilitar opciones no disponibles. |
+| **Menú de barra.** | Ubicados en la parte superior de la pantalla, contienen acciones genéricas que despliegan submenús. |
+| **Menú desplegable (cascada).** |  Presentan opciones que a su vez despliegan otros menús. Pueden cambiar dinámicamente y deshabilitar opciones no disponibles. |
 | **Paleta o barra de herramientas.** |  Menús gráficos con acciones y herramientas, comunes en programas de diseño. |
-| **Menú contextual (pop-up)** |  Ofrecen opciones relevantes al contexto actual del usuario. |
+| **Menú contextual (pop-up).** |  Ofrecen opciones relevantes al contexto actual del usuario. |
 | **Personalización.** |  Permiten a los usuarios modificar o crear menús según sus necesidades. |
 
 ### Ventanas
@@ -220,15 +219,15 @@ Los cuadros de diálogo son mensajes que el sistema muestra en respuesta a las a
 
 | Factores de Diseño | |
 |-|-|
-| **Nivel de habilidad del usuario** | Adaptar los mensajes a la terminología que el usuario comprende. |
-| **Estilo** | Los mensajes deben ser positivos y activos. |
-| **Cultura** | Evitar malentendidos culturales en el contenido de los mensajes. |
+| **Nivel de habilidad del usuario.** | Adaptar los mensajes a la terminología que el usuario comprende. |
+| **Estilo.** | Los mensajes deben ser positivos y activos. |
+| **Cultura.** | Evitar malentendidos culturales en el contenido de los mensajes. |
 
 | Tipos de Cuadros de Diálogo | |
 |-|-|
-| **Información de éxito o fracaso** | Notifican al usuario el resultado de una acción. |
-| **Motores de búsqueda** | Facilitan la búsqueda de información dentro de la aplicación. |
-| **Ayuda en línea** | Proporcionan asistencia al usuario durante el uso de la aplicación. |
+| **Información de éxito o fracaso.** | Notifican al usuario el resultado de una acción. |
+| **Motores de búsqueda.** | Facilitan la búsqueda de información dentro de la aplicación. |
+| **Ayuda en línea.** | Proporcionan asistencia al usuario durante el uso de la aplicación. |
 
 ### Atajos de Teclado
 
@@ -248,9 +247,9 @@ Los botones son controles que permiten al usuario realizar acciones específicas
 
 | Tipos de Botones | |
 |-|-|
-| **Botones en relieve** | Dan una sensación de profundidad. |
-| **Botones de confirmación** | Para acciones como "Aceptar" o "Cancelar". |
-| **Botones de radio** | Permiten seleccionar una opción entre varias (mutuamente excluyentes). |
+| **Botones en relieve.** | Dan una sensación de profundidad. |
+| **Botones de confirmación.** | Para acciones como "Aceptar" o "Cancelar". |
+| **Botones de radio.** | Permiten seleccionar una opción entre varias (mutuamente excluyentes). |
 
 **Consideraciones**
 - Deben ser intuitivos y fáciles de usar.
@@ -278,17 +277,17 @@ La presentación de datos en la interfaz es crucial para garantizar la usabilida
 
 | Reglas de Diseño | |
 |-------|-------------|
-| **Enrejillado** | Organizar el espacio en áreas separadas según su función. |
-| **Balanceado** | Buscar equilibrio entre los ejes horizontal y vertical. |
-| **Simetría** | Duplicar la imagen a lo largo de un eje para asegurar equilibrio. |
+| **Enrejillado.** | Organizar el espacio en áreas separadas según su función. |
+| **Balanceado.** | Buscar equilibrio entre los ejes horizontal y vertical. |
+| **Simetría.** | Duplicar la imagen a lo largo de un eje para asegurar equilibrio. |
 
 | Consejos para una Presentación Efectiva | |
 |---------|-------------|
-| **Ser conciso** | Evitar bloques extensos de texto. |
-| **Facilitar la navegación** | El usuario explora la interfaz antes de decidir si le interesa. |
-| **Estructura piramidal** | Colocar las ideas más importantes al principio. |
-| **Lenguaje cercano** | Utilizar un lenguaje que el usuario entienda fácilmente. |
-| **Información separada** | Transmitir mensajes de manera aislada, evitando sobrecargar ventanas o párrafos. |
+| **Ser conciso.** | Evitar bloques extensos de texto. |
+| **Facilitar la navegación.** | El usuario explora la interfaz antes de decidir si le interesa. |
+| **Estructura piramidal.** | Colocar las ideas más importantes al principio. |
+| **Lenguaje cercano.** | Utilizar un lenguaje que el usuario entienda fácilmente. |
+| **Información separada.** | Transmitir mensajes de manera aislada, evitando sobrecargar ventanas o párrafos. |
 
 ## Diseño de la Secuencia de Control de la Aplicación
 
@@ -296,19 +295,19 @@ El diseño de la secuencia de control define cómo funcionará la aplicación y 
 
 | Pasos del Diseño de la Secuencia de Control |  |
 |------|-------------|
-| **Creación de la interfaz** | Dibujar controles y objetos en un formulario, asignándoles nombres para facilitar la lectura del código. |
-| **Establecimiento de propiedades** | Configurar las propiedades de los objetos. |
-| **Escritura de código** | Programar las respuestas a eventos generados por el usuario. |
-| **Pruebas y depuración** | Verificar el funcionamiento de la aplicación. |
-| **Generación del ejecutable** | Crear el archivo ejecutable y el instalador. |
+| **Creación de la interfaz.** | Dibujar controles y objetos en un formulario, asignándoles nombres para facilitar la lectura del código. |
+| **Establecimiento de propiedades.** | Configurar las propiedades de los objetos. |
+| **Escritura de código.** | Programar las respuestas a eventos generados por el usuario. |
+| **Pruebas y depuración.** | Verificar el funcionamiento de la aplicación. |
+| **Generación del ejecutable.** | Crear el archivo ejecutable y el instalador. |
 
 | Consideraciones de Diseño | |
 |---------------|-------------|
-| **Definir objetivos** | Establecer objetivos para cada componente de la interfaz. |
-| **Asociar objetivos con interacción** | Vincular cada objetivo con una secuencia de interacción. |
-| **Especificar acciones y estado del sistema** | Definir las acciones de las tareas y el estado del sistema. |
-| **Definir mecanismos de control** | Especificar cómo los controles afectan al sistema. |
-| **Asegurar interpretación correcta** | Garantizar que los usuarios interpreten correctamente el estado del sistema. |
+| **Definir objetivos.** | Establecer objetivos para cada componente de la interfaz. |
+| **Asociar objetivos con interacción.** | Vincular cada objetivo con una secuencia de interacción. |
+| **Especificar acciones y estado del sistema.** | Definir las acciones de las tareas y el estado del sistema. |
+| **Definir mecanismos de control.** | Especificar cómo los controles afectan al sistema. |
+| **Asegurar interpretación correcta.** | Garantizar que los usuarios interpreten correctamente el estado del sistema. |
 
 ## Aseguramiento <br>de la Información
 
@@ -316,17 +315,17 @@ El aseguramiento de la información garantiza que los datos sean seguros, confia
 
 | Ámbitos del Aseguramiento | |
 |--------|-------------|
-| **Datos** | Proteger la integridad y confidencialidad de la información. |
-| **Procesos** | Asegurar que los procesos operativos sean seguros. |
-| **Comportamiento** | Garantizar que los usuarios interactúen de manera segura. |
-| **Sistema de Gestión** | Proteger los sistemas que gestionan la información. |
+| **Datos.** | Proteger la integridad y confidencialidad de la información. |
+| **Procesos.** | Asegurar que los procesos operativos sean seguros. |
+| **Comportamiento.** | Garantizar que los usuarios interactúen de manera segura. |
+| **Sistema de Gestión.** | Proteger los sistemas que gestionan la información. |
 
 | Herramientas de Seguridad | |
 |-------------|-------------|
-| **Control de acceso** | Limitar el acceso a recursos críticos. |
-| **Políticas de seguridad** | Configurar permisos específicos para cada recurso. |
-| **Criptografía** | Proteger la información mediante técnicas de cifrado. |
-| **Certificados y claves** | Gestionar autenticación y encriptación. |
+| **Control de acceso.** | Limitar el acceso a recursos críticos. |
+| **Políticas de seguridad.** | Configurar permisos específicos para cada recurso. |
+| **Criptografía.** | Proteger la información mediante técnicas de cifrado. |
+| **Certificados y claves.** | Gestionar autenticación y encriptación. |
 
 ## Aplicaciones Multimedia
 
@@ -334,11 +333,11 @@ Las aplicaciones multimedia integran elementos como sonido, imágenes, animacion
 
 | Elementos Multimedia en Interfaces | |
 |----------|-------------|
-| **Gráficos** | Representaciones visuales que facilitan la comprensión de ideas. |
-| **Imágenes** | Representaciones estáticas que transmiten información. |
-| **Animaciones** | Secuencias rápidas de imágenes que generan sensación de movimiento. |
-| **Vídeos** | Útiles para mostrar conceptos de manera dinámica, permitiendo pausar, reiniciar o detener la reproducción. |
-| **Audio** | Mensajes acústicos que añaden sonoridad a la interfaz. |
+| **Gráficos.** | Representaciones visuales que facilitan la comprensión de ideas. |
+| **Imágenes.** | Representaciones estáticas que transmiten información. |
+| **Animaciones.** | Secuencias rápidas de imágenes que generan sensación de movimiento. |
+| **Vídeos.** | Útiles para mostrar conceptos de manera dinámica, permitiendo pausar, reiniciar o detener la reproducción. |
+| **Audio.** | Mensajes acústicos que añaden sonoridad a la interfaz. |
 
 **Consideraciones de Diseño**
 - Mantener un equilibrio entre elementos multimedia y texto.

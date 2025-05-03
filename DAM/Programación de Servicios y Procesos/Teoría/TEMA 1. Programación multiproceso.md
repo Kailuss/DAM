@@ -3,8 +3,8 @@ tags:
   - DAM
   - PSP
 cssclasses:
-  - dam-psp
   - table-compact-clean
+  - dam-psp
 banner: "![[psp.jpg]]"
 banner_y: 0.25
 ---

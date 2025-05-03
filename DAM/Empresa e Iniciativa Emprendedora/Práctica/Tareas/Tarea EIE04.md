@@ -82,4 +82,4 @@ Basado en lo estudiado en esta unidad, completa estos datos de tu plan de negoci
    - **Aportación de cada socio/a y sus participaciones/acciones**  
    - **Responsabilidad ante deudas**  
 
-![](oton_linan_alfonso_EIE04_Tarea.pdf)
+![](Entregas/oton_linan_alfonso_EIE04_Tarea.pdf)

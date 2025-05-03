@@ -6,7 +6,7 @@ banner: "![[sge.jpg]]"
 
 # Tareas SGE03 y SGE04
 
-[Tarea SGE03 y SGE04 (Solución)](Tarea%20SGE03%20y%20SGE04%20(Solución).md)
+[Guion SGE03 y SGE04](Guion%20SGE03%20y%20SGE04.md)
 
 > [!summary] 
 > **Curso.** 2º Grupo S2PD  

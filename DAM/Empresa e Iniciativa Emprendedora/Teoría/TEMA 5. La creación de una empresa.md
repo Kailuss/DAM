@@ -5,7 +5,7 @@ banner: "![[eie.jpg]]"
 banner_y: 0.24
 ---
 
-# **TEMA 5.** <br>La creación de una empresa
+# **TEMA 5:** <br>La creación de una empresa
 
 | Anexos |
 | - |
@@ -29,11 +29,11 @@ banner_y: 0.24
 
 En este tema se abordan aspectos fundamentales para emprender un negocio:
 
-- **Plan de operaciones.** Definir cómo se desarrollará la idea de negocio.
-- **Inversiones y Gastos.** Identificar los costes necesarios para iniciar la actividad.
-- **Financiación.** Evaluar si se dispone del capital suficiente o buscar fuentes de financiación.
-- **Recursos Humanos.** Determinar el personal necesario, sus funciones, contratos y costes.
-- **Plan de Prevención de Riesgos Laborales.** Analizar los riesgos específicos del sector.
+- **Plan de operaciones:** Definir cómo se desarrollará la idea de negocio.
+- **Inversiones y Gastos:** Identificar los costes necesarios para iniciar la actividad.
+- **Financiación:** Evaluar si se dispone del capital suficiente o buscar fuentes de financiación.
+- **Recursos Humanos:** Determinar el personal necesario, sus funciones, contratos y costes.
+- **Plan de Prevención de Riesgos Laborales:** Analizar los riesgos específicos del sector.
 
 ## 2. El plan de operaciones
 ![cover](Imágenes/05-Plan.png)
@@ -46,9 +46,9 @@ Al iniciar un negocio, es esencial seleccionar proveedores que suministren los c
 
 | | |
 |-|-|
-| **Búsqueda de información** | Se pueden utilizar medios como prensa, ferias comerciales, Internet o asociaciones empresariales. |
-| **Solicitud de información** | Se contacta con los proveedores para conocer aspectos como calidad, condiciones económicas y otras condiciones contractuales. |
-| **Evaluación y elección** | Se elabora una ficha con las características de cada proveedor y un cuadro comparativo, para elegir el que ofrezca mejores condiciones. Para minimizar riesgos, conviene no depender de un único proveedor. |
+| **Búsqueda de información.** | Se pueden utilizar medios como prensa, ferias comerciales, Internet o asociaciones empresariales. |
+| **Solicitud de información.** | Se contacta con los proveedores para conocer aspectos como calidad, condiciones económicas y otras condiciones contractuales. |
+| **Evaluación y elección.** | Se elabora una ficha con las características de cada proveedor y un cuadro comparativo, para elegir el que ofrezca mejores condiciones. Para minimizar riesgos, conviene no depender de un único proveedor. |
 
 Los criterios de selección incluyen calidad, precio, costes adicionales (portes, seguros), descuentos por volumen de compra y plazos de pago.
 
@@ -60,8 +60,8 @@ Es la planificación del proceso productivo o de prestación de servicios. En em
 ![cover](Imágenes/05-Inversiones.png)
 ### 3.1. **Diferencia entre inversión y gasto**
 
-- **Inversión.** Desembolso de capital para adquirir bienes que no se venderán y serán utilizados en la empresa (terrenos, edificios, maquinaria, vehículos…).
-- **Gasto.** Pagos necesarios para el funcionamiento de la empresa pero sin permanencia (recibos de teléfono, luz, agua…).
+- **Inversión:** Desembolso de capital para adquirir bienes que no se venderán y serán utilizados en la empresa (terrenos, edificios, maquinaria, vehículos…).
+- **Gasto:** Pagos necesarios para el funcionamiento de la empresa pero sin permanencia (recibos de teléfono, luz, agua…).
 
 ### 3.2. **Elementos del Plan de Inversiones**
 
@@ -98,42 +98,42 @@ Las fuentes de financiación pueden clasificarse en:
 
 Se basa en ahorros personales y aportaciones del entorno, clave para la creación del capital inicial. A largo plazo, también incluye:
 
-- **Reservas.** Beneficios no distribuidos destinados a reinversión.
-- **Amortizaciones.** Fondos acumulados para reponer activos deteriorados.
+- **Reservas:** Beneficios no distribuidos destinados a reinversión.
+- **Amortizaciones:** Fondos acumulados para reponer activos deteriorados.
 ### 4.2. **Financiación Ajena**
 
 Formas más comunes de financiación externa:
 
-- **Línea de crédito.** El banco pone dinero a disposición hasta un límite, pagando intereses solo sobre lo dispuesto.
-- **Préstamos bancarios.** Dinero prestado a devolver con intereses.
-- **Créditos de proveedores.** Aplazamiento de pagos como forma de financiación.
-- **Limitación de periodos de cobro.** Reducir los plazos de pago de los clientes para mejorar la liquidez.
+- **Línea de crédito:** El banco pone dinero a disposición hasta un límite, pagando intereses solo sobre lo dispuesto.
+- **Préstamos bancarios:** Dinero prestado a devolver con intereses.
+- **Créditos de proveedores:** Aplazamiento de pagos como forma de financiación.
+- **Limitación de periodos de cobro:** Reducir los plazos de pago de los clientes para mejorar la liquidez.
 
 Otras formas de financiación ajena:
 
 | Financiación | Descripción |
 | - | - |
-| **Capitalización del desempleo** | Pago único de prestaciones para iniciar un negocio. |
-| **Leasing** | Alquiler con opción de compra al finalizar el contrato. |
-| **Renting** | Alquiler con mantenimiento incluido, sin opción de compra. |
-| **Pagarés de empresa** | Compromiso de pago futuro entre empresas. |
-| **Factoring** | Cesión de cobro de facturas a una entidad financiera a cambio de una comisión. |
-| **Confirming** | Gestión de pagos a proveedores con opción de anticipo. |
-| **Descuento comercial** | Adelanto de efectivo por parte del banco a cambio de un documento de pago. |
-| **Préstamos hipotecarios** | Crédito a largo plazo para compra de inmuebles empresariales. |
-| **Descubierto en cuenta** | Uso de más dinero del disponible en la cuenta, con altos intereses. |
-| **Sociedad de garantía recíproca (SGR)** | Aval para PYMEs sin garantías propias. |
-| **Préstamos participativos** | Fondos públicos para proyectos innovadores o con impacto social. |
+| **Capitalización del desempleo.** | Pago único de prestaciones para iniciar un negocio. |
+| **Leasing.** | Alquiler con opción de compra al finalizar el contrato. |
+| **Renting.** | Alquiler con mantenimiento incluido, sin opción de compra. |
+| **Pagarés de empresa.** | Compromiso de pago futuro entre empresas. |
+| **Factoring.** | Cesión de cobro de facturas a una entidad financiera a cambio de una comisión. |
+| **Confirming.** | Gestión de pagos a proveedores con opción de anticipo. |
+| **Descuento comercial.** | Adelanto de efectivo por parte del banco a cambio de un documento de pago. |
+| **Préstamos hipotecarios.** | Crédito a largo plazo para compra de inmuebles empresariales. |
+| **Descubierto en cuenta:** | Uso de más dinero del disponible en la cuenta, con altos intereses. |
+| **Sociedad de garantía recíproca (SGR).** | Aval para PYMEs sin garantías propias. |
+| **Préstamos participativos.** | Fondos públicos para proyectos innovadores o con impacto social. |
 
 ### 4.3. **Ayudas y Subvenciones**
 
 Existen diversas ayudas públicas para fomentar la creación de empresas. Sin embargo, no se debe basar la viabilidad del negocio en ellas, ya que pueden tardar en aprobarse o no concederse. Estas ayudas pueden ser:
 
-- **Subvenciones a fondo perdido.** Ayudas económicas sin necesidad de devolución.
-- **Ayudas europeas.** Fondos de la UE para fomentar el emprendimiento.
-- **Ayudas estatales.** Programas de apoyo del gobierno central.
-- **Ayudas autonómicas.** Subvenciones gestionadas por cada Comunidad Autónoma.
-- **Ayudas locales.** Fondos de Ayuntamientos y Diputaciones Provinciales.
+- **Subvenciones a fondo perdido:** Ayudas económicas sin necesidad de devolución.
+- **Ayudas europeas:** Fondos de la UE para fomentar el emprendimiento.
+- **Ayudas estatales:** Programas de apoyo del gobierno central.
+- **Ayudas autonómicas:** Subvenciones gestionadas por cada Comunidad Autónoma.
+- **Ayudas locales:** Fondos de Ayuntamientos y Diputaciones Provinciales.
 
 ### 4.4. **Otros Aspectos de la Financiación**
 
@@ -149,18 +149,18 @@ Otro organismo clave es el **Punto de Atención al Emprendedor (PAE)**, que prop
 
 **Además de los PAE, existen otras entidades que ofrecen apoyo a emprendedores:**
 
-- **Cámaras de Comercio.** Brindan apoyo a emprendedores y desempleados interesados en el autoempleo, ofreciendo información sobre ayudas públicas y financiación.
-- **Servicio de Información Empresarial de los Ayuntamientos.** Asesoran sobre trámites municipales, como autorizaciones y licencias. Algunos ayuntamientos también cuentan con delegaciones específicas, como las Delegaciones de la Mujer.
-- **Asociaciones Empresariales.** Organizaciones como la Asociación de Jóvenes Empresarios (AJE), la Confederación Española de Asociaciones Empresariales (CEOE) y la Confederación Española de la Pequeña y Mediana Empresa (CEPYME) ofrecen formación, apoyo y asesoramiento.
-- **Dirección General de Industria y de la Pequeña y Mediana Empresa.** Promueve la iniciativa emprendedora y ofrece recursos útiles para la creación de empresas.
-- **Consejería de Innovación, Ciencia y Empresa de las Comunidades Autónomas.** Proporciona información sobre los requisitos específicos para la apertura de negocios y la normativa aplicable.
+- **Cámaras de Comercio:** Brindan apoyo a emprendedores y desempleados interesados en el autoempleo, ofreciendo información sobre ayudas públicas y financiación.
+- **Servicio de Información Empresarial de los Ayuntamientos:** Asesoran sobre trámites municipales, como autorizaciones y licencias. Algunos ayuntamientos también cuentan con delegaciones específicas, como las Delegaciones de la Mujer.
+- **Asociaciones Empresariales:** Organizaciones como la Asociación de Jóvenes Empresarios (AJE), la Confederación Española de Asociaciones Empresariales (CEOE) y la Confederación Española de la Pequeña y Mediana Empresa (CEPYME) ofrecen formación, apoyo y asesoramiento.
+- **Dirección General de Industria y de la Pequeña y Mediana Empresa:** Promueve la iniciativa emprendedora y ofrece recursos útiles para la creación de empresas.
+- **Consejería de Innovación, Ciencia y Empresa de las Comunidades Autónomas:** Proporciona información sobre los requisitos específicos para la apertura de negocios y la normativa aplicable.
 
 **Otros organismos públicos que pueden ser de utilidad incluyen:**
 
-- **Registro Mercantil.** Permite acceder a información mercantil y realizar trámites telemáticamente.
-- **Agencia Estatal de Administración Tributaria.** Ofrece asesoramiento sobre impuestos y obligaciones fiscales.
-- **Seguridad Social.** Proporciona información sobre afiliación, cotizaciones y otros trámites relacionados.
-- **Servicio Público de Empleo Estatal.** Informa sobre contratos de trabajo, certificados de empresa y otros aspectos laborales a través de su oficina virtual.
+- **Registro Mercantil:** Permite acceder a información mercantil y realizar trámites telemáticamente.
+- **Agencia Estatal de Administración Tributaria:** Ofrece asesoramiento sobre impuestos y obligaciones fiscales.
+- **Seguridad Social:** Proporciona información sobre afiliación, cotizaciones y otros trámites relacionados.
+- **Servicio Público de Empleo Estatal:** Informa sobre contratos de trabajo, certificados de empresa y otros aspectos laborales a través de su oficina virtual.
 
 
 
@@ -207,10 +207,10 @@ Los trabajadores de este sector están expuestos a diversos riesgos, entre los q
 
 Las empresas deben cumplir con varias obligaciones para garantizar la seguridad laboral:
 
-- **Nombramiento de un responsable de prevención.** En empresas con menos de seis trabajadores, el propio empresario puede asumir este rol.
-- **Elección de un delegado de prevención.** Representante de los trabajadores en temas de salud laboral.
-- **Formación de un Comité de Seguridad.** En empresas con más de 50 trabajadores, este órgano paritario incluye representantes de la empresa y del personal.
-- **Confección de un Plan de Prevención.** Documento que integra la actividad preventiva en la gestión general de la empresa, estableciendo su política de prevención. Debe ser aprobado por la dirección, asumido por todos los niveles jerárquicos y conocido por todos los trabajadores.
+- **Nombramiento de un responsable de prevención:** En empresas con menos de seis trabajadores, el propio empresario puede asumir este rol.
+- **Elección de un delegado de prevención:** Representante de los trabajadores en temas de salud laboral.
+- **Formación de un Comité de Seguridad:** En empresas con más de 50 trabajadores, este órgano paritario incluye representantes de la empresa y del personal.
+- **Confección de un Plan de Prevención:** Documento que integra la actividad preventiva en la gestión general de la empresa, estableciendo su política de prevención. Debe ser aprobado por la dirección, asumido por todos los niveles jerárquicos y conocido por todos los trabajadores.
 
 ---
 
