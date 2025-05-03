@@ -118,7 +118,7 @@ Recibe dos `Integer` como parámetros). Si alguno es `null`, **no debe tenerse e
 	`título`, `id`, y `descripción` de cada película (por ejemplo, en un `textArea`).
 - Se debe incluir una opción de **"Todos"** para actores o categorías, que se traducirá a `null` en la consulta.
 
-![](../../../Pasted%20image%2020250503040530.png)
+![](../Teoría/Imágenes/Pasted%20image%2020250503040530.png)
 
 ## 3. Entrega
 
