@@ -24,7 +24,7 @@ node_size: 24
 ### [**TEMA 4.** Object Relational Mapping](./Teor%C3%ADa/TEMA%204.%20Object%20Relational%20Mapping.md)
 
 ---
-### [**TEMA 5.** ORDB y JDBC](Teoría/TEMA%205.%20ORDB%20y%20JDBC.md)
+### [**TEMA 5.** ORDB y JDBC](Teoría/TEMA%205.%20ORDB%20con%20PostgreSQL.md)
 
 ---
 ### [**TEMA 6.** JSON y MongoDB](Teoría/TEMA%206.0.%20JSON.md)

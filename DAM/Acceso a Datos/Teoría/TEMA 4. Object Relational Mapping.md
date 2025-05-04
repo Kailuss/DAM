@@ -10,7 +10,7 @@ banner_y: 0.32
 |Anexos|    
 |---|
 |[Resumen Tema 4. Object Relational Mapping](Resúmenes/Resumen%20Tema%204.%20Object%20Relational%20Mapping.md)|
-|[Tarea AD04](../Práctica/Tarea%20AD04.md)|
+|[AD04 Tarea](../Práctica/AD04%20Tarea.md)|
 
 ```audio-player
 [[Lecturas/Lectura_04AD.mp3]]

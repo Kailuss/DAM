@@ -9,13 +9,13 @@ banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
 
-# **TEMA 5.** <br>Bases de datos objeto-relacionales (PostgreSQL)
+# **TEMA 5.** <br>Bases de datos objeto-relacionales con *PostgreSQL*
 
 
 | Anexos |
 | --- |
 | [TEMA 5.1. JDBC con PostgreSQL](TEMA%205.1.%20JDBC%20con%20PostgreSQL.md) |
-| [Tarea AD05](../Práctica/Tarea%20AD05.md) |
+| [AD05 Tarea](../Práctica/AD05%20Tarea.md) |
 
 
 Las diferentes versiones del lenguaje SQL han ido incorporando características que permiten trabajar directamente con objetos. La revisión más significativa se produjo en 1999, dando lugar al estándar SQL99. Esta revisión introdujo tipos de datos no convencionales y permitió la definición de tipos compuestos o estructurados. Los principales tipos que incorpora son:
