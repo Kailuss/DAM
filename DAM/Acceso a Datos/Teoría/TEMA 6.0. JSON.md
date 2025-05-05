@@ -16,7 +16,7 @@ banner_y: 0.32
 | --- |
 |[TEMA 6.1. MongoDB](TEMA%206.1.%20MongoDB.md)|
 |[TEMA 6.2. MongoDB y Java](TEMA%206.2.%20MongoDB%20y%20Java.md)|
-
+|[Tarea AD06](../Práctica/Tarea%20AD06.md)|
 
 **JSON** (*JavaScript Object Notation*) es un formato de intercambio de datos basado en una parte de la especificación de ECMAScript (JavaScript). Es un formato de texto independiente del lenguaje, aunque utiliza características de lenguajes tipo C (C++, Java, Python, etc.).  
 
