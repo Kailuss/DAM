@@ -24,3 +24,7 @@ node_size: 24
 
 ---
 ### [**TEMA 4.** Implantación de sistemas ERP-CRM](./Teor%C3%ADa/TEMA%204.%20Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM.md)
+
+---
+
+### [**TEMA 5.** Desarrollo de componentes](Teoría/TEMA%205.%20Desarrollo%20de%20componentes.md)

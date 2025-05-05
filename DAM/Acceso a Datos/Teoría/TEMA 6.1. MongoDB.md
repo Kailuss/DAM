@@ -4,7 +4,7 @@ tags:
   - AD
 cssclasses:
   - dam-ad
-  - table-compact-clean
+  - table-clean
 banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---

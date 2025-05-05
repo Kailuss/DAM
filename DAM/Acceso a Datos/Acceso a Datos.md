@@ -27,4 +27,4 @@ node_size: 24
 ### [**TEMA 5.** ORDB y JDBC](Teoría/TEMA%205.%20ORDB%20con%20PostgreSQL.md)
 
 ---
-### [**TEMA 6.** JSON y MongoDB](Teoría/TEMA%206.0.%20JSON.md)
+### [**TEMA 6.** Bases de Datos Documentales](Teoría/TEMA%206.0.%20JSON.md)
