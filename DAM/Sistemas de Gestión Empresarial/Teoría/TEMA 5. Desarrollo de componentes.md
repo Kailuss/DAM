@@ -43,6 +43,8 @@ El framework **OpenObject** permite desarrollo rápido (RAD) e incluye:
 - Herramientas de Business Intelligence.
 - Cliente de escritorio y web.
 
+![cover](Imágenes/Arquitectura_componentes.png)
+
 ### 1.2. **Especificaciones funcionales para el desarrollo de componentes**
 
 OpenERP consta de un núcleo (**base**) y módulos adicionales como:
