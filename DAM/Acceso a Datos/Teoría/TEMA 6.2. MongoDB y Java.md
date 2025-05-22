@@ -814,7 +814,7 @@ Aunque las distintas etapas se podrían generar manualmente, se recomienda utili
 
 Podéis ver las etapas disponibles en la página:
 
-<www.mongodb.com/docs/drivers/java/sync/v5.2/fundamentals/builders/aggregates>
+< www.mongodb.com/docs/drivers/java/sync/v5.2/fundamentals/builders/aggregates >
 
 #### 7.5.1. Ejemplo completo
 

@@ -26,9 +26,7 @@ Revisar ejemplos de documentación de software puede inspirarte para tu propio p
 
 ¡Comencemos!
 
-## 1. Documentación de Software: Qué es
-
-![Desarrollador creando documentación de software para un nuevo código](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/4752/3090840/1682475402989-Software%2BDocumentation.jpg)
+## 1. Documentación de Software: ¿Qué es?
 
 La documentación de software es un tipo de documentación que proporciona información sobre productos y sistemas de software. Generalmente incluye una amplia variedad de documentos y materiales que describen las características, capacidades y uso del software.
 

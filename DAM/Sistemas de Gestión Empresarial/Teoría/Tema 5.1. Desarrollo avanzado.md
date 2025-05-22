@@ -535,7 +535,7 @@ Este diseño permite trabajar con distintas fuentes de datos y diseñar informes
 
 > En el documento se incluye un vídeo con todo el proceso de instalación y configuración:
 > 
-> 📽 [Vídeo de instalación y configuración de JasperServer y JasperStudio](https://player.vimeo.com/video/473785895)
+> 📼 [Vídeo de instalación y configuración de JasperServer y JasperStudio](https://player.vimeo.com/video/473785895)
 
 #### 2.1.2. Creación de informes con JasperStudio y generación desde JasperServer (vídeo)
 
@@ -551,7 +551,7 @@ Una vez publicado, **cualquier cliente** puede generar el informe haciendo clic,
 
 > Vídeo explicativo disponible:
 > 
-> 📽 [Creación de informes con JasperStudio](https://player.vimeo.com/video/473786004)
+> 📼 [Creación de informes con JasperStudio](https://player.vimeo.com/video/473786004)
 
 ### 2.2. **Generación de informes nativos de Odoo**
 
@@ -700,14 +700,14 @@ Una vez diseñado el informe:
 
 También se puede probar directamente accediendo por URL:
 
-```
+```plaintext
 http://<servidor>/report/html/nombre_informe/id_registro
 ```
 
 Ejemplo:
 
-```
+```plaintext
 http://localhost:8069/report/html/manteni.report_workorder_view/2
 ```
 
-> 🎬 [Vídeo: creación de informe en Odoo](https://player.vimeo.com/video/473782864)
+> 📼 [Vídeo: creación de informe en Odoo](https://player.vimeo.com/video/473782864)

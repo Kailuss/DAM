@@ -1,6 +1,10 @@
 ---
-tags: [DAM, PMDM]
-cssclasses: [dam-pmdm, table-compact-clean]
+tags:
+  - DAM
+  - PMDM
+cssclasses:
+  - dam-pmdm
+  - table-clean
 banner: "![[pmdm.jpg]]"
 banner_y: 0.42
 ---
