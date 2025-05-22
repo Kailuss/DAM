@@ -204,7 +204,7 @@ Los ratios son indicadores que evalúan la salud financiera de la empresa. Se cl
 |**Ratio**|**Fórmula**|**Interpretación**|
 |---|---|---|
 |**Rentabilidad Económica**|$$\frac{BAII}{Activo} \times 100$$|Mide el rendimiento de las inversiones. <br>**Ejemplo:** 20% significa que por cada 100€ invertidos, se generan 20€ de beneficio.|
-|**Rentabilidad Financiera**|$$\frac{BAI}{Fondos Propios} \times 100$$|Mide el retorno para los socios. <br>**Ejemplo:** Un 25% indica que por cada 100€ de capital propio, se obtienen 25€ de beneficio.|
+|**Rentabilidad Financiera**|$$\frac{BAII}{Fondos Propios} \times 100$$|Mide el retorno para los socios. <br>**Ejemplo:** Un 25% indica que por cada 100€ de capital propio, se obtienen 25€ de beneficio.|
 
 ### Ratios financieros
 
