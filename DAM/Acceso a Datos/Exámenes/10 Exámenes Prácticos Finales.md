@@ -1,6 +1,17 @@
-# 10 Exámenes Prácticos Integrales
+---
+tags:
+  - DAM
+  - AD
+cssclasses:
+  - dam-ad
+  - table-clean
+banner: "![[ad.jpg]]"
+banner_y: 0.32
+---
 
-## Examen 1: Sistema de Gestión de Biblioteca
+# 10 Exámenes Prácticos
+
+## ✔ **Examen 1.** <br>Sistema de Gestión de Biblioteca
 
 **Tiempo estimado**: 2-3 horas
 
@@ -32,7 +43,8 @@
 - Script SQL para crear la base de datos
 - Archivo README con instrucciones de uso
 
-## Examen 2: Conversor de Datos JSON-XML
+---
+## ✔ **Examen 2.** <br> Conversor de Datos JSON-XML
 
 **Tiempo estimado**: 2-3 horas
 
@@ -60,7 +72,8 @@
 - Ejemplos de archivos JSON y XML para pruebas
 - Documentación de la API desarrollada
 
-## Examen 3: Sistema de Inventario con MongoDB
+---
+## ✔ **Examen 3.** <br> Sistema de Inventario con MongoDB
 
 **Tiempo estimado**: 2-3 horas
 
@@ -89,7 +102,8 @@
 - Documentación de la estructura de datos en MongoDB
 - Manual de usuario básico
 
-## Examen 4: Aplicación de Gestión de Pedidos con ORM
+---
+## ✔ **Examen 4.** <br> Aplicación de Gestión de Pedidos con ORM
 
 **Tiempo estimado**: 2-3 horas
 
@@ -122,7 +136,8 @@
 - Archivo persistence.xml configurado
 - Documentación de las entidades y relaciones
 
-## Examen 5: Sistema de Gestión Documental
+---
+## ✔ **Examen 5.** <br> Sistema de Gestión Documental
 
 **Tiempo estimado**: 2-3 horas
 
@@ -151,7 +166,8 @@
 - Script SQL para crear la base de datos
 - Documentación de la estructura de directorios y archivos
 
-## Examen 6: Aplicación de Análisis de Datos con PostgreSQL ORDB
+---
+## ✔ **Examen 6.** <br> Aplicación de Análisis de Datos con PostgreSQL ORDB
 
 **Tiempo estimado**: 2-3 horas
 
@@ -185,7 +201,8 @@
 - Scripts SQL para crear tipos y tablas
 - Documentación del modelo de datos
 
-## Examen 7: Sistema de Gestión de Contenido Multimedia
+---
+## ✔ **Examen 7.** <br> Sistema de Gestión de Contenido Multimedia
 
 **Tiempo estimado**: 2-3 horas
 
@@ -214,7 +231,8 @@
 - Documentación de la estructura de datos
 - Manual de usuario básico
 
-## Examen 8: Aplicación de Sincronización de Datos
+---
+## ✔ **Examen 8.** <br> Aplicación de Sincronización de Datos
 
 **Tiempo estimado**: 2-3 horas
 
@@ -243,7 +261,8 @@
 - Scripts para crear la base de datos relacional
 - Documentación del proceso de sincronización
 
-## Examen 9: Sistema de Reservas con JPA y REST
+---
+## ✔ **Examen 9.** <br> Sistema de Reservas con JPA y REST
 
 **Tiempo estimado**: 2-3 horas
 
@@ -276,7 +295,8 @@
 - Archivo persistence.xml configurado
 - Documentación de la API REST
 
-## Examen 10: Aplicación de ETL (Extract, Transform, Load)
+---
+## ✔ **Examen 10.** <br>Aplicación de ETL (Extract, Transform, Load)
 
 **Tiempo estimado**: 2-3 horas
 
