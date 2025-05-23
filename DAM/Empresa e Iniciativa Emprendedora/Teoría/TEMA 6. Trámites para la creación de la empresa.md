@@ -9,7 +9,7 @@ banner_y: 0.24
 
 ## 1. Comenzamos con los trámites
 
-![cover](Imágenes/06-Comenzamos.png)
+![cover](../../../_Media/Imágenes/EIE/06-Comenzamos.png)
 
 Hasta ahora, en EIE, hemos estudiado cómo emprender y crear una empresa como alternativa laboral. Hemos elegido una idea de negocio rentable, analizado su viabilidad en el mercado, seleccionado la forma jurídica adecuada y elaborado un plan de operaciones, incluyendo necesidades materiales, de personal y financiación.
 
@@ -37,7 +37,7 @@ En este tema, nos enfocaremos en dos tipos de trámites:
 
 ## 3. ¿Qué es la personalidad jurídica?
 
-![cover](Imágenes/06-Persona-jurídica.png)
+![cover](../../../_Media/Imágenes/EIE/06-Persona-jurídica.png)
 
 La personalidad jurídica es la capacidad de ser titular de derechos y obligaciones reconocidos por las normas jurídicas. Las personas físicas (humanos) tienen personalidad jurídica desde el nacimiento hasta la muerte, con derechos como la vida, la libertad de expresión y obligaciones como pagar impuestos.
 
@@ -49,7 +49,7 @@ Sin embargo, las sociedades, al ser creaciones artificiales, necesitan trámites
 
 ## 4. Trámites de constitución
 
-![cover](Imágenes/06-Constitución.png)
+![cover](../../../_Media/Imágenes/EIE/06-Constitución.png)
 
 Los trámites de constitución son los requisitos legales necesarios para que una sociedad adquiera personalidad jurídica independiente de sus socios. A continuación, se detallan los pasos generales para constituir una sociedad:
 
@@ -121,7 +121,7 @@ Este proceso de constitución y adopción de personalidad jurídica puede consul
 
 ## 5. Trámites de puesta en marcha
 
-![cover](Imágenes/06-Trámites.png)
+![cover](../../../_Media/Imágenes/EIE/06-Trámites.png)
 
 Una vez adquirida la personalidad jurídica, la empresa debe realizar una serie de trámites para comenzar a funcionar. Estos trámites, denominados de puesta en marcha, son obligatorios para todas las empresas, independientemente de su forma jurídica, incluyendo al empresario individual. A diferencia de los trámites de constitución, que siguen un orden cronológico, los trámites de puesta en marcha pueden realizarse simultáneamente o según las necesidades de la empresa.
 

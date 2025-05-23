@@ -31,7 +31,7 @@ El modelo TCP/IP consta de cuatro capas:
 - **Capa de Transporte.** Facilita la comunicación entre equipos con protocolos como TCP (orientado a conexión y fiable) y UDP (no orientado a conexión y más rápido). Realiza el direccionamiento por puertos.
 - **Capa de Aplicación.** Combina funcionalidades de las capas superiores del modelo OSI, incluyendo protocolos como HTTP, FTP y TELNET.
 
-![Capas Modelo TCP/IP](03-Capas-Modelo-TCP-IP.png)
+![Capas Modelo TCP/IP](../../../_Media/Imágenes/PSP/03-Capas-Modelo-TCP-IP.png)
 
 ### 1.1. **Conexiones TCP/UDP**
 

@@ -1,6 +1,10 @@
 ---
-tags: [AD, DAM]
-cssclasses: [dam-ad, table-compact-clean]
+tags:
+  - DAM
+  - AD
+cssclasses:
+  - dam-ad
+  - table-clean
 banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
@@ -10,11 +14,7 @@ banner_y: 0.32
 |Anexos|    
 |---|
 |[Resumen Tema 4. Object Relational Mapping](Resúmenes/Resumen%20Tema%204.%20Object%20Relational%20Mapping.md)|
-|[Tarea AD04](../Práctica/Tarea%20AD04.md)|
-
-```audio-player
-[[Lecturas/Lectura_04AD.mp3]]
-```
+|[Tarea AD04. ORM](../Práctica/Tarea%20AD04.%20ORM.md)|
 
 ## 1. Sistemas de archivos
 

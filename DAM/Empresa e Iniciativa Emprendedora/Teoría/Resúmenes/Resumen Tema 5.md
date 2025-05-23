@@ -13,7 +13,7 @@ banner_y: 0.24
 
 Crear una empresa es un proceso complejo que exige planificación estratégica y visión a largo plazo. Este tema abarca los aspectos esenciales que todo emprendedor debe considerar, desde la concepción de la idea hasta la gestión diaria del negocio.
 
-![cover](../Imágenes/05-Plan.png)
+![cover](../../../../_Media/Imágenes/EIE/05-Plan.png)
 
 ## 1. Plan de Operaciones
 
@@ -30,7 +30,7 @@ El plan de operaciones define cómo se desarrollará la actividad empresarial. U
 - Planificación detallada del proceso productivo o servicio.
 - Previsión de demanda para evitar interrupciones.
 
-![cover](../Imágenes/05-Inversiones.png)
+![cover](../../../../_Media/Imágenes/EIE/05-Inversiones.png)
 
 ## 2. Plan de Inversiones y Gastos
 
@@ -46,7 +46,7 @@ Diferenciar entre inversiones y gastos es crucial para una gestión financiera e
 - Incluir todos los elementos necesarios para la actividad.
 - Solicitar presupuestos y facturas proforma para estimar costes.
 
-![cover](../Imágenes/05-Financiación.png)
+![cover](../../../../_Media/Imágenes/EIE/05-Financiación.png)
 
 ## 3. Plan de Financiación
 
@@ -58,7 +58,7 @@ La financiación es un pilar fundamental para la viabilidad del negocio. Es clav
 - **Ayudas y subvenciones.** Fondos europeos, estatales y autonómicos (sin depender exclusivamente de ellos).
 - **Recomendaciones.** Diversificar fuentes de financiación y buscar asesoramiento profesional.
 
-![cover](../Imágenes/05-Asesoramiento.png)
+![cover](../../../../_Media/Imágenes/EIE/05-Asesoramiento.png)
 
 ## 4. Fuentes de Asesoramiento e Información
 
@@ -71,7 +71,7 @@ Los organismos especializados ofrecen apoyo y facilitan los trámites empresaria
 
 **Otros organismos.** Registro Mercantil, Agencia Tributaria, Seguridad Social.
 
-![cover](../Imágenes/05-rrhh.png)
+![cover](../../../../_Media/Imágenes/EIE/05-rrhh.png)
 
 ## 5. Recursos Humanos
 
@@ -83,7 +83,7 @@ El capital humano es un factor determinante en el éxito de una empresa. Un plan
 - Gestión de contratos, salarios y cotizaciones a la Seguridad Social.
 - Aplicación de convenios colectivos según el sector.
 
-![cover](../Imágenes/05-prevención.png)
+![cover](../../../../_Media/Imágenes/EIE/05-prevención.png)
 
 ## 6. Plan de Prevención de Riesgos Laborales
 

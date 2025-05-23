@@ -36,7 +36,7 @@ En este tema se abordan aspectos fundamentales para emprender un negocio:
 - **Plan de Prevención de Riesgos Laborales:** Analizar los riesgos específicos del sector.
 
 ## 2. El plan de operaciones
-![cover](Imágenes/05-Plan.png)
+![cover](../../../_Media/Imágenes/EIE/05-Plan.png)
 
 Se compone de la gestión del aprovisionamiento y el programa de producción.
 
@@ -57,7 +57,7 @@ Los criterios de selección incluyen calidad, precio, costes adicionales (portes
 Es la planificación del proceso productivo o de prestación de servicios. En empresas de producción de bienes, requiere un desarrollo técnico especializado. En empresas de servicios, aunque la descripción es más sencilla, debe estar bien detallada. Es importante prever si se podrá atender la demanda sin generar congestionamientos o ineficiencias.
 
 ## 3. El plan de Inversiones y Gastos
-![cover](Imágenes/05-Inversiones.png)
+![cover](../../../_Media/Imágenes/EIE/05-Inversiones.png)
 ### 3.1. **Diferencia entre inversión y gasto**
 
 - **Inversión:** Desembolso de capital para adquirir bienes que no se venderán y serán utilizados en la empresa (terrenos, edificios, maquinaria, vehículos…).
@@ -81,7 +81,7 @@ Incluye los siguientes conceptos:
 Para determinar los costes, es recomendable solicitar presupuestos o facturas proforma a los proveedores.
 
 ## 4. Plan de Financiación
-![cover](Imágenes/05-Financiación.png)
+![cover](../../../_Media/Imágenes/EIE/05-Financiación.png)
 Tras calcular las inversiones necesarias para constituir la empresa, es fundamental **definir cómo obtener los recursos financieros.** La financiación es un factor crítico, especialmente en las primeras etapas del negocio. Para ello, se deben seguir ciertas recomendaciones:
 
 - **No ser optimista** en exceso con las previsiones.
@@ -140,7 +140,7 @@ Existen diversas ayudas públicas para fomentar la creación de empresas. Sin em
 También pueden existir programas locales de apoyo empresarial. Para conocerlos, se recomienda acudir a la Cámara de Comercio o al Ayuntamiento. Estas ayudas no fináncian directamente la creación de la empresa, pero pueden impulsar su desarrollo al facilitar publicidad y captación de clientes.
 
 ## 5. Fuentes de asesoramiento e información
-![cover](Imágenes/05-Asesoramiento.png)
+![cover](../../../_Media/Imágenes/EIE/05-Asesoramiento.png)
 Al iniciar un negocio en el sector de la Informática y las Comunicaciones, es fundamental conocer los organismos y recursos disponibles para obtener asesoramiento e información. Internet es una herramienta útil, pero es importante seleccionar fuentes confiables para evitar la sobrecarga de información.
 
 Uno de los principales recursos es la **Ventanilla Única Empresarial**, una plataforma que simplifica la creación de empresas al centralizar trámites administrativos como registros, autorizaciones y licencias. Además, ofrece información sobre financiación, formas jurídicas y fiscalidad, reduciendo los tiempos de tramitación.
@@ -165,7 +165,7 @@ Otro organismo clave es el **Punto de Atención al Emprendedor (PAE)**, que prop
 
 
 ## 6. Los Recursos Humanos
-![cover](Imágenes/05-rrhh.png)
+![cover](../../../_Media/Imágenes/EIE/05-rrhh.png)
 El recurso más valioso de una empresa son las personas que la integran, ya que detrás de cada actividad siempre hay personas. En empresas de servicios, este aspecto es aún más relevante, pues el personal es quien atiende directamente a los clientes. El éxito o fracaso de una empresa depende en gran medida de su equipo humano.
 
 Al contratar, una persona emprendedora asume diversas obligaciones, tanto legales como económicas, como el pago de salarios, cuotas a la Seguridad Social, retenciones de IRPF, y la formalización de contratos. Además, debe ejercer un liderazgo eficaz, motivar al personal, fomentar su formación y promoción, delegar responsabilidades y reconocer los méritos de sus empleados. Una gestión planificada y motivadora del personal contribuye a su satisfacción y, en consecuencia, a una mayor productividad.
@@ -187,7 +187,7 @@ Las ocupaciones más relevantes incluyen **técnicos en mantenimiento de sistema
 En el sector de la Informática, es esencial consultar el Convenio Colectivo aplicable, que regula aspectos como la contratación, categorías profesionales, horarios, vacaciones, salarios y sanciones por incumplimiento de obligaciones. Además, se deben realizar revisiones médicas periódicas para el personal. Es recomendable contratar una asesoría fiscal-laboral para gestionar impuestos, contratos y altas en la Seguridad Social, y considerar externalizar servicios como la limpieza del centro para optimizar recursos.
 
 ## 7. El Plan de Prevención de Riesgos Laborales
-![cover](Imágenes/05-prevención.png)
+![cover](../../../_Media/Imágenes/EIE/05-prevención.png)
 En el ámbito laboral, todos los trabajos conllevan riesgos, incluidos aquellos en el sector de la informática y las comunicaciones. Es fundamental identificar estos riesgos y establecer medidas preventivas para garantizar la seguridad y salud de los trabajadores.
 
 La prevención de riesgos laborales es un aspecto clave en cualquier empresa. La **Ley de Prevención de Riesgos Laborales** es la norma más importante en este ámbito, y el **Plan de Prevención** es el instrumento central para integrar la política preventiva en la gestión empresarial.

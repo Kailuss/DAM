@@ -9,7 +9,7 @@ banner: "![[sge.jpg]]"
 | Anexos |
 | - |
 | [Resumen Tema 3](Resúmenes/Resumen%20Tema%203.md) |
-| [Test SGE03](../Práctica/Exámenes/Test%20SGE03.md) |
+| [Test SGE03](../Exámenes/Test%20SGE03.md) |
 | [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
 
 ## 1. Organización y consulta de la información

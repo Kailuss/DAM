@@ -88,7 +88,7 @@ Por defecto, una aplicación general no incluye una `AppBar`, título o color de
 
 Después de agregar tus widgets, ejecuta tu aplicación. Al ejecutarla, deberías ver *Hola Mundo*.
 
-![Captura de pantalla de la aplicación mostrando Hola Mundo](Imágenes/flutter/9860ba00cb29d41fc94df99643f33d07_MD5.png)
+![Captura de pantalla de la aplicación mostrando Hola Mundo](../../../_Media/Imágenes/PMDM/flutter/9860ba00cb29d41fc94df99643f33d07_MD5.png)
 
 ## 2. Organizar múltiples widgets vertical y horizontalmente
 
@@ -105,11 +105,11 @@ Para crear una fila o columna en Flutter, agregas una lista de widgets hijos a u
 
 Este diseño está organizado como una `Row`. La fila contiene dos hijos: una columna a la izquierda y una imagen a la derecha:
 
-![Captura de pantalla con llamadas mostrando la fila que contiene dos hijos](Imágenes/flutter/8f450204425e5fb90544a50734fcf14e_MD5.png)
+![Captura de pantalla con llamadas mostrando la fila que contiene dos hijos](../../../_Media/Imágenes/PMDM/flutter/8f450204425e5fb90544a50734fcf14e_MD5.png)
 
 El árbol de widgets de la columna izquierda anida filas y columnas.
 
-![Diagrama mostrando una columna izquierda desglosada en sus subfilas y subcolumnas](Imágenes/flutter/1a2816777a3f7c92878e6acbc7cb592b_MD5.png)
+![Diagrama mostrando una columna izquierda desglosada en sus subfilas y subcolumnas](../../../_Media/Imágenes/PMDM/flutter/1a2816777a3f7c92878e6acbc7cb592b_MD5.png)
 
 Implementarás parte del código de diseño de Pavlova en [Anidar filas y columnas](https://docs.flutter.dev/ui/layout#nesting-rows-and-columns).
 
@@ -120,9 +120,9 @@ Implementarás parte del código de diseño de Pavlova en [Anidar filas y column
 
 Puedes controlar cómo una fila o columna alinea a sus hijos usando las propiedades `mainAxisAlignment` y `crossAxisAlignment`. Para una fila, el eje principal corre horizontalmente y el eje transversal verticalmente. Para una columna, el eje principal corre verticalmente y el eje transversal horizontalmente.
 
-![Diagrama mostrando el eje principal y transversal para una fila](Imágenes/flutter/e449c62c8a11bf9f1ba4a56f6ef9d53a_MD5.png)
+![Diagrama mostrando el eje principal y transversal para una fila](../../../_Media/Imágenes/PMDM/flutter/e449c62c8a11bf9f1ba4a56f6ef9d53a_MD5.png)
 
-![Diagrama mostrando el eje principal y transversal para una columna](Imágenes/flutter/9e4f6ec14ed7b76f02037f6873d6f443_MD5.png)
+![Diagrama mostrando el eje principal y transversal para una columna](../../../_Media/Imágenes/PMDM/flutter/9e4f6ec14ed7b76f02037f6873d6f443_MD5.png)
 
 Los enums `MainAxisAlignment` y `CrossAxisAlignment` ofrecen una variedad de constantes para controlar la alineación.
 
@@ -142,7 +142,7 @@ Row(
 );
 ```
 
-![Fila con 3 imágenes espaciadas uniformemente](Imágenes/flutter/ef4809dba83bb2cf8216946e11fee12e_MD5.png)
+![Fila con 3 imágenes espaciadas uniformemente](../../../_Media/Imágenes/PMDM/flutter/ef4809dba83bb2cf8216946e11fee12e_MD5.png)
 
 Las columnas funcionan de la misma manera que las filas. El siguiente ejemplo muestra una columna de 3 imágenes, cada una con 100 píxeles de alto. La altura de la caja de renderizado (en este caso, toda la pantalla) es mayor a 300 píxeles, por lo que configurar la alineación del eje principal como `spaceEvenly` divide el espacio vertical libre de manera uniforme entre, encima y debajo de cada imagen.
 
@@ -157,13 +157,13 @@ Column(
 );
 ```
 
-![Columna mostrando 3 imágenes espaciadas uniformemente](Imágenes/flutter/634588ac17d31756a789260099257223_MD5.png)
+![Columna mostrando 3 imágenes espaciadas uniformemente](../../../_Media/Imágenes/PMDM/flutter/634588ac17d31756a789260099257223_MD5.png)
 
 ### 2.2. **Dimensionar widgets**
 
 Cuando un diseño es demasiado grande para un dispositivo, aparece un patrón amarillo y negro a lo largo del borde afectado. Aquí hay un ejemplo de una fila que es demasiado ancha:
 
-![Fila demasiado ancha](Imágenes/flutter/fba874cf4dd57aceb7cd8b433507264f_MD5.png)
+![Fila demasiado ancha](../../../_Media/Imágenes/PMDM/flutter/fba874cf4dd57aceb7cd8b433507264f_MD5.png)
 
 Los widgets pueden dimensionarse para ajustarse dentro de una fila o columna usando el widget `Expanded`. Para solucionar el ejemplo anterior donde la fila de imágenes es demasiado ancha para su caja de renderizado, envuelve cada imagen con un widget `Expanded`.
 
@@ -178,7 +178,7 @@ Row(
 );
 ```
 
-![Fila de 3 imágenes que son demasiado anchas, pero cada una está restringida a ocupar solo 1/3 del espacio](Imágenes/flutter/24a9808747e82cb358517472a9ea68c0_MD5.png)
+![Fila de 3 imágenes que son demasiado anchas, pero cada una está restringida a ocupar solo 1/3 del espacio](../../../_Media/Imágenes/PMDM/flutter/24a9808747e82cb358517472a9ea68c0_MD5.png)
 
 Quizás quieras que un widget ocupe el doble de espacio que sus hermanos. Para esto, usa la propiedad `flex` del widget `Expanded`, un entero que determina el factor de flexión para un widget. El factor de flexión predeterminado es 1. El siguiente código establece el factor de flexión de la imagen del medio en 2:
 
@@ -193,7 +193,7 @@ Row(
 );
 ```
 
-![Fila de 3 imágenes con la imagen del medio el doble de ancha que las demás](Imágenes/flutter/d0d1a9b57afd2ac56a8867a66b2efb2a_MD5.png)
+![Fila de 3 imágenes con la imagen del medio el doble de ancha que las demás](../../../_Media/Imágenes/PMDM/flutter/d0d1a9b57afd2ac56a8867a66b2efb2a_MD5.png)
 
 ### 2.3. **Agrupar widgets**
 
@@ -212,19 +212,19 @@ Row(
 )
 ```
 
-![Fila de 5 estrellas, agrupadas en el centro de la fila](Imágenes/flutter/2b1881d5101cae69b9625ae2f772347c_MD5.png)
+![Fila de 5 estrellas, agrupadas en el centro de la fila](../../../_Media/Imágenes/PMDM/flutter/2b1881d5101cae69b9625ae2f772347c_MD5.png)
 
 ### 2.4. **Anidar filas y columnas**
 
 El marco de diseño permite anidar filas y columnas dentro de filas y columnas tan profundamente como necesites. Veamos el código para la sección delineada del siguiente diseño:
 
-![Captura de pantalla de la aplicación Pavlova, con las filas de calificaciones e iconos delineadas en rojo](Imágenes/flutter/e3ee024860b2c95492fe50ee2b75f170_MD5.png)
+![Captura de pantalla de la aplicación Pavlova, con las filas de calificaciones e iconos delineadas en rojo](../../../_Media/Imágenes/PMDM/flutter/e3ee024860b2c95492fe50ee2b75f170_MD5.png)
 
 La sección delineada se implementa como dos filas. La fila de calificaciones contiene cinco estrellas y el número de reseñas. La fila de iconos contiene tres columnas de iconos y texto.
 
 El árbol de widgets para la fila de calificaciones:
 
-![Árbol de widgets de la fila de calificaciones](Imágenes/flutter/859d83117f1c422f728674a3543e99b1_MD5.png)
+![Árbol de widgets de la fila de calificaciones](../../../_Media/Imágenes/PMDM/flutter/859d83117f1c422f728674a3543e99b1_MD5.png)
 
 La variable `ratings` crea una fila que contiene una fila más pequeña de 5 iconos de estrellas y texto:
 
@@ -266,7 +266,7 @@ final ratings = Container(
 
 La fila de iconos, debajo de la fila de calificaciones, contiene 3 columnas; cada columna contiene un icono y dos líneas de texto, como puedes ver en su árbol de widgets:
 
-![Árbol de widgets de iconos](Imágenes/flutter/d741feb2342132cfe44ed9347b91ba15_MD5.png)
+![Árbol de widgets de iconos](../../../_Media/Imágenes/PMDM/flutter/d741feb2342132cfe44ed9347b91ba15_MD5.png)
 
 La variable `iconList` define la fila de iconos:
 

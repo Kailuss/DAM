@@ -4,7 +4,7 @@ tags:
   - AD
 cssclasses:
   - dam-ad
-  - table-compact-clean
+  - table-clean
 banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
@@ -15,7 +15,7 @@ banner_y: 0.32
 | Anexos |
 | --- |
 | [TEMA 5.1. JDBC con PostgreSQL](TEMA%205.1.%20JDBC%20con%20PostgreSQL.md) |
-| [Tarea AD05](../Práctica/Tarea%20AD05.md) |
+| [Tarea AD05. ORDB](../Práctica/Tarea%20AD05.%20ORDB.md) |
 
 
 Las diferentes versiones del lenguaje SQL han ido incorporando características que permiten trabajar directamente con objetos. La revisión más significativa se produjo en 1999, dando lugar al estándar SQL99. Esta revisión introdujo tipos de datos no convencionales y permitió la definición de tipos compuestos o estructurados. Los principales tipos que incorpora son:
@@ -240,7 +240,8 @@ CREATE TABLE IF NOT EXISTS proves."Clients"
 );
 ```
 
-**Nota.** Las tablas crean automáticamente un tipo compuesto con su mismo nombre.  
+> [!note] Nota
+> Las tablas crean automáticamente un tipo compuesto con su mismo nombre. 
 
 ### 3.2. **DML**
 
@@ -256,7 +257,8 @@ Acceder a atributos en consultas:
 SELECT (telefon).tipus FROM proves."Clients" WHERE (telefon).numero='874563254';
 ```
 
-**Importante.** Los nombres de campos deben ir entre paréntesis para evitar confusiones con nombres de tablas.  
+> [!important] Importante
+> Los nombres de campos deben ir entre paréntesis para evitar confusiones con nombres de tablas. 
 
 Modificar atributos individuales:  
 

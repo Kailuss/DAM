@@ -4,15 +4,12 @@ tags:
   - AD
 cssclasses:
   - dam-ad
-  - table-compact-clean
+  - table-clean
 banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
 
 # **TEMA 1.** <br> Componentes de Software
-
-![Lectura MP3](Lecturas/Lectura_01AD.mp3)
-
 ## 1. Introducción
 
 Al diseñar una aplicación, tenemos varias opciones según sus características. Por ejemplo, si la aplicación no necesita recursos externos, basta con un solo programa que realice todas las tareas. Un ejemplo podría ser el bloc de notas.

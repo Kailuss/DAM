@@ -28,7 +28,7 @@ Muchos diseños hacen un uso liberal de `Container` para separar widgets usando 
 - Cambia el color o imagen de fondo
 - Contiene un solo widget hijo, pero ese hijo puede ser una `Row`, `Column` o incluso la raíz de un árbol de widgets
 
-![Diagrama mostrando: margen, borde, relleno y contenido](Imágenes/flutter/edd190ada4103dd853937fad52a9b545_MD5.png)
+![Diagrama mostrando: margen, borde, relleno y contenido](../../../_Media/Imágenes/PMDM/flutter/edd190ada4103dd853937fad52a9b545_MD5.png)
 
 ### 1.2. Ejemplos (Container)
 
@@ -43,7 +43,7 @@ Widget _buildImageColumn() {
 }
 ```
 
-![Captura de pantalla mostrando 2 filas, cada una conteniendo 2 imágenes](Imágenes/flutter/1fb551a6122ccf7c51706817bb811b24_MD5.png)
+![Captura de pantalla mostrando 2 filas, cada una conteniendo 2 imágenes](../../../_Media/Imágenes/PMDM/flutter/1fb551a6122ccf7c51706817bb811b24_MD5.png)
 
 También se usa un `Container` para agregar un borde redondeado y márgenes a cada imagen:
 
@@ -84,11 +84,11 @@ Usa `GridView` para organizar widgets como una lista bidimensional. `GridView` p
 
 ### 2.2. Ejemplos (GridView)
 
-![Una cuadrícula de 3 columnas de fotos](Imágenes/flutter/ddda61426f9eeafa35a71965e8cfb8bc_MD5.png)
+![Una cuadrícula de 3 columnas de fotos](../../../_Media/Imágenes/PMDM/flutter/ddda61426f9eeafa35a71965e8cfb8bc_MD5.png)
 
 Usa `GridView.extent` para crear una cuadrícula con mosaicos de un máximo de 150 píxeles de ancho.
 
-![Una cuadrícula de 2 columnas con pies de página](Imágenes/flutter/bb3ba2b0e0271efe50579a58b3af6593_MD5.png)
+![Una cuadrícula de 2 columnas con pies de página](../../../_Media/Imágenes/PMDM/flutter/bb3ba2b0e0271efe50579a58b3af6593_MD5.png)
 
 Usa `GridView.count` para crear una cuadrícula de 2 mosaicos de ancho en modo retrato y 3 mosaicos de ancho en modo paisaje. Los títulos se crean configurando la propiedad `footer` para cada `GridTile`.
 
@@ -121,11 +121,11 @@ List<Widget> _buildGridTileList(int count) =>
 
 ### 3.2. Ejemplos (ListView)
 
-![ListView conteniendo cines y restaurantes](Imágenes/flutter/a1c77502321c256720ab8cdc0f656978_MD5.png)
+![ListView conteniendo cines y restaurantes](../../../_Media/Imágenes/PMDM/flutter/a1c77502321c256720ab8cdc0f656978_MD5.png)
 
 Usa `ListView` para mostrar una lista de negocios usando `ListTile`s. Un `Divider` separa los cines de los restaurantes.
 
-![ListView conteniendo tonos de azul](Imágenes/flutter/45c4f1962e9aa76a6712b30d0a3521d6_MD5.png)
+![ListView conteniendo tonos de azul](../../../_Media/Imágenes/PMDM/flutter/45c4f1962e9aa76a6712b30d0a3521d6_MD5.png)
 
 Usa `ListView` para mostrar los `Colors` de la [paleta de diseño Material 2](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors) para una familia de colores en particular.
 
@@ -177,11 +177,11 @@ Usa `Stack` para organizar widgets encima de un widget base, a menudo una imagen
 
 ### 4.2. Ejemplos (Stack)
 
-![Imagen de avatar circular con una etiqueta](Imágenes/flutter/1ce27b24a42f7051595b215c5af2b25a_MD5.png)
+![Imagen de avatar circular con una etiqueta](../../../_Media/Imágenes/PMDM/flutter/1ce27b24a42f7051595b215c5af2b25a_MD5.png)
 
 Usa `Stack` para superponer un `Container` (que muestra su `Text` en un fondo negro translúcido) encima de un `CircleAvatar`. El `Stack` desplaza el texto usando la propiedad `alignment` y `Alignment`s.
 
-![Una imagen con un icono superpuesto encima](Imágenes/flutter/256ec9f92829d9ecfc02471c09050b06_MD5.png)
+![Una imagen con un icono superpuesto encima](../../../_Media/Imágenes/PMDM/flutter/256ec9f92829d9ecfc02471c09050b06_MD5.png)
 
 Usa `Stack` para superponer un icono encima de una imagen.
 
@@ -226,11 +226,11 @@ En Flutter, una `Card` tiene esquinas ligeramente redondeadas y una sombra paral
 - De la [biblioteca Material](https://api.flutter.dev/flutter/material/material-library.html)
 ### 5.2. Ejemplos (Card)
 
-![Card conteniendo 3 ListTiles](Imágenes/flutter/aa877d8e0ba6577d3663c2c5479f1f62_MD5.png)
+![Card conteniendo 3 ListTiles](../../../_Media/Imágenes/PMDM/flutter/aa877d8e0ba6577d3663c2c5479f1f62_MD5.png)
 
 Una `Card` que contiene 3 `ListTile`s y dimensionada envolviéndola con un `SizedBox`. Un `Divider` separa el primer y segundo `ListTile`.
 
-![Tarjeta táctil conteniendo una imagen y múltiples formas de texto](Imágenes/flutter/b9abd4c999160a042d2065de07dcad95_MD5.png)
+![Tarjeta táctil conteniendo una imagen y múltiples formas de texto](../../../_Media/Imágenes/PMDM/flutter/b9abd4c999160a042d2065de07dcad95_MD5.png)
 
 Una `Card` que contiene una imagen y texto.
 
@@ -280,10 +280,10 @@ Usa `ListTile`, un widget de fila especializado de la biblioteca Material, para 
 
 ### 6.2. Ejemplos (ListTile)
 
-![Card conteniendo 3 ListTiles](Imágenes/flutter/aa877d8e0ba6577d3663c2c5479f1f62_MD5.png)
+![Card conteniendo 3 ListTiles](../../../_Media/Imágenes/PMDM/flutter/aa877d8e0ba6577d3663c2c5479f1f62_MD5.png)
 
 Una `Card` que contiene 3 `ListTile`.
 
-![4 ListTiles, cada una conteniendo un avatar inicial](Imágenes/flutter/fe50f415a41ec764560dc15f55b88131_MD5.png)
+![4 ListTiles, cada una conteniendo un avatar inicial](../../../_Media/Imágenes/PMDM/flutter/fe50f415a41ec764560dc15f55b88131_MD5.png)
 
 Usa `ListTile` con widgets iniciales.

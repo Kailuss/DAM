@@ -1,6 +1,10 @@
 ---
-tags: [DAM, AD]
-cssclasses: [dam-ad, table-compact-clean]
+tags:
+  - DAM
+  - AD
+cssclasses:
+  - dam-ad
+  - table-clean
 banner: "![[ad.jpg]]"
 banner_y: 0.32
 ---
