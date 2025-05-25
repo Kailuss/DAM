@@ -8,7 +8,7 @@ Espero que os sea de ayuda. ¡Éxito!
 ---
 ### **[<p style="color: #1aa3d3;">Desarrollo de Interfaces</p>](Desarrollo%20de%20Interfaces/Desarrollo%20de%20Interfaces.md)**
 ---
-### **[<p style="color: #ff85d2;">Empresa e Iniciativa Emprendedora</p>](_Aprobadas/Empresa%20e%20Iniciativa%20Emprendedora/Empresa%20e%20Iniciativa%20Emprendedora.md)**
+### **[<p style="color: #ff85d2;">Empresa e Iniciativa Emprendedora</p>](Empresa%20e%20Iniciativa%20Emprendedora/Empresa%20e%20Iniciativa%20Emprendedora.md)**
 ---
 ### **[<p style="color: #35d09c;">Programación de Servicios y Procesos</p>](Programación%20de%20Servicios%20y%20Procesos/Programación%20de%20Servicios%20y%20Procesos.md)**
 ---
