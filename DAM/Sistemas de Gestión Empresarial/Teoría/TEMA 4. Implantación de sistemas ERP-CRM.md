@@ -9,7 +9,7 @@ banner: "![[sge.jpg]]"
 | Anexos |
 | - |
 | [Resumen Tema 4](Resúmenes/Resumen%20Tema%204.md) |
-| [Tarea SGE03 y SGE04](../Práctica/Tareas/Tarea%20SGE03%20y%20SGE04.md) |
+| [Tarea SGE03 y SGE04](../Práctica/Tarea%20SGE03%20y%20SGE04.md) |
 ## 1. Introducción
 
 En la actualidad, existe una amplia oferta de software de planificación de recursos empresariales (ERP). Estos sistemas se diferencian por su tipo de licencia, módulos, sistemas operativos compatibles, entre otros factores. La elección del ERP adecuado es crucial para el éxito de su implantación. Determinará si el sistema se adapta a las necesidades de la empresa.

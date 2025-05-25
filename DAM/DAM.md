@@ -15,7 +15,7 @@ node_size: 56
 
 ### [**DI.** Desarrollo de Interfaces](./Desarrollo%20de%20Interfaces/Desarrollo%20de%20Interfaces.md)
 
-### [**EIE.** Empresa e Iniciativa Emprendedora](./Empresa%20e%20Iniciativa%20Emprendedora/Empresa%20e%20Iniciativa%20Emprendedora.md)
+### [**EIE.** Empresa e Iniciativa Emprendedora](_Aprobadas/Empresa%20e%20Iniciativa%20Emprendedora/Empresa%20e%20Iniciativa%20Emprendedora.md)
 
 ### [**PSP.** Programación de Servicios y Procesos](./Programaci%C3%B3n%20de%20Servicios%20y%20Procesos/Programaci%C3%B3n%20de%20Servicios%20y%20Procesos.md)
 

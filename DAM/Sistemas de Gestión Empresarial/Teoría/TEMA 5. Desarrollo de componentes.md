@@ -11,7 +11,7 @@ banner: "![[sge.jpg]]"
 # **TEMA 5.** <br>Desarrollo de componentes
 | Anexos |
 | - |
-| [Tarea SGE05](../Práctica/Tareas/Tarea%20SGE05.md) |
+| [Tarea SGE05](../Práctica/Tarea%20SGE05.md) |
 
 ## 1. Técnicas y estándares. <br>Modelo-Vista-Controlador
 
