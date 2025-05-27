@@ -7,10 +7,6 @@ banner_y: 0.72
 
 # Resumen: TEMA 7. Distribución de aplicaciones
 
-```audio-player
-[[Lecturas/Lectura_Tema_07.mp3]]
-```
-
 ## 1. Definición y composición de una distribución  
 Una **distribución de software** incluye programas compilados, aplicaciones y un sistema operativo, común en distribuciones Linux como Debian o Ubuntu. Las licencias como **GPL** permiten libre distribución y modificación. Las distribuciones pueden ser **oficiales** o de **terceros**, y pueden ser binarias (ej. .exe, .msi).  
 ### 1.1. **Sistema de gestión de paquetes  **

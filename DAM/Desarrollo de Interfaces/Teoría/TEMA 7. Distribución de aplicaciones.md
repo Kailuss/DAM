@@ -12,11 +12,15 @@ number headings: max 2, _.1.
 
 # **TEMA 7.** <br>Distribución de aplicaciones
 
+```audio-player
+[[Lecturas/Lectura_Tema_07.mp3]]
+```
+
 ## 1. Definición y composición <br>de una distribución
 
 Una **distribución de software** es un conjunto de programas compilados y configurados, que incluye aplicaciones y paquetes junto con un sistema operativo. Es común en distribuciones de **Linux** como **Debian**, **Ubuntu** o **Red Hat.** Estas distribuciones suelen estar asociadas a licencias como la **GPL** (Licencia Pública General), que protege la libre distribución, modificación y uso del software. También existen **distribuciones binarias**, que incluyen instaladores (como **.exe** o **.msi** en Windows), disponibles para descarga. Las distribuciones pueden ser **oficiales** (de los autores originales) o de **terceros** (desarrolladas por otras personas o empresas).
 
-### 1.1. **Sistema de gestión de paquetes**
+### Sistema de gestión de paquetes ^sk
 
 Un **sistema de gestión de paquetes** automatiza la instalación, actualización, configuración y eliminación de paquetes de software. Es común en sistemas **Linux**, como el **Centro de Software de Ubuntu** o el **Gestor de Paquetes Synaptic.** Los paquetes contienen el software, su nombre, descripción, versión, distribuidor, suma de verificación y dependencias necesarias. Esta información se almacena en una **base de datos local.**
 
