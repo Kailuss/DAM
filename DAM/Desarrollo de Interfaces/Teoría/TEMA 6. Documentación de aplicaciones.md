@@ -1,6 +1,10 @@
 ---
-tags: [DAM, DI]
-cssclasses: [dam-di, table-compact-clean]
+tags:
+  - DAM
+  - DI
+cssclasses:
+  - dam-di
+  - table-compact-clean
 banner: "![[di.jpg]]"
 banner_y: 0.72
 ---
@@ -8,6 +12,10 @@ banner_y: 0.72
 # **TEMA 6.** <br>Documentación de aplicaciones
 
 ![cover](Imágenes/06-Help.png)
+
+```audio-player
+[[Lecturas/Lectura_Tema_06.mp3]]
+```
 
 
 | Anexos    | 

@@ -7,6 +7,7 @@ cssclasses:
   - dam-di
 banner: "![[di.jpg]]"
 banner_y: 0.72
+number headings: max 2, _.1.
 ---
 
 # **TEMA 7.** <br>Distribución de aplicaciones
@@ -501,44 +502,44 @@ Supongamos que queremos distribuir una aplicación llamada **MiAplicacion** en f
 
 Este enfoque simplifica la distribución de software y permite a los usuarios instalar aplicaciones de manera rápida y segura.
 
-## Autoevaluación ^sk
+## 12. Autoevaluación ^sk
 
-### 11.1. **¿Qué paso no se realiza en la instalación de un programa?**
+**¿Qué paso no se realiza en la instalación de un programa?**
 
 **Respuesta: Compilar el programa.**  
 En el proceso de instalación, no se compila el programa. La compilación es parte del desarrollo, no de la instalación. Los pasos de instalación incluyen la creación de directorios, verificación de compatibilidad, copia de archivos, etc.
 
-### 11.2. **¿Qué herramienta no crea programas de instalación?**
+### ¿Qué herramienta no crea programas de instalación?
 
 **Respuesta: Centro de software.**  
 El **Centro de software** es una herramienta para instalar aplicaciones, no para crear instaladores. Herramientas como **IzPack**, **NSIS** e **InstallShield** sí se utilizan para crear programas de instalación.
 
-### 11.3. **¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?**
+### ¿Qué tipo de archivo es el que se utiliza en Ubuntu para distribuir aplicaciones?
 
 **Respuesta: Paquetes deb.**  
 En distribuciones como **Ubuntu**, las aplicaciones se distribuyen en paquetes .**deb**, que contienen el software y sus dependencias.
 
-### 11.4. **Para crear un instalador personalizado en Windows deberemos**
+###  Para crear un instalador personalizado en Windows deberemos
 
 **Respuesta: Utilizar algún software específico como NSIS.**  
 En **Windows**, se utilizan herramientas como **NSIS**, **InstallShield** o **Inno Setup** para crear instaladores personalizados.
 
-### 11.5. **Los ficheros JAR**
+### Los ficheros JAR
 
 **Respuesta: Son paquetes ejecutables que contienen clases Java y otros recursos.**  
 Los ficheros **JAR** son archivos comprimidos que contienen clases Java, recursos y un archivo **MANIFEST.MF** para definir la clase principal.
 
-### 11.6. **En una instalación desatendida**
+### En una instalación desatendida
 
 **Respuesta: La aplicación se instala de forma transparente al usuario.**  
 En una instalación desatendida, el usuario no interactúa con el instalador. El proceso se realiza automáticamente sin intervención del usuario.
 
-### 11.7. **El reconocimiento de la firma digital de un archivo JAR se conoce como**
+### El reconocimiento de la firma digital de un archivo JAR se conoce como
 
 **Respuesta: Verificación.**  
 El proceso de reconocimiento de la firma digital se llama **verificación**, donde se confirma que el archivo no ha sido alterado y proviene de una fuente confiable.
 
-### 11.8. **En una instalación desde un servidor web**
+### En una instalación desde un servidor web
 
 **Respuesta: La aplicación se instala automáticamente sólo si se trata de un archivo ejecutable.**  
 La instalación automática desde un servidor web depende del tipo de archivo. Si es un ejecutable (como un .**exe** o un .**sh**), puede instalarse directamente. Otros formatos (como .**deb** o .**jar**) requieren pasos adicionales.
