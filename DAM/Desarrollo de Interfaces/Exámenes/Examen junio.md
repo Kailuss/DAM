@@ -208,8 +208,7 @@ number headings: off
 |---|---|
 |**Documentación de Proyecto**|- Documentos de diseño técnico<br>- Planes de proyecto<br>- Especificaciones de requisitos|
 |**Documentación de Procesos**|- Planes de desarrollo<br>- Planes de prueba<br>- Planes de lanzamiento<br>- Informes de errores|
-|**Documentación Técnica**|- Documentación de API<br>- Documentación del modelo de datos<br>- Documentación de arquitectura|
-||- Guía del usuario técnico- Notas de lanzamiento<br>- README|
+|**Documentación Técnica**|- Documentación de API<br>- Documentación del modelo de datos<br>- Documentación de arquitectura<br>- Guía del usuario técnico<br>- Notas de lanzamiento<br>- README|
 |**Documentación del Sistema**|- Guía de resolución de problemas<br>- Documentación de arquitectura<br>- Manual técnico del sistema|
 |**Herramientas de Documentación**|- Generadores automáticos<br>- Sistemas de control de versiones<br>- Bases de conocimiento colaborativas|
 
