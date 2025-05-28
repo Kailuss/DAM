@@ -8,6 +8,8 @@ number headings: off
 
 # **Examen Junio** <br>Desarrollo de Interfaces
 
+### Preguntas tipo test
+
 #### **1.** ¿Cuál de las siguientes afirmaciones es la correcta?
 
 - **A.** Para ejecutar una aplicación empaquetada en un .jar es necesario que en la máquina donde se va a ejecutar esté instalado el JRE.  
@@ -191,6 +193,8 @@ number headings: off
 - **C.** **Compilación de código fuente**
 - **D.** Estilo de botones
 
+### Preguntas de desarrollo
+
 #### **1.** Enumera los diferentes tipos de documentación que podemos encontrar en un proyecto de software dirigidas al usuario final de la aplicación.
 
 |**Tipo de Documentación**|**Descripción / Ejemplos**|
@@ -321,3 +325,203 @@ La diferencia entre **`maven-shade-plugin`** y **`maven-dependency-plugin`** rad
 |Necesitas copiar dependencias a una carpeta|✅ `dependency-plugin`|
 |Vas a crear un instalador con Install4j|✅ `shade-plugin` (ideal)|
 |Vas a distribuir archivos sueltos o scripts|✅ `dependency-plugin`|
+
+#### **5.** Explica los diferentes formatos de ficheros de ayuda y sus características principales.
+
+- **CHM (Ayuda HTML Compilado)**: Formato propietario de Microsoft que incluye archivos HTML, tabla de contenidos e índice. Permite compresión de datos, búsqueda y fusión de ficheros.
+- **HLP (WinHelp)**: Formato tradicional de Windows con archivos .hlp, .cnt (tabla de contenidos) y .gid (información de ventana). Incluye archivos .hpj (proyecto), .rtf (contenido) y .shg (mapas de imagen).
+- **JavaHelp**: Sistema basado en XML utilizado en aplicaciones Java. Se visualiza en navegadores JavaHelp específicos y es independiente de la plataforma.
+- **PDF**: Formato abierto que puede ser visualizado por visores PDF o herramientas de ofimática.
+- **MAML**: Lenguaje basado en XML para asistencia en sistemas Microsoft, estructurado en preguntas frecuentes, glosarios, procedimientos y tutoriales.
+- **IPF**: Usado en sistemas IBM OS/2, compilado en archivos .inf o .hlp, similar a HTML con 45 comandos básicos.
+
+#### **6.** Describe los componentes principales de un sistema JavaHelp y cómo se integran en una aplicación Java.
+
+1. **Temas de ayuda (topics)**: Archivos HTML que contienen el contenido de la ayuda.
+2. **Fichero map (.jhm)**: Asocia identificadores con URLs o rutas de archivos HTML e imágenes.
+3. **Fichero HelpSet (.hs)**: Configura y fusiona todos los ficheros de ayuda, siendo el punto de referencia para la aplicación.
+4. **Fichero TOC**: Define la estructura de la tabla de contenidos.
+5. **Fichero Índice**: Establece la distribución y contenido del índice.
+6. **Base de datos de búsqueda**: Generada con la herramienta `jhindexer`.
+
+Para integrar JavaHelp en una aplicación Java:
+
+1. Se importan las clases necesarias: `import javax.help.*` y `import java.net.*`
+2. Se localiza y crea el fichero HelpSet: `URL hsURL = HelpSet.findHelpSet(null, "ayuda/ayuda.hs")`
+3. Se crea un objeto HelpBroker: `HelpBroker hb = hs.createHelpBroker()`
+4. Se asocia la ayuda a componentes de la interfaz:
+   - Para botones: `hb.enableHelpOnButton(jButton1, "introducción", hs)`
+   - Para ayuda sensible al contexto: `hb.enableHelp(jButton1, "guardar", hs)`
+   - Para tecla de ayuda (F1): `hb.enableHelpKey(getRootPane(), "introduccion", hs)`
+
+#### **7.** Compara los diferentes tipos de documentación para usuarios finales y explique su propósito.
+
+1. **Manual de usuario**: Documento técnico detallado que incluye información sobre instalación, configuración y uso de la aplicación, con capturas de pantalla. Contiene secciones como portada, prólogo, tabla de contenidos, guía de uso, solución de problemas, FAQ, glosario e índice.
+2. **Guía de referencia**: Manual detallado para usuarios experimentados que proporciona información técnica específica como listas de comandos, sintaxis de lenguajes de programación o mensajes de error.
+3. **Guías rápidas**: Versión resumida de un manual, ideal para usuarios con poco tiempo o para aplicaciones con funcionalidad limitada. Cubre las tareas más importantes de forma concisa.
+4. **Manuales de instalación**: Proporcionan información específica para instalar y configurar la aplicación, incluyendo requisitos, archivos necesarios y software adicional.
+5. **Ayuda en línea/JavaHelp**: Sistema de ayuda integrado en la aplicación que incluye mapas, índice, búsqueda, tabla de contenidos y ayuda sensible al contexto.
+6. **Tutoriales multimedia**: Contenidos visuales e interactivos creados con herramientas como Camtasia, Wink o Adobe Captivate.
+
+#### **8.** Explica qué es un paquete autoinstalable y describa los diferentes tipos según el sistema operativo.
+
+- **Windows**: Archivos ejecutables (.exe) que, al ejecutarse, descomprimen los archivos, crean carpetas, copian archivos a sus directorios de destino, modifican el Registro de Windows, añaden entradas en el menú de aplicaciones y crean accesos directos. El usuario puede personalizar la instalación eligiendo componentes o modificando directorios.
+- **Linux (Ubuntu)**: Paquetes .deb que contienen todos los archivos y directorios de la aplicación. La instalación se realiza mediante el Software de Ubuntu, que guía el proceso con ventanas de instalación.
+- **Linux (Red Hat)**: Paquetes .rpm con estructura similar a los .deb pero específicos para distribuciones basadas en Red Hat.
+
+Estos paquetes facilitan la distribución de software al incluir todo lo necesario para la instalación en un único archivo, simplificando el proceso para el usuario final.
+
+#### **9.** Describe los pasos principales en el proceso de instalación de software y su propósito.
+
+1. **Verificación de compatibilidad**: Comprueba que el hardware y software del sistema cumplen con los requisitos mínimos para la aplicación.
+2. **Verificación de integridad**: Asegura que el paquete de software es original y no ha sido modificado, generalmente mediante sumas de verificación.
+3. **Creación de directorios**: Genera las carpetas necesarias para almacenar los archivos de la aplicación.
+4. **Creación de usuarios**: Define grupos de usuarios específicos para el software si es necesario.
+5. **Copia y descompresión**: Extrae los archivos del paquete y los copia en las ubicaciones correspondientes.
+6. **Compilación y enlace**: Vincula las bibliotecas requeridas con la aplicación.
+7. **Configuración**: Ajusta los parámetros necesarios para el funcionamiento de la aplicación.
+8. **Variables de entorno**: Define las variables necesarias para la ejecución del software.
+9. **Registro**: Registra la aplicación ante el autor o en el sistema operativo.
+
+Estos pasos aseguran que la aplicación se instale correctamente y esté lista para su uso, minimizando problemas de configuración y compatibilidad.
+
+#### **10.** Explica cómo se puede personalizar un instalador y qué elementos se pueden modificar.
+
+1. **Logotipos**: Elementos gráficos que identifican a la empresa o aplicación. Deben ser legibles, escalables, reproducibles, distinguibles y memorables. En herramientas como NSIS, se añaden usando el atributo `AddBrandingImage`.
+2. **Fondos**: El diseño del fondo debe ser coherente con la aplicación. Un fondo blanco o sin color suele interpretarse como información relevante, mientras que los fondos con color pueden percibirse como menos importantes.
+3. **Botones**: Incluyen opciones como "siguiente", "anterior", "instalar" y "finalizar". Deben mantener consistencia con el diseño gráfico de la aplicación en colores, fuentes y tamaños.
+4. **Idioma**: Es esencial permitir seleccionar el idioma de instalación, especialmente para aplicaciones distribuidas globalmente. Aunque el inglés suele ser el idioma predeterminado, es recomendable ofrecer traducciones adicionales.
+5. **Estructura de ventanas**: Se puede personalizar el número y tipo de ventanas que aparecen durante la instalación, como la bienvenida, licencia, selección de componentes, etc.
+6. **Opciones de instalación**: Se pueden añadir opciones para que el usuario elija componentes específicos, ubicación de instalación, creación de accesos directos, etc.
+
+La personalización del instalador mejora la experiencia del usuario y refuerza la identidad de la aplicación o empresa.
+
+#### **11** Describe el proceso de creación de un instalador para una aplicación Java utilizando herramientas externas.
+
+1. **Preparación del proyecto**:
+   - Asegurarse de que la aplicación Java esté completamente desarrollada y probada.
+   - Generar un archivo JAR ejecutable con todas las dependencias (usando Maven con plugins como maven-shade-plugin).
+
+1. **Creación del script NSIS**:
+
+   - Definir atributos del instalador (nombre, archivo de salida, directorio de instalación):
+
+```nsis
+Name "Mi Aplicación Java"
+OutFile "MiAplicacion.exe"
+InstallDir "$PROGRAMFILES\MiAplicacion"
+```
+
+   - Configurar páginas del instalador (bienvenida, licencia, directorio, instalación):
+
+```nsis
+!insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_LICENSE "licencia.txt"
+!insertmacro MUI_PAGE_DIRECTORY
+!insertmacro MUI_PAGE_INSTFILES
+```
+
+   - Definir secciones para copiar archivos y crear accesos directos:
+
+```nsis
+Section "Mi Aplicación Java"
+SetOutPath $INSTDIR
+File "MiAplicacion.jar"
+File /r "lib\"
+CreateShortCut "$DESKTOP\Mi Aplicación.lnk" "$INSTDIR\MiAplicacion.jar"
+SectionEnd
+```
+
+   - Incluir funciones para eventos específicos si es necesario.
+
+3. **Compilación del script**:
+- Utilizar el compilador de NSIS para generar el archivo ejecutable del instalador.
+- Verificar que no haya errores durante la compilación.
+  
+3. **Prueba del instalador**:
+- Ejecutar el instalador en diferentes entornos para asegurar su correcto funcionamiento.
+- Comprobar que la aplicación se instala y ejecuta correctamente.
+
+#### **12.** Explica las diferencias entre los sistemas de gestión de paquetes en Windows y Linux.
+
+**Windows**:
+- Utiliza principalmente archivos ejecutables (.exe) o instaladores Windows Installer (.msi) para la distribución de software.
+- No tiene un sistema centralizado de gestión de paquetes; cada aplicación gestiona su propia instalación y actualización.
+- Las aplicaciones se registran en el Registro de Windows, una base de datos centralizada.
+- La instalación suele requerir privilegios de administrador y puede necesitar reiniciar el sistema.
+- Las actualizaciones generalmente son gestionadas por cada aplicación individualmente o mediante Windows Update para software de Microsoft.
+
+**Linux**:
+- Utiliza sistemas de gestión de paquetes centralizados como APT (para distribuciones basadas en Debian como Ubuntu) o YUM/DNF (para distribuciones basadas en Red Hat).
+- Los paquetes tienen formatos específicos como .deb (Debian/Ubuntu) o .rpm (Red Hat/Fedora).
+- Mantiene una base de datos de paquetes instalados con información sobre versiones, dependencias y archivos.
+- Permite la instalación, actualización y eliminación de software desde repositorios centralizados.
+- Gestiona automáticamente las dependencias, instalando los paquetes adicionales necesarios.
+- Ofrece herramientas gráficas (Centro de Software, Synaptic) y de línea de comandos (apt, yum, dnf).
+- Permite actualizar todo el sistema con un solo comando.
+
+Estas diferencias reflejan filosofías distintas: Windows con un enfoque más descentralizado y Linux con un sistema más integrado y centralizado para la gestión de software.
+
+#### **13.** Explica los beneficios de crear documentación de software y cómo contribuye a la calidad del producto.
+
+  1. **Mejor experiencia del usuario**: La documentación ayuda a los usuarios a entender cómo utilizar el software y proporciona la información necesaria para que logren sus objetivos, mejorando su experiencia y permitiéndoles aprovechar al máximo las funcionalidades.
+2. **Mayor colaboración**: Facilita que los desarrolladores y otros interesados técnicos comprendan los aspectos técnicos del software, mejorando la colaboración dentro del equipo y garantizando que todos trabajen hacia los mismos objetivos.
+3. **Aumento de la eficiencia**: Una documentación clara, coherente y actualizada permite a los desarrolladores encontrar rápidamente la información que necesitan, evitando pérdidas de tiempo tratando de entender el código por sí mismos.
+4. **Mejora en la calidad del software**: Garantiza que el proceso de desarrollo sea coherente y repetible, además de proporcionar un registro de decisiones y acciones tomadas, lo que contribuye a mejorar la calidad general del software y prevenir errores.
+5. **Facilita el mantenimiento**: Una buena documentación hace que sea más fácil mantener y actualizar el software a lo largo del tiempo, especialmente cuando nuevos desarrolladores se unen al proyecto.
+6. **Reduce costos a largo plazo**: Aunque crear documentación requiere tiempo y recursos iniciales, reduce significativamente los costos de soporte, mantenimiento y capacitación a largo plazo.
+7. **Mejora la comunicación**: Establece un lenguaje común entre desarrolladores, usuarios y otros interesados, facilitando la comunicación efectiva sobre el software.
+
+#### **14.** Describe las mejores prácticas para escribir documentación de software efectiva.
+
+1. **Priorizar la documentación en el proceso de desarrollo**:
+	- No permitir que se lance una función sin la documentación adecuada
+	- Contratar redactores técnicos que fomenten la importancia de la documentación
+	- Invertir en herramientas adecuadas para facilitar la creación de documentación
+
+2. **Identificar a la audiencia**:
+	- Analizar información sobre los usuarios y consultar equipos de soporte
+	- Identificar los objetivos del usuario
+	- Crear perfiles y definiciones de audiencia
+	- Determinar los formatos adecuados (FAQ, wiki, base de conocimientos)
+
+3. **Definir el alcance y los objetivos**:
+	- Enfocarse en funcionalidades específicas o casos de uso
+	- Proporcionar información clave para completar ciertas tareas
+
+4. **Desarrollar una estrategia de contenido**:
+	- Establecer un calendario de creación y actualización
+	- Definir herramientas y recursos necesarios
+	- Diseñar un proceso de revisión y actualización
+
+5. **Crear una guía de estilo**:
+	- Establecer terminología estándar
+	- Definir voz y tono
+	- Especificar formato de página
+	- Estandarizar elección de palabras
+	- Normalizar uso de imágenes y vídeos
+
+6. **Escribir de forma clara y concisa**:
+	- Utilizar lenguaje claro y sencillo
+	- Evitar tecnicismos innecesarios
+	- Estructurar bien la información con encabezados y listas
+	- Incluir ejemplos e ilustraciones
+
+7. **Revisar y actualizar regularmente**:
+	- Involucrar a desarrolladores y usuarios en el proceso de revisión
+	- Revisar la documentación para detectar errores o inconsistencias
+	- Mantener la documentación actualizada conforme evoluciona el software
+
+8. **Garantizar inclusividad y accesibilidad**:
+	- Evitar modismos o referencias culturales específicas
+	- Asegurar compatibilidad con lectores de pantalla
+	- Proporcionar descripciones alternativas para imágenes
+	- Utilizar colores con suficiente contraste
+
+9. **Usar elementos visuales**:
+	- Incorporar imágenes, diagramas y vídeos para ilustrar conceptos
+	- Hacer la documentación más atractiva y comprensible
+
+10. **Incluir ejemplos prácticos**:
+	- Proporcionar ejemplos de código, casos de uso y ejercicios
+	- Facilitar el aprendizaje mediante aplicaciones prácticas
