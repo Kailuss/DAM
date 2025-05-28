@@ -12,186 +12,179 @@ number headings: off
 
 #### **1.** ¿Cuál de las siguientes afirmaciones es la correcta?
 
-- **A.** Para ejecutar una aplicación empaquetada en un .jar es necesario que en la máquina donde se va a ejecutar esté instalado el JRE.  
-- **B.** En un paquete .jar se pueden incluir las librerías necesarias del JDK para que se ejecute una aplicación Java sin necesidad de que exista el JRE en la máquina destino.  
-- **C.** **En los paquetes .jar no podemos incluir las librerías del JDK que necesita una aplicación pero podemos crear un instalador .exe con Install4j que incluya el JRE y lo instale automáticamente en la máquina destino.**  
-- **D.** Ninguna de las opciones anteriores es correcta.
+- [ ] Para ejecutar una aplicación empaquetada en un .jar es necesario que en la máquina donde se va a ejecutar esté instalado el JRE.  
+- [ ] En un paquete .jar se pueden incluir las librerías necesarias del JDK para que se ejecute una aplicación Java sin necesidad de que exista el JRE en la máquina destino.  
+- [x] **En los paquetes .jar no podemos incluir las librerías del JDK que necesita una aplicación pero podemos crear un instalador .exe con Install4j que incluya el JRE y lo instale automáticamente en la máquina destino.**  
+- [ ] Ninguna de las opciones anteriores es correcta.
 
 #### **2.** Las imágenes estáticas que aparecen en la interfaz de una aplicación como iconos y logos, ¿en qué carpeta del proyecto Maven es conveniente incluirlas para evitar problemas en NetBeans al ejecutar el proyecto?
 
-- **A.** src/images  
-- **B.** target/resources  
-- **C.** **src/main/resources**  
-- **D.** Ninguna de las opciones anteriores es correcta.
+- [ ] src/images  
+- [ ] target/resources  
+- [x] **src/main/resources**  
+- [ ] Ninguna de las opciones anteriores es correcta.
 
 #### **3.** ¿Qué plugin de Maven se puede utilizar para incluir los jar de las dependencias en el jar de la aplicación generado?
 
-- **A.** maven-shade-plugin
-- **B.** maven-resources-plugin  
-- **C.** maven-compiler-plugin  
-- **D.** **maven-dependency-plugin**
+- [ ] maven-shade-plugin
+- [ ] maven-resources-plugin  
+- [ ] maven-compiler-plugin  
+- [x] **maven-dependency-plugin**
 
 #### **4.** ¿Cuál de las siguientes afirmaciones es cierta?
 
-- **A.** Install4j lee el pom.xml del proyecto las dependencias Maven y las descarga e incluye en el instalador automáticamente.  
-- **B.** Install4j sólo permite crear instaladores para distribuir nuestra aplicación en máquinas donde ya exista instalada previamente una versión del JRE o el JDK.  
-- **C.** La versión de prueba de Install4j no permite crear instaladores que necesiten elevación de privilegios para ser instalados.  
-- **D.** **Para crear un instalador con Install4j, el fichero jar con la aplicación principal generado desde NetBeans debe incluir los jars de las dependencias de nuestro proyecto.**  
-- **E.** **Install4j permite crear instaladores para Windows, Mac y Linux.**
+- [ ] Install4j lee el pom.xml del proyecto las dependencias Maven y las descarga e incluye en el instalador automáticamente.  
+- [ ] Install4j sólo permite crear instaladores para distribuir nuestra aplicación en máquinas donde ya exista instalada previamente una versión del JRE o el JDK.  
+- [ ] La versión de prueba de Install4j no permite crear instaladores que necesiten elevación de privilegios para ser instalados.  
+- [x] **Para crear un instalador con Install4j, el fichero jar con la aplicación principal generado desde NetBeans debe incluir los jars de las dependencias de nuestro proyecto.**  
+- [x] **Install4j permite crear instaladores para Windows, Mac y Linux.**
 
 #### **5.** ¿En qué sección principal del pom.xml se tiene que poner la referencia al maven-shade-plugin para que se incluyan automáticamente los jar de las dependencias de un proyecto en el .jar que se generará cuando se hace el build?
 
-- **A.** \<repositories\>...\</repositories\>  
-- **B.** \<dependencies\>...\</dependencies\>  
-- **C.** **\<build\>...\</build\>**  
-- **D.** \<properties\>...\</properties\>
+- [ ] \<repositories\>...\</repositories\>  
+- [ ] \<dependencies\>...\</dependencies\>  
+- [x] **\<build\>...\</build\>**  
+- [ ] \<properties\>...\</properties\>
 
 #### **6.** ¿En qué carpeta por defecto se crea el fichero .jar generado al hacer un 'Clean and Build' de una aplicación Java Maven?
 
-- **A.** build  
-- **B.** **target**  
-- **C.** dist  
-- **D.** src
+- [ ] build  
+- [x] **target**  
+- [ ] dist  
+- [ ] src
 
 #### **7.** Respecto de una aplicación Java con Maven, ¿cuál de las siguientes opciones es cierta?
 
-- **A.** Las dependencias se incluyen dentro del fichero .jar generado cuando hacemos el 'Build' de la aplicación.  
-- **B.** No se puede distribuir como un paquete .jar para Linux.  
-- **C.** **Siempre se debe indicar la clase principal del proyecto en el pom.xml si queremos crear un .jar distribuible en otras máquinas.**  
-- **D.** Hay que copiar manualmente todos los .jar de las dependencias a la carpeta lib una vez hecho el 'Build'.
+- [ ] Las dependencias se incluyen dentro del fichero .jar generado cuando hacemos el 'Build' de la aplicación.  
+- [ ] No se puede distribuir como un paquete .jar para Linux.  
+- [x] **Siempre se debe indicar la clase principal del proyecto en el pom.xml si queremos crear un .jar distribuible en otras máquinas.**  
+- [ ] Hay que copiar manualmente todos los .jar de las dependencias a la carpeta lib una vez hecho el 'Build'.
 
 #### **8.** ¿Cuál de estas opciones es verdadera respecto a los comentarios Javadoc?  
 
-- **A.** Es todo aquel texto en el archivo fuente que se encuentra entre los caracteres `/*` y `*/`.  
-- **B.** No pueden emplear etiquetas HTML.  
-- **C.** Pueden precedir métodos y propiedades de una clase, pero no a una clase ni a su constructor.  
-- **D.** **Cada línea, excepto la primera y la última, comienza con el carácter `*`.**  
+- [ ] Es todo aquel texto en el archivo fuente que se encuentra entre los caracteres `/*` y `*/`.  
+- [ ] No pueden emplear etiquetas HTML.  
+- [ ] Pueden precedir métodos y propiedades de una clase, pero no a una clase ni a su constructor.  
+- [x] **Cada línea, excepto la primera y la última, comienza con el carácter `*`.**  
 
 #### **9.** ¿Qué etiqueta Javadoc se emplea para documentar los argumentos de un método?  
 
-- **A.** `@args`  
-- **B.** **`@param`**  
-- **C.** `@[tipo_de_datos_del_parámetro]`  
-- **D.** `@see`
+- [ ] `@args`  
+- [x] **`@param`**  
+- [ ] `@[tipo_de_datos_del_parámetro]`  
+- [ ] `@see`
 
 #### **10.** ¿Qué etiqueta Javadoc se emplea para documentar el valor que retorna un método?  
 
-- **A.** `@[tipo_de_datos_del_valor_de_retorno]`  
-- **B.** **`@return`**  
-- **C.** `@param`  
-- **D.** `@out`  
+- [ ] `@[tipo_de_datos_del_valor_de_retorno]`  
+- [x] **`@return`**  
+- [ ] `@param`  
+- [ ] `@out`  
 
 #### **11.** ¿Cuál de los siguientes formatos es exclusivo para aplicaciones Java?
 
-- **A.** CHM
-- **B.** PDF
-- **C.** **JavaHelp**
-- **D.** HLP
+- [ ] CHM
+- [ ] PDF
+- [x] **JavaHelp**
+- [ ] HLP
 
 #### **12.** ¿Qué herramienta es desarrollada por Microsoft para crear archivos HLP y CHM?
 
-- **A.** JavaHelp
-- **B.** RoboHelp
-- **C.** **Help Workshop**
-- **D.** WebHelp
+- [ ] JavaHelp
+- [ ] RoboHelp
+- [x] **Help Workshop**
+- [ ] WebHelp
 
 #### **13.** ¿Cuál NO es una característica de los archivos CHM?
 
-- **A.** Compresión de datos
-- **B.** Soporte para applets Java
-- **C.** Soporte para búsqueda
-- **D.** **Código fuente incluido**
+- [ ] Compresión de datos
+- [ ] Soporte para applets Java
+- [ ] Soporte para búsqueda
+- [x] **Código fuente incluido**
 
 #### **14.** ¿Qué fichero en JavaHelp define la estructura de la ayuda?
 
-- **A.** .toc
-- **B.** **.hs**
-- **C.** .jhm
-- **D.** .xml
+- [ ] .toc
+- [x] **.hs**
+- [ ] .jhm
+- [ ] .xml
 
 #### **15.** ¿Qué clase Java se utiliza para asociar la ayuda sensible al contexto?
 
-- **A.** HelpViewer
-- **B.** HelpSet
-- **C.** HelpContext
-- **D.** **HelpBroker**
+- [ ] HelpViewer
+- [ ] HelpSet
+- [ ] HelpContext
+- [x] **HelpBroker**
 
 #### **16.** ¿Cuál es el objetivo principal del índice en un sistema de ayuda?
 
-- **A.** Mejorar la estética
-- **B.** Buscar sin conexión
-- **C.** **Acceso rápido por palabras clave**
-- **D.** Crear diagramas
+- [ ] Mejorar la estética
+- [ ] Buscar sin conexión
+- [x] **Acceso rápido por palabras clave**
+- [ ] Crear diagramas
 
 #### **17.** ¿Qué elemento no forma parte de un fichero JAR firmado digitalmente?
 
-- **A.** MANIFEST.MF
-- **B.** Archivo .SF
-- **C.** Archivo .DSA
-- **D.** **Archivo .ISO**
+- [ ] MANIFEST.MF
+- [ ] Archivo .SF
+- [ ] Archivo .DSA
+- [x] **Archivo .ISO**
 
 #### **18.** ¿Qué tipo de manual proporciona información detallada para usuarios expertos?
 
-- **A.** Manual de instalación
-- **B.** Guía rápida
-- **C.** Manual de usuario
-- **D.** **Guía de referencia**
+- [ ] Manual de instalación
+- [ ] Guía rápida
+- [ ] Manual de usuario
+- [x] **Guía de referencia**
 
 #### **19.** ¿Qué tipo de archivo se usa en Ubuntu para distribuir software?
 
-- **A.** .exe
-- **B.** .rpm
-- **C.** **.deb**
-- **D.** .jar
+- [ ] .exe
+- [ ] .rpm
+- [x] **.deb**
+- [ ] .jar
 
 #### **20.** ¿Qué herramienta permite crear instaladores personalizados mediante scripts?
 
-- **A.** InstallBuilder
-- **B.** **NSIS**
-- **C.** Visual Studio
-- **D.** apturl
+- [ ] InstallBuilder
+- [x] **NSIS**
+- [ ] Visual Studio
+- [ ] apturl
 
 #### **21.** ¿Qué parámetro se usa en NSIS para una instalación silenciosa?
 
-- **A.** /QUIET
-- **B.** /NORESTART
-- **C.** **/S**
-- **D.** /silent
+- [ ] /QUIET
+- [ ] /NORESTART
+- [x] **/S**
+- [ ] /silent
 
 #### **22.** ¿Cuál es el paso que NO se realiza durante una instalación de software?
 
-- **A.** Verificación de compatibilidad
-- **B.** Registro en el sistema
-- **C.** **Compilación del programa**
-- **D.** Creación de accesos directos
+- [ ] Verificación de compatibilidad
+- [ ] Registro en el sistema
+- [x] **Compilación del programa**
+- [ ] Creación de accesos directos
 
 #### **23.** ¿Qué función cumple el archivo MANIFEST.MF en un JAR?
 
-- **A.** Almacena texto legal
-- **B.** **Define la clase principal y resúmenes**
-- **C.** Cifra el contenido
-- **D.** Enlaza DLLs externas
+- [ ] Almacena texto legal
+- [x] **Define la clase principal y resúmenes**
+- [ ] Cifra el contenido
+- [ ] Enlaza DLLs externas
 
 #### **24.** ¿Cuál es el objetivo de los asistentes de instalación?
 
-- **A.** Reducir tamaño del programa
-- **B.** Permitir que el usuario programe
-- **C.** **Guiar paso a paso el proceso de instalación**
-- **D.** Ejecutar software en la nube
+- [ ] Reducir tamaño del programa
+- [ ] Permitir que el usuario programe
+- [x] **Guiar paso a paso el proceso de instalación**
+- [ ] Ejecutar software en la nube
 
 #### **25.** ¿Qué herramienta en Ubuntu permite instalar software desde un enlace web?
 
-- **A.** Synaptic
-- **B.** APT
-- **C.** **apturl**
-- **D.** dpkg
-
-#### **26.** ¿Qué NO se considera parte de la personalización de un instalador?
-
-- **A.** Selección de idioma
-- **B.** Inclusión de logotipo
-- **C.** **Compilación de código fuente**
-- **D.** Estilo de botones
+- [ ] Synaptic
+- [ ] APT
+- [x] **apturl**
+- [ ] dpkg
 
 ### Preguntas de desarrollo
 
