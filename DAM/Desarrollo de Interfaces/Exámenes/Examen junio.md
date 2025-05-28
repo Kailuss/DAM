@@ -200,7 +200,7 @@ number headings: off
 |**Tipo de Documentación**|**Descripción / Ejemplos**|
 |---|---|
 |**Documentación de Producto**|- Manual de instrucciones<br>- Manual de referencia<br>- Guías de instalación|
-|**Documentación para Usuarios**|- Guías prácticas (How-to guides)<br>- Tutoriales- Documentación de referencia<br>- Explicaciones|
+|**Documentación para Usuarios**|- Guías prácticas (How-to guides)<br>- Tutoriales<br>- Documentación de referencia<br>- Explicaciones|
 |**Manual de Usuario**|Documento técnico con instrucciones detalladas, capturas, solución de problemas, FAQ, glosario e índice.|
 |**Guía de Referencia**|Manual para usuarios avanzados: comandos, sintaxis, mensajes de error.|
 |**Guías Rápidas**|Versión resumida con tareas básicas. Ideal para usuarios con poco tiempo o aplicaciones simples.|
