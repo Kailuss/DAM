@@ -192,8 +192,8 @@ number headings: off
 
 |**Tipo de Documentación**|**Descripción / Ejemplos**|
 |---|---|
-|**Documentación de Producto**|- Manual de instrucciones<br>- Manual de referencia<br>- Guías de instalación|
-|**Documentación para Usuarios**|- Guías prácticas (How-to guides)<br>- Tutoriales<br>- Documentación de referencia<br>- Explicaciones|
+|**Documentación de Producto**|○ Manual de instrucciones<br>○ Manual de referencia<br>○ Guías de instalación|
+|**Documentación para Usuarios**|○ Guías prácticas (How-to guides)<br>○ Tutoriales<br>○ Documentación de referencia<br>○ Explicaciones|
 |**Manual de Usuario**|Documento técnico con instrucciones detalladas, capturas, solución de problemas, FAQ, glosario e índice.|
 |**Guía de Referencia**|Manual para usuarios avanzados: comandos, sintaxis, mensajes de error.|
 |**Guías Rápidas**|Versión resumida con tareas básicas. Ideal para usuarios con poco tiempo o aplicaciones simples.|
@@ -206,11 +206,11 @@ number headings: off
 
 |**Tipo de Documentación**|**Descripción / Ejemplos**|
 |---|---|
-|**Documentación de Proyecto**|- Documentos de diseño técnico<br>- Planes de proyecto<br>- Especificaciones de requisitos|
-|**Documentación de Procesos**|- Planes de desarrollo<br>- Planes de prueba<br>- Planes de lanzamiento<br>- Informes de errores|
-|**Documentación Técnica**|- Documentación de API<br>- Documentación del modelo de datos<br>- Documentación de arquitectura<br>- Guía del usuario técnico<br>- Notas de lanzamiento<br>- README|
-|**Documentación del Sistema**|- Guía de resolución de problemas<br>- Documentación de arquitectura<br>- Manual técnico del sistema|
-|**Herramientas de Documentación**|- Generadores automáticos<br>- Sistemas de control de versiones<br>- Bases de conocimiento colaborativas|
+|**Documentación de Proyecto**|○ Documentos de diseño técnico<br>○ Planes de proyecto<br>○ Especificaciones de requisitos|
+|**Documentación de Procesos**|○ Planes de desarrollo<br>○ Planes de prueba<br>○ Planes de lanzamiento<br>○ Informes de errores|
+|**Documentación Técnica**|○ Documentación de API<br>○ Documentación del modelo de datos<br>○ Documentación de arquitectura<br>○ Guía del usuario técnico<br>○ Notas de lanzamiento<br>○ README|
+|**Documentación del Sistema**|○ Guía de resolución de problemas<br>○ Documentación de arquitectura<br>○ Manual técnico del sistema|
+|**Herramientas de Documentación**|○ Generadores automáticos<br>○ Sistemas de control de versiones<br>○ Bases de conocimiento colaborativas|
 
 #### **3.** Explica de forma esquemática pero precisa cuál es el procedimiento que hay que seguir para crear un instalador para Windows de una aplicación Java utilizando la herramienta Install4j. Se ha de tener en cuenta que la aplicación Java puede tener dependencias y recursos externos que también hay que desplegar o instalar en las máquinas destino
 
@@ -218,9 +218,9 @@ number headings: off
 
 |**Etapa**|**Pasos y detalles**|
 |---|---|
-|**1. Preparación del proyecto**|- Asegurarse de que la aplicación Java esté completamente desarrollada y probada.|
-|**2. Uso de Shade Plugin (Maven)**|- Usar el plugin `maven-shade-plugin` para empaquetar todas las dependencias en un solo `.jar`.<br>- Esto genera un *fat JAR* ejecutable.<br>- Se debe definir la clase `Main-Class` en el `MANIFEST.MF`. **Ruta de salida:** `target\carpetaBuild`|
-|**3. Configuración del proyecto en Install4j**|- Crear un nuevo proyecto en **Install4j.**<br>- Definir el directorio base del proyecto como: `target\carpetaBuild`.|
+|**1. Preparación del proyecto**|○ Asegurarse de que la aplicación Java esté completamente desarrollada y probada.|
+|**2. Uso de Shade Plugin (Maven)**|○ Usar el plugin `maven-shade-plugin` para empaquetar todas las dependencias en un solo `.jar`.<br>○ Esto genera un *fat JAR* ejecutable.<br>○ Se debe definir la clase `Main-Class` en el `MANIFEST.MF`. **Ruta de salida:** `target\carpetaBuild`|
+|**3. Configuración del proyecto en Install4j**|○ Crear un nuevo proyecto en **Install4j.**<br>○ Definir el directorio base del proyecto como: `target\carpetaBuild`.|
 
 ##### 🧭 Launcher Configuration
 
@@ -246,15 +246,15 @@ number headings: off
 |Elemento|Detalles|
 |---|---|
 |**Acceso directo al escritorio**|Crear acceso directo con nombre e ícono.|
-|**Copia de ficheros**|- Copiar el `.jar`, dependencias, `config`, `logs`, etc. a subcarpetas específicas.<br>- Establecer variables de entorno o rutas si es necesario.|
-|**Configuraciones adicionales**|- Crear entradas en el menú inicio.<br>- Configurar permisos.|
+|**Copia de ficheros**|○ Copiar el `.jar`, dependencias, `config`, `logs`, etc. a subcarpetas específicas.<br>○ Establecer variables de entorno o rutas si es necesario.|
+|**Configuraciones adicionales**|○ Crear entradas en el menú inicio.<br>○ Configurar permisos.|
 
 ##### ⚙️ Build del instalador
 
 |Paso|Detalle|
 |---|---|
-|**Compilar instalador**|- Seleccionar `Build Installer`.<br>- Se generará un archivo `.exe` instalable (ej. `setup.exe`).|
-|**Opcional**|- Crear instaladores firmados digitalmente.<br>- Crear versiones portables o para otros SO si se desea.|
+|**Compilar instalador**|○ Seleccionar `Build Installer`.<br>○ Se generará un archivo `.exe` instalable (ej. `setup.exe`).|
+|**Opcional**|○ Crear instaladores firmados digitalmente.<br>○ Crear versiones portables o para otros SO si se desea.|
 
 #### **4.** Explica detalladamente qué hay que hacer en Install4j para crear una carpeta en `C:\Users\[usuario]\AppData\Local` y que se escriban en ella un conjunto de ficheros cuando la aplicación se instale
 
@@ -361,9 +361,9 @@ Para integrar JavaHelp en una aplicación Java:
 
 #### **8.** Explica qué es un paquete autoinstalable y describa los diferentes tipos según el sistema operativo
 
-- **Windows.** Archivos ejecutables (.exe) que, al ejecutarse, descomprimen los archivos, crean carpetas, copian archivos a sus directorios de destino, modifican el Registro de Windows, añaden entradas en el menú de aplicaciones y crean accesos directos. El usuario puede personalizar la instalación eligiendo componentes o modificando directorios.<br><br>
-- **Linux (Ubuntu).** Paquetes .deb que contienen todos los archivos y directorios de la aplicación. La instalación se realiza mediante el Software de Ubuntu, que guía el proceso con ventanas de instalación.<br><br>
-- **Linux (Red Hat).** Paquetes .rpm con estructura similar a los .deb pero específicos para distribuciones basadas en Red Hat.
+- **Windows.** Archivos ejecutables **.exe** que, al ejecutarse, descomprimen los archivos, crean carpetas, copian archivos a sus directorios de destino, modifican el Registro de Windows, añaden entradas en el menú de aplicaciones y crean accesos directos. El usuario puede personalizar la instalación eligiendo componentes o modificando directorios.<br><br>
+- **Linux (Ubuntu).** Paquetes **.deb** que contienen todos los archivos y directorios de la aplicación. La instalación se realiza mediante el Software de Ubuntu, que guía el proceso con ventanas de instalación.<br><br>
+- **Linux (Red Hat).** Paquetes **.rpm** con estructura similar a los .deb pero específicos para distribuciones basadas en Red Hat.
 
 Estos paquetes facilitan la distribución de software al incluir todo lo necesario para la instalación en un único archivo, simplificando el proceso para el usuario final.
 
@@ -387,7 +387,7 @@ Estos pasos aseguran que la aplicación se instale correctamente y esté lista p
 
 1. **Logotipos.** Elementos gráficos que identifican a la empresa o aplicación. Deben ser legibles, escalables, reproducibles, distinguibles y memorables. En herramientas como NSIS, se añaden usando el atributo `AddBrandingImage`.<br><br>
 2. **Fondos.** El diseño del fondo debe ser coherente con la aplicación. Un fondo blanco o sin color suele interpretarse como información relevante, mientras que los fondos con color pueden percibirse como menos importantes.<br><br>
-3. **Botones.** Incluyen opciones como "siguiente", "anterior", "instalar" y "finalizar". Deben mantener consistencia con el diseño gráfico de la aplicación en colores, fuentes y tamaños.<br><br>
+3. **Botones.** Incluyen opciones como “siguiente”, “anterior”, “instalar” y “finalizar”. Deben mantener consistencia con el diseño gráfico de la aplicación en colores, fuentes y tamaños.<br><br>
 4. **Idioma.** Es esencial permitir seleccionar el idioma de instalación, especialmente para aplicaciones distribuidas globalmente. Aunque el inglés suele ser el idioma predeterminado, es recomendable ofrecer traducciones adicionales.<br><br>
 5. **Estructura de ventanas.** Se puede personalizar el número y tipo de ventanas que aparecen durante la instalación, como la bienvenida, licencia, selección de componentes, etc.<br><br>
 6. **Opciones de instalación.** Se pueden añadir opciones para que el usuario elija componentes específicos, ubicación de instalación, creación de accesos directos, etc.
@@ -443,22 +443,22 @@ SectionEnd
 #### **12.** Explica las diferencias entre los sistemas de gestión de paquetes en Windows y Linux
 
 **Windows.**
-- Utiliza principalmente archivos ejecutables (.exe) o instaladores Windows Installer (.msi) para la distribución de software.
+- Utiliza principalmente archivos ejecutables **.exe** o instaladores Windows Installer **.msi** para la distribución de software.
 - No tiene un sistema centralizado de gestión de paquetes; cada aplicación gestiona su propia instalación y actualización.
 - Las aplicaciones se registran en el Registro de Windows, una base de datos centralizada.
 - La instalación suele requerir privilegios de administrador y puede necesitar reiniciar el sistema.
 - Las actualizaciones generalmente son gestionadas por cada aplicación individualmente o mediante Windows Update para software de Microsoft.
 
 **Linux.**
-- Utiliza sistemas de gestión de paquetes centralizados como APT (para distribuciones basadas en Debian como Ubuntu) o YUM/DNF (para distribuciones basadas en Red Hat).
-- Los paquetes tienen formatos específicos como .deb (Debian/Ubuntu) o .rpm (Red Hat/Fedora).
+- Utiliza sistemas de gestión de paquetes centralizados como **APT (para distribuciones basadas en Debian como Ubuntu)** o **YUM/DNF (para distribuciones basadas en Red Hat).**
+- Los paquetes tienen formatos específicos como **.deb (Debian/Ubuntu)** o **.rpm (Red Hat/Fedora).**
 - Mantiene una base de datos de paquetes instalados con información sobre versiones, dependencias y archivos.
 - Permite la instalación, actualización y eliminación de software desde repositorios centralizados.
 - Gestiona automáticamente las dependencias, instalando los paquetes adicionales necesarios.
 - Ofrece herramientas gráficas (Centro de Software, Synaptic) y de línea de comandos (apt, yum, dnf).
 - Permite actualizar todo el sistema con un solo comando.
 
-Estas diferencias reflejan filosofías distintas: Windows con un enfoque más descentralizado y Linux con un sistema más integrado y centralizado para la gestión de software.
+Estas diferencias reflejan filosofías distintas: **Windows con un enfoque más descentralizado y Linux con un sistema más integrado y centralizado** para la gestión de software.
 
 #### **13.** Explica los beneficios de crear documentación de software y cómo contribuye a la calidad del producto
 
@@ -521,10 +521,10 @@ Estas diferencias reflejan filosofías distintas: Windows con un enfoque más de
    - Hacer la documentación más atractiva y comprensible
 <br><br>
 10. **Incluir ejemplos prácticos.**
-   - Proporcionar ejemplos de código, casos de uso y ejercicios
-   - Facilitar el aprendizaje mediante aplicaciones prácticas
+    - Proporcionar ejemplos de código, casos de uso y ejercicios
+    - Facilitar el aprendizaje mediante aplicaciones prácticas
 
-#### **15.** Compare y contraste las tablas de contenidos e índices en los sistemas de ayuda, explicando sus diferencias fundamentales y propósito.
+#### **15.** Compara y contrasta las tablas de contenidos e índices en los sistemas de ayuda, explicando sus diferencias fundamentales y propósito.
 
 Las tablas de contenidos e índices son componentes esenciales en los sistemas de ayuda, pero tienen diferencias fundamentales en su estructura, organización y propósito:
 
