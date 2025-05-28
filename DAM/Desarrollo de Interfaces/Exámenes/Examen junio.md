@@ -473,56 +473,56 @@ Estas diferencias reflejan filosofías distintas: Windows con un enfoque más de
 #### **14.** Describe las mejores prácticas para escribir documentación de software efectiva
 
 1. **Priorizar la documentación en el proceso de desarrollo.**
-	- No permitir que se lance una función sin la documentación adecuada
-	- Contratar redactores técnicos que fomenten la importancia de la documentación
-	- Invertir en herramientas adecuadas para facilitar la creación de documentación
+   - No permitir que se lance una función sin la documentación adecuada
+   - Contratar redactores técnicos que fomenten la importancia de la documentación
+   - Invertir en herramientas adecuadas para facilitar la creación de documentación
 <br><br>
 2. **Identificar a la audiencia.**
-	- Analizar información sobre los usuarios y consultar equipos de soporte
-	- Identificar los objetivos del usuario
-	- Crear perfiles y definiciones de audiencia
-	- Determinar los formatos adecuados (FAQ, wiki, base de conocimientos)
+   - Analizar información sobre los usuarios y consultar equipos de soporte
+   - Identificar los objetivos del usuario
+   - Crear perfiles y definiciones de audiencia
+   - Determinar los formatos adecuados (FAQ, wiki, base de conocimientos)
 <br><br>
 3. **Definir el alcance y los objetivos.**
-	- Enfocarse en funcionalidades específicas o casos de uso
-	- Proporcionar información clave para completar ciertas tareas
+   - Enfocarse en funcionalidades específicas o casos de uso
+   - Proporcionar información clave para completar ciertas tareas
 <br><br>
 4. **Desarrollar una estrategia de contenido.**
-	- Establecer un calendario de creación y actualización
-	- Definir herramientas y recursos necesarios
-	- Diseñar un proceso de revisión y actualización
+   - Establecer un calendario de creación y actualización
+   - Definir herramientas y recursos necesarios
+   - Diseñar un proceso de revisión y actualización
 <br><br>
-5. **Crear una guía de estilo.**
-	- Establecer terminología estándar
-	- Definir voz y tono
-	- Especificar formato de página
-	- Estandarizar elección de palabras
-	- Normalizar uso de imágenes y vídeos
+1. **Crear una guía de estilo.**
+   - Establecer terminología estándar
+   - Definir voz y tono
+   - Especificar formato de página
+   - Estandarizar elección de palabras
+   - Normalizar uso de imágenes y vídeos
 <br><br>
 6. **Escribir de forma clara y concisa.**
-	- Utilizar lenguaje claro y sencillo
-	- Evitar tecnicismos innecesarios
-	- Estructurar bien la información con encabezados y listas
-	- Incluir ejemplos e ilustraciones
+   - Utilizar lenguaje claro y sencillo
+   - Evitar tecnicismos innecesarios
+   - Estructurar bien la información con encabezados y listas
+   - Incluir ejemplos e ilustraciones
 <br><br>
 7. **Revisar y actualizar regularmente.**
-	- Involucrar a desarrolladores y usuarios en el proceso de revisión
-	- Revisar la documentación para detectar errores o inconsistencias
-	- Mantener la documentación actualizada conforme evoluciona el software
+   - Involucrar a desarrolladores y usuarios en el proceso de revisión
+   - Revisar la documentación para detectar errores o inconsistencias
+   - Mantener la documentación actualizada conforme evoluciona el software
 <br><br>
 8. **Garantizar inclusividad y accesibilidad.**
-	- Evitar modismos o referencias culturales específicas
-	- Asegurar compatibilidad con lectores de pantalla
-	- Proporcionar descripciones alternativas para imágenes
-	- Utilizar colores con suficiente contraste
+   - Evitar modismos o referencias culturales específicas
+   - Asegurar compatibilidad con lectores de pantalla
+   - Proporcionar descripciones alternativas para imágenes
+   - Utilizar colores con suficiente contraste
 <br><br>
 9. **Usar elementos visuales.**
-	- Incorporar imágenes, diagramas y vídeos para ilustrar conceptos
-	- Hacer la documentación más atractiva y comprensible
+   - Incorporar imágenes, diagramas y vídeos para ilustrar conceptos
+   - Hacer la documentación más atractiva y comprensible
 <br><br>
 10. **Incluir ejemplos prácticos.**
-	- Proporcionar ejemplos de código, casos de uso y ejercicios
-	- Facilitar el aprendizaje mediante aplicaciones prácticas
+   - Proporcionar ejemplos de código, casos de uso y ejercicios
+   - Facilitar el aprendizaje mediante aplicaciones prácticas
 
 #### **15.** Compare y contraste las tablas de contenidos e índices en los sistemas de ayuda, explicando sus diferencias fundamentales y propósito.
 
