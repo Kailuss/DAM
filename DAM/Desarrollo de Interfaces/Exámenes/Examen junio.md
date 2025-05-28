@@ -528,7 +528,7 @@ Estas diferencias reflejan filosofías distintas: Windows con un enfoque más de
 
 Las tablas de contenidos e índices son componentes esenciales en los sistemas de ayuda, pero tienen diferencias fundamentales en su estructura, organización y propósito:
 
-##### Tablas de contenidos (TOC
+##### Tablas de contenidos (TOC)
 
 - **Estructura**: Organizan los temas de ayuda en una estructura jerárquica, similar a las carpetas de un administrador de archivos.
 - **Organización**: Cada ítem representa un tema principal que puede expandirse para mostrar subtemas más específicos, siguiendo una organización lógica basada en la estructura del contenido.
