@@ -106,7 +106,7 @@ number headings: off
 
 #### **3.** Explica de forma esquemática pero precisa cuál es el procedimiento que hay que seguir para crear un instalador para Windows de una aplicación Java utilizando la herramienta Install4j. Se ha de tener en cuenta que la aplicación Java puede tener dependencias y recursos externos que también hay que desplegar o instalar en las máquinas destino.
 
-##### ✅ **Procedimiento para crear un instalador con Install4j para una aplicación Java (con dependencias)**
+##### ✅ Procedimiento para crear un instalador con Install4j para una aplicación Java (con dependencias)
 
 |**Etapa**|**Pasos y detalles**|
 |---|---|
@@ -114,9 +114,7 @@ number headings: off
 |**2. Uso de Shade Plugin (Maven)**|- Usar el plugin `maven-shade-plugin` para empaquetar todas las dependencias en un solo `.jar`.<br>- Esto genera un _fat JAR_ ejecutable.<br>- Se debe definir la clase `Main-Class` en el `MANIFEST.MF`. **Ruta de salida:** `target\carpetaBuild`|
 |**3. Configuración del proyecto en Install4j**|- Crear un nuevo proyecto en **Install4j**.<br>- Definir el directorio base del proyecto como: `target\carpetaBuild`.|
 
----
-
-##### 🧭 **Launcher Configuration**
+##### 🧭 Launcher Configuration
 
 |Elemento|Detalles|
 |---|---|
@@ -128,18 +126,14 @@ number headings: off
 |**Clase Main**|`com.miempresa.miapp.Main` o la que corresponda.|
 |**Splash Screen**|Imagen en `.png` o `.jpg` mostrada mientras arranca la app.|
 
----
-
-##### 💻 **Media Configuration**
+##### 💻 Media Configuration
 
 |Elemento|Detalles|
 |---|---|
 |**Tipo de SO**|**Windows 64-bit** o ambas arquitecturas si se desea compatibilidad ampliada.|
 |**Bundle de JRE**|Incluir un **JRE embebido** (por ejemplo: una distribución de OpenJDK o Azul Zulu). Esto garantiza que la aplicación funcione sin requerir JDK externo en la máquina destino.|
 
----
-
-##### 🧰 **Installer Configuration**
+##### 🧰 Installer Configuration
 
 |Elemento|Detalles|
 |---|---|
@@ -147,9 +141,7 @@ number headings: off
 |**Copia de ficheros**|- Copiar el `.jar`, dependencias, `config`, `logs`, etc. a subcarpetas específicas.<br>- Establecer variables de entorno o rutas si es necesario.|
 |**Configuraciones adicionales**|- Crear entradas en el menú inicio.<br>- Configurar permisos.|
 
----
-
-##### ⚙️ **Build del instalador**
+##### ⚙️ Build del instalador
 
 |Paso|Detalle|
 |---|---|
