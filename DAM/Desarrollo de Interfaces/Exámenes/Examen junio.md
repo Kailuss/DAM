@@ -22,10 +22,10 @@ number headings: off
 
 #### **3.** ¿Qué plugin de Maven se puede utilizar para incluir los jar de las dependencias en el jar de la aplicación generado?
 
-1) maven-shade-plugin  
+1) **maven-shade-plugin**  
 2) maven-resources-plugin  
 3) maven-compiler-plugin  
-4) **maven-dependency-plugin**
+4) maven-dependency-plugin
 
 #### **4.** ¿Cuál de las siguientes afirmaciones es cierta?
 
