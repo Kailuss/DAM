@@ -1442,7 +1442,7 @@ public class PruebasORM {
 }
 ```
 
-### Archivo persistence.xml
+### Archivo `persistence.xml`
 
 **Descripción**: Este archivo de configuración XML define la unidad de persistencia para JPA, especificando la conexión a la base de datos, las propiedades de Hibernate y las clases de entidad. Se coloca en el directorio META-INF del classpath.
 

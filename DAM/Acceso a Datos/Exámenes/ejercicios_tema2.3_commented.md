@@ -822,7 +822,7 @@ public class PruebasJson {
 }
 ```
 
-### Clase MiExcepcion (excepción personalizada)
+### Clase `MiExcepcion` (excepción personalizada)
 
 **Descripción**: Esta clase representa una excepción personalizada para la aplicación, que permite encapsular y propagar errores específicos de manera controlada.
 

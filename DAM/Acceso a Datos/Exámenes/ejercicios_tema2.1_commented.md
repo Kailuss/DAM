@@ -68,7 +68,7 @@ public abstract class SistemaFicheros {
             throw new MiExcepcion("Error al procesar el path: " + e.getMessage(), e);
         }
     }
-
+```
 
 ### Ejercicio 2: Mostrar información de un archivo
 

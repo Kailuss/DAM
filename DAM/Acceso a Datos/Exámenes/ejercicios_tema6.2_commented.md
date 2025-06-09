@@ -1231,7 +1231,7 @@ public class PruebasMongoDB {
 }
 ```
 
-### Archivo pom.xml (para Maven)
+### Archivo `pom.xml` (para Maven)
 
 **Descripción**: Este archivo de configuración XML define las dependencias del proyecto para Maven, incluyendo el driver de MongoDB para Java. Maven se encargará de descargar automáticamente las dependencias necesarias y configurar el classpath del proyecto.
 

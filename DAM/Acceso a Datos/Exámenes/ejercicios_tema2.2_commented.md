@@ -935,7 +935,7 @@ public abstract class Herramientas_ObjectStream {
 }
 ```
 
-### Clase Datos (para el ejercicio 5)
+### Clase `Datos` (para el ejercicio 5)
 
 **Descripción**: Esta clase representa un objeto simple con atributos numéricos y alfanuméricos, que se utilizará para probar la serialización y deserialización de objetos. Implementa Serializable para poder ser guardada y recuperada mediante ObjectStream.
 
@@ -1061,7 +1061,7 @@ public class Datos implements Serializable {
 }
 ```
 
-### Clase DatosComplejos (para el ejercicio 5)
+### Clase `DatosComplejos` (para el ejercicio 5)
 
 **Descripción**: Esta clase representa un objeto complejo que contiene otro objeto, lo que permite probar la serialización y deserialización de estructuras de datos anidadas. También implementa Serializable para poder ser guardada y recuperada mediante ObjectStream.
 
@@ -1188,7 +1188,7 @@ public class DatosComplejos implements Serializable {
 }
 ```
 
-### Clase Cronometro (para medir tiempos)
+### Clase `Cronometro` (para medir tiempos)
 
 **Descripción**: Esta clase proporciona funcionalidad para medir el tiempo de ejecución de operaciones, lo que es útil para comparar el rendimiento de diferentes enfoques de lectura/escritura de archivos.
 
@@ -1293,7 +1293,7 @@ public class Cronometro {
 }
 ```
 
-### Clase MiExcepcion (excepción personalizada)
+### Clase `MiExcepcion` (excepción personalizada)
 
 **Descripción**: Esta clase representa una excepción personalizada para la aplicación, que permite encapsular y propagar errores específicos de manera controlada.
 
@@ -1336,7 +1336,7 @@ public class MiExcepcion extends Exception {
 }
 ```
 
-### Clase PruebasStreams (con main)
+### Clase `PruebasStreams` (con main)
 
 **Descripción**: Esta clase contiene el método main y métodos para probar todas las funcionalidades implementadas en las clases anteriores. Aquí se realizan pruebas de lectura, escritura y copia de archivos utilizando diferentes tipos de streams.
 
