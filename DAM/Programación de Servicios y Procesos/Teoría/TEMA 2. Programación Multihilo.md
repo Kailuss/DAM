@@ -16,6 +16,8 @@ banner_y: 0.25
 | --- |
 | [Resumen TEMA 2. Programación Multihilo](Resúmenes/Resumen%20TEMA%202.%20Programación%20Multihilo.md)    |
 
+Este tema explora en profundidad la **programación multihilo**, comenzando con el **concepto de hilo** como una unidad básica de utilización de la CPU que opera dentro del contexto de un proceso, a diferencia de los procesos que son independientes. Aborda la **multitarea**, destacando sus beneficios como la capacidad de respuesta y la compartición de recursos. Se explica cómo los **hilos comparten recursos** y los diferentes **estados por los que transita un hilo**, así como los métodos para su **creación, inicio y finalización** en Java. Finalmente, el tema profundiza en la **sincronización de hilos**, detallando problemas como la **condición de carrera** y el **interbloqueo**, y presentando **mecanismos de sincronización** como semáforos, mutex y monitores para asegurar una ejecución ordenada y eficiente.
+
 ## 1. Introducción
 
 Un programa puede tener uno o varios flujos de ejecución. En un programa de **flujo único**, las tareas se ejecutan de manera secuencial, una tras otra. En un programa de **flujo múltiple**, las tareas se distribuyen en varios flujos de ejecución, permitiendo que se ejecuten de manera concurrente o simultánea. La **programación multihilo** consiste en desarrollar aplicaciones de flujo múltiple, donde cada flujo es un **hilo** o **thread.**

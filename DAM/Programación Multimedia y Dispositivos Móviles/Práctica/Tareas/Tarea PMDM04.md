@@ -13,8 +13,10 @@ Para esta práctica partiremos de un esqueleto de aplicación, al cual tendremos
 1. En primer lugar, partiréis del proyecto que se os ha compartido. Para abrir un nuevo proyecto, podéis hacerlo directamente desde VS Code, con la opción “Clonar el repositorio GIT...”. También podéis descargar la carpeta del proyecto del enlace del repositorio proporcionado y abrirla en el editor. Lo más recomendable es que clonéis el proyecto a partir del enlace proporcionado dentro del directorio de proyectos de Flutter de vuestro dispositivo. Después, abrid este proyecto. Normalmente, VSCode os mostrará un diálogo para ejecutar el comando (abajo a la derecha), pero en caso contrario y que veáis todo el proyecto con errores, etc., haced lo siguiente:
    - En la terminal, aseguraos de que estáis en el repositorio de vuestro proyecto.
    - Ejecutad el comando: `flutter pub get` en la terminal de vuestro VS Code.
+![cover](../../../../_Media/Imágenes/PMDM/Pasted%20image%2020250601144857.png)
 
 2. Como podéis observar, una vez creado el proyecto, ya contiene toda una estructura de directorios, clases, etc. Podemos dividir esta aplicación en una **HomeScreen** que carga **MapesScreen** o **DireccionsScreen** en función de un índice, el del widget “custom_navigationbar”.
+![](../../../../Imagen_A2I.png)
 
    A continuación, las dos pantallas serán muy similares:
 
