@@ -12,7 +12,7 @@ number headings: off
 
 # **Examen de PSP**
 
-## Ejercicio 1.
+## Teoría.
 
 1. **¿Qué es un proceso? Explica qué es un proceso padre e hijo y cómo pueden comunicarse entre sí en Java.**
 
@@ -382,19 +382,19 @@ number headings: off
 
 ---
 
-## Ejercicio 2.
+## Ejercicio 1.
 Trata de construir un programa parecido a un chat, usando un protocolo orientado a conexión. Para realizar este ejercicio, la estructura tiene que ser Cliente-Servidor, donde habrá un único servidor y múltiples hilos cliente. Explica todo lo que puedas y realiza un programa en Java o pseudocódigo que simule el funcionamiento.
 
 La idea es que los clientes envíen mensajes al servidor, este los imprima por pantalla y les responda con el mensaje “Mensaje recibido”. Para añadir control de concurrencia, necesitamos que los mensajes recibidos por el servidor, además de imprimirse, también se almacenen en un fichero.
 
 ---
 
-## Ejercicio 3.
+## Ejercicio 2.
 En el ejercicio anterior, queremos mejorar la seguridad del sistema. Por eso, implementa un método de encriptación (si es posible) que consideres apropiado para proteger la comunicación entre el cliente y el servidor, y viceversa.
 
 ---
 
-## Ejercicio 4.
+## Ejercicio 3.
 Crea la siguiente aplicación en Java:
 1. Escribe un programa llamado `ExerciciosMultiproceso1_ParImpar`. Este recibirá un número entero positivo y deberá mostrar el resultado `Par` si es par o `Impar` si es impar.
 2. Escribe un programa llamado “ExercicisMultiproces1”. Este creará un proceso hijo para ejecutar el programa `ParellSenar` anterior. El proceso padre mostrará por pantalla “Introdueix un nombre:” y el usuario podrá introducir:
@@ -421,7 +421,7 @@ BUILD SUCCESSFUL (total time: 9 seconds)
 
 ---
 
-## Ejercicio 5.
+## Ejercicio 4.
 Escribe un programa que haga lo siguiente:  
 1. Crear un proceso hijo llamado `ExercicisMultiproces2_ModificarString`.
 2. El proceso padre (llamado `ExercicisMultiproces2`) y el proceso hijo se comunicarán de forma bidireccional utilizando streams.
@@ -446,7 +446,7 @@ BUILD SUCCESSFUL (total time: 10 seconds)
 
 ---
 
-## Ejercicio 6.
+## Ejercicio 5.
 Se trata de construir un programa llamado TICTACTOC. La idea es que al ejecutarse imprima por pantalla la secuencia TIC – TAC – TOC. Cada hilo imprimirá la palabra correspondiente y la irá concatenando dentro de una variable compartida entre todos. Una vez que todos los hilos hayan terminado, el programa principal imprimirá esa variable compartida por pantalla.
     
 
@@ -457,7 +457,7 @@ Escribe en Java o pseudocódigo todas las clases que consideres necesarias.
 
 ---
 
-## Ejercicio 7.
+## Ejercicio 6.
 
 La topología de red en anillo se caracteriza por formar una conexión circular, en la que cada nodo solo puede comunicarse con el siguiente, hasta cerrar el anillo.
     
@@ -474,11 +474,11 @@ Escribe en Java o pseudocódigo todas las clases necesarias para esta simulació
 
 ---
 
-## Ejercicio 8.
+## Ejercicio 7.
 De los siguientes protocolos, escoge uno. Ubícalo dentro de una de las capas del modelo TCP/IP, explica todo lo que sepas sobre él (puedes usar esquemas si lo deseas) y pon un ejemplo de uso en pseudocódigo o Java. Protocolos: `DNS`, `SMTP`, `FTP` o `HTTP`.
     
 
 ---
 
-## Ejercicio 9.
+## Ejercicio 8.
 Explica cómo se realiza la **comunicación a través de SSL** y pon un ejemplo de utilización del protocolo. Puedes usar pseudocódigo o Java.
