@@ -28,6 +28,7 @@ number headings: off
    > - Sockets
    > - Señales (aunque más común en sistemas UNIX directamente)
    >
+   >
    >```java
    >// Ejemplo simple de creación de un proceso hijo en Java
    >
@@ -211,28 +212,30 @@ number headings: off
 
    > Los **procesos** son independientes, por lo tanto, para **comunicarlos (IPC)** se usan mecanismos como:
    > 
-   > <br>
    > 
-   >    1. **Entrada/Salida estándar (`stdin`/`stdout`)**
+   >**<u>Entrada/Salida estándar</u> (`stdin`/`stdout`)**
    >
-    >       ```java
-    >       ProcessBuilder pb = new ProcessBuilder("java", "MiProcesoHijo");
-    >       Process p = pb.start();
-    >    
-    >       // Enviar información al hijo
-    >       OutputStream os = p.getOutputStream();
-    >       PrintWriter writer = new PrintWriter(os, true);
-    >       writer.println("Hola desde el padre");
-    >    
-    >       // Leer respuesta del hijo
-    >       BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
-    >       String respuesta = reader.readLine();
-    >       System.out.println("Respuesta del hijo: " + respuesta);
-    >      ```
-    >    
-   >    2. **Archivos compartidos:** Padre y hijo leen/escriben un archivo común.
-   >    3. **Sockets:** Comunicación red/localhost. Más compleja pero potente.
-   >    4. **RMI o servicios web:** Para procesos distribuidos (más avanzado).
+    >```java
+    >ProcessBuilder pb = new ProcessBuilder("java", "MiProcesoHijo");
+    >Process p = pb.start();
+    >
+    >// Enviar información al hijo
+    >OutputStream os = p.getOutputStream();
+    >PrintWriter writer = new PrintWriter(os, true);
+    >writer.println("Hola desde el padre");
+    >
+    >// Leer respuesta del hijo
+    >BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+    >String respuesta = reader.readLine();
+    >System.out.println("Respuesta del hijo: " + respuesta);
+    >```
+    >
+    >**<u>Archivos compartidos:</u>** Padre y hijo leen/escriben un archivo común.
+    >
+    >**<u>Sockets:</u>** Comunicación red/localhost. Más compleja pero potente.
+    >
+    >**<u>RMI o servicios web:</u>** Para procesos distribuidos (más avanzado).
+    >
 
 <br>
 
