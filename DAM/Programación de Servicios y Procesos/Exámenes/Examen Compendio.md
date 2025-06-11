@@ -109,7 +109,7 @@ number headings: off
 
 <br>
 
-4. **Etapas o estados por los que pasa un proceso durante su ciclo de vida.
+4. **Etapas o estados por los que pasa un proceso durante su ciclo de vida.**
 
    >| Etapa | Explicación | 
    >| - | - | 
